@@ -71,7 +71,7 @@ jobs:
         working-directory: folio-assistant
         run: |
           bun run cat-harness/scripts/rail-standalone-pages.ts --site ../_site --built cat-harness \
-            --foreign-site --home-label "WHO SMART Immunizations"
+            --foreign-site --home-label "WHO SMART Immunizations" --instance smart-immunizations
 
       - name: Publish to gh-pages
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/claude/seed-smart-base'
