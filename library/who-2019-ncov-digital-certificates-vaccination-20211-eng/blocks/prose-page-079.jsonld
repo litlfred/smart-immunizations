@@ -1,0 +1,16 @@
+{
+  "@context": "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/blocks/prose-page-079",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "kind": "prose",
+  "title": "Page 79",
+  "pageStart": 79,
+  "pageEnd": 79,
+  "text": "../sections/page-079.md",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/cat-harness/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/cat-harness/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",
+  "provenance": "ingested"
+}

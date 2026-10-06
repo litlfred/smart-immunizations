@@ -1,0 +1,228 @@
+{
+  "$schema": "folio-document-images/v1",
+  "doc_id": "who-2019-ncov-digital-certificates-vaccination-20211-eng",
+  "images": [
+    {
+      "id": "img-p001-1",
+      "file": "images/img-p001-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.007271,
+        "imagesOnPage": 1,
+        "page": 1
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      },
+      "placements": [
+        {
+          "page": 1,
+          "coverage": 0.007271,
+          "imagesOnPage": 1
+        },
+        {
+          "page": 99,
+          "coverage": 0.007271,
+          "imagesOnPage": 1
+        }
+      ]
+    },
+    {
+      "id": "img-p014-1",
+      "file": "images/img-p014-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.006194,
+        "imagesOnPage": 1,
+        "page": 14
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p015-1",
+      "file": "images/img-p015-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.016317,
+        "imagesOnPage": 5,
+        "page": 15
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p015-2",
+      "file": "images/img-p015-2.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.012998,
+        "imagesOnPage": 5,
+        "page": 15
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p015-3",
+      "file": "images/img-p015-3.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.015864,
+        "imagesOnPage": 5,
+        "page": 15
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p015-4",
+      "file": "images/img-p015-4.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.016085,
+        "imagesOnPage": 5,
+        "page": 15
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p015-5",
+      "file": "images/img-p015-5.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.030753,
+        "imagesOnPage": 5,
+        "page": 15
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p080-1",
+      "file": "images/img-p080-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.002601,
+        "imagesOnPage": 1,
+        "page": 80
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p081-1",
+      "file": "images/img-p081-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.009005,
+        "imagesOnPage": 4,
+        "page": 81
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p081-2",
+      "file": "images/img-p081-2.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.001474,
+        "imagesOnPage": 4,
+        "page": 81
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p081-3",
+      "file": "images/img-p081-3.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.001917,
+        "imagesOnPage": 4,
+        "page": 81
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p081-4",
+      "file": "images/img-p081-4.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.002479,
+        "imagesOnPage": 4,
+        "page": 81
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p086-1",
+      "file": "images/img-p086-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.255908,
+        "imagesOnPage": 1,
+        "page": 86
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p095-1",
+      "file": "images/img-p095-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.385755,
+        "imagesOnPage": 1,
+        "page": 95
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    }
+  ]
+}
