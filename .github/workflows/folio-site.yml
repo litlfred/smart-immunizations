@@ -1,21 +1,16 @@
-# Build this IG's own site with the folio-assistant harness (smart-base), and
-# publish it to this repository's gh-pages.
+# This IG's own site, built with the folio-assistant harness and published to
+# this repository's gh-pages. Generated from folio-assistant's
+# fhir-harness/templates/ig-repo-site/folio-site.yml (#2235, #2237; bean mftp,
+# 48a6) with INSTANCE=smart-immunizations and LABEL="WHO SMART Immunizations".
 #
-# The pages are this repository's own `input/pagecontent/` at the pushed
-# commit, built by folio-assistant's `stage-ig-sites --only smart-immunizations
-# --source .`: one just-the-docs site per IG, WHO's top bar kept, the
-# folio-assistant navbar with the IG's TOC as its section, an edit link per
-# page, and per heading a source-line link and a pre-filled feedback issue
-# (folio-assistant bean mftp). The artefact pages and the menu come from the
-# folio-assistant submodule's `smart-immunizations/` instance.
-#
-# The IG Publisher's GitHub Actions are not used in this fork; this workflow
-# owns gh-pages.
+# It runs on `claude/seed-smart-base`, the branch carrying the folio-assistant
+# submodule, as smart-immunizations does.
+
 name: folio site
 
 on:
   push:
-    branches: [main, claude/seed-smart-base]
+    branches: [claude/seed-smart-base]
   workflow_dispatch:
 
 permissions:
@@ -28,6 +23,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      INSTANCE: "smart-immunizations"
+      LABEL: "WHO SMART Immunizations"
+      BASE: /${{ github.event.repository.name }}
+      MAIN_SITE: https://litlfred.github.io/folio-assistant
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,42 +39,49 @@ jobs:
         working-directory: folio-assistant
         run: bun install --frozen-lockfile
 
-      - name: Set up Ruby for the IG site
+      - name: Set up Ruby for the site
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
           bundler-cache: true
           working-directory: folio-assistant/cat-harness/docs
 
-      - name: Stage the IG site from this checkout
+      - name: The main site's chrome, with this instance's navbar
         working-directory: folio-assistant
         run: |
-          curl -sSfL -o "$RUNNER_TEMP/plantuml.jar" \
+          bun run cat-harness/scripts/compose-docs.ts --out "$RUNNER_TEMP/docs" --shell
+          bun run cat-harness/scripts/gen-navbar-include.ts --instance "$INSTANCE" \
+            --link-root "$MAIN_SITE" --title "$LABEL" \
+            --out "$RUNNER_TEMP/docs/_includes/generated/navbar-footer.html"
+
+      - name: Compose this IG at the site root
+        working-directory: folio-assistant
+        run: |
+          curl -sSfL --retry 5 --retry-delay 15 --retry-all-errors -o "$RUNNER_TEMP/plantuml.jar" \
             https://repo1.maven.org/maven2/net/sourceforge/plantuml/plantuml/1.2024.7/plantuml-1.2024.7.jar
           # The work directory is OUTSIDE the checkout: the source copy is the
           # checkout, and a work directory inside it would copy itself.
-          bun run fhir-harness/scripts/stage-ig-sites.ts --work "$RUNNER_TEMP/ig" --baseurl "" \
-            --only smart-immunizations --source .. --plantuml-jar "$RUNNER_TEMP/plantuml.jar" > "$RUNNER_TEMP/ig-list.txt"
-          cat "$RUNNER_TEMP/ig-list.txt"
+          bun run fhir-harness/scripts/stage-ig-sites.ts --work "$RUNNER_TEMP/ig" --baseurl "$BASE" \
+            --only "$INSTANCE" --source .. --plantuml-jar "$RUNNER_TEMP/plantuml.jar" \
+            --compose-into "$RUNNER_TEMP/docs" --compose-at-root
 
       - name: Build the site
         run: |
-          read -r INSTANCE SRC AT < "$RUNNER_TEMP/ig-list.txt"
           BUNDLE_GEMFILE="$PWD/folio-assistant/cat-harness/docs/Gemfile" bundle exec jekyll build \
-            --source "$SRC" --destination ./_site
+            --source "$RUNNER_TEMP/docs" --destination ./_site --baseurl "$BASE"
           bun run folio-assistant/fhir-harness/scripts/build-ig-site.ts --dedupe-ids ./_site
           # The served data the JSON and DAK views fetch (`../fhir-artifact-index/`).
           cp -a "folio-assistant/${INSTANCE}/fhir-artifact-index" ./_site/fhir-artifact-index
           touch ./_site/.nojekyll
 
-      - name: Give every page the folio-assistant navbar
+      - name: Give any page Jekyll did not lay out the same navbar
         working-directory: folio-assistant
         run: |
           bun run cat-harness/scripts/rail-standalone-pages.ts --site ../_site --built cat-harness \
-            --foreign-site --home-label "WHO SMART Immunizations" --instance smart-immunizations
+            --foreign-site --home-label "$LABEL" --instance "$INSTANCE"
 
       - name: Publish to gh-pages
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/claude/seed-smart-base'
+        if: github.ref == 'refs/heads/claude/seed-smart-base'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
