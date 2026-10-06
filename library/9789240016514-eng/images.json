@@ -1,0 +1,156 @@
+{
+  "$schema": "folio-document-images/v1",
+  "doc_id": "9789240016514-eng",
+  "images": [
+    {
+      "id": "img-p001-1",
+      "file": "images/img-p001-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.436268,
+        "imagesOnPage": 2,
+        "page": 1
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p001-2",
+      "file": "images/img-p001-2.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.020957,
+        "imagesOnPage": 2,
+        "page": 1
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p003-1",
+      "file": "images/img-p003-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.031476,
+        "imagesOnPage": 1,
+        "page": 3
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p011-1",
+      "file": "images/img-p011-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.074125,
+        "imagesOnPage": 1,
+        "page": 11
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p034-1",
+      "file": "images/img-p034-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.15092,
+        "imagesOnPage": 1,
+        "page": 34
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p038-1",
+      "file": "images/img-p038-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.300336,
+        "imagesOnPage": 1,
+        "page": 38
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p039-1",
+      "file": "images/img-p039-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.623992,
+        "imagesOnPage": 1,
+        "page": 39
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p041-1",
+      "file": "images/img-p041-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.586631,
+        "imagesOnPage": 1,
+        "page": 41
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p042-1",
+      "file": "images/img-p042-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.547579,
+        "imagesOnPage": 1,
+        "page": 42
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    },
+    {
+      "id": "img-p053-1",
+      "file": "images/img-p053-1.png",
+      "role": "figure",
+      "basis": {
+        "method": "geometry",
+        "coverage": 0.033117,
+        "imagesOnPage": 1,
+        "page": 53
+      },
+      "narrative": {
+        "text": null,
+        "state": "not-authored"
+      }
+    }
+  ]
+}
