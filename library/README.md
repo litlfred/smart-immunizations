@@ -18,29 +18,31 @@ graph document (ontology `1.0`, main `66a9b13`), read from Component 1 of the
 | node | count | from |
 |---|---|---|
 | `citation` | 12 | each printed `(n)` in §1.2, verbatim; plus §1.1's unnumbered mention |
-| `publication` | 8 | the reference each number points at |
+| `publication` | 9 | the reference each citation points at |
 | `health-intervention` | 30 | §1.1: 7 vaccine administration practices, 23 vaccinations |
 | `external-artifact` | 2 | the DAK pages doing the citing (§1.1, §1.2) |
 
 | edge | count |
 |---|---|
 | `citation appearsIn external-artifact` | 12 |
-| `citation resolvesTo publication` | 11 |
+| `citation resolvesTo publication` | 12 |
 | `health-intervention implementedBy external-artifact` | 30 |
 
 It passes both **smart-kg `tools/validate.mjs`** (WHO main) and the **Zod
 validator in smart-base `kg/`**, which also checks property values.
 
-### What needs a person
+### Reviewed (2026-10-06, litlfred/smart-immunizations#3)
 
-- **Fidelity (T3) is not checked.** Five citations resolve by their printed
-  number while their wording differs from the reference title: the four cards
-  citing (29), which describe the summary tables rather than name them, and
-  (24), which calls the immunization dashboard the "Immunization Data Portal".
-  Each edge's note says so.
-- **§1.1's "WHO universal health coverage list of essential interventions"** is
-  unnumbered and left `unresolved`; its best title match, reference 22 (UHC
-  compendium), is named in the note, not asserted.
+- **Fidelity (T3) checked.** Five citations resolve by their printed number while
+  their wording differs from the reference title. All five are confirmed: the four
+  cards citing (29) each describe one table of the WHO routine-immunization summary
+  tables, and (24) calls the immunization dashboard (`immunizationdata.who.int`)
+  the "Immunization Data Portal". Each edge's note says why it rests on the number.
+- **§1.1's "WHO universal health coverage list of essential interventions"**
+  resolves to reference 22 (UHC compendium). §1.1 prints no number, but the DAK
+  names the source itself on PDF p. 18: "The list of health interventions is drawn
+  from the universal health coverage menu of interventions compiled by WHO (22)."
+  The edge's evidence quotes that line.
 
 ## The entries
 
