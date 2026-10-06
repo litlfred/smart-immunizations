@@ -831,10 +831,28 @@
       "properties": {
         "text": "WHO universal health coverage list of essential interventions",
         "location": "library/9789240099456-eng/sections/page-026.md:23 (PDF p. 26)",
-        "resolutionStatus": "unresolved"
+        "resolutionStatus": "resolved"
       },
       "derivation": "derived",
-      "note": "Unnumbered. Best title match is reference 22 (\"UHC compendium: health interventions for universal health coverage\", agreement 0.67); not resolved on words alone.",
+      "note": "Unnumbered here. Resolved to reference 22 (\"UHC compendium: health interventions for universal health coverage\", title agreement 0.67) because the DAK names the source itself on PDF p. 18, where it describes this component: \"The list of health interventions is drawn from the universal health coverage menu of interventions compiled by WHO (22).\" Reviewed 2026-10-06 (litlfred/smart-immunizations#3).",
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://www.who.int/universal-health-coverage/compendium",
+      "type": "publication",
+      "label": "UHC compendium: health interventions for universal health coverage",
+      "properties": {
+        "title": "UHC compendium: health interventions for universal health coverage",
+        "publisher": "World Health Organization",
+        "date": "2023",
+        "url": "https://www.who.int/universal-health-coverage/compendium"
+      },
+      "derivation": "inferred",
+      "note": "Read from reference 22 of the DAK's reference list: title = the text before its first full stop, date = the last year outside the URL, url = the parenthesised URL, publisher = the name after \"<place>:\". Not held by this library: no Dublin Core record for it under uploads/. publicationType is left unset: a compendium of interventions is none of guideline, guidance or summary table.",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/page-094.md:81 (PDF p. 94)",
+        "quote": "UHC compendium: health interventions for universal health coverage. Geneva: World Health Organization; 2023 (https://www.who.int/universal-health-coverage/compendium)."
+      },
       "skill": "smart-base/dak-l1-library"
     }
   ],
@@ -1466,6 +1484,19 @@
       "source": "urn:isbn:9789240099456#citation-1.1-who-universal-health-coverage-list-of-essential-intervention",
       "target": "urn:isbn:9789240099456#component-1.1",
       "derivation": "derived",
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "type": "Statement",
+      "predicate": "resolvesTo",
+      "source": "urn:isbn:9789240099456#citation-1.1-who-universal-health-coverage-list-of-essential-intervention",
+      "target": "https://www.who.int/universal-health-coverage/compendium",
+      "derivation": "inferred",
+      "note": "Not by a printed number (§1.1 prints none) but by the DAK's own statement on PDF p. 18 that the component's intervention list \"is drawn from the universal health coverage menu of interventions compiled by WHO (22)\"; title agreement 0.67.",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/page-018.md:37 (PDF p. 18)",
+        "quote": "The list of health interventions is drawn from the universal health coverage menu of interventions compiled by WHO (22)."
+      },
       "skill": "smart-base/dak-l1-library"
     }
   ],
