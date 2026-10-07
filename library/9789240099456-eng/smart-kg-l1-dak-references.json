@@ -1,9 +1,9 @@
 {
-  "@context": "http://smart.who.int/kg/l1.context.jsonld",
-  "id": "urn:isbn:9789240099456#kg-l1-dak-references",
+  "@context": "http://smart.who.int/kg/l1-library.context.jsonld",
+  "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/kg/l1-references",
   "type": "Entity",
-  "ontologyVersion": "1.0",
-  "generatedAt": "2026-10-06T09:18:56Z",
+  "ontologyVersion": "3.0",
+  "generatedAt": "2026-10-07T12:53:34Z",
   "wasDerivedFrom": [
     {
       "path": "9789240099456-eng.pdf",
@@ -12,222 +12,336 @@
     },
     {
       "path": "library/9789240099456-eng/structure.json",
-      "sha256": "cabd875c0f5f75a66851c3bbf7ef5e0b0b369c1186abfc97594eb4ddbd665393"
+      "sha256": "9cb718143b1c99aed876ff0058fc831e21a5208cdcdb610502d9db2e44f25894"
     },
     {
       "path": "library/9789240099456-eng/sections/",
-      "sha256": "9b435548823baa84c61d2b2c98d3754509ef05dc3973ced347413801df7ca6d4",
-      "note": "The 4 page text(s) read, hashed as a sha256sum listing (<hex>  <path>)."
+      "sha256": "f1e8a78ce5cf9cf3024f2efdeea0d51e9d04ed5984fbe3668cf390016f17299a",
+      "note": "The 2 section text(s) read, hashed as a sha256sum listing (<hex>  <path>)."
     },
     {
       "path": "uploads/9789240016514-eng/9789240016514-eng.dc.json",
       "sha256": "f9a221ced6e042a47758f6617d18f6a6bfa877fe2ce21e0265e5890ce5658dff",
-      "note": "A Dublin Core record a held publication's properties were read from."
+      "note": "An intake or Dublin Core record a resolution was read from."
     },
     {
-      "path": "uploads/9789240099456-eng/9789240099456-eng.dc.json",
-      "sha256": "d31fcc6b3fc127bb6688140c7672ee5a88dab688ce061760ba644ed501ea3462",
-      "note": "A Dublin Core record a held publication's properties were read from."
+      "path": "uploads/9789240016514-eng/intake.json",
+      "sha256": "1eb7b155fc44e0fcec28833bed2853bf6f679a44d671a3b0949c8f998eb6fea2",
+      "note": "An intake or Dublin Core record a resolution was read from."
     },
     {
       "path": "uploads/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng.dc.json",
       "sha256": "77ad445dc1bb2f14aecac82100c72772271428ad05788091fab8ef6b61d961d5",
-      "note": "A Dublin Core record a held publication's properties were read from."
+      "note": "An intake or Dublin Core record a resolution was read from."
+    },
+    {
+      "path": "uploads/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng/intake.json",
+      "sha256": "aff370f8f4cc4390ffd6b428ec71fd42158b43cda7b48cfb8b94b3560fd5b293",
+      "note": "An intake or Dublin Core record a resolution was read from."
     }
   ],
   "nodes": [
     {
-      "id": "urn:isbn:9789240099456#component-1.2",
-      "type": "external-artifact",
-      "label": "DAK Component 1, 1.2 \t WHO guidelines, recommendations and guidance",
-      "properties": {
-        "iri": "https://iris.who.int/handle/10665/380303#page=27",
-        "targetKind": "DAK Component 1 section (L2)"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-027.md:23 (PDF p. 27)",
-        "quote": "1.2 \t WHO guidelines, recommendations and guidance"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#citation-29-b7860313",
+      "id": "https://smart.who.int/immunizations/citation/b786031383a0",
       "type": "citation",
       "label": "Summarizes recommended routine immunizations for all age groups (updated in 2024), including cited WHO vaccine position papers (29)",
       "properties": {
         "text": "Summarizes recommended routine immunizations for all age groups (updated in 2024), including cited WHO vaccine position papers (29)",
-        "location": "library/9789240099456-eng/sections/page-027.md:32 (PDF p. 27)",
         "numbering": "29",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:466",
+        "quote": "Summarizes recommended routine immunizations for all age groups (updated in 2024), including cited WHO vaccine position papers (29)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-who-recommendations-for-routine-immunization-summary-tables",
       "type": "publication",
       "label": "WHO recommendations for routine immunization – summary tables",
       "properties": {
         "title": "WHO recommendations for routine immunization – summary tables",
         "publisher": "World Health Organization",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables"
+          }
+        ],
         "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
         "publicationType": "summary-table"
       },
       "derivation": "inferred",
-      "note": "Read from reference 29 of the DAK's reference list: title = the text before its first full stop, date = the last year outside the URL, url = the parenthesised URL with line-break spaces removed, publisher = the name after \"<place>:\". Not held by this library: no Dublin Core record for it under uploads/. publicationType \"summary-table\" is read from the title's own words.",
+      "note": "Not held by this library. L1 by context: cited as reference 29 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts). Read from reference 29: title = the text before its first full stop, issued = the last year outside the URL, publisher = the name after \"<place>:\", url = the parenthesised URL with line-break spaces removed; publicationType \"summary-table\" from the title's own words.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:15 (PDF p. 95)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:97",
         "quote": "WHO recommendations for routine immunization – summary tables [website]. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/ who-recommendations-for-routine-immunization---summary-tables)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-29-86de251b",
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/29",
+      "type": "reference-entry",
+      "label": "(29)",
+      "properties": {
+        "number": "29",
+        "text": "WHO recommendations for routine immunization – summary tables [website]. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/ who-recommendations-for-routine-immunization---summary-tables).",
+        "url": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
+        "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:97",
+        "quote": "WHO recommendations for routine immunization – summary tables [website]. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/ who-recommendations-for-routine-immunization---summary-tables)."
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://smart.who.int/immunizations/citation/86de251bb278",
       "type": "citation",
       "label": "Detailed information of routine immunizations for children (updated in 2024) , including cited WHO vaccine position papers (29)",
       "properties": {
         "text": "Detailed information of routine immunizations for children (updated in 2024) , including cited WHO vaccine position papers (29)",
-        "location": "library/9789240099456-eng/sections/page-027.md:40 (PDF p. 27)",
         "numbering": "29",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:474",
+        "quote": "Detailed information of routine immunizations for children (updated in 2024) , including cited WHO vaccine position papers (29)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-29-7a43c085",
+      "id": "https://smart.who.int/immunizations/citation/7a43c085ed1e",
       "type": "citation",
       "label": "Recommendations for interrupted and delayed vaccination (updated in 2024), including cited WHO vaccine position papers (29)",
       "properties": {
         "text": "Recommendations for interrupted and delayed vaccination (updated in 2024), including cited WHO vaccine position papers (29)",
-        "location": "library/9789240099456-eng/sections/page-027.md:47 (PDF p. 27)",
         "numbering": "29",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:481",
+        "quote": "Recommendations for interrupted and delayed vaccination (updated in 2024), including cited WHO vaccine position papers (29)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-29-fc0ce0af",
+      "id": "https://smart.who.int/immunizations/citation/fc0ce0af3cd9",
       "type": "citation",
       "label": "Summarizes WHO recommendations for the vaccination of health workers (updated in 2024), including cited WHO vaccine position papers (29)",
       "properties": {
         "text": "Summarizes WHO recommendations for the vaccination of health workers (updated in 2024), including cited WHO vaccine position papers (29)",
-        "location": "library/9789240099456-eng/sections/page-027.md:55 (PDF p. 27)",
         "numbering": "29",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:489",
+        "quote": "Summarizes WHO recommendations for the vaccination of health workers (updated in 2024), including cited WHO vaccine position papers (29)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-26-0b7135e4",
+      "id": "https://smart.who.int/immunizations/citation/0b7135e40def",
       "type": "citation",
       "label": "Analysis and use of health facility data: guidance for immunization programme managers (26)",
       "properties": {
         "text": "Analysis and use of health facility data: guidance for immunization programme managers (26)",
-        "location": "library/9789240099456-eng/sections/page-027.md:61 (PDF p. 27)",
         "numbering": "26",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:495",
+        "quote": "Analysis and use of health facility data: guidance for immunization programme managers (26)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
       "type": "publication",
       "label": "Analysis and use of health facility data: guidance for Immunization programme managers",
       "properties": {
         "title": "Analysis and use of health facility data: guidance for Immunization programme managers",
-        "date": "2018",
+        "issued": "2018",
         "publisher": "World Health Organization",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers"
+          }
+        ],
         "url": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
-        "publicationType": "guidance"
+        "publicationType": "implementation-guidance"
       },
       "derivation": "inferred",
-      "note": "Read from reference 26 of the DAK's reference list: title = the text before its first full stop, date = the last year outside the URL, url = the parenthesised URL with line-break spaces removed, publisher = the name after \"<place>:\". Not held by this library: no Dublin Core record for it under uploads/. publicationType \"guidance\" is read from the title's own words.",
+      "note": "Not held by this library. L1 by context: cited as reference 26 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts). Read from reference 26: title = the text before its first full stop, issued = the last year outside the URL, publisher = the name after \"<place>:\", url = the parenthesised URL with line-break spaces removed; publicationType \"implementation-guidance\" from the title's own words.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:91 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:87",
         "quote": "Analysis and use of health facility data: guidance for Immunization programme managers. Geneva: World Health Organization; 2018 (https://www.who.int/publications/m/item/analysis- and-use-of-health-facility-data-guidance-for-immunization-programme-managers)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-30-91f637df",
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/26",
+      "type": "reference-entry",
+      "label": "(26)",
+      "properties": {
+        "number": "26",
+        "text": "Analysis and use of health facility data: guidance for Immunization programme managers. Geneva: World Health Organization; 2018 (https://www.who.int/publications/m/item/analysis- and-use-of-health-facility-data-guidance-for-immunization-programme-managers).",
+        "url": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
+        "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:87",
+        "quote": "Analysis and use of health facility data: guidance for Immunization programme managers. Geneva: World Health Organization; 2018 (https://www.who.int/publications/m/item/analysis- and-use-of-health-facility-data-guidance-for-immunization-programme-managers)."
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://smart.who.int/immunizations/citation/91f637dfa337",
       "type": "citation",
       "label": "Sample of the WHO/UNICEF joint report form on immunization (30)",
       "properties": {
         "text": "Sample of the WHO/UNICEF joint report form on immunization (30)",
-        "location": "library/9789240099456-eng/sections/page-027.md:65 (PDF p. 27)",
         "numbering": "30",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:499",
+        "quote": "Sample of the WHO/UNICEF joint report form on immunization (30)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://data.unicef.org/wp-content/uploads/2015/12/WHO_UNICEF_JRF_EN_2016.xls",
+      "id": "https://smart.who.int/kg/l1/publication/url-data-unicef-org-wp-content-uploads-2015-12-who-unicef-jrf-en-2016-xls",
       "type": "publication",
       "label": "Sample of the WHO/UNICEF joint report form on immunization",
       "properties": {
         "title": "Sample of the WHO/UNICEF joint report form on immunization",
-        "date": "2016",
+        "issued": "2016",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://data.unicef.org/wp-content/uploads/2015/12/WHO_UNICEF_JRF_EN_2016.xls"
+          }
+        ],
         "url": "https://data.unicef.org/wp-content/uploads/2015/12/WHO_UNICEF_JRF_EN_2016.xls"
       },
       "derivation": "inferred",
-      "note": "Read from reference 30 of the DAK's reference list: title = the text before its first full stop, date = the last year outside the URL, url = the parenthesised URL with line-break spaces removed, publisher = the name after \"<place>:\". Not held by this library: no Dublin Core record for it under uploads/.",
+      "note": "Not held by this library. L1 by context: cited as reference 30 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts). Read from reference 30: title = the text before its first full stop, issued = the last year outside the URL, publisher = the name after \"<place>:\", url = the parenthesised URL with line-break spaces removed.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:18 (PDF p. 95)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:100",
         "quote": "Sample of the WHO/UNICEF joint report form on immunization. World Health Organization and United Nations Children’s Fund; 2016 (https://data.unicef.org/wp-content/uploads/2015/12/WHO_ UNICEF_JRF_EN_2016.xls)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-24-3bdc6103",
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/30",
+      "type": "reference-entry",
+      "label": "(30)",
+      "properties": {
+        "number": "30",
+        "text": "Sample of the WHO/UNICEF joint report form on immunization. World Health Organization and United Nations Children’s Fund; 2016 (https://data.unicef.org/wp-content/uploads/2015/12/WHO_ UNICEF_JRF_EN_2016.xls).",
+        "url": "https://data.unicef.org/wp-content/uploads/2015/12/WHO_UNICEF_JRF_EN_2016.xls",
+        "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:100",
+        "quote": "Sample of the WHO/UNICEF joint report form on immunization. World Health Organization and United Nations Children’s Fund; 2016 (https://data.unicef.org/wp-content/uploads/2015/12/WHO_ UNICEF_JRF_EN_2016.xls)."
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://smart.who.int/immunizations/citation/3bdc61032a11",
       "type": "citation",
       "label": "The WHO Immunization Data Portal: providing access to important immunization data and insights (24)",
       "properties": {
         "text": "The WHO Immunization Data Portal: providing access to important immunization data and insights (24)",
-        "location": "library/9789240099456-eng/sections/page-027.md:71 (PDF p. 27)",
         "numbering": "24",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:505",
+        "quote": "The WHO Immunization Data Portal: providing access to important immunization data and insights (24)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://immunizationdata.who.int",
+      "id": "https://smart.who.int/kg/l1/publication/url-immunizationdata-who-int",
       "type": "publication",
       "label": "Immunization dashboard",
       "properties": {
         "title": "Immunization dashboard",
         "publisher": "World Health Organization",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://immunizationdata.who.int"
+          }
+        ],
         "url": "https://immunizationdata.who.int"
       },
       "derivation": "inferred",
-      "note": "Read from reference 24 of the DAK's reference list: title = the text before its first full stop, date = the last year outside the URL, url = the parenthesised URL with line-break spaces removed, publisher = the name after \"<place>:\". Not held by this library: no Dublin Core record for it under uploads/.",
+      "note": "Not held by this library. L1 by context: cited as reference 24 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts). Read from reference 24: title = the text before its first full stop, issued = the last year outside the URL, publisher = the name after \"<place>:\", url = the parenthesised URL with line-break spaces removed.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:86 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:82",
         "quote": "Immunization dashboard [website]. Geneva: World Health Organization (https:// immunizationdata.who.int)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-31-bcf9d883",
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/24",
+      "type": "reference-entry",
+      "label": "(24)",
+      "properties": {
+        "number": "24",
+        "text": "Immunization dashboard [website]. Geneva: World Health Organization (https:// immunizationdata.who.int).",
+        "url": "https://immunizationdata.who.int",
+        "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:82",
+        "quote": "Immunization dashboard [website]. Geneva: World Health Organization (https:// immunizationdata.who.int)."
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://smart.who.int/immunizations/citation/bcf9d8832560",
       "type": "citation",
       "label": "Leave no one behind: guidance for planning and implementing catch- up vaccination (31)",
       "properties": {
         "text": "Leave no one behind: guidance for planning and implementing catch- up vaccination (31)",
-        "location": "library/9789240099456-eng/sections/page-027.md:76 (PDF p. 27)",
         "numbering": "31",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:510",
+        "quote": "Leave no one behind: guidance for planning and implementing catch- up vaccination (31)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240016514",
+      "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
       "type": "publication",
       "label": "Leave no one behind: guidance for planning and implementing catch-up vaccination",
       "properties": {
@@ -236,1236 +350,436 @@
           "World Health Organization"
         ],
         "publisher": "World Health Organization",
-        "date": "2021-04-13",
-        "identifier": [
-          "ISBN 9789240016514 (electronic version)",
-          "ISBN 9789240016521 (print version)",
-          "https://iris.who.int/handle/10665/340749"
+        "issued": "2021-04-13",
+        "identifiers": [
+          {
+            "type": "isbn",
+            "value": "9789240016514"
+          },
+          {
+            "type": "isbn",
+            "value": "9789240016521"
+          },
+          {
+            "type": "iris-handle",
+            "value": "10665/340749"
+          }
         ],
         "language": "en",
         "rights": "CC BY-NC-SA 3.0 IGO",
         "url": "https://iris.who.int/handle/10665/340749",
         "sha256": "f13c21a9eec89c9b36112f6cb50b5de83bdbe4b541e650ba0ef39402c6cbedca",
-        "publicationType": "guidance"
+        "publicationType": "implementation-guidance"
       },
-      "derivation": "inferred",
-      "note": "Held by this library as library/9789240016514-eng; properties are its repository Dublin Core record (uploads/9789240016514-eng/9789240016514-eng.dc.json), matched to reference 31 by handle 10665/340749. sha256 pins the PDF ingested. publicationType \"guidance\" is read from the title's own words.",
+      "derivation": "decided",
+      "note": "Held by this library (https://litlfred.github.io/folio/library/9789240016514-eng/manifest). L1 because declared: Owner ruling, 2026-10-07 session: 'dak immz AND DDCC 2021 are not L1 at all... rest ok'. Properties are its repository Dublin Core record (uploads/9789240016514-eng/9789240016514-eng.dc.json); sha256 pins the PDF.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:21 (PDF p. 95)",
+        "location": "uploads/9789240016514-eng/intake.json",
+        "quote": "Owner ruling, 2026-10-07 session: 'dak immz AND DDCC 2021 are not L1 at all... rest ok'",
+        "by": "ritikarawlani",
+        "at": "2026-10-07"
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/31",
+      "type": "reference-entry",
+      "label": "(31)",
+      "properties": {
+        "number": "31",
+        "text": "Leave no one behind: guidance for planning and implementing catch-up vaccination. Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/340749).",
+        "url": "https://iris.who.int/handle/10665/340749",
+        "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:103",
         "quote": "Leave no one behind: guidance for planning and implementing catch-up vaccination. Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/340749)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-15-20aae37d",
+      "id": "https://smart.who.int/immunizations/citation/20aae37df84c",
       "type": "citation",
       "label": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation (15)",
       "properties": {
         "text": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation (15)",
-        "location": "library/9789240099456-eng/sections/page-027.md:84 (PDF p. 27)",
         "numbering": "15",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:518",
+        "quote": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation (15)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://iris.paho.org/handle/10665.2/34865",
+      "id": "https://smart.who.int/kg/l1/publication/url-iris-paho-org-handle-10665-2-34865",
       "type": "publication",
       "label": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation",
       "properties": {
         "title": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation",
-        "date": "2017",
+        "issued": "2017",
         "publisher": "Pan American Health Organization",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://iris.paho.org/handle/10665.2/34865"
+          }
+        ],
         "url": "https://iris.paho.org/handle/10665.2/34865"
       },
       "derivation": "inferred",
-      "note": "Read from reference 15 of the DAK's reference list: title = the text before its first full stop, date = the last year outside the URL, url = the parenthesised URL with line-break spaces removed, publisher = the name after \"<place>:\". Not held by this library: no Dublin Core record for it under uploads/.",
+      "note": "Not held by this library. L1 by context: cited as reference 15 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts). Read from reference 15: title = the text before its first full stop, issued = the last year outside the URL, publisher = the name after \"<place>:\", url = the parenthesised URL with line-break spaces removed.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:62 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:58",
         "quote": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation. Washington, DC: Pan American Health Organization; 2017 (https://iris.paho.org/handle/10665.2/34865)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-32-76a4610a",
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/15",
+      "type": "reference-entry",
+      "label": "(15)",
+      "properties": {
+        "number": "15",
+        "text": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation. Washington, DC: Pan American Health Organization; 2017 (https://iris.paho.org/handle/10665.2/34865).",
+        "url": "https://iris.paho.org/handle/10665.2/34865",
+        "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:58",
+        "quote": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation. Washington, DC: Pan American Health Organization; 2017 (https://iris.paho.org/handle/10665.2/34865)."
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://smart.who.int/immunizations/citation/76a4610a9c92",
       "type": "citation",
       "label": "Monitoring metrics related to the global COVID-19 vaccination strategy in a changing world (32)",
       "properties": {
         "text": "Monitoring metrics related to the global COVID-19 vaccination strategy in a changing world (32)",
-        "location": "library/9789240099456-eng/sections/page-027.md:89 (PDF p. 27)",
         "numbering": "32",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
       },
       "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:523",
+        "quote": "Monitoring metrics related to the global COVID-19 vaccination strategy in a changing world (32)"
+      },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://www.who.int/publications/m/item/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july-2022-update",
+      "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world-july-2022-update",
       "type": "publication",
       "label": "Monitoring metrics related to the global Covid-19 vaccination strategy in a changing world: July 2022 update",
       "properties": {
         "title": "Monitoring metrics related to the global Covid-19 vaccination strategy in a changing world: July 2022 update",
-        "date": "2022",
+        "issued": "2022",
         "publisher": "World Health Organization",
+        "identifiers": [
+          {
+            "type": "url",
+            "value": "https://www.who.int/publications/m/item/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july-2022-update"
+          }
+        ],
         "url": "https://www.who.int/publications/m/item/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july-2022-update"
       },
       "derivation": "inferred",
-      "note": "Read from reference 32 of the DAK's reference list: title = the text before its first full stop, date = the last year outside the URL, url = the parenthesised URL with line-break spaces removed, publisher = the name after \"<place>:\". Not held by this library: no Dublin Core record for it under uploads/.",
+      "note": "Not held by this library. L1 by context: cited as reference 32 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts). Read from reference 32: title = the text before its first full stop, issued = the last year outside the URL, publisher = the name after \"<place>:\", url = the parenthesised URL with line-break spaces removed.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:23 (PDF p. 95)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:105",
         "quote": "Monitoring metrics related to the global Covid-19 vaccination strategy in a changing world: July 2022 update. Geneva: World Health Organization; 2022 (https://www.who.int/publications/m/item/ monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july- 2022-update)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#citation-28-446170ce",
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/32",
+      "type": "reference-entry",
+      "label": "(32)",
+      "properties": {
+        "number": "32",
+        "text": "Monitoring metrics related to the global Covid-19 vaccination strategy in a changing world: July 2022 update. Geneva: World Health Organization; 2022 (https://www.who.int/publications/m/item/ monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july- 2022-update).",
+        "url": "https://www.who.int/publications/m/item/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july-2022-update",
+        "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:105",
+        "quote": "Monitoring metrics related to the global Covid-19 vaccination strategy in a changing world: July 2022 update. Geneva: World Health Organization; 2022 (https://www.who.int/publications/m/item/ monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july- 2022-update)."
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://smart.who.int/immunizations/citation/446170cef983",
       "type": "citation",
       "label": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance (28)",
       "properties": {
         "text": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance (28)",
-        "location": "library/9789240099456-eng/sections/page-027.md:97 (PDF p. 27)",
         "numbering": "28",
+        "citationKind": "reference",
         "resolutionStatus": "resolved"
+      },
+      "derivation": "derived",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:531",
+        "quote": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance (28)"
+      },
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "id": "https://litlfred.github.io/folio/library/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest",
+      "type": "library-node",
+      "label": "Library entry who-2019-ncov-digital-certificates-vaccination-20211-eng",
+      "properties": {
+        "iri": "https://litlfred.github.io/folio/library/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest",
+        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
+        "entry": "who-2019-ncov-digital-certificates-vaccination-20211-eng"
       },
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://iris.who.int/handle/10665/343361",
-      "type": "publication",
-      "label": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021",
+      "id": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/28",
+      "type": "reference-entry",
+      "label": "(28)",
       "properties": {
-        "title": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021",
-        "creator": [
-          "World Health Organization"
-        ],
-        "publisher": "World Health Organization",
-        "date": "2021-07-28",
-        "identifier": [
-          "https://iris.who.int/handle/10665/343361"
-        ],
-        "language": "en, es",
-        "rights": "CC BY-NC-SA 3.0 IGO",
+        "number": "28",
+        "text": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021. Geneva: World Health Organization; 2021 (https:// iris.who.int/handle/10665/343361).",
         "url": "https://iris.who.int/handle/10665/343361",
-        "sha256": "f57b14cb2acb728d74f37934b2f16f21bc6f1841bbbe4fd0a878ed26c4e9c607",
-        "publicationType": "guidance"
+        "resolutionStatus": "resolved"
       },
-      "derivation": "inferred",
-      "note": "Held by this library as library/who-2019-ncov-digital-certificates-vaccination-20211-eng; properties are its repository Dublin Core record (uploads/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng.dc.json), matched to reference 28 by handle 10665/343361. sha256 pins the PDF ingested. publicationType \"guidance\" is read from the title's own words.",
+      "derivation": "derived",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:96 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:92",
         "quote": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021. Geneva: World Health Organization; 2021 (https:// iris.who.int/handle/10665/343361)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "urn:isbn:9789240099456#component-1.1",
-      "type": "external-artifact",
-      "label": "DAK Component 1, 1.1 \t List of interventions referenced in this DAK based on WHO universal health coverage list of essential interventions",
-      "properties": {
-        "iri": "https://iris.who.int/handle/10665/380303#page=26",
-        "targetKind": "DAK Component 1 section (L2)"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:23 (PDF p. 26)",
-        "quote": "1.1 \t List of interventions referenced in this DAK based on WHO universal health coverage list of essential interventions"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-counselling-on-the-vaccine-s-to-be-administered",
-      "type": "health-intervention",
-      "label": "counselling on the vaccine(s) to be administered",
-      "properties": {
-        "name": "counselling on the vaccine(s) to be administered",
-        "description": "General vaccine administration practices for all age groups, including children, are:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:29 (PDF p. 26)",
-        "quote": "counselling on the vaccine(s) to be administered"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-document-and-report-on-immunizations-administered",
-      "type": "health-intervention",
-      "label": "document and report on immunizations administered",
-      "properties": {
-        "name": "document and report on immunizations administered",
-        "description": "General vaccine administration practices for all age groups, including children, are:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:31 (PDF p. 26)",
-        "quote": "document and report on immunizations administered"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-document-vaccinations-received-on-a-personal-immunization-re",
-      "type": "health-intervention",
-      "label": "document vaccinations received on a personal immunization record, including the home-based record",
-      "properties": {
-        "name": "document vaccinations received on a personal immunization record, including the home-based record",
-        "description": "General vaccine administration practices for all age groups, including children, are:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:33 (PDF p. 26)",
-        "quote": "document vaccinations received on a personal immunization record, including the home-based record"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-observe-for-any-adverse-event-following-immunization-aefi",
-      "type": "health-intervention",
-      "label": "observe for any adverse event following immunization (AEFI)",
-      "properties": {
-        "name": "observe for any adverse event following immunization (AEFI)",
-        "description": "General vaccine administration practices for all age groups, including children, are:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:36 (PDF p. 26)",
-        "quote": "observe for any adverse event following immunization (AEFI)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-targeted-history-and-physical-examination-for-vaccination",
-      "type": "health-intervention",
-      "label": "targeted history and physical examination for vaccination",
-      "properties": {
-        "name": "targeted history and physical examination for vaccination",
-        "description": "General vaccine administration practices for all age groups, including children, are:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:38 (PDF p. 26)",
-        "quote": "targeted history and physical examination for vaccination"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-defaulter-tracing",
-      "type": "health-intervention",
-      "label": "defaulter tracing",
-      "properties": {
-        "name": "defaulter tracing",
-        "description": "General vaccine administration practices for all age groups, including children, are:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:40 (PDF p. 26)",
-        "quote": "defaulter tracing"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-follow-up-visit-s",
-      "type": "health-intervention",
-      "label": "follow-up visit(s)",
-      "properties": {
-        "name": "follow-up visit(s)",
-        "description": "General vaccine administration practices for all age groups, including children, are:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:42 (PDF p. 26)",
-        "quote": "follow-up visit(s)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-bacille-calmette-gu-rin-bcg",
-      "type": "health-intervention",
-      "label": "bacille Calmette–Guérin (BCG)",
-      "properties": {
-        "name": "bacille Calmette–Guérin (BCG)",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:46 (PDF p. 26)",
-        "quote": "bacille Calmette–Guérin (BCG)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-cholera",
-      "type": "health-intervention",
-      "label": "cholera",
-      "properties": {
-        "name": "cholera",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:48 (PDF p. 26)",
-        "quote": "cholera"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-dengue",
-      "type": "health-intervention",
-      "label": "dengue",
-      "properties": {
-        "name": "dengue",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:50 (PDF p. 26)",
-        "quote": "dengue"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-diphtheria-tetanus-pertussis-dtp",
-      "type": "health-intervention",
-      "label": "diphtheria–tetanus–pertussis (DTP)",
-      "properties": {
-        "name": "diphtheria–tetanus–pertussis (DTP)",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:52 (PDF p. 26)",
-        "quote": "diphtheria–tetanus–pertussis (DTP)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-haemophilus-influenzae-type-b-hib",
-      "type": "health-intervention",
-      "label": "Haemophilus influenzae type b (Hib)",
-      "properties": {
-        "name": "Haemophilus influenzae type b (Hib)",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:55 (PDF p. 26)",
-        "quote": "Haemophilus influenzae type b (Hib)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-hepatitis-a",
-      "type": "health-intervention",
-      "label": "hepatitis A",
-      "properties": {
-        "name": "hepatitis A",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:58 (PDF p. 26)",
-        "quote": "hepatitis A"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-hepatitis-b",
-      "type": "health-intervention",
-      "label": "hepatitis B",
-      "properties": {
-        "name": "hepatitis B",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:60 (PDF p. 26)",
-        "quote": "hepatitis B"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-human-papillomavirus-hpv",
-      "type": "health-intervention",
-      "label": "human papillomavirus (HPV)",
-      "properties": {
-        "name": "human papillomavirus (HPV)",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:62 (PDF p. 26)",
-        "quote": "human papillomavirus (HPV)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-japanese-encephalitis-je",
-      "type": "health-intervention",
-      "label": "Japanese encephalitis (JE)",
-      "properties": {
-        "name": "Japanese encephalitis (JE)",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:64 (PDF p. 26)",
-        "quote": "Japanese encephalitis (JE)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-malaria",
-      "type": "health-intervention",
-      "label": "malaria",
-      "properties": {
-        "name": "malaria",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:66 (PDF p. 26)",
-        "quote": "malaria"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-measles",
-      "type": "health-intervention",
-      "label": "measles",
-      "properties": {
-        "name": "measles",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:68 (PDF p. 26)",
-        "quote": "measles"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-meningococcal",
-      "type": "health-intervention",
-      "label": "meningococcal",
-      "properties": {
-        "name": "meningococcal",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:70 (PDF p. 26)",
-        "quote": "meningococcal"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-mumps",
-      "type": "health-intervention",
-      "label": "mumps",
-      "properties": {
-        "name": "mumps",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:72 (PDF p. 26)",
-        "quote": "mumps"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-pneumococcal",
-      "type": "health-intervention",
-      "label": "pneumococcal",
-      "properties": {
-        "name": "pneumococcal",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:74 (PDF p. 26)",
-        "quote": "pneumococcal"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-poliomyelitis-polio",
-      "type": "health-intervention",
-      "label": "poliomyelitis (polio)",
-      "properties": {
-        "name": "poliomyelitis (polio)",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:76 (PDF p. 26)",
-        "quote": "poliomyelitis (polio)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-rabies",
-      "type": "health-intervention",
-      "label": "rabies",
-      "properties": {
-        "name": "rabies",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:78 (PDF p. 26)",
-        "quote": "rabies"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-rotavirus",
-      "type": "health-intervention",
-      "label": "rotavirus",
-      "properties": {
-        "name": "rotavirus",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:80 (PDF p. 26)",
-        "quote": "rotavirus"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-rubella",
-      "type": "health-intervention",
-      "label": "rubella",
-      "properties": {
-        "name": "rubella",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:82 (PDF p. 26)",
-        "quote": "rubella"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-seasonal-influenza",
-      "type": "health-intervention",
-      "label": "seasonal influenza",
-      "properties": {
-        "name": "seasonal influenza",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:84 (PDF p. 26)",
-        "quote": "seasonal influenza"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-tick-borne-encephalitis-tbe",
-      "type": "health-intervention",
-      "label": "tick-borne encephalitis (TBE)",
-      "properties": {
-        "name": "tick-borne encephalitis (TBE)",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:86 (PDF p. 26)",
-        "quote": "tick-borne encephalitis (TBE)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-typhoid",
-      "type": "health-intervention",
-      "label": "typhoid",
-      "properties": {
-        "name": "typhoid",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:88 (PDF p. 26)",
-        "quote": "typhoid"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-varicella",
-      "type": "health-intervention",
-      "label": "varicella",
-      "properties": {
-        "name": "varicella",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:90 (PDF p. 26)",
-        "quote": "varicella"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#health-intervention-yellow-fever",
-      "type": "health-intervention",
-      "label": "yellow fever",
-      "properties": {
-        "name": "yellow fever",
-        "description": "Vaccination, based on individual characteristics, include:"
-      },
-      "derivation": "derived",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:92 (PDF p. 26)",
-        "quote": "yellow fever"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "id": "urn:isbn:9789240099456#citation-1.1-who-universal-health-coverage-list-of-essential-intervention",
+      "id": "https://smart.who.int/immunizations/citation/9b08e7a918ae",
       "type": "citation",
       "label": "WHO universal health coverage list of essential interventions",
       "properties": {
         "text": "WHO universal health coverage list of essential interventions",
-        "location": "library/9789240099456-eng/sections/page-026.md:23 (PDF p. 26)",
+        "citationKind": "reference",
         "resolutionStatus": "unresolved"
       },
       "derivation": "derived",
-      "note": "Unnumbered. Best title match is reference 22 (\"UHC compendium: health interventions for universal health coverage\", agreement 0.67); not resolved on words alone.",
+      "note": "Unnumbered (§1.1). Best title match is reference 22 (\"UHC compendium: health interventions for universal health coverage\", agreement 0.67); not resolved on words alone.",
+      "evidence": {
+        "location": "library/9789240099456-eng/sections/sec-004-how-to-use-this-digital-adaptation-kit.md:370",
+        "quote": "Interventions referenced in this DAK are based on WHO universal health coverage list of essential interventions."
+      },
       "skill": "smart-base/dak-l1-library"
     }
   ],
   "edges": [
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-29-b7860313",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/b786031383a0",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/29",
       "derivation": "derived",
+      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 0.30 — BELOW 0.34: the card describes its source rather than naming it, so a person should confirm it.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-29-b7860313",
-      "target": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/29",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-teams-immunization-vaccines-and-biologicals-policies-who-recommendations-for-routine-immunization-summary-tables",
       "derivation": "inferred",
-      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 0.30 — BELOW 0.34: the citation's words differ from the reference title, so this rests on the printed number alone and a person should confirm it.",
+      "note": "Resolved through the reference's own URL; the source is not held.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:15 (PDF p. 95)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:97",
         "quote": "WHO recommendations for routine immunization – summary tables [website]. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/ who-recommendations-for-routine-immunization---summary-tables)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-29-86de251b",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/86de251bb278",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/29",
       "derivation": "derived",
+      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 0.25 — BELOW 0.34: the card describes its source rather than naming it, so a person should confirm it.",
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "type": "Statement",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/7a43c085ed1e",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/29",
+      "derivation": "derived",
+      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 0.14 — BELOW 0.34: the card describes its source rather than naming it, so a person should confirm it.",
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "type": "Statement",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/fc0ce0af3cd9",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/29",
+      "derivation": "derived",
+      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 0.13 — BELOW 0.34: the card describes its source rather than naming it, so a person should confirm it.",
+      "skill": "smart-base/dak-l1-library"
+    },
+    {
+      "type": "Statement",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/0b7135e40def",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/26",
+      "derivation": "derived",
+      "note": "By the printed number (26) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 1.00.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-29-86de251b",
-      "target": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/26",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
       "derivation": "inferred",
-      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 0.25 — BELOW 0.34: the citation's words differ from the reference title, so this rests on the printed number alone and a person should confirm it.",
+      "note": "Resolved through the reference's own URL; the source is not held.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:15 (PDF p. 95)",
-        "quote": "WHO recommendations for routine immunization – summary tables [website]. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/ who-recommendations-for-routine-immunization---summary-tables)."
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-29-7a43c085",
-      "target": "urn:isbn:9789240099456#component-1.2",
-      "derivation": "derived",
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-29-7a43c085",
-      "target": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
-      "derivation": "inferred",
-      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 0.14 — BELOW 0.34: the citation's words differ from the reference title, so this rests on the printed number alone and a person should confirm it.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:15 (PDF p. 95)",
-        "quote": "WHO recommendations for routine immunization – summary tables [website]. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/ who-recommendations-for-routine-immunization---summary-tables)."
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-29-fc0ce0af",
-      "target": "urn:isbn:9789240099456#component-1.2",
-      "derivation": "derived",
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-29-fc0ce0af",
-      "target": "https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables",
-      "derivation": "inferred",
-      "note": "By the printed number (29) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 0.13 — BELOW 0.34: the citation's words differ from the reference title, so this rests on the printed number alone and a person should confirm it.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:15 (PDF p. 95)",
-        "quote": "WHO recommendations for routine immunization – summary tables [website]. Geneva: World Health Organization (https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/ who-recommendations-for-routine-immunization---summary-tables)."
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-26-0b7135e4",
-      "target": "urn:isbn:9789240099456#component-1.2",
-      "derivation": "derived",
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-26-0b7135e4",
-      "target": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
-      "derivation": "inferred",
-      "note": "By the printed number (26) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 1.00.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:91 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:87",
         "quote": "Analysis and use of health facility data: guidance for Immunization programme managers. Geneva: World Health Organization; 2018 (https://www.who.int/publications/m/item/analysis- and-use-of-health-facility-data-guidance-for-immunization-programme-managers)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-30-91f637df",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/91f637dfa337",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/30",
       "derivation": "derived",
+      "note": "By the printed number (30) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 1.00.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-30-91f637df",
-      "target": "https://data.unicef.org/wp-content/uploads/2015/12/WHO_UNICEF_JRF_EN_2016.xls",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/30",
+      "target": "https://smart.who.int/kg/l1/publication/url-data-unicef-org-wp-content-uploads-2015-12-who-unicef-jrf-en-2016-xls",
       "derivation": "inferred",
-      "note": "By the printed number (30) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 1.00.",
+      "note": "Resolved through the reference's own URL; the source is not held.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:18 (PDF p. 95)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:100",
         "quote": "Sample of the WHO/UNICEF joint report form on immunization. World Health Organization and United Nations Children’s Fund; 2016 (https://data.unicef.org/wp-content/uploads/2015/12/WHO_ UNICEF_JRF_EN_2016.xls)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-24-3bdc6103",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/3bdc61032a11",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/24",
       "derivation": "derived",
+      "note": "By the printed number (24) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 0.14 — BELOW 0.34: the card describes its source rather than naming it, so a person should confirm it.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-24-3bdc6103",
-      "target": "https://immunizationdata.who.int",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/24",
+      "target": "https://smart.who.int/kg/l1/publication/url-immunizationdata-who-int",
       "derivation": "inferred",
-      "note": "By the printed number (24) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 0.14 — BELOW 0.34: the citation's words differ from the reference title, so this rests on the printed number alone and a person should confirm it.",
+      "note": "Resolved through the reference's own URL; the source is not held.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:86 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:82",
         "quote": "Immunization dashboard [website]. Geneva: World Health Organization (https:// immunizationdata.who.int)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-31-bcf9d883",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/bcf9d8832560",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/31",
       "derivation": "derived",
+      "note": "By the printed number (31) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 1.00.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-31-bcf9d883",
-      "target": "urn:isbn:9789240016514",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/31",
+      "target": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
       "derivation": "inferred",
-      "note": "By the printed number (31) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 1.00.",
+      "note": "Resolved through the held source uploads/9789240016514-eng/9789240016514-eng.dc.json, matched by handle 10665/340749; it is L1, so the target is its L1 publication.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:21 (PDF p. 95)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:103",
         "quote": "Leave no one behind: guidance for planning and implementing catch-up vaccination. Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/340749)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-15-20aae37d",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/20aae37df84c",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/15",
       "derivation": "derived",
+      "note": "By the printed number (15) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 1.00.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-15-20aae37d",
-      "target": "https://iris.paho.org/handle/10665.2/34865",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/15",
+      "target": "https://smart.who.int/kg/l1/publication/url-iris-paho-org-handle-10665-2-34865",
       "derivation": "inferred",
-      "note": "By the printed number (15) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 1.00.",
+      "note": "Resolved through the reference's own URL; the source is not held.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:62 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:58",
         "quote": "Electronic immunization registry: practical considerations for planning, development, implementation and evaluation. Washington, DC: Pan American Health Organization; 2017 (https://iris.paho.org/handle/10665.2/34865)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-32-76a4610a",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/76a4610a9c92",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/32",
       "derivation": "derived",
+      "note": "By the printed number (32) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 1.00.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-32-76a4610a",
-      "target": "https://www.who.int/publications/m/item/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july-2022-update",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/32",
+      "target": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world-july-2022-update",
       "derivation": "inferred",
-      "note": "By the printed number (32) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 1.00.",
+      "note": "Resolved through the reference's own URL; the source is not held.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-095.md:23 (PDF p. 95)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:105",
         "quote": "Monitoring metrics related to the global Covid-19 vaccination strategy in a changing world: July 2022 update. Geneva: World Health Organization; 2022 (https://www.who.int/publications/m/item/ monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july- 2022-update)."
       },
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-28-446170ce",
-      "target": "urn:isbn:9789240099456#component-1.2",
+      "predicate": "numberedAs",
+      "source": "https://smart.who.int/immunizations/citation/446170cef983",
+      "target": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/28",
       "derivation": "derived",
+      "note": "By the printed number (28) into the reference list starting library/9789240099456-eng/sections/sec-005-references.md:14 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63); title agreement 1.00.",
       "skill": "smart-base/dak-l1-library"
     },
     {
       "type": "Statement",
       "predicate": "resolvesTo",
-      "source": "urn:isbn:9789240099456#citation-28-446170ce",
-      "target": "https://iris.who.int/handle/10665/343361",
+      "source": "https://smart.who.int/immunizations/artifact/9789240099456-eng/reference/28",
+      "target": "https://litlfred.github.io/folio/library/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest",
       "derivation": "inferred",
-      "note": "By the printed number (28) into the reference list starting library/9789240099456-eng/sections/page-094.md:18 (chosen of 44 numbered lists: it holds every cited number, mean title agreement 0.63), title agreement 1.00.",
+      "note": "Resolved through the held source uploads/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng/WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng.dc.json, matched by handle 10665/343361; it is not L1 (declared: Owner ruling, 2026-10-07 session: 'dak immz AND DDCC 2021 are not L1 at all... rest ok'), so the target is its library entry — upstream of L1.",
       "evidence": {
-        "location": "library/9789240099456-eng/sections/page-094.md:96 (PDF p. 94)",
+        "location": "library/9789240099456-eng/sections/sec-005-references.md:92",
         "quote": "Digital documentation of COVID-19 certificates: vaccination status: technical specifications and implementation guidance, 27 August 2021. Geneva: World Health Organization; 2021 (https:// iris.who.int/handle/10665/343361)."
       },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-counselling-on-the-vaccine-s-to-be-administered",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:29 (PDF p. 26)",
-        "quote": "General vaccine administration practices for all age groups, including children, are: – counselling on the vaccine(s) to be administered"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-document-and-report-on-immunizations-administered",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:31 (PDF p. 26)",
-        "quote": "General vaccine administration practices for all age groups, including children, are: – document and report on immunizations administered"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-document-vaccinations-received-on-a-personal-immunization-re",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:33 (PDF p. 26)",
-        "quote": "General vaccine administration practices for all age groups, including children, are: – document vaccinations received on a personal immunization record, including the home-based record"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-observe-for-any-adverse-event-following-immunization-aefi",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:36 (PDF p. 26)",
-        "quote": "General vaccine administration practices for all age groups, including children, are: – observe for any adverse event following immunization (AEFI)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-targeted-history-and-physical-examination-for-vaccination",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:38 (PDF p. 26)",
-        "quote": "General vaccine administration practices for all age groups, including children, are: – targeted history and physical examination for vaccination"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-defaulter-tracing",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:40 (PDF p. 26)",
-        "quote": "General vaccine administration practices for all age groups, including children, are: – defaulter tracing"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-follow-up-visit-s",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:42 (PDF p. 26)",
-        "quote": "General vaccine administration practices for all age groups, including children, are: – follow-up visit(s)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-bacille-calmette-gu-rin-bcg",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:46 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – bacille Calmette–Guérin (BCG)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-cholera",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:48 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – cholera"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-dengue",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:50 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – dengue"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-diphtheria-tetanus-pertussis-dtp",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:52 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – diphtheria–tetanus–pertussis (DTP)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-haemophilus-influenzae-type-b-hib",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:55 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – Haemophilus influenzae type b (Hib)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-hepatitis-a",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:58 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – hepatitis A"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-hepatitis-b",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:60 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – hepatitis B"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-human-papillomavirus-hpv",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:62 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – human papillomavirus (HPV)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-japanese-encephalitis-je",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:64 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – Japanese encephalitis (JE)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-malaria",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:66 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – malaria"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-measles",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:68 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – measles"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-meningococcal",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:70 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – meningococcal"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-mumps",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:72 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – mumps"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-pneumococcal",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:74 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – pneumococcal"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-poliomyelitis-polio",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:76 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – poliomyelitis (polio)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-rabies",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:78 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – rabies"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-rotavirus",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:80 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – rotavirus"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-rubella",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:82 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – rubella"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-seasonal-influenza",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:84 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – seasonal influenza"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-tick-borne-encephalitis-tbe",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:86 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – tick-borne encephalitis (TBE)"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-typhoid",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:88 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – typhoid"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-varicella",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:90 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – varicella"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "implementedBy",
-      "source": "urn:isbn:9789240099456#health-intervention-yellow-fever",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "inferred",
-      "note": "Listed in Component 1 §1.1 as an intervention the DAK references; the DAK is the L2 artefact that operationalises it. Listing is the evidence, not a reading of the DAK's workflows.",
-      "evidence": {
-        "location": "library/9789240099456-eng/sections/page-026.md:92 (PDF p. 26)",
-        "quote": "Vaccination, based on individual characteristics, include: – yellow fever"
-      },
-      "skill": "smart-base/dak-l1-library"
-    },
-    {
-      "type": "Statement",
-      "predicate": "appearsIn",
-      "source": "urn:isbn:9789240099456#citation-1.1-who-universal-health-coverage-list-of-essential-intervention",
-      "target": "urn:isbn:9789240099456#component-1.1",
-      "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     }
   ],

@@ -21,5 +21,16 @@
     "status": "stated",
     "id": "CC-BY-NC-SA-3.0-IGO",
     "basis": "https://iris.who.int/items/50d01818-0fa6-43d4-a39e-5bfae735c547 item metadata: dc.rights = 'CC BY-NC-SA 3.0 IGO', dc.rights.uri = 'https://creativecommons.org/licenses/by-nc-sa/3.0/igo'"
-  }
+  },
+  "classifications": [
+    {
+      "scheme": "https://smart.who.int/kg/layer",
+      "code": "l1",
+      "member": false,
+      "source": "declared",
+      "basis": "Owner ruling, 2026-10-07 session: 'dak immz AND DDCC 2021 are not L1 at all... rest ok'",
+      "by": "ritikarawlani",
+      "at": "2026-10-07"
+    }
+  ]
 }

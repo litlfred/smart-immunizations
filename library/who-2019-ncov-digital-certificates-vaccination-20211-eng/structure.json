@@ -1,1024 +1,2309 @@
 {
-  "source": {
-    "file": "WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng.pdf",
-    "sha256": "f57b14cb2acb728d74f37934b2f16f21bc6f1841bbbe4fd0a878ed26c4e9c607",
-    "bytes": 2238470,
-    "mtime": "2026-10-06T09:14:10Z",
-    "mimetype_sniffed": "application/pdf",
-    "mimetype_source": "magic-bytes",
-    "text_source": "embedded"
-  },
-  "metadata": {
-    "title": null,
-    "docinfo": {
-      "Producer": "Adobe PDF Library 15.0",
-      "Creator": "Adobe InDesign 16.3 (Macintosh)",
-      "CreationDate": "D:20210825093334-07'00'"
-    },
-    "title_raw": null,
-    "title_source": "filename",
-    "title_verified": false,
-    "title_evidence": {
-      "heading": "Digital Documentation of COVID-19 Certificates: Vaccination Status",
-      "corroborated_by": [],
-      "browser_print": false
-    }
-  },
-  "_schema": "pdf-structure/v1",
-  "doc_id": "who-2019-ncov-digital-certificates-vaccination-20211-eng",
-  "toc_source": "none",
-  "granularity": "page",
-  "sections": [
-    {
-      "id": "page-001",
-      "number": null,
-      "title": "Page 1",
-      "level": 1,
-      "page_start": 1,
-      "page_end": 1,
-      "n_chars": 246,
-      "n_words": 30
-    },
-    {
-      "id": "page-002",
-      "number": null,
-      "title": "Page 2",
-      "level": 1,
-      "page_start": 2,
-      "page_end": 2,
-      "n_chars": 108,
-      "n_words": 15
-    },
-    {
-      "id": "page-003",
-      "number": null,
-      "title": "Page 3",
-      "level": 1,
-      "page_start": 3,
-      "page_end": 3,
-      "n_chars": 137,
-      "n_words": 15
-    },
-    {
-      "id": "page-004",
-      "number": null,
-      "title": "Page 4",
-      "level": 1,
-      "page_start": 4,
-      "page_end": 4,
-      "n_chars": 3653,
-      "n_words": 511
-    },
-    {
-      "id": "page-005",
-      "number": null,
-      "title": "Page 5",
-      "level": 1,
-      "page_start": 5,
-      "page_end": 5,
-      "n_chars": 1033,
-      "n_words": 150
-    },
-    {
-      "id": "page-006",
-      "number": null,
-      "title": "Page 6",
-      "level": 1,
-      "page_start": 6,
-      "page_end": 6,
-      "n_chars": 1522,
-      "n_words": 174
-    },
-    {
-      "id": "page-007",
-      "number": null,
-      "title": "Page 7",
-      "level": 1,
-      "page_start": 7,
-      "page_end": 7,
-      "n_chars": 4783,
-      "n_words": 630
-    },
-    {
-      "id": "page-008",
-      "number": null,
-      "title": "Page 8",
-      "level": 1,
-      "page_start": 8,
-      "page_end": 8,
-      "n_chars": 701,
-      "n_words": 100
-    },
-    {
-      "id": "page-009",
-      "number": null,
-      "title": "Page 9",
-      "level": 1,
-      "page_start": 9,
-      "page_end": 9,
-      "n_chars": 1171,
-      "n_words": 142
-    },
-    {
-      "id": "page-010",
-      "number": null,
-      "title": "Page 10",
-      "level": 1,
-      "page_start": 10,
-      "page_end": 10,
-      "n_chars": 2506,
-      "n_words": 365
-    },
-    {
-      "id": "page-011",
-      "number": null,
-      "title": "Page 11",
-      "level": 1,
-      "page_start": 11,
-      "page_end": 11,
-      "n_chars": 2957,
-      "n_words": 446
-    },
-    {
-      "id": "page-012",
-      "number": null,
-      "title": "Page 12",
-      "level": 1,
-      "page_start": 12,
-      "page_end": 12,
-      "n_chars": 2728,
-      "n_words": 407
-    },
-    {
-      "id": "page-013",
-      "number": null,
-      "title": "Page 13",
-      "level": 1,
-      "page_start": 13,
-      "page_end": 13,
-      "n_chars": 1804,
-      "n_words": 258
-    },
-    {
-      "id": "page-014",
-      "number": null,
-      "title": "Page 14",
-      "level": 1,
-      "page_start": 14,
-      "page_end": 14,
-      "n_chars": 2674,
-      "n_words": 403
-    },
-    {
-      "id": "page-015",
-      "number": null,
-      "title": "Page 15",
-      "level": 1,
-      "page_start": 15,
-      "page_end": 15,
-      "n_chars": 2085,
-      "n_words": 300
-    },
-    {
-      "id": "page-016",
-      "number": null,
-      "title": "Page 16",
-      "level": 1,
-      "page_start": 16,
-      "page_end": 16,
-      "n_chars": 2761,
-      "n_words": 413
-    },
-    {
-      "id": "page-017",
-      "number": null,
-      "title": "Page 17",
-      "level": 1,
-      "page_start": 17,
-      "page_end": 17,
-      "n_chars": 2649,
-      "n_words": 414
-    },
-    {
-      "id": "page-018",
-      "number": null,
-      "title": "Page 18",
-      "level": 1,
-      "page_start": 18,
-      "page_end": 18,
-      "n_chars": 1821,
-      "n_words": 271
-    },
-    {
-      "id": "page-019",
-      "number": null,
-      "title": "Page 19",
-      "level": 1,
-      "page_start": 19,
-      "page_end": 19,
-      "n_chars": 2704,
-      "n_words": 389
-    },
-    {
-      "id": "page-020",
-      "number": null,
-      "title": "Page 20",
-      "level": 1,
-      "page_start": 20,
-      "page_end": 20,
-      "n_chars": 3174,
-      "n_words": 454
-    },
-    {
-      "id": "page-021",
-      "number": null,
-      "title": "Page 21",
-      "level": 1,
-      "page_start": 21,
-      "page_end": 21,
-      "n_chars": 3721,
-      "n_words": 600
-    },
-    {
-      "id": "page-022",
-      "number": null,
-      "title": "Page 22",
-      "level": 1,
-      "page_start": 22,
-      "page_end": 22,
-      "n_chars": 3030,
-      "n_words": 410
-    },
-    {
-      "id": "page-023",
-      "number": null,
-      "title": "Page 23",
-      "level": 1,
-      "page_start": 23,
-      "page_end": 23,
-      "n_chars": 1922,
-      "n_words": 280
-    },
-    {
-      "id": "page-024",
-      "number": null,
-      "title": "Page 24",
-      "level": 1,
-      "page_start": 24,
-      "page_end": 24,
-      "n_chars": 3964,
-      "n_words": 613
-    },
-    {
-      "id": "page-025",
-      "number": null,
-      "title": "Page 25",
-      "level": 1,
-      "page_start": 25,
-      "page_end": 25,
-      "n_chars": 3644,
-      "n_words": 529
-    },
-    {
-      "id": "page-026",
-      "number": null,
-      "title": "Page 26",
-      "level": 1,
-      "page_start": 26,
-      "page_end": 26,
-      "n_chars": 4002,
-      "n_words": 610
-    },
-    {
-      "id": "page-027",
-      "number": null,
-      "title": "Page 27",
-      "level": 1,
-      "page_start": 27,
-      "page_end": 27,
-      "n_chars": 3923,
-      "n_words": 588
-    },
-    {
-      "id": "page-028",
-      "number": null,
-      "title": "Page 28",
-      "level": 1,
-      "page_start": 28,
-      "page_end": 28,
-      "n_chars": 3382,
-      "n_words": 520
-    },
-    {
-      "id": "page-029",
-      "number": null,
-      "title": "Page 29",
-      "level": 1,
-      "page_start": 29,
-      "page_end": 29,
-      "n_chars": 3229,
-      "n_words": 497
-    },
-    {
-      "id": "page-030",
-      "number": null,
-      "title": "Page 30",
-      "level": 1,
-      "page_start": 30,
-      "page_end": 30,
-      "n_chars": 3158,
-      "n_words": 499
-    },
-    {
-      "id": "page-031",
-      "number": null,
-      "title": "Page 31",
-      "level": 1,
-      "page_start": 31,
-      "page_end": 31,
-      "n_chars": 3238,
-      "n_words": 469
-    },
-    {
-      "id": "page-032",
-      "number": null,
-      "title": "Page 32",
-      "level": 1,
-      "page_start": 32,
-      "page_end": 32,
-      "n_chars": 2947,
-      "n_words": 453
-    },
-    {
-      "id": "page-033",
-      "number": null,
-      "title": "Page 33",
-      "level": 1,
-      "page_start": 33,
-      "page_end": 33,
-      "n_chars": 1611,
-      "n_words": 257
-    },
-    {
-      "id": "page-034",
-      "number": null,
-      "title": "Page 34",
-      "level": 1,
-      "page_start": 34,
-      "page_end": 34,
-      "n_chars": 2679,
-      "n_words": 418
-    },
-    {
-      "id": "page-035",
-      "number": null,
-      "title": "Page 35",
-      "level": 1,
-      "page_start": 35,
-      "page_end": 35,
-      "n_chars": 2674,
-      "n_words": 439
-    },
-    {
-      "id": "page-036",
-      "number": null,
-      "title": "Page 36",
-      "level": 1,
-      "page_start": 36,
-      "page_end": 36,
-      "n_chars": 993,
-      "n_words": 160
-    },
-    {
-      "id": "page-037",
-      "number": null,
-      "title": "Page 37",
-      "level": 1,
-      "page_start": 37,
-      "page_end": 37,
-      "n_chars": 2727,
-      "n_words": 439
-    },
-    {
-      "id": "page-038",
-      "number": null,
-      "title": "Page 38",
-      "level": 1,
-      "page_start": 38,
-      "page_end": 38,
-      "n_chars": 1024,
-      "n_words": 165
-    },
-    {
-      "id": "page-039",
-      "number": null,
-      "title": "Page 39",
-      "level": 1,
-      "page_start": 39,
-      "page_end": 39,
-      "n_chars": 1027,
-      "n_words": 165
-    },
-    {
-      "id": "page-040",
-      "number": null,
-      "title": "Page 40",
-      "level": 1,
-      "page_start": 40,
-      "page_end": 40,
-      "n_chars": 1026,
-      "n_words": 165
-    },
-    {
-      "id": "page-041",
-      "number": null,
-      "title": "Page 41",
-      "level": 1,
-      "page_start": 41,
-      "page_end": 41,
-      "n_chars": 2897,
-      "n_words": 439
-    },
-    {
-      "id": "page-042",
-      "number": null,
-      "title": "Page 42",
-      "level": 1,
-      "page_start": 42,
-      "page_end": 42,
-      "n_chars": 3379,
-      "n_words": 505
-    },
-    {
-      "id": "page-043",
-      "number": null,
-      "title": "Page 43",
-      "level": 1,
-      "page_start": 43,
-      "page_end": 43,
-      "n_chars": 3555,
-      "n_words": 517
-    },
-    {
-      "id": "page-044",
-      "number": null,
-      "title": "Page 44",
-      "level": 1,
-      "page_start": 44,
-      "page_end": 44,
-      "n_chars": 1487,
-      "n_words": 238
-    },
-    {
-      "id": "page-045",
-      "number": null,
-      "title": "Page 45",
-      "level": 1,
-      "page_start": 45,
-      "page_end": 45,
-      "n_chars": 3385,
-      "n_words": 543
-    },
-    {
-      "id": "page-046",
-      "number": null,
-      "title": "Page 46",
-      "level": 1,
-      "page_start": 46,
-      "page_end": 46,
-      "n_chars": 1894,
-      "n_words": 286
-    },
-    {
-      "id": "page-047",
-      "number": null,
-      "title": "Page 47",
-      "level": 1,
-      "page_start": 47,
-      "page_end": 47,
-      "n_chars": 1774,
-      "n_words": 277
-    },
-    {
-      "id": "page-048",
-      "number": null,
-      "title": "Page 48",
-      "level": 1,
-      "page_start": 48,
-      "page_end": 48,
-      "n_chars": 975,
-      "n_words": 139
-    },
-    {
-      "id": "page-049",
-      "number": null,
-      "title": "Page 49",
-      "level": 1,
-      "page_start": 49,
-      "page_end": 49,
-      "n_chars": 3700,
-      "n_words": 548
-    },
-    {
-      "id": "page-050",
-      "number": null,
-      "title": "Page 50",
-      "level": 1,
-      "page_start": 50,
-      "page_end": 50,
-      "n_chars": 1013,
-      "n_words": 144
-    },
-    {
-      "id": "page-051",
-      "number": null,
-      "title": "Page 51",
-      "level": 1,
-      "page_start": 51,
-      "page_end": 51,
-      "n_chars": 1030,
-      "n_words": 145
-    },
-    {
-      "id": "page-052",
-      "number": null,
-      "title": "Page 52",
-      "level": 1,
-      "page_start": 52,
-      "page_end": 52,
-      "n_chars": 1034,
-      "n_words": 147
-    },
-    {
-      "id": "page-053",
-      "number": null,
-      "title": "Page 53",
-      "level": 1,
-      "page_start": 53,
-      "page_end": 53,
-      "n_chars": 1039,
-      "n_words": 147
-    },
-    {
-      "id": "page-054",
-      "number": null,
-      "title": "Page 54",
-      "level": 1,
-      "page_start": 54,
-      "page_end": 54,
-      "n_chars": 2496,
-      "n_words": 358
-    },
-    {
-      "id": "page-055",
-      "number": null,
-      "title": "Page 55",
-      "level": 1,
-      "page_start": 55,
-      "page_end": 55,
-      "n_chars": 3040,
-      "n_words": 466
-    },
-    {
-      "id": "page-056",
-      "number": null,
-      "title": "Page 56",
-      "level": 1,
-      "page_start": 56,
-      "page_end": 56,
-      "n_chars": 2890,
-      "n_words": 422
-    },
-    {
-      "id": "page-057",
-      "number": null,
-      "title": "Page 57",
-      "level": 1,
-      "page_start": 57,
-      "page_end": 57,
-      "n_chars": 2268,
-      "n_words": 344
-    },
-    {
-      "id": "page-058",
-      "number": null,
-      "title": "Page 58",
-      "level": 1,
-      "page_start": 58,
-      "page_end": 58,
-      "n_chars": 2478,
-      "n_words": 365
-    },
-    {
-      "id": "page-059",
-      "number": null,
-      "title": "Page 59",
-      "level": 1,
-      "page_start": 59,
-      "page_end": 59,
-      "n_chars": 1957,
-      "n_words": 295
-    },
-    {
-      "id": "page-060",
-      "number": null,
-      "title": "Page 60",
-      "level": 1,
-      "page_start": 60,
-      "page_end": 60,
-      "n_chars": 2403,
-      "n_words": 354
-    },
-    {
-      "id": "page-061",
-      "number": null,
-      "title": "Page 61",
-      "level": 1,
-      "page_start": 61,
-      "page_end": 61,
-      "n_chars": 2192,
-      "n_words": 311
-    },
-    {
-      "id": "page-062",
-      "number": null,
-      "title": "Page 62",
-      "level": 1,
-      "page_start": 62,
-      "page_end": 62,
-      "n_chars": 1764,
-      "n_words": 249
-    },
-    {
-      "id": "page-063",
-      "number": null,
-      "title": "Page 63",
-      "level": 1,
-      "page_start": 63,
-      "page_end": 63,
-      "n_chars": 1732,
-      "n_words": 268
-    },
-    {
-      "id": "page-064",
-      "number": null,
-      "title": "Page 64",
-      "level": 1,
-      "page_start": 64,
-      "page_end": 64,
-      "n_chars": 1772,
-      "n_words": 290
-    },
-    {
-      "id": "page-065",
-      "number": null,
-      "title": "Page 65",
-      "level": 1,
-      "page_start": 65,
-      "page_end": 65,
-      "n_chars": 1974,
-      "n_words": 316
-    },
-    {
-      "id": "page-066",
-      "number": null,
-      "title": "Page 66",
-      "level": 1,
-      "page_start": 66,
-      "page_end": 66,
-      "n_chars": 1956,
-      "n_words": 303
-    },
-    {
-      "id": "page-067",
-      "number": null,
-      "title": "Page 67",
-      "level": 1,
-      "page_start": 67,
-      "page_end": 67,
-      "n_chars": 1511,
-      "n_words": 246
-    },
-    {
-      "id": "page-068",
-      "number": null,
-      "title": "Page 68",
-      "level": 1,
-      "page_start": 68,
-      "page_end": 68,
-      "n_chars": 2518,
-      "n_words": 398
-    },
-    {
-      "id": "page-069",
-      "number": null,
-      "title": "Page 69",
-      "level": 1,
-      "page_start": 69,
-      "page_end": 69,
-      "n_chars": 3006,
-      "n_words": 447
-    },
-    {
-      "id": "page-070",
-      "number": null,
-      "title": "Page 70",
-      "level": 1,
-      "page_start": 70,
-      "page_end": 70,
-      "n_chars": 2138,
-      "n_words": 313
-    },
-    {
-      "id": "page-071",
-      "number": null,
-      "title": "Page 71",
-      "level": 1,
-      "page_start": 71,
-      "page_end": 71,
-      "n_chars": 2769,
-      "n_words": 392
-    },
-    {
-      "id": "page-072",
-      "number": null,
-      "title": "Page 72",
-      "level": 1,
-      "page_start": 72,
-      "page_end": 72,
-      "n_chars": 3176,
-      "n_words": 456
-    },
-    {
-      "id": "page-073",
-      "number": null,
-      "title": "Page 73",
-      "level": 1,
-      "page_start": 73,
-      "page_end": 73,
-      "n_chars": 3040,
-      "n_words": 467
-    },
-    {
-      "id": "page-074",
-      "number": null,
-      "title": "Page 74",
-      "level": 1,
-      "page_start": 74,
-      "page_end": 74,
-      "n_chars": 3177,
-      "n_words": 478
-    },
-    {
-      "id": "page-075",
-      "number": null,
-      "title": "Page 75",
-      "level": 1,
-      "page_start": 75,
-      "page_end": 75,
-      "n_chars": 3323,
-      "n_words": 453
-    },
-    {
-      "id": "page-076",
-      "number": null,
-      "title": "Page 76",
-      "level": 1,
-      "page_start": 76,
-      "page_end": 76,
-      "n_chars": 3089,
-      "n_words": 421
-    },
-    {
-      "id": "page-077",
-      "number": null,
-      "title": "Page 77",
-      "level": 1,
-      "page_start": 77,
-      "page_end": 77,
-      "n_chars": 5353,
-      "n_words": 509
-    },
-    {
-      "id": "page-078",
-      "number": null,
-      "title": "Page 78",
-      "level": 1,
-      "page_start": 78,
-      "page_end": 78,
-      "n_chars": 5501,
-      "n_words": 582
-    },
-    {
-      "id": "page-079",
-      "number": null,
-      "title": "Page 79",
-      "level": 1,
-      "page_start": 79,
-      "page_end": 79,
-      "n_chars": 94,
-      "n_words": 13
-    },
-    {
-      "id": "page-080",
-      "number": null,
-      "title": "Page 80",
-      "level": 1,
-      "page_start": 80,
-      "page_end": 80,
-      "n_chars": 1099,
-      "n_words": 146
-    },
-    {
-      "id": "page-081",
-      "number": null,
-      "title": "Page 81",
-      "level": 1,
-      "page_start": 81,
-      "page_end": 81,
-      "n_chars": 1406,
-      "n_words": 236
-    },
-    {
-      "id": "page-082",
-      "number": null,
-      "title": "Page 82",
-      "level": 1,
-      "page_start": 82,
-      "page_end": 82,
-      "n_chars": 3313,
-      "n_words": 492
-    },
-    {
-      "id": "page-083",
-      "number": null,
-      "title": "Page 83",
-      "level": 1,
-      "page_start": 83,
-      "page_end": 83,
-      "n_chars": 3324,
-      "n_words": 484
-    },
-    {
-      "id": "page-084",
-      "number": null,
-      "title": "Page 84",
-      "level": 1,
-      "page_start": 84,
-      "page_end": 84,
-      "n_chars": 793,
-      "n_words": 120
-    },
-    {
-      "id": "page-085",
-      "number": null,
-      "title": "Page 85",
-      "level": 1,
-      "page_start": 85,
-      "page_end": 85,
-      "n_chars": 2970,
-      "n_words": 501
-    },
-    {
-      "id": "page-086",
-      "number": null,
-      "title": "Page 86",
-      "level": 1,
-      "page_start": 86,
-      "page_end": 86,
-      "n_chars": 1039,
-      "n_words": 112
-    },
-    {
-      "id": "page-087",
-      "number": null,
-      "title": "Page 87",
-      "level": 1,
-      "page_start": 87,
-      "page_end": 87,
-      "n_chars": 2678,
-      "n_words": 440
-    },
-    {
-      "id": "page-088",
-      "number": null,
-      "title": "Page 88",
-      "level": 1,
-      "page_start": 88,
-      "page_end": 88,
-      "n_chars": 1678,
-      "n_words": 284
-    },
-    {
-      "id": "page-089",
-      "number": null,
-      "title": "Page 89",
-      "level": 1,
-      "page_start": 89,
-      "page_end": 89,
-      "n_chars": 3425,
-      "n_words": 496
-    },
-    {
-      "id": "page-090",
-      "number": null,
-      "title": "Page 90",
-      "level": 1,
-      "page_start": 90,
-      "page_end": 90,
-      "n_chars": 4112,
-      "n_words": 575
-    },
-    {
-      "id": "page-091",
-      "number": null,
-      "title": "Page 91",
-      "level": 1,
-      "page_start": 91,
-      "page_end": 91,
-      "n_chars": 4128,
-      "n_words": 587
-    },
-    {
-      "id": "page-092",
-      "number": null,
-      "title": "Page 92",
-      "level": 1,
-      "page_start": 92,
-      "page_end": 92,
-      "n_chars": 4077,
-      "n_words": 581
-    },
-    {
-      "id": "page-093",
-      "number": null,
-      "title": "Page 93",
-      "level": 1,
-      "page_start": 93,
-      "page_end": 93,
-      "n_chars": 3669,
-      "n_words": 522
-    },
-    {
-      "id": "page-094",
-      "number": null,
-      "title": "Page 94",
-      "level": 1,
-      "page_start": 94,
-      "page_end": 94,
-      "n_chars": 1689,
-      "n_words": 201
-    },
-    {
-      "id": "page-095",
-      "number": null,
-      "title": "Page 95",
-      "level": 1,
-      "page_start": 95,
-      "page_end": 95,
-      "n_chars": 194,
-      "n_words": 26
-    },
-    {
-      "id": "page-096",
-      "number": null,
-      "title": "Page 96",
-      "level": 1,
-      "page_start": 96,
-      "page_end": 96,
-      "n_chars": 2627,
-      "n_words": 385
-    },
-    {
-      "id": "page-097",
-      "number": null,
-      "title": "Page 97",
-      "level": 1,
-      "page_start": 97,
-      "page_end": 97,
-      "n_chars": 1545,
-      "n_words": 219
-    },
-    {
-      "id": "page-098",
-      "number": null,
-      "title": "Page 98",
-      "level": 1,
-      "page_start": 98,
-      "page_end": 98,
-      "n_chars": 86,
-      "n_words": 12
-    },
-    {
-      "id": "page-099",
-      "number": null,
-      "title": "Page 99",
-      "level": 1,
-      "page_start": 99,
-      "page_end": 99,
-      "n_chars": 86,
-      "n_words": 12
-    }
+ "_schema": "pdf-structure/v1",
+ "doc_id": "who-2019-ncov-digital-certificates-vaccination-20211-eng",
+ "source": {
+  "file": "WHO-2019-nCoV-Digital-certificates-vaccination-2021.1-eng.pdf",
+  "sha256": "f57b14cb2acb728d74f37934b2f16f21bc6f1841bbbe4fd0a878ed26c4e9c607",
+  "bytes": 2238470,
+  "pages": 99,
+  "text_source": "embedded",
+  "extractor": "pymupdf",
+  "mtime": "2026-10-07T12:38:32Z",
+  "mimetype_sniffed": "application/pdf",
+  "mimetype_source": "magic-bytes"
+ },
+ "metadata": {
+  "arxiv": null,
+  "doi": null,
+  "title": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021 SECTION 1",
+  "authors_raw": null,
+  "title_lines": [
+   "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021",
+   "SECTION 1"
   ],
-  "structure_note": "Ingested at PAGE granularity by scripts/pdf-pages.py. This PDF carries no embedded outline and its inferred chapter structure was measurably wrong (bean 6xaz), so no chapter tree is claimed. A page is a determined division; an inferred chapter was not."
+  "abstract": null,
+  "docinfo": {
+   "Producer": "Adobe PDF Library 15.0",
+   "Creator": "Adobe InDesign 16.3 (Macintosh)",
+   "CreationDate": "D:20210825093334-07'00'"
+  },
+  "title_raw": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021 SECTION 1",
+  "title_source": "text",
+  "title_verified": false,
+  "title_evidence": {
+   "heading": "Digital Documentation of COVID-19 Certificates: Vaccination Status",
+   "text": "DDCC:VS - Technical Specifications and Implementation Guidance, 27 August 2021 SECTION 1",
+   "corroborated_by": [],
+   "browser_print": false
+  }
+ },
+ "toc": [
+  {
+   "level": 4,
+   "title": "Page DDCC:VS - Technical Specifications and Implementation Guidance, 27 August",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 3,
+   "title": "Acknowledgements",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 3,
+   "title": "Abbreviations",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 3,
+   "title": "Glossary",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 2,
+   "title": "Executive Summary",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Page DDCC:VS - Technical Specifications and Implementation Guidance, 27 August",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Introduction",
+   "page": 18,
+   "source": "inferred",
+   "number": "1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "1"
+  },
+  {
+   "level": 2,
+   "title": "Purpose of this document",
+   "page": 18,
+   "source": "inferred",
+   "number": "1.1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "1"
+  },
+  {
+   "level": 2,
+   "title": "Target audience",
+   "page": 19,
+   "source": "inferred",
+   "number": "1.2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "2"
+  },
+  {
+   "level": 2,
+   "title": "Scope",
+   "page": 19,
+   "source": "inferred",
+   "number": "1.3",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "2"
+  },
+  {
+   "level": 2,
+   "title": "Assumptions",
+   "page": 20,
+   "source": "inferred",
+   "number": "1.4",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "3"
+  },
+  {
+   "level": 2,
+   "title": "Methods",
+   "page": 22,
+   "source": "inferred",
+   "number": "1.5",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "5"
+  },
+  {
+   "level": 2,
+   "title": "Additional WHO guidance documents",
+   "page": 22,
+   "source": "inferred",
+   "number": "1.6",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "5"
+  },
+  {
+   "level": 2,
+   "title": "Other initiatives",
+   "page": 22,
+   "source": "inferred",
+   "number": "1.7",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "5"
+  },
+  {
+   "level": 1,
+   "title": "Ethical considerations and data protection principles",
+   "page": 23,
+   "source": "inferred",
+   "number": "2",
+   "confidence": 0.8,
+   "evidence": [
+    "contents",
+    "body",
+    "number"
+   ],
+   "page_label": "6"
+  },
+  {
+   "level": 2,
+   "title": "Ethical considerations for a DDCC:VS",
+   "page": 23,
+   "source": "inferred",
+   "number": "2.1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "6"
+  },
+  {
+   "level": 2,
+   "title": "Data protection principles for a DDCC:VS",
+   "page": 29,
+   "source": "inferred",
+   "number": "2.2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "12"
+  },
+  {
+   "level": 2,
+   "title": "DDCC:VS design criteria",
+   "page": 32,
+   "source": "inferred",
+   "number": "2.3",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "15"
+  },
+  {
+   "level": 1,
+   "title": "Continuity of Care scenario",
+   "page": 33,
+   "source": "inferred",
+   "number": "3",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "16"
+  },
+  {
+   "level": 2,
+   "title": "Key settings, personas and digital services",
+   "page": 33,
+   "source": "inferred",
+   "number": "3.1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "16"
+  },
+  {
+   "level": 2,
+   "title": "Continuity of Care workflows and use cases",
+   "page": 35,
+   "source": "inferred",
+   "number": "3.2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "18"
+  },
+  {
+   "level": 2,
+   "title": "Functional requirements for Continuity of Care scenario",
+   "page": 41,
+   "source": "inferred",
+   "number": "3.3",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "24"
+  },
+  {
+   "level": 1,
+   "title": "Proof of Vaccination scenario",
+   "page": 44,
+   "source": "inferred",
+   "number": "4",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "27"
+  },
+  {
+   "level": 2,
+   "title": "Key settings, personas and digital services",
+   "page": 44,
+   "source": "inferred",
+   "number": "4.1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "27"
+  },
+  {
+   "level": 2,
+   "title": "Proof of Vaccination workflows and use cases",
+   "page": 46,
+   "source": "inferred",
+   "number": "4.2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "29"
+  },
+  {
+   "level": 2,
+   "title": "Functional requirements for Proof of Vaccination scenario",
+   "page": 54,
+   "source": "inferred",
+   "number": "4.3",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "37"
+  },
+  {
+   "level": 1,
+   "title": "DDCC:VS core data set",
+   "page": 57,
+   "source": "inferred",
+   "number": "5",
+   "confidence": 0.8,
+   "evidence": [
+    "contents",
+    "body",
+    "number"
+   ],
+   "page_label": "40"
+  },
+  {
+   "level": 2,
+   "title": "Core data set principles",
+   "page": 57,
+   "source": "inferred",
+   "number": "5.1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "40"
+  },
+  {
+   "level": 2,
+   "title": "Core data elements",
+   "page": 59,
+   "source": "inferred",
+   "number": "5.2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "42"
+  },
+  {
+   "level": 1,
+   "title": "National Trust Architecture",
+   "page": 63,
+   "source": "inferred",
+   "number": "6",
+   "confidence": 0.8,
+   "evidence": [
+    "contents",
+    "body",
+    "number"
+   ],
+   "page_label": "46"
+  },
+  {
+   "level": 2,
+   "title": "Signing a DDCC:VS",
+   "page": 65,
+   "source": "inferred",
+   "number": "6.1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "48"
+  },
+  {
+   "level": 2,
+   "title": "Verifying a DDCC:VS signature",
+   "page": 66,
+   "source": "inferred",
+   "number": "6.2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "49"
+  },
+  {
+   "level": 2,
+   "title": "Trusting a DDCC:VS signature",
+   "page": 67,
+   "source": "inferred",
+   "number": "6.3",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "50"
+  },
+  {
+   "level": 1,
+   "title": "National governance considerations",
+   "page": 68,
+   "source": "inferred",
+   "number": "7",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "51"
+  },
+  {
+   "level": 1,
+   "title": "Implementation considerations",
+   "page": 70,
+   "source": "inferred",
+   "number": "8",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "53"
+  },
+  {
+   "level": 2,
+   "title": "Considerations before deploying",
+   "page": 71,
+   "source": "inferred",
+   "number": "8.1",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "54"
+  },
+  {
+   "level": 2,
+   "title": "Key factors to consider with solution developers",
+   "page": 73,
+   "source": "inferred",
+   "number": "8.2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "56"
+  },
+  {
+   "level": 2,
+   "title": "Cost category considerations",
+   "page": 74,
+   "source": "inferred",
+   "number": "8.3",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "57"
+  },
+  {
+   "level": 2,
+   "title": "Additional resources to support implementation",
+   "page": 76,
+   "source": "inferred",
+   "number": "8.4",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "59"
+  },
+  {
+   "level": 3,
+   "title": "References",
+   "page": 77,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "60"
+  },
+  {
+   "level": 2,
+   "title": "Annexes",
+   "page": 79,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "62"
+  },
+  {
+   "level": 1,
+   "title": "Illustrative example of Digital Documentation of COVID-19 Certificates: Vaccination Status (DDCC:VS)",
+   "page": 80,
+   "source": "inferred",
+   "number": "1",
+   "confidence": 0.8,
+   "evidence": [
+    "contents",
+    "body",
+    "number"
+   ],
+   "page_label": "63"
+  },
+  {
+   "level": 1,
+   "title": "Business process symbols used in workflows",
+   "page": 81,
+   "source": "inferred",
+   "number": "2",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "64"
+  },
+  {
+   "level": 1,
+   "title": "Guiding principles for mapping the WHO Family of International Classifications (WHO-FIC) and other classifications",
+   "page": 82,
+   "source": "inferred",
+   "number": "3",
+   "confidence": 0.8,
+   "evidence": [
+    "contents",
+    "body",
+    "number"
+   ],
+   "page_label": "65"
+  },
+  {
+   "level": 1,
+   "title": "What is public key infrastructure (PKI)?",
+   "page": 85,
+   "source": "inferred",
+   "number": "4",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "68"
+  },
+  {
+   "level": 1,
+   "title": "Non-functional requirements",
+   "page": 89,
+   "source": "inferred",
+   "number": "5",
+   "confidence": 0.95,
+   "evidence": [
+    "contents",
+    "body",
+    "style",
+    "number"
+   ],
+   "page_label": "72"
+  },
+  {
+   "level": 1,
+   "title": "Open Health Information Exchange (OpenHIE)-based architectural blueprint",
+   "page": 94,
+   "source": "inferred",
+   "number": "6",
+   "confidence": 0.8,
+   "evidence": [
+    "contents",
+    "body",
+    "number"
+   ],
+   "page_label": "77"
+  }
+ ],
+ "toc_source": "inferred",
+ "toc_undetermined_reason": null,
+ "figures": [
+  {
+   "kind": "table",
+   "number": "2",
+   "title": "These key personas are anticipated to interact with the digital services outlined in Table 3, including digital services that might not have a user interface that the key personas interact with, but are critical building blocks of the reference architecture",
+   "page": 34,
+   "confidence": 0.7,
+   "evidence": [
+    "referenced"
+   ],
+   "page_label": "17"
+  }
+ ],
+ "pages": [
+  {
+   "physical": 1,
+   "label": "A",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 2,
+   "label": "B",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 3,
+   "label": "i",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 4,
+   "label": "ii",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 5,
+   "label": "iii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 6,
+   "label": "iv",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 7,
+   "label": "v",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 8,
+   "label": "vi",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 9,
+   "label": "vii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 10,
+   "label": "viii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 11,
+   "label": "ix",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 12,
+   "label": "x",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 13,
+   "label": "xi",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 14,
+   "label": "xii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 15,
+   "label": "xiii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 16,
+   "label": "xiv",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 17,
+   "label": "xv",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 18,
+   "label": "1",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 19,
+   "label": "2",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 20,
+   "label": "3",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 21,
+   "label": "4",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 22,
+   "label": "5",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 23,
+   "label": "6",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 24,
+   "label": "7",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 25,
+   "label": "8",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 26,
+   "label": "9",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 27,
+   "label": "10",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 28,
+   "label": "11",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 29,
+   "label": "12",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 30,
+   "label": "13",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 31,
+   "label": "14",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 32,
+   "label": "15",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 33,
+   "label": "16",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 34,
+   "label": "17",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 35,
+   "label": "18",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 36,
+   "label": "19",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 37,
+   "label": "20",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 38,
+   "label": "21",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 39,
+   "label": "22",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 40,
+   "label": "23",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 41,
+   "label": "24",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 42,
+   "label": "25",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 43,
+   "label": "26",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 44,
+   "label": "27",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 45,
+   "label": "28",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 46,
+   "label": "29",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 47,
+   "label": "30",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 48,
+   "label": "31",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 49,
+   "label": "32",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 50,
+   "label": "33",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 51,
+   "label": "34",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 52,
+   "label": "35",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 53,
+   "label": "36",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 54,
+   "label": "37",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 55,
+   "label": "38",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 56,
+   "label": "39",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 57,
+   "label": "40",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 58,
+   "label": "41",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 59,
+   "label": "42",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 60,
+   "label": "43",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 61,
+   "label": "44",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 62,
+   "label": "45",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 63,
+   "label": "46",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 64,
+   "label": "47",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 65,
+   "label": "48",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 66,
+   "label": "49",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 67,
+   "label": "50",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 68,
+   "label": "51",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 69,
+   "label": "52",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 70,
+   "label": "53",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 71,
+   "label": "54",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 72,
+   "label": "55",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 73,
+   "label": "56",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 74,
+   "label": "57",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 75,
+   "label": "58",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 76,
+   "label": "59",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 77,
+   "label": "60",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 78,
+   "label": "61",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 79,
+   "label": "62",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 80,
+   "label": "63",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 81,
+   "label": "64",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 82,
+   "label": "65",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 83,
+   "label": "66",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 84,
+   "label": "67",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 85,
+   "label": "68",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 86,
+   "label": "69",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 87,
+   "label": "70",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 88,
+   "label": "71",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 89,
+   "label": "72",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 90,
+   "label": "73",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 91,
+   "label": "74",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 92,
+   "label": "75",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 93,
+   "label": "76",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 94,
+   "label": "77",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 95,
+   "label": "78",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 96,
+   "label": "79",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 97,
+   "label": "80",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 98,
+   "label": "81",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 99,
+   "label": "82",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "sec-front-matter",
+   "number": null,
+   "title": "Front matter",
+   "level": 1,
+   "page_start": 1,
+   "page_end": 18,
+   "n_chars": 33638,
+   "n_words": 4787,
+   "label_start": "A",
+   "label_end": "1"
+  },
+  {
+   "id": "sec-000-1-introduction",
+   "number": "1",
+   "title": "Introduction",
+   "level": 1,
+   "page_start": 18,
+   "page_end": 18,
+   "n_chars": 1246,
+   "n_words": 184,
+   "label_start": "1",
+   "label_end": "1"
+  },
+  {
+   "id": "sec-001-11-purpose-of-this-document",
+   "number": "1.1",
+   "title": "Purpose of this document",
+   "level": 2,
+   "page_start": 18,
+   "page_end": 19,
+   "n_chars": 1426,
+   "n_words": 211,
+   "label_start": "1",
+   "label_end": "2"
+  },
+  {
+   "id": "sec-002-12-target-audience",
+   "number": "1.2",
+   "title": "Target audience",
+   "level": 2,
+   "page_start": 19,
+   "page_end": 19,
+   "n_chars": 441,
+   "n_words": 61,
+   "label_start": "2",
+   "label_end": "2"
+  },
+  {
+   "id": "sec-003-13-scope",
+   "number": "1.3",
+   "title": "Scope",
+   "level": 2,
+   "page_start": 19,
+   "page_end": 20,
+   "n_chars": 2975,
+   "n_words": 429,
+   "label_start": "2",
+   "label_end": "3"
+  },
+  {
+   "id": "sec-004-14-assumptions",
+   "number": "1.4",
+   "title": "Assumptions",
+   "level": 2,
+   "page_start": 20,
+   "page_end": 22,
+   "n_chars": 5248,
+   "n_words": 817,
+   "label_start": "3",
+   "label_end": "5"
+  },
+  {
+   "id": "sec-005-15-methods",
+   "number": "1.5",
+   "title": "Methods",
+   "level": 2,
+   "page_start": 22,
+   "page_end": 22,
+   "n_chars": 749,
+   "n_words": 106,
+   "label_start": "5",
+   "label_end": "5"
+  },
+  {
+   "id": "sec-006-16-additional-who-guidance-documents",
+   "number": "1.6",
+   "title": "Additional WHO guidance documents",
+   "level": 2,
+   "page_start": 22,
+   "page_end": 22,
+   "n_chars": 1595,
+   "n_words": 214,
+   "label_start": "5",
+   "label_end": "5"
+  },
+  {
+   "id": "sec-007-17-other-initiatives",
+   "number": "1.7",
+   "title": "Other initiatives",
+   "level": 2,
+   "page_start": 22,
+   "page_end": 23,
+   "n_chars": 581,
+   "n_words": 77,
+   "label_start": "5",
+   "label_end": "6"
+  },
+  {
+   "id": "sec-008-2-ethical-considerations-and-data-protection-pri",
+   "number": "2",
+   "title": "Ethical considerations and data protection principles",
+   "level": 1,
+   "page_start": 23,
+   "page_end": 23,
+   "n_chars": 707,
+   "n_words": 104,
+   "label_start": "6",
+   "label_end": "6"
+  },
+  {
+   "id": "sec-009-21-ethical-considerations-for-a-ddccvs",
+   "number": "2.1",
+   "title": "Ethical considerations for a DDCC:VS",
+   "level": 2,
+   "page_start": 23,
+   "page_end": 29,
+   "n_chars": 20105,
+   "n_words": 3032,
+   "label_start": "6",
+   "label_end": "12"
+  },
+  {
+   "id": "sec-010-22-data-protection-principles-for-a-ddccvs",
+   "number": "2.2",
+   "title": "Data protection principles for a DDCC:VS",
+   "level": 2,
+   "page_start": 29,
+   "page_end": 32,
+   "n_chars": 9581,
+   "n_words": 1458,
+   "label_start": "12",
+   "label_end": "15"
+  },
+  {
+   "id": "sec-011-23-ddccvs-design-criteria",
+   "number": "2.3",
+   "title": "DDCC:VS design criteria",
+   "level": 2,
+   "page_start": 32,
+   "page_end": 32,
+   "n_chars": 196,
+   "n_words": 27,
+   "label_start": "15",
+   "label_end": "15"
+  },
+  {
+   "id": "sec-012-3-continuity-of-care-scenario",
+   "number": "3",
+   "title": "Continuity of Care scenario",
+   "level": 1,
+   "page_start": 32,
+   "page_end": 33,
+   "n_chars": 3446,
+   "n_words": 543,
+   "label_start": "15",
+   "label_end": "16"
+  },
+  {
+   "id": "sec-013-31-key-settings-personas-and-digital-services",
+   "number": "3.1",
+   "title": "Key settings, personas and digital services",
+   "level": 2,
+   "page_start": 33,
+   "page_end": 35,
+   "n_chars": 3416,
+   "n_words": 534,
+   "label_start": "16",
+   "label_end": "18"
+  },
+  {
+   "id": "sec-014-32-continuity-of-care-workflows-and-use-cases",
+   "number": "3.2",
+   "title": "Continuity of Care workflows and use cases",
+   "level": 2,
+   "page_start": 35,
+   "page_end": 41,
+   "n_chars": 10246,
+   "n_words": 1637,
+   "label_start": "18",
+   "label_end": "24"
+  },
+  {
+   "id": "sec-015-33-functional-requirements-for-continuity-of-car",
+   "number": "3.3",
+   "title": "Functional requirements for Continuity of Care scenario",
+   "level": 2,
+   "page_start": 41,
+   "page_end": 44,
+   "n_chars": 8932,
+   "n_words": 1338,
+   "label_start": "24",
+   "label_end": "27"
+  },
+  {
+   "id": "sec-016-4-proof-of-vaccination-scenario",
+   "number": "4",
+   "title": "Proof of Vaccination scenario",
+   "level": 1,
+   "page_start": 44,
+   "page_end": 44,
+   "n_chars": 600,
+   "n_words": 99,
+   "label_start": "27",
+   "label_end": "27"
+  },
+  {
+   "id": "sec-017-41-key-settings-personas-and-digital-services",
+   "number": "4.1",
+   "title": "Key settings, personas and digital services",
+   "level": 2,
+   "page_start": 44,
+   "page_end": 46,
+   "n_chars": 4223,
+   "n_words": 675,
+   "label_start": "27",
+   "label_end": "29"
+  },
+  {
+   "id": "sec-018-42-proof-of-vaccination-workflows-and-use-cases",
+   "number": "4.2",
+   "title": "Proof of Vaccination workflows and use cases",
+   "level": 2,
+   "page_start": 46,
+   "page_end": 54,
+   "n_chars": 13045,
+   "n_words": 1901,
+   "label_start": "29",
+   "label_end": "37"
+  },
+  {
+   "id": "sec-019-43-functional-requirements-for-proof-of-vaccinat",
+   "number": "4.3",
+   "title": "Functional requirements for Proof of Vaccination scenario",
+   "level": 2,
+   "page_start": 54,
+   "page_end": 57,
+   "n_chars": 7701,
+   "n_words": 1157,
+   "label_start": "37",
+   "label_end": "40"
+  },
+  {
+   "id": "sec-020-5-ddccvs-core-data-set",
+   "number": "5",
+   "title": "DDCC:VS core data set",
+   "level": 1,
+   "page_start": 57,
+   "page_end": 57,
+   "n_chars": 767,
+   "n_words": 129,
+   "label_start": "40",
+   "label_end": "40"
+  },
+  {
+   "id": "sec-021-51-core-data-set-principles",
+   "number": "5.1",
+   "title": "Core data set principles",
+   "level": 2,
+   "page_start": 57,
+   "page_end": 59,
+   "n_chars": 3959,
+   "n_words": 577,
+   "label_start": "40",
+   "label_end": "42"
+  },
+  {
+   "id": "sec-022-52-core-data-elements",
+   "number": "5.2",
+   "title": "Core data elements",
+   "level": 2,
+   "page_start": 59,
+   "page_end": 65,
+   "n_chars": 11819,
+   "n_words": 1766,
+   "label_start": "42",
+   "label_end": "48"
+  },
+  {
+   "id": "sec-023-61-signing-a-ddccvs",
+   "number": "6.1",
+   "title": "Signing a DDCC:VS",
+   "level": 2,
+   "page_start": 65,
+   "page_end": 66,
+   "n_chars": 1950,
+   "n_words": 312,
+   "label_start": "48",
+   "label_end": "49"
+  },
+  {
+   "id": "sec-024-62-verifying-a-ddccvs-signature",
+   "number": "6.2",
+   "title": "Verifying a DDCC:VS signature",
+   "level": 2,
+   "page_start": 66,
+   "page_end": 67,
+   "n_chars": 1920,
+   "n_words": 298,
+   "label_start": "49",
+   "label_end": "50"
+  },
+  {
+   "id": "sec-025-63-trusting-a-ddccvs-signature",
+   "number": "6.3",
+   "title": "Trusting a DDCC:VS signature",
+   "level": 2,
+   "page_start": 67,
+   "page_end": 68,
+   "n_chars": 1437,
+   "n_words": 234,
+   "label_start": "50",
+   "label_end": "51"
+  },
+  {
+   "id": "sec-026-7-national-governance-considerations",
+   "number": "7",
+   "title": "National governance considerations",
+   "level": 1,
+   "page_start": 68,
+   "page_end": 70,
+   "n_chars": 5491,
+   "n_words": 842,
+   "label_start": "51",
+   "label_end": "53"
+  },
+  {
+   "id": "sec-027-8-implementation-considerations",
+   "number": "8",
+   "title": "Implementation considerations",
+   "level": 1,
+   "page_start": 70,
+   "page_end": 71,
+   "n_chars": 2139,
+   "n_words": 313,
+   "label_start": "53",
+   "label_end": "54"
+  },
+  {
+   "id": "sec-028-81-considerations-before-deploying",
+   "number": "8.1",
+   "title": "Considerations before deploying",
+   "level": 2,
+   "page_start": 71,
+   "page_end": 73,
+   "n_chars": 7080,
+   "n_words": 1006,
+   "label_start": "54",
+   "label_end": "56"
+  },
+  {
+   "id": "sec-029-82-key-factors-to-consider-with-solution-develop",
+   "number": "8.2",
+   "title": "Key factors to consider with solution developers",
+   "level": 2,
+   "page_start": 73,
+   "page_end": 74,
+   "n_chars": 4263,
+   "n_words": 673,
+   "label_start": "56",
+   "label_end": "57"
+  },
+  {
+   "id": "sec-030-83-cost-category-considerations",
+   "number": "8.3",
+   "title": "Cost category considerations",
+   "level": 2,
+   "page_start": 74,
+   "page_end": 76,
+   "n_chars": 5266,
+   "n_words": 729,
+   "label_start": "57",
+   "label_end": "59"
+  },
+  {
+   "id": "sec-031-84-additional-resources-to-support-implementatio",
+   "number": "8.4",
+   "title": "Additional resources to support implementation",
+   "level": 2,
+   "page_start": 76,
+   "page_end": 77,
+   "n_chars": 1744,
+   "n_words": 233,
+   "label_start": "59",
+   "label_end": "60"
+  },
+  {
+   "id": "sec-032-references",
+   "number": null,
+   "title": "References",
+   "level": 3,
+   "page_start": 77,
+   "page_end": 79,
+   "n_chars": 10844,
+   "n_words": 1090,
+   "label_start": "60",
+   "label_end": "62"
+  },
+  {
+   "id": "sec-033-annexes",
+   "number": null,
+   "title": "Annexes",
+   "level": 2,
+   "page_start": 79,
+   "page_end": 80,
+   "n_chars": 94,
+   "n_words": 14,
+   "label_start": "62",
+   "label_end": "63"
+  },
+  {
+   "id": "sec-034-1-illustrative-example-of-digital-documentation",
+   "number": "1",
+   "title": "Illustrative example of Digital Documentation of COVID-19 Certificates: Vaccination Status (DDCC:VS)",
+   "level": 1,
+   "page_start": 80,
+   "page_end": 81,
+   "n_chars": 1041,
+   "n_words": 139,
+   "label_start": "63",
+   "label_end": "64"
+  },
+  {
+   "id": "sec-035-2-business-process-symbols-used-in-workflows",
+   "number": "2",
+   "title": "Business process symbols used in workflows",
+   "level": 1,
+   "page_start": 81,
+   "page_end": 82,
+   "n_chars": 1363,
+   "n_words": 230,
+   "label_start": "64",
+   "label_end": "65"
+  },
+  {
+   "id": "sec-036-3-guiding-principles-for-mapping-the-who-family",
+   "number": "3",
+   "title": "Guiding principles for mapping the WHO Family of International Classifications (WHO-FIC) and other classifications",
+   "level": 1,
+   "page_start": 82,
+   "page_end": 85,
+   "n_chars": 7383,
+   "n_words": 1088,
+   "label_start": "65",
+   "label_end": "68"
+  },
+  {
+   "id": "sec-037-4-what-is-public-key-infrastructure-pki",
+   "number": "4",
+   "title": "What is public key infrastructure (PKI)?",
+   "level": 1,
+   "page_start": 85,
+   "page_end": 89,
+   "n_chars": 8326,
+   "n_words": 1331,
+   "label_start": "68",
+   "label_end": "72"
+  },
+  {
+   "id": "sec-038-5-non-functional-requirements",
+   "number": "5",
+   "title": "Non-functional requirements",
+   "level": 1,
+   "page_start": 89,
+   "page_end": 94,
+   "n_chars": 19387,
+   "n_words": 2759,
+   "label_start": "72",
+   "label_end": "77"
+  },
+  {
+   "id": "sec-039-6-open-health-information-exchange-openhie-based",
+   "number": "6",
+   "title": "Open Health Information Exchange (OpenHIE)-based architectural blueprint",
+   "level": 1,
+   "page_start": 94,
+   "page_end": 99,
+   "n_chars": 6088,
+   "n_words": 836,
+   "label_start": "77",
+   "label_end": "82"
+  }
+ ],
+ "diagnostics": {
+  "pages_without_text": 0,
+  "likely_scanned": false,
+  "toc_entries": 47,
+  "toc_inferred_entries": 47,
+  "toc_inferred_mean_confidence": 0.905,
+  "toc_inferred_empty_share": 0.0,
+  "toc_inferred_method": "contents",
+  "figure_entries": 1,
+  "figure_sequence_gaps": [
+   "table 1"
+  ],
+  "page_label_conflicts": {
+   "count": 0,
+   "items": []
+  },
+  "toc_alignment": {
+   "listed_not_found": {
+    "count": 2,
+    "items": [
+     "Page DDCC:VS - Technical Specifications and Implementation Guidance, 27 August",
+     "Page DDCC:VS - Technical Specifications and Implementation Guidance, 27 August"
+    ]
+   },
+   "found_not_listed": {
+    "count": 13,
+    "items": [
+     "1 THE SCOPE OF USE OF A DDCC:VS SHOULD BE CLEARLY DEFINED.",
+     "2 POTENTIAL BENEFITS, RISKS AND COSTS SHOULD BE ASSESSED BEFORE INTRODUCTION OF A DDCC:VS.",
+     "3 OBTAINING AND USING A DDCC:VS SHOULD BE AS INCLUSIVE AND FAIR AS POSSIBLE.",
+     "4 ALL NECESSARY MEASURES SHOULD BE PUT IN PLACE TO PROTECT PARTICIPANTS FOR CONTINUITY OF CARE.",
+     "5 ALL COMMUNICATION SHOULD BE CLEAR AND TRANSPARENT.",
+     "6 THE DDCC:VS SHOULD BE CONSTANTLY MONITORED FOR IMPACT AND ADJUSTED AS NECESSARY.",
+     "1 LAWFUL BASIS, LEGITIMATE USE AND FAIR PROCESSING",
+     "2 TRANSPARENCY",
+     "3 PURPOSE LIMITATION AND SPECIFICATION",
+     "4 PROPORTIONALITY, NECESSITY AND DATA MINIMIZATION",
+     "5 CONFIDENTIALITY AND SECURITY",
+     "6 DATA SUBJECT RIGHTS, COMPLAINT AND LEGAL REDRESS",
+     "7 INDEPENDENT OVERSIGHT AND ACCOUNTABILITY"
+    ]
+   },
+   "page_mismatch": {
+    "count": 0,
+    "items": []
+   }
+  },
+  "sections": 41,
+  "chars_total": 232458
+ }
 }

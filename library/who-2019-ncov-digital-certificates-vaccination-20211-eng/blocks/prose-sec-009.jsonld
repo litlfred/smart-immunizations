@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/blocks/prose-sec-009",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "kind": "prose",
+  "title": "Ethical considerations for a DDCC:VS",
+  "pageStart": 23,
+  "pageEnd": 29,
+  "text": "../sections/sec-009-21-ethical-considerations-for-a-ddccvs.md",
+  "derivedFrom": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest",
+  "sourceDocument": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest",
+  "provenance": "ingested"
+}
