@@ -67,3 +67,6 @@ auto-save-list
 tramp
 .\#*
 .swp
+
+# Upload PDFs are pinned by sha256 in intake.json, not committed (library/README.md).
+uploads/**/*.pdf

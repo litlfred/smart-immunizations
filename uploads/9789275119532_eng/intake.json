@@ -1,0 +1,29 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "9789275119532_eng",
+  "record": "9789275119532_eng.dc.json",
+  "_comment": "Fetched from https://iris.paho.org/handle/10665.2/34865 by folio-assistant-core/scripts/fetch-dspace-item.ts.",
+  "source": {
+    "upstream": "https://iris.paho.org/items/d340d0af-aac8-46f1-b98e-001b04c9d677",
+    "capturedAt": "2026-10-08T07:12:24Z",
+    "capturedBy": "fetch-dspace-item.ts (DSpace 7 REST API)"
+  },
+  "files": [
+    {
+      "path": "9789275119532_eng.pdf",
+      "bytes": 5100968,
+      "sha256": "1010a882f2c1990aec1b6ad1f69a6eda548ba007f3c667db5c1edef1b87dcd34",
+      "type": "publication",
+      "role": "original-bitstream"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://iris.paho.org/items/d340d0af-aac8-46f1-b98e-001b04c9d677 item metadata, dc.rights and dc.rights.uri",
+        "result": "no dc.rights field"
+      }
+    ]
+  }
+}
