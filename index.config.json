@@ -1,4 +1,13 @@
 {
   "$schema": "folio-index-config/v1",
-  "instances": []
+  "instances": [
+    {
+      "name": "smart-immunizations",
+      "source": {
+        "local": {
+          "at": "."
+        }
+      }
+    }
+  ]
 }
