@@ -9,12 +9,29 @@ The library behind the WHO Digital adaptation kit for immunizations. It was buil
 2. **Component 1 §1.2** ("WHO guidelines, recommendations and guidance") is
    read for the sources the DAK draws on.
 3. **Each L1 source is fetched, ingested on its own, and given its own L1
-   graph**: `smart-kg-l1-library.json` beside its entry.
+   graph**: `smart-kg-l1-library.jsonld` beside its entry.
 
 The graphs are [WHO smart-kg](https://github.com/WorldHealthOrganization/smart-kg)
 **L1 3.0** documents (main `3f5e477`) using the `l1-library` layer from
 [litlfred/smart-base](https://github.com/litlfred/smart-base) `kg/`. All of them
 pass smart-base's Zod validator.
+
+## They are JSON-LD
+
+Each graph names `http://smart.who.int/kg/l1-library.context.jsonld`, generated
+in litlfred/smart-base `kg/` from the same source as the FHIR models. The URL
+is the layer's identity and is never fetched: smart-base's `src/loader.ts`
+serves the context offline.
+
+```ts
+import jsonld from "jsonld";
+import { documentLoader } from "<smart-base>/kg/src/loader.ts";
+const nquads = await jsonld.toRDF(graph, { format: "application/n-quads", documentLoader });
+```
+
+Every node keeps its class, every property its name (Dublin Core where L1
+inherits it), and each specialisation is a `prov:specializationOf` statement.
+Leave no one behind alone gives 1,508 triples.
 
 ## The rule between library and L1
 
