@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/9789275119532-eng/blocks/prose-sec-003",
+  "@type": [],
+  "kind": "prose",
+  "title": "Registration of individuals",
+  "pageStart": 26,
+  "pageEnd": 26,
+  "text": "../sections/sec-003-241-registration-of-individuals.md",
+  "derivedFrom": "library/9789275119532-eng/manifest",
+  "sourceDocument": "library/9789275119532-eng/manifest",
+  "provenance": "ingested"
+}

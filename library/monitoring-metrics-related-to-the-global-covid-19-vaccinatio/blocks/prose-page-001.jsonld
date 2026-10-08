@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/blocks/prose-page-001",
+  "@type": [],
+  "kind": "prose",
+  "title": "Page 1",
+  "pageStart": 1,
+  "pageEnd": 1,
+  "text": "../sections/page-001.md",
+  "derivedFrom": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest",
+  "sourceDocument": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest",
+  "provenance": "ingested"
+}

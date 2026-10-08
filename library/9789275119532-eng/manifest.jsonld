@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/9789275119532-eng/manifest",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "9789275119532-eng",
+  "contains": [
+    "library/9789275119532-eng/sections/sec-front-matter",
+    "library/9789275119532-eng/sections/sec-000",
+    "library/9789275119532-eng/sections/sec-001",
+    "library/9789275119532-eng/sections/sec-002",
+    "library/9789275119532-eng/sections/sec-003",
+    "library/9789275119532-eng/sections/sec-004",
+    "library/9789275119532-eng/sections/sec-005",
+    "library/9789275119532-eng/sections/sec-006",
+    "library/9789275119532-eng/sections/sec-007",
+    "library/9789275119532-eng/sections/sec-008",
+    "library/9789275119532-eng/sections/sec-009",
+    "library/9789275119532-eng/sections/sec-010",
+    "library/9789275119532-eng/sections/sec-011",
+    "library/9789275119532-eng/sections/sec-012",
+    "library/9789275119532-eng/sections/sec-013",
+    "library/9789275119532-eng/sections/sec-014",
+    "library/9789275119532-eng/sections/sec-015",
+    "library/9789275119532-eng/sections/sec-016",
+    "library/9789275119532-eng/sections/sec-017"
+  ],
+  "provenance": "ingested",
+  "meta": {
+    "doc_id": "9789275119532-eng",
+    "source_file": "9789275119532_eng.pdf",
+    "source_sha256": "1010a882f2c1990aec1b6ad1f69a6eda548ba007f3c667db5c1edef1b87dcd34",
+    "granularity": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

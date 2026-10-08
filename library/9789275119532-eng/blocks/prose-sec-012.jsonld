@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/9789275119532-eng/blocks/prose-sec-012",
+  "@type": [],
+  "kind": "prose",
+  "title": "Security",
+  "pageStart": 77,
+  "pageEnd": 78,
+  "text": "../sections/sec-012-524-security.md",
+  "derivedFrom": "library/9789275119532-eng/manifest",
+  "sourceDocument": "library/9789275119532-eng/manifest",
+  "provenance": "ingested"
+}

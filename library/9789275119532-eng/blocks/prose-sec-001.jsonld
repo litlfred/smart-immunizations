@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/9789275119532-eng/blocks/prose-sec-001",
+  "@type": [],
+  "kind": "prose",
+  "title": "Definition of eHealth",
+  "pageStart": 14,
+  "pageEnd": 15,
+  "text": "../sections/sec-001-111-definition-of-ehealth.md",
+  "derivedFrom": "library/9789275119532-eng/manifest",
+  "sourceDocument": "library/9789275119532-eng/manifest",
+  "provenance": "ingested"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "unknown",
+  "searched": [
+    {
+      "where": "https://iris.paho.org/items/d340d0af-aac8-46f1-b98e-001b04c9d677 item metadata, dc.rights and dc.rights.uri",
+      "result": "no dc.rights field"
+    }
+  ]
+}

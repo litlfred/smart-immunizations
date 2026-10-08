@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/9789275119532-eng/blocks/prose-sec-016",
+  "@type": [],
+  "kind": "prose",
+  "title": "Analysis of the information system",
+  "pageStart": 87,
+  "pageEnd": 91,
+  "text": "../sections/sec-016-632-analysis-of-the-information-system.md",
+  "derivedFrom": "library/9789275119532-eng/manifest",
+  "sourceDocument": "library/9789275119532-eng/manifest",
+  "provenance": "ingested"
+}
