@@ -2,7 +2,7 @@
   "$schema": "folio-intake/v1",
   "doc_id": "immunization-summary-table-2",
   "record": "immunization-summary-table-2.dc.json",
-  "_comment": "Fetched from https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children by folio-assistant-core/scripts/fetch-who-publication.ts; the PDF is the page's one download, https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-2.pdf?sfvrsn=c10d5c2_12&download=true.",
+  "_comment": "Fetched from https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children by folio-assistant-core/scripts/fetch-who-publication.ts; the PDF is the page's one download, https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-2.pdf?sfvrsn=c10d5c2_12&download=true. VERSION: the DAK (2024) cites the tables \"updated in 2024\"; this is the edition who.int serves on the capture date, dated 1 December 2025. They may differ.",
   "source": {
     "upstream": "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
     "capturedAt": "2026-10-08T08:19:15Z",
@@ -26,5 +26,17 @@
         "result": "states copyright only ('WHO'), no licence"
       }
     ]
-  }
+  },
+  "classifications": [
+    {
+      "scheme": "https://smart.who.int/kg/layer",
+      "code": "l1",
+      "member": true,
+      "source": "context",
+      "basis": "cited as reference 29 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts). Reached through reference 29's URL, https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables, which lists Tables 1-4 as its items; the DAK prints one card per table, each citing (29)",
+      "properties": {
+        "publicationType": "summary-table"
+      }
+    }
+  ]
 }
