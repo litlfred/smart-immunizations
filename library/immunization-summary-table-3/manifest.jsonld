@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/immunization-summary-table-3/manifest",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "immunization-summary-table-3",
+  "contains": [
+    "library/immunization-summary-table-3/sections/sec-front-matter",
+    "library/immunization-summary-table-3/sections/sec-000"
+  ],
+  "provenance": "ingested",
+  "meta": {
+    "doc_id": "immunization-summary-table-3",
+    "source_file": "immunization-summary-table-3.pdf",
+    "source_sha256": "aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2",
+    "granularity": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

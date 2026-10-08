@@ -26,5 +26,14 @@
         "result": "states copyright only ('© World Health Organization 2018'), no licence"
       }
     ]
-  }
+  },
+  "classifications": [
+    {
+      "scheme": "https://smart.who.int/kg/layer",
+      "code": "l1",
+      "member": true,
+      "source": "context",
+      "basis": "cited as reference 26 in DAK Component 1 1.2 WHO guidelines, recommendations and guidance — the WHO guidelines and guidance the DAK draws on (smart-base/scripts/extract-dak-l1-references.ts)"
+    }
+  ]
 }

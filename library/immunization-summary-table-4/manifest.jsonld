@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/immunization-summary-table-4/manifest",
+  "@type": [
+    "cat-harness:SourceDocument"
+  ],
+  "title": "immunization-summary-table-4",
+  "contains": [
+    "library/immunization-summary-table-4/sections/sec-000"
+  ],
+  "provenance": "ingested",
+  "meta": {
+    "doc_id": "immunization-summary-table-4",
+    "source_file": "immunization-summary-table-4.pdf",
+    "source_sha256": "e821b7b570ddb9ec58d779609cbc7c5f1592d67dcb53aa578e4669beb74bc59a",
+    "granularity": null,
+    "disposition": "ingested source material — attributed to its document, not folio content"
+  }
+}

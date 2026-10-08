@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/",
+      "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
+    }
+  ],
+  "@id": "library/immunization-summary-table-3/blocks/prose-sec-000",
+  "@type": [
+    "folio-assistant-core:Prose",
+    "doco:Section"
+  ],
+  "kind": "prose",
+  "title": "Table 3: Recommendations* for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers",
+  "pageStart": 1,
+  "pageEnd": 8,
+  "text": "../sections/sec-000-table-3-recommendations-for-interrupted-or-delay.md",
+  "derivedFrom": "library/immunization-summary-table-3/manifest",
+  "sourceDocument": "library/immunization-summary-table-3/manifest",
+  "provenance": "ingested"
+}
