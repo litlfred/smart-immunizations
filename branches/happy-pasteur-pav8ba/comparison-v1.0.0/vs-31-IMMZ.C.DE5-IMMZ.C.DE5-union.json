@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-62",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-62",
+  "name" : "UnionIMMZ_C_DE5AndIMMZ_C_DE5",
+  "title" : "Union of IMMZ.C.DE5 ValueSet for Sex And IMMZ.C.DE5 ValueSet for Sex",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE6",
+        "display" : "Male"
+      },
+      {
+        "code" : "DE7",
+        "display" : "Female"
+      },
+      {
+        "code" : "DE8",
+        "display" : "Biological sex not specified"
+      },
+      {
+        "code" : "DE9",
+        "display" : "Intersex"
+      }]
+    }]
+  }
+}

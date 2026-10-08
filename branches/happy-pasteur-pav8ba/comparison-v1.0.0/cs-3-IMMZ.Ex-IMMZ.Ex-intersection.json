@@ -1,0 +1,21 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-9",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e916fea1-b216-4969-8af4-fa584f7ee40a-9",
+  "name" : "IntersectionIMMZ_CAndIMMZ_C",
+  "title" : "Intersection of IMMZ.Ex CodeSystem for Example values for required data elements And IMMZ.Ex CodeSystem for Example values for required data elements",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:46+00:00",
+  "concept" : [{
+    "code" : "brand",
+    "display" : "Example Brand"
+  },
+  {
+    "code" : "manufacturer",
+    "display" : "Example Manufacturer"
+  },
+  {
+    "code" : "marketauth",
+    "display" : "Example Market Authorization Holder"
+  }]
+}

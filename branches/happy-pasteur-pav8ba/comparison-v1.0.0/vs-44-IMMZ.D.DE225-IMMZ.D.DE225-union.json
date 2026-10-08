@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-101",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-101",
+  "name" : "UnionIMMZ_D_DE225AndIMMZ_D_DE225",
+  "title" : "Union of IMMZ.D.DE225 ValueSet for Type of typhoid dose And IMMZ.D.DE225 ValueSet for Type of typhoid dose",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE226",
+        "display" : "Typbar-TCV"
+      },
+      {
+        "code" : "DE227",
+        "display" : "ViPS"
+      },
+      {
+        "code" : "DE228",
+        "display" : "Ty21a"
+      }]
+    }]
+  }
+}

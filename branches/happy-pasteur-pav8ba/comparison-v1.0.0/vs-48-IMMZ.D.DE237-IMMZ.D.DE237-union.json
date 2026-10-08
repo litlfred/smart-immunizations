@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-113",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-113",
+  "name" : "UnionIMMZ_D_DE237AndIMMZ_D_DE237",
+  "title" : "Union of IMMZ.D.DE237 ValueSet for Type of hepatitis A dose And IMMZ.D.DE237 ValueSet for Type of hepatitis A dose",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE238",
+        "display" : "Live attenuated hepatitis A vaccine"
+      },
+      {
+        "code" : "DE239",
+        "display" : "Inactivated hepatitis A vaccine"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-261",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-261",
+  "name" : "IntersectionIMMZD18SBCGVSAndIMMZD18SBCGVS",
+  "title" : "Intersection of IMMZD18SBCG ValueSet for Decision Table And IMMZD18SBCG ValueSet for Decision Table",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Child's birth-0",
+        "display" : "Child's birth"
+      },
+      {
+        "code" : "One BCG dose from the primary series was administered. The primary series has been completed-89",
+        "display" : "One BCG dose from the primary series was administered. The primary series has been completed"
+      }]
+    }]
+  }
+}

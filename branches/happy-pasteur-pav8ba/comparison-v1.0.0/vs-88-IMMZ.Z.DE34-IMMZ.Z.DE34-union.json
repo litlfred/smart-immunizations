@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-233",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-233",
+  "name" : "UnionIMMZ_Z_DE34AndIMMZ_Z_DE34",
+  "title" : "Union of IMMZ.Z.DE34 ValueSet for Tetanus and diphtheria-containing vaccines (Td) And IMMZ.Z.DE34 ValueSet for Tetanus and diphtheria-containing vaccines (Td)",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE34",
+        "display" : "Tetanus and diphtheria-containing vaccines (Td)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "XM1G86",
+        "display" : "Tetanus toxoid, combinations with diphtheria toxoid vaccines"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "J07AM51",
+        "display" : "tetanus toxoid, combinations with diphtheria toxoid"
+      }]
+    }]
+  }
+}

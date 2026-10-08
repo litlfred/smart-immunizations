@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-365",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-365",
+  "name" : "UnionIMMZD18SPolioBirthDoseVSAndIMMZD18SPolioBirthDoseVS",
+  "title" : "Union of IMMZD18SPolioBirthDose ValueSet for Decision Table And IMMZD18SPolioBirthDose ValueSet for Decision Table",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Child's birth-0",
+        "display" : "Child's birth"
+      },
+      {
+        "code" : "Polio birth dose (a zero dose) was administered-146",
+        "display" : "Polio birth dose (a zero dose) was administered"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-587",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-587",
+  "name" : "UnionIMMZD5DTHPVContraindicationsVSAndIMMZD5DTHPVContraindicationsVS",
+  "title" : "Union of IMMZD5DTHPVContraindications ValueSet for Decision Table And IMMZD5DTHPVContraindications ValueSet for Decision Table",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "The client is currently pregnant-52",
+        "display" : "The client is currently pregnant"
+      },
+      {
+        "code" : "Human papillomavirus (HPV) vaccination is contraindicated-56",
+        "display" : "Human papillomavirus (HPV) vaccination is contraindicated"
+      },
+      {
+        "code" : "The client has history of severe allergic reactions-59",
+        "display" : "The client has history of severe allergic reactions"
+      },
+      {
+        "code" : "HPV vaccination could be contraindicated. Clinical judgement is required. Create a clinical note-66",
+        "display" : "HPV vaccination could be contraindicated. Clinical judgement is required. Create a clinical note"
+      }]
+    }]
+  }
+}

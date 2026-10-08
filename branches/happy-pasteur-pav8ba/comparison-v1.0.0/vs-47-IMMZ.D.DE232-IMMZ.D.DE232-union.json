@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-110",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-110",
+  "name" : "UnionIMMZ_D_DE232AndIMMZ_D_DE232",
+  "title" : "Union of IMMZ.D.DE232 ValueSet for Type of meningococcal dose And IMMZ.D.DE232 ValueSet for Type of meningococcal dose",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE233",
+        "display" : "MenA conjugate vaccine (5µg)"
+      },
+      {
+        "code" : "DE234",
+        "display" : "Monovalent MenC conjugate"
+      },
+      {
+        "code" : "DE235",
+        "display" : "Quadrivalent conjugate"
+      },
+      {
+        "code" : "DE252",
+        "display" : "Polysaccharide vaccine"
+      }]
+    }]
+  }
+}

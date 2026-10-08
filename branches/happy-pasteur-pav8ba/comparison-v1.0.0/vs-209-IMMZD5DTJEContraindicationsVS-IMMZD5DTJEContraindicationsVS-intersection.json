@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-597",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-597",
+  "name" : "IntersectionIMMZD5DTJEContraindicationsVSAndIMMZD5DTJEContraindicationsVS",
+  "title" : "Intersection of IMMZD5DTJEContraindications ValueSet for Decision Table And IMMZD5DTJEContraindications ValueSet for Decision Table",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "The client is immunocomprised-51",
+        "display" : "The client is immunocomprised"
+      },
+      {
+        "code" : "Clinical judgement is required. Create a clinical note-66",
+        "display" : "Clinical judgement is required. Create a clinical note"
+      },
+      {
+        "code" : "The client is currently pregnant-52",
+        "display" : "The client is currently pregnant"
+      }]
+    }]
+  }
+}

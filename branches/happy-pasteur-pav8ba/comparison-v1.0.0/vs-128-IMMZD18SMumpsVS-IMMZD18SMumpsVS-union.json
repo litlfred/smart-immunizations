@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-353",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-353",
+  "name" : "UnionIMMZD18SMumpsVSAndIMMZD18SMumpsVS",
+  "title" : "Union of IMMZD18SMumps ValueSet for Decision Table And IMMZD18SMumps ValueSet for Decision Table",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Child's birth-0",
+        "display" : "Child's birth"
+      },
+      {
+        "code" : "First mumps dose from the primary series was administered-125",
+        "display" : "First mumps dose from the primary series was administered"
+      },
+      {
+        "code" : "Second mumps dose from the primary series was administered. The primary series has been completed-103",
+        "display" : "Second mumps dose from the primary series was administered. The primary series has been completed"
+      }]
+    }]
+  }
+}

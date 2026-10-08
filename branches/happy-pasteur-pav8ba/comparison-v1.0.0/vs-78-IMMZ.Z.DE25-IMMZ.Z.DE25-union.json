@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-203",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-203",
+  "name" : "UnionIMMZ_Z_DE25AndIMMZ_Z_DE25",
+  "title" : "Union of IMMZ.Z.DE25 ValueSet for Dengue vaccines And IMMZ.Z.DE25 ValueSet for Dengue vaccines",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE25",
+        "display" : "Dengue vaccines"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "XM38G7",
+        "display" : "Dengue vaccine"
+      }]
+    }]
+  }
+}

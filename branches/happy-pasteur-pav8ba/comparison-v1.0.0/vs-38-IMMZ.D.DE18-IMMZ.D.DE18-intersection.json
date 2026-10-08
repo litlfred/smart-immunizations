@@ -1,0 +1,17 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-84",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-84",
+  "name" : "IntersectionIMMZ_D_DE18AndIMMZ_D_DE18",
+  "title" : "Intersection of IMMZ.D.DE18 ValueSet for Vaccine brand And IMMZ.D.DE18 ValueSet for Vaccine brand",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "brand",
+        "display" : "Example Brand"
+      }]
+    }]
+  }
+}

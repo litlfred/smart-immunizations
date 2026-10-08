@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-606",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-606",
+  "name" : "IntersectionIMMZD5DTMeningococcalContraindicationsVSAndIMMZD5DTMeningococcalContraindicationsVS",
+  "title" : "Intersection of IMMZD5DTMeningococcalContraindications ValueSet for Decision Table And IMMZD5DTMeningococcalContraindications ValueSet for Decision Table",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "The client has history of severe allergic reactions-59",
+        "display" : "The client has history of severe allergic reactions"
+      },
+      {
+        "code" : "Meningococcal vaccination could be contraindicated. Clinical judgement is required. Create a clinical note-130",
+        "display" : "Meningococcal vaccination could be contraindicated. Clinical judgement is required. Create a clinical note"
+      }]
+    }]
+  }
+}

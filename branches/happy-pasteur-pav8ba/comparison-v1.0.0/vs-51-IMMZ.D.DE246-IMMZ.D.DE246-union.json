@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-122",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-122",
+  "name" : "UnionIMMZ_D_DE246AndIMMZ_D_DE246",
+  "title" : "Union of IMMZ.D.DE246 ValueSet for TB infection test result And IMMZ.D.DE246 ValueSet for TB infection test result",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DE247",
+        "display" : "Positive"
+      },
+      {
+        "code" : "DE248",
+        "display" : "Negative"
+      }]
+    }]
+  }
+}

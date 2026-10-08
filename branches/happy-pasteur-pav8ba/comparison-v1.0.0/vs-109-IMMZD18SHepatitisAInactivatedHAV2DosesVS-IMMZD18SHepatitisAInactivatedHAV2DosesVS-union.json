@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e916fea1-b216-4969-8af4-fa584f7ee40a-296",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e916fea1-b216-4969-8af4-fa584f7ee40a-296",
+  "name" : "UnionIMMZD18SHepatitisAInactivatedHAV2DosesVSAndIMMZD18SHepatitisAInactivatedHAV2DosesVS",
+  "title" : "Union of IMMZD18SHepatitisAInactivatedHAV2Doses ValueSet for Decision Table And IMMZD18SHepatitisAInactivatedHAV2Doses ValueSet for Decision Table",
+  "status" : "active",
+  "date" : "2026-10-08T11:20:55+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Child's birth-0",
+        "display" : "Child's birth"
+      },
+      {
+        "code" : "First hepatitis A dose from the primary series was administered-131",
+        "display" : "First hepatitis A dose from the primary series was administered"
+      },
+      {
+        "code" : "Second hepatitis A dose from the primary series was administered. The primary series has been completed-108",
+        "display" : "Second hepatitis A dose from the primary series was administered. The primary series has been completed"
+      }]
+    }]
+  }
+}
