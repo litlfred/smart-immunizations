@@ -1,0 +1,30 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "facilityanalysisguide-immunization",
+  "record": "facilityanalysisguide-immunization.dc.json",
+  "_comment": "Fetched from https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers by folio-assistant-core/scripts/fetch-who-publication.ts; the PDF is the page's one download, https://cdn.who.int/media/docs/default-source/documents/ddi/facilityanalysisguide-immunization.pdf?sfvrsn=3cb62a74_2&download=true.",
+  "source": {
+    "upstream": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
+    "capturedAt": "2026-10-08T08:19:18Z",
+    "capturedBy": "fetch-who-publication.ts (who.int item page)"
+  },
+  "files": [
+    {
+      "path": "facilityanalysisguide-immunization.pdf",
+      "bytes": 1298901,
+      "sha256": "899513a64de612a66e318efdd8ed84ec1d63eec3a72bba49f73bdfefe387d01b",
+      "type": "publication",
+      "role": "original-bitstream",
+      "note": "downloaded from https://cdn.who.int/media/docs/default-source/documents/ddi/facilityanalysisguide-immunization.pdf?sfvrsn=3cb62a74_2&download=true"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers, item page",
+        "result": "states copyright only ('© World Health Organization 2018'), no licence"
+      }
+    ]
+  }
+}

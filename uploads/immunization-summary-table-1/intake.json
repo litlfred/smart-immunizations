@@ -1,0 +1,30 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "immunization-summary-table-1",
+  "record": "immunization-summary-table-1.dc.json",
+  "_comment": "Fetched from https://www.who.int/publications/m/item/table1-summary-of-who-position-papers-recommendations-for-routine-immunization by folio-assistant-core/scripts/fetch-who-publication.ts; the PDF is the page's one download, https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-1.pdf?sfvrsn=2e112cea_16&download=true.",
+  "source": {
+    "upstream": "https://www.who.int/publications/m/item/table1-summary-of-who-position-papers-recommendations-for-routine-immunization",
+    "capturedAt": "2026-10-08T08:19:14Z",
+    "capturedBy": "fetch-who-publication.ts (who.int item page)"
+  },
+  "files": [
+    {
+      "path": "immunization-summary-table-1.pdf",
+      "bytes": 431702,
+      "sha256": "9861c483644986f477485fdf98f61f493a4f1e2ace8e20f48c04ba70e0d18f8d",
+      "type": "publication",
+      "role": "original-bitstream",
+      "note": "downloaded from https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-1.pdf?sfvrsn=2e112cea_16&download=true"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/table1-summary-of-who-position-papers-recommendations-for-routine-immunization, item page",
+        "result": "no copyright or licence stated"
+      }
+    ]
+  }
+}

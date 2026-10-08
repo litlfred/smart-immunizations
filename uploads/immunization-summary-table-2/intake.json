@@ -1,0 +1,30 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "immunization-summary-table-2",
+  "record": "immunization-summary-table-2.dc.json",
+  "_comment": "Fetched from https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children by folio-assistant-core/scripts/fetch-who-publication.ts; the PDF is the page's one download, https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-2.pdf?sfvrsn=c10d5c2_12&download=true.",
+  "source": {
+    "upstream": "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
+    "capturedAt": "2026-10-08T08:19:15Z",
+    "capturedBy": "fetch-who-publication.ts (who.int item page)"
+  },
+  "files": [
+    {
+      "path": "immunization-summary-table-2.pdf",
+      "bytes": 455860,
+      "sha256": "ad39704721d999437c3856de0ccb1e825e4f414358142f3bb5970da031fbe025",
+      "type": "publication",
+      "role": "original-bitstream",
+      "note": "downloaded from https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-2.pdf?sfvrsn=c10d5c2_12&download=true"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children, item page",
+        "result": "states copyright only ('WHO'), no licence"
+      }
+    ]
+  }
+}

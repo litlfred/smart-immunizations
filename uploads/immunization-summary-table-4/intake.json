@@ -1,0 +1,30 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "immunization-summary-table-4",
+  "record": "immunization-summary-table-4.dc.json",
+  "_comment": "Fetched from https://www.who.int/publications/m/item/table-4-summary-of-who-position-papers-immunization-of-health-care-workers by folio-assistant-core/scripts/fetch-who-publication.ts; the PDF is the page's one download, https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-4.pdf?sfvrsn=9d191481_10&download=true.",
+  "source": {
+    "upstream": "https://www.who.int/publications/m/item/table-4-summary-of-who-position-papers-immunization-of-health-care-workers",
+    "capturedAt": "2026-10-08T08:19:17Z",
+    "capturedBy": "fetch-who-publication.ts (who.int item page)"
+  },
+  "files": [
+    {
+      "path": "immunization-summary-table-4.pdf",
+      "bytes": 223261,
+      "sha256": "e821b7b570ddb9ec58d779609cbc7c5f1592d67dcb53aa578e4669beb74bc59a",
+      "type": "publication",
+      "role": "original-bitstream",
+      "note": "downloaded from https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-4.pdf?sfvrsn=9d191481_10&download=true"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/table-4-summary-of-who-position-papers-immunization-of-health-care-workers, item page",
+        "result": "states copyright only ('WHO'), no licence"
+      }
+    ]
+  }
+}

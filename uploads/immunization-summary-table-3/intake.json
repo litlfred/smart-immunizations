@@ -1,0 +1,30 @@
+{
+  "$schema": "folio-intake/v1",
+  "doc_id": "immunization-summary-table-3",
+  "record": "immunization-summary-table-3.dc.json",
+  "_comment": "Fetched from https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers by folio-assistant-core/scripts/fetch-who-publication.ts; the PDF is the page's one download, https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-3.pdf?sfvrsn=7c2de9f9_12&download=true.",
+  "source": {
+    "upstream": "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers",
+    "capturedAt": "2026-10-08T08:19:16Z",
+    "capturedBy": "fetch-who-publication.ts (who.int item page)"
+  },
+  "files": [
+    {
+      "path": "immunization-summary-table-3.pdf",
+      "bytes": 350285,
+      "sha256": "aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2",
+      "type": "publication",
+      "role": "original-bitstream",
+      "note": "downloaded from https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-3.pdf?sfvrsn=7c2de9f9_12&download=true"
+    }
+  ],
+  "licence": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers, item page",
+        "result": "states copyright only ('WHO'), no licence"
+      }
+    ]
+  }
+}
