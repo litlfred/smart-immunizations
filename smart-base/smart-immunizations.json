@@ -3,8 +3,8 @@
   "name": "smart-immunizations",
   "repository": "litlfred/smart-immunizations",
   "livesAt": {
-    "repository": "litlfred/folio-assistant",
-    "path": "smart-immunizations"
+    "repository": "litlfred/smart-immunizations",
+    "path": "smart-base"
   },
   "source": {
     "kind": "git",
