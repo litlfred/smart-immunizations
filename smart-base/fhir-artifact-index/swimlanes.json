@@ -1,0 +1,26 @@
+{
+  "$schema": "dak-swimlanes/v1",
+  "personas": {
+    "Health worker (HW)": [
+      "Health worker",
+      "HW"
+    ],
+    "Community health worker": [
+      "CHW"
+    ],
+    "EPI Manager": [],
+    "Caregiver": [],
+    "Client": [],
+    "Child": [],
+    "System administrator": [],
+    "Clerical staff": []
+  },
+  "notPersonas": {
+    "Heading": "Visio's default pool title, not a role",
+    "Function": "the header lane every Visio figure carries, not a role",
+    "Vaccination location": "a pool (the place the work happens), not a persona",
+    "Vaccination location management": "a pool (the place the work happens), not a persona",
+    "Community": "a pool (the setting), not a persona",
+    "Electronic immunization registry": "a system, not a persona"
+  }
+}
