@@ -1,0 +1,61 @@
+{
+  "$schema": "qa-results/v1",
+  "producer": {
+    "script": "smart-base/scripts/dak-swimlanes.ts",
+    "script_hash": "4717d19a3b07"
+  },
+  "subject": {
+    "kind": "fhir-ig",
+    "id": "smart-immunizations"
+  },
+  "families": {
+    "persona-without-swimlane": {
+      "summary": "a generic persona that no business-process swimlane names",
+      "count": 4,
+      "entries": [
+        {
+          "persona": "EPI Manager"
+        },
+        {
+          "persona": "Caregiver"
+        },
+        {
+          "persona": "Child"
+        },
+        {
+          "persona": "Clerical staff"
+        }
+      ]
+    },
+    "swimlane-without-persona": {
+      "summary": "a swimlane whose label names no declared persona and is not declared as deliberately not one",
+      "count": 3,
+      "entries": [
+        {
+          "process": "G. Resolve duplicate client records",
+          "figure": "immz-g-resolve-duplicate-client-v2-business-process.svg",
+          "lane": "PCPOSS",
+          "unaccounted": "PCPOSS"
+        },
+        {
+          "process": "H. Resolve duplicate vaccination events",
+          "figure": "immz-h-resolve-duplicate-vaccine-v2-business-process.svg",
+          "lane": "PCPOSS",
+          "unaccounted": "PCPOSS"
+        },
+        {
+          "process": "I. Report generation",
+          "figure": "immz-i-report-generation-business-process.svg",
+          "lane": "PCPOSS",
+          "unaccounted": "PCPOSS"
+        }
+      ]
+    },
+    "declared-persona-not-on-page": {
+      "summary": "a persona swimlanes.json declares that the personas page does not list",
+      "count": 0,
+      "entries": []
+    }
+  },
+  "total": 7
+}
