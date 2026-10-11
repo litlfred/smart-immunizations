@@ -49,6 +49,14 @@
       "_comment_served": "Served (owner, 2026-10-11: artefact pages link JSON, JSON Schema and JSON-LD on THIS site, by the AST route). The IG site's artefact pages read ../fhir-artifact-index/, where the build also writes the DAK sidecars it generates from the AST (smart-base:dak-ast-sidecars) under sidecars/."
     },
     {
+      "id": "smart-immunizations-dak-annexes",
+      "path": "dak-annexes/",
+      "description": "The DAK's web annexes, beside the artefact index: the core data dictionary workbook as JSON (`dak-data-dictionary.json`, written by smart-base:dak-data-dictionary and loaded on demand by the IG site's dictionary page) and the declared mapping of the generic personas onto the business-process swimlanes (`swimlanes.json`, read by smart-base:dak-swimlanes). Moved out of `fhir-artifact-index/` 2026-10-11: both are DAK formats, so they belong to smart-base's `dak-annex` kind, not fhir-harness's.",
+      "graphTypologies": [
+        "dak-annex"
+      ]
+    },
+    {
       "id": "smart-immunizations-docs",
       "path": "docs/",
       "instanceRoot": true,
