@@ -1,7 +1,7 @@
 [
   {
     "page": "dictionary.md",
-    "file": "dak-data-dictionary.json",
+    "file": "../dak-annexes/dak-data-dictionary.json",
     "columns": [
       "data element id",
       "data element label",
