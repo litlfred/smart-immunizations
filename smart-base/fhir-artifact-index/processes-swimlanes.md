@@ -29,13 +29,13 @@ The swimlanes of each process figure, and the generic persona each one is. A lan
 | [F](#f--defaulter-tracing) | Community CHW | [Community health worker](personas.html#persona-community-health-worker) | a pool (the setting), not a persona |
 | [G](#g--resolve-duplicate-client-records) | Heading | — | Visio's default pool title, not a role |
 | [G](#g--resolve-duplicate-client-records) | Function | — | the header lane every Visio figure carries, not a role |
-| [G](#g--resolve-duplicate-client-records) | PCPOSS | — | **not a declared persona:** PCPOSS |
+| [G](#g--resolve-duplicate-client-records) | PCPOSS | — | a system, not a persona (owner, 2026-10-12): it stands beside the health worker / system administrator lane in G, H and I as the Electronic immunization registry does in E |
 | [G](#g--resolve-duplicate-client-records) | Vaccination location Health worker or System administrator | [System administrator](personas.html#persona-system-administrator), [Health worker (HW)](personas.html#persona-health-worker) | a pool (the place the work happens), not a persona |
 | [H](#h--resolve-duplicate-vaccination-events) | Heading | — | Visio's default pool title, not a role |
 | [H](#h--resolve-duplicate-vaccination-events) | Function | — | the header lane every Visio figure carries, not a role |
-| [H](#h--resolve-duplicate-vaccination-events) | PCPOSS | — | **not a declared persona:** PCPOSS |
+| [H](#h--resolve-duplicate-vaccination-events) | PCPOSS | — | a system, not a persona (owner, 2026-10-12): it stands beside the health worker / system administrator lane in G, H and I as the Electronic immunization registry does in E |
 | [H](#h--resolve-duplicate-vaccination-events) | Vaccination location Health worker or System administrator | [System administrator](personas.html#persona-system-administrator), [Health worker (HW)](personas.html#persona-health-worker) | a pool (the place the work happens), not a persona |
 | [I](#i--report-generation) | Heading | — | Visio's default pool title, not a role |
 | [I](#i--report-generation) | Function | — | the header lane every Visio figure carries, not a role |
 | [I](#i--report-generation) | Vaccination location Health worker | [Health worker (HW)](personas.html#persona-health-worker) | a pool (the place the work happens), not a persona |
-| [I](#i--report-generation) | PCPOSS | — | **not a declared persona:** PCPOSS |
+| [I](#i--report-generation) | PCPOSS | — | a system, not a persona (owner, 2026-10-12): it stands beside the health worker / system administrator lane in G, H and I as the Electronic immunization registry does in E |

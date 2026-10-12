@@ -2,11 +2,11 @@
   "$schema": "qa-results/v1",
   "producer": {
     "script": "smart-base/scripts/dak-swimlanes.ts",
-    "script_hash": "4717d19a3b07"
+    "script_hash": "d4331cadf629"
   },
   "subject": {
     "kind": "fhir-ig",
-    "id": "smart-immunizations"
+    "id": "ig"
   },
   "families": {
     "persona-without-swimlane": {
@@ -29,27 +29,8 @@
     },
     "swimlane-without-persona": {
       "summary": "a swimlane whose label names no declared persona and is not declared as deliberately not one",
-      "count": 3,
-      "entries": [
-        {
-          "process": "G. Resolve duplicate client records",
-          "figure": "immz-g-resolve-duplicate-client-v2-business-process.svg",
-          "lane": "PCPOSS",
-          "unaccounted": "PCPOSS"
-        },
-        {
-          "process": "H. Resolve duplicate vaccination events",
-          "figure": "immz-h-resolve-duplicate-vaccine-v2-business-process.svg",
-          "lane": "PCPOSS",
-          "unaccounted": "PCPOSS"
-        },
-        {
-          "process": "I. Report generation",
-          "figure": "immz-i-report-generation-business-process.svg",
-          "lane": "PCPOSS",
-          "unaccounted": "PCPOSS"
-        }
-      ]
+      "count": 0,
+      "entries": []
     },
     "declared-persona-not-on-page": {
       "summary": "a persona swimlanes.json declares that the personas page does not list",
@@ -57,5 +38,5 @@
       "entries": []
     }
   },
-  "total": 7
+  "total": 4
 }
