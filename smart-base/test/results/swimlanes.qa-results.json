@@ -6,7 +6,7 @@
   },
   "subject": {
     "kind": "fhir-ig",
-    "id": "ig"
+    "id": "smart-immunizations"
   },
   "families": {
     "persona-without-swimlane": {
