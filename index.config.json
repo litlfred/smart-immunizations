@@ -54,7 +54,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "1ff6f3115dc64dbbf44196dc8992018d7760e34c",
+          "ref": "67262906ae0ea86fb2a53158a0f6ece36762acae",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,8 +64,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-14",
-              "ref": "1ff6f3115dc64dbbf44196dc8992018d7760e34c",
-              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+              "ref": "67262906ae0ea86fb2a53158a0f6ece36762acae",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / 'extend repin+merge window 3 hrs' — the fixes that made smart-trust's root build publish"
             }
           }
         }
@@ -132,7 +132,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "8b6f16a02a5f20b46354b5253be057169abeeebf",
+          "ref": "6d49467c51615ee965933242cf2ac10491b5e4f5",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -145,8 +145,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-14",
-              "ref": "8b6f16a02a5f20b46354b5253be057169abeeebf",
-              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
+              "ref": "6d49467c51615ee965933242cf2ac10491b5e4f5",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / 'extend repin+merge window 3 hrs' — the fixes that made smart-trust's root build publish"
             }
           }
         }
