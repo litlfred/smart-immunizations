@@ -1,0 +1,5850 @@
+[
+  {
+    "outputFile": "ActivityDefinition-IMMZD2DTCR.json",
+    "fshName": "IMMZD2DTCR",
+    "fshType": "Instance",
+    "fshFile": "activitydefinitions/IMMZD2DTCR.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ActivityDefinition-IMMZD2DTMR.json",
+    "fshName": "IMMZD2DTMR",
+    "fshType": "Instance",
+    "fshFile": "activitydefinitions/IMMZD2DTMR.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ActivityDefinition-IMMZD5DTMR.json",
+    "fshName": "IMMZD5DTMR",
+    "fshType": "Instance",
+    "fshFile": "activitydefinitions/IMMZD5DTMR.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "CodeSystem-IMMZ.C.json",
+    "fshName": "IMMZ.C",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/IMMZ.C.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "CodeSystem-IMMZ.D.json",
+    "fshName": "IMMZ.D",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/IMMZ.D.fsh",
+    "startLine": 1,
+    "endLine": 203
+  },
+  {
+    "outputFile": "CodeSystem-IMMZ.Ex.json",
+    "fshName": "IMMZ.Ex",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/IMMZ.Ex.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "CodeSystem-IMMZ.I.json",
+    "fshName": "IMMZ.I",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/IMMZ.I.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "CodeSystem-IMMZ.Z.json",
+    "fshName": "IMMZ.Z",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/IMMZ.Z.fsh",
+    "startLine": 1,
+    "endLine": 44
+  },
+  {
+    "outputFile": "CodeSystem-IMMZDAK.json",
+    "fshName": "IMMZDAK",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/IMMZDAK.fsh",
+    "startLine": 1,
+    "endLine": 3175
+  },
+  {
+    "outputFile": "ConceptMap-IMMZ.C.ConceptMap.json",
+    "fshName": "IMMZ.C.ConceptMap",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps/IMMZ.C.ConceptMap.fsh",
+    "startLine": 1,
+    "endLine": 100
+  },
+  {
+    "outputFile": "ConceptMap-IMMZ.D.ConceptMap.json",
+    "fshName": "IMMZ.D.ConceptMap",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps/IMMZ.D.ConceptMap.fsh",
+    "startLine": 1,
+    "endLine": 469
+  },
+  {
+    "outputFile": "ConceptMap-IMMZ.Z.ConceptMap.json",
+    "fshName": "IMMZ.Z.ConceptMap",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps/IMMZ.Z.ConceptMap.fsh",
+    "startLine": 1,
+    "endLine": 876
+  },
+  {
+    "outputFile": "Library-IMMZAgeConcepts.json",
+    "fshName": "IMMZAgeConcepts",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZAgeConcepts.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZCommon.json",
+    "fshName": "IMMZCommon",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZCommon.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZConcepts.json",
+    "fshName": "IMMZConcepts",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZConcepts.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SBCGLogic.json",
+    "fshName": "IMMZD18SBCGLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SBCGLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SCholeraWCRBSVaccine2DosesLogic.json",
+    "fshName": "IMMZD18SCholeraWCRBSVaccine2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SCholeraWCRBSVaccine2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SCholeraWCRBSVaccine3DosesLogic.json",
+    "fshName": "IMMZD18SCholeraWCRBSVaccine3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SCholeraWCRBSVaccine3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SCholeraWCVaccinesLogic.json",
+    "fshName": "IMMZD18SCholeraWCVaccinesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SCholeraWCVaccinesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SDTPDelayedOrInterruptedSeriesLogic.json",
+    "fshName": "IMMZD18SDTPDelayedOrInterruptedSeriesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SDTPDelayedOrInterruptedSeriesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SDTPOnTimeStartLogic.json",
+    "fshName": "IMMZD18SDTPOnTimeStartLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SDTPOnTimeStartLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SDTPPregnancyStartingWith3DosesLogic.json",
+    "fshName": "IMMZD18SDTPPregnancyStartingWith3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SDTPPregnancyStartingWith3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SDTPPregnancyStartingWith4DosesLogic.json",
+    "fshName": "IMMZD18SDTPPregnancyStartingWith4DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SDTPPregnancyStartingWith4DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SDengue3DosesWithPreVaccinationScreeningLogic.json",
+    "fshName": "IMMZD18SDengue3DosesWithPreVaccinationScreeningLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SDengue3DosesWithPreVaccinationScreeningLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHPV2DosesLogic.json",
+    "fshName": "IMMZD18SHPV2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHPV2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHPVSingleDoseLogic.json",
+    "fshName": "IMMZD18SHPVSingleDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHPVSingleDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisAInactivatedHAV1DoseLogic.json",
+    "fshName": "IMMZD18SHepatitisAInactivatedHAV1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisAInactivatedHAV1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisAInactivatedHAV2DosesLogic.json",
+    "fshName": "IMMZD18SHepatitisAInactivatedHAV2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisAInactivatedHAV2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisALiveAttenuatedHAV1DoseLogic.json",
+    "fshName": "IMMZD18SHepatitisALiveAttenuatedHAV1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisALiveAttenuatedHAV1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisB3DosesLogic.json",
+    "fshName": "IMMZD18SHepatitisB3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisB3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisB4DosesLogic.json",
+    "fshName": "IMMZD18SHepatitisB4DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisB4DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisBBirthDoseLogic.json",
+    "fshName": "IMMZD18SHepatitisBBirthDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisBBirthDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHepatitisBDelayedStartLogic.json",
+    "fshName": "IMMZD18SHepatitisBDelayedStartLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHepatitisBDelayedStartLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHib2DosesWithBoosterDoseLogic.json",
+    "fshName": "IMMZD18SHib2DosesWithBoosterDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHib2DosesWithBoosterDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHib3DosesLogic.json",
+    "fshName": "IMMZD18SHib3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHib3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SHib3DosesWithBoosterDoseLogic.json",
+    "fshName": "IMMZD18SHib3DosesWithBoosterDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SHib3DosesWithBoosterDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SJEInactivatedVeroCellDerivedVaccineLogic.json",
+    "fshName": "IMMZD18SJEInactivatedVeroCellDerivedVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SJEInactivatedVeroCellDerivedVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SJELiveAttenuatedVaccineLogic.json",
+    "fshName": "IMMZD18SJELiveAttenuatedVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SJELiveAttenuatedVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SJELiveRecombinantVaccineLogic.json",
+    "fshName": "IMMZD18SJELiveRecombinantVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SJELiveRecombinantVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMalariaLogic.json",
+    "fshName": "IMMZD18SMalariaLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMalariaLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeaslesLowTransmissionLogic.json",
+    "fshName": "IMMZD18SMeaslesLowTransmissionLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeaslesLowTransmissionLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeaslesMCVDose0Logic.json",
+    "fshName": "IMMZD18SMeaslesMCVDose0Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeaslesMCVDose0Logic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeaslesOngoingTransmissionLogic.json",
+    "fshName": "IMMZD18SMeaslesOngoingTransmissionLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeaslesOngoingTransmissionLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeaslesSupplementaryDoseLogic.json",
+    "fshName": "IMMZD18SMeaslesSupplementaryDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeaslesSupplementaryDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeningococcalMenAConjugateVaccine1DoseLogic.json",
+    "fshName": "IMMZD18SMeningococcalMenAConjugateVaccine1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeningococcalMenAConjugateVaccine1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeningococcalMenAConjugateVaccine2DosesLogic.json",
+    "fshName": "IMMZD18SMeningococcalMenAConjugateVaccine2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeningococcalMenAConjugateVaccine2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeningococcalMonovalentMenCConjugateVaccineLogic.json",
+    "fshName": "IMMZD18SMeningococcalMonovalentMenCConjugateVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeningococcalMonovalentMenCConjugateVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeningococcalPolysaccharideVaccinesLogic.json",
+    "fshName": "IMMZD18SMeningococcalPolysaccharideVaccinesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeningococcalPolysaccharideVaccinesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeningococcalQuadrivalentConjugateVaccines1DoseLogic.json",
+    "fshName": "IMMZD18SMeningococcalQuadrivalentConjugateVaccines1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeningococcalQuadrivalentConjugateVaccines1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMeningococcalQuadrivalentConjugateVaccines2DosesLogic.json",
+    "fshName": "IMMZD18SMeningococcalQuadrivalentConjugateVaccines2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMeningococcalQuadrivalentConjugateVaccines2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SMumpsLogic.json",
+    "fshName": "IMMZD18SMumpsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SMumpsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SPneumococcal2DosesWithBoosterDoseLogic.json",
+    "fshName": "IMMZD18SPneumococcal2DosesWithBoosterDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SPneumococcal2DosesWithBoosterDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SPneumococcal3DosesLogic.json",
+    "fshName": "IMMZD18SPneumococcal3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SPneumococcal3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SPolioBOPVPlusIPVLogic.json",
+    "fshName": "IMMZD18SPolioBOPVPlusIPVLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SPolioBOPVPlusIPVLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SPolioBirthDoseLogic.json",
+    "fshName": "IMMZD18SPolioBirthDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SPolioBirthDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SPolioIPVOnlyLogic.json",
+    "fshName": "IMMZD18SPolioIPVOnlyLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SPolioIPVOnlyLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SPolioSequentialIPVbOPVLogic.json",
+    "fshName": "IMMZD18SPolioSequentialIPVbOPVLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SPolioSequentialIPVbOPVLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SRabiesLogic.json",
+    "fshName": "IMMZD18SRabiesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SRabiesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SRotavirusLogic.json",
+    "fshName": "IMMZD18SRotavirusLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SRotavirusLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SRubellaHighIncidenceLogic.json",
+    "fshName": "IMMZD18SRubellaHighIncidenceLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SRubellaHighIncidenceLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SRubellaLowIncidenceLogic.json",
+    "fshName": "IMMZD18SRubellaLowIncidenceLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SRubellaLowIncidenceLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SSeasonalinfluenzaSeasonalInfluenzaLogic.json",
+    "fshName": "IMMZD18SSeasonalinfluenzaSeasonalInfluenzaLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SSeasonalinfluenzaSeasonalInfluenzaLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18STBEEnceVirLogic.json",
+    "fshName": "IMMZD18STBEEnceVirLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18STBEEnceVirLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18STBEEncepurLogic.json",
+    "fshName": "IMMZD18STBEEncepurLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18STBEEncepurLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18STBEFSMEImmunLogic.json",
+    "fshName": "IMMZD18STBEFSMEImmunLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18STBEFSMEImmunLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18STBETBEMoscowLogic.json",
+    "fshName": "IMMZD18STBETBEMoscowLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18STBETBEMoscowLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18STyphoidTCVLogic.json",
+    "fshName": "IMMZD18STyphoidTCVLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18STyphoidTCVLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18STyphoidTy21aLogic.json",
+    "fshName": "IMMZD18STyphoidTy21aLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18STyphoidTy21aLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18STyphoidViPSLogic.json",
+    "fshName": "IMMZD18STyphoidViPSLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18STyphoidViPSLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SVaricella1DoseLogic.json",
+    "fshName": "IMMZD18SVaricella1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SVaricella1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SVaricella2DosesLogic.json",
+    "fshName": "IMMZD18SVaricella2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SVaricella2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD18SYellowfeverYellowFeverLogic.json",
+    "fshName": "IMMZD18SYellowfeverYellowFeverLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD18SYellowfeverYellowFeverLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTBCGElements.json",
+    "fshName": "IMMZD2DTBCGElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTBCGElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTBCGEncounterElements.json",
+    "fshName": "IMMZD2DTBCGEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTBCGEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTBCGLogic.json",
+    "fshName": "IMMZD2DTBCGLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTBCGLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTCholeraElements.json",
+    "fshName": "IMMZD2DTCholeraElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTCholeraElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTCholeraEncounterElements.json",
+    "fshName": "IMMZD2DTCholeraEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTCholeraEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTCholeraWCRBSVaccine2DosesLogic.json",
+    "fshName": "IMMZD2DTCholeraWCRBSVaccine2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTCholeraWCRBSVaccine2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTCholeraWCRBSVaccine3DosesLogic.json",
+    "fshName": "IMMZD2DTCholeraWCRBSVaccine3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTCholeraWCRBSVaccine3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTCholeraWCVaccinesLogic.json",
+    "fshName": "IMMZD2DTCholeraWCVaccinesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTCholeraWCVaccinesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDTPDelayedOrInterruptedSeriesLogic.json",
+    "fshName": "IMMZD2DTDTPDelayedOrInterruptedSeriesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDTPDelayedOrInterruptedSeriesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDTPElements.json",
+    "fshName": "IMMZD2DTDTPElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDTPElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDTPEncounterElements.json",
+    "fshName": "IMMZD2DTDTPEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDTPEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDTPOnTimeStartLogic.json",
+    "fshName": "IMMZD2DTDTPOnTimeStartLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDTPOnTimeStartLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDTPPregnancyLogic.json",
+    "fshName": "IMMZD2DTDTPPregnancyLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDTPPregnancyLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDTPPregnancyStartingWith3DosesLogic.json",
+    "fshName": "IMMZD2DTDTPPregnancyStartingWith3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDTPPregnancyStartingWith3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDTPPregnancyStartingWith4DosesLogic.json",
+    "fshName": "IMMZD2DTDTPPregnancyStartingWith4DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDTPPregnancyStartingWith4DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDengue3DosesWithPreVaccinationScreeningLogic.json",
+    "fshName": "IMMZD2DTDengue3DosesWithPreVaccinationScreeningLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDengue3DosesWithPreVaccinationScreeningLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDengue3DosesWithoutPreVaccinationScreeningLogic.json",
+    "fshName": "IMMZD2DTDengue3DosesWithoutPreVaccinationScreeningLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDengue3DosesWithoutPreVaccinationScreeningLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDengueElements.json",
+    "fshName": "IMMZD2DTDengueElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDengueElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTDengueEncounterElements.json",
+    "fshName": "IMMZD2DTDengueEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTDengueEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHPV2DosesLogic.json",
+    "fshName": "IMMZD2DTHPV2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHPV2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHPVElements.json",
+    "fshName": "IMMZD2DTHPVElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHPVElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHPVEncounterElements.json",
+    "fshName": "IMMZD2DTHPVEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHPVEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHPVSingleDoseLogic.json",
+    "fshName": "IMMZD2DTHPVSingleDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHPVSingleDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisAElements.json",
+    "fshName": "IMMZD2DTHepatitisAElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisAElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisAEncounterElements.json",
+    "fshName": "IMMZD2DTHepatitisAEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisAEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisAInactivatedHAV1DoseLogic.json",
+    "fshName": "IMMZD2DTHepatitisAInactivatedHAV1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisAInactivatedHAV1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisAInactivatedHAV2DosesLogic.json",
+    "fshName": "IMMZD2DTHepatitisAInactivatedHAV2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisAInactivatedHAV2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisALiveAttenuatedHAV1DoseLogic.json",
+    "fshName": "IMMZD2DTHepatitisALiveAttenuatedHAV1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisALiveAttenuatedHAV1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisB3DosesLogic.json",
+    "fshName": "IMMZD2DTHepatitisB3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisB3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisB4DosesLogic.json",
+    "fshName": "IMMZD2DTHepatitisB4DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisB4DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisBBirthDoseLogic.json",
+    "fshName": "IMMZD2DTHepatitisBBirthDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisBBirthDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisBDelayedStartLogic.json",
+    "fshName": "IMMZD2DTHepatitisBDelayedStartLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisBDelayedStartLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisBElements.json",
+    "fshName": "IMMZD2DTHepatitisBElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisBElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHepatitisBEncounterElements.json",
+    "fshName": "IMMZD2DTHepatitisBEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHepatitisBEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHib2DosesWithBoosterDoseLogic.json",
+    "fshName": "IMMZD2DTHib2DosesWithBoosterDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHib2DosesWithBoosterDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHib3DosesLogic.json",
+    "fshName": "IMMZD2DTHib3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHib3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHib3DosesWithBoosterDoseLogic.json",
+    "fshName": "IMMZD2DTHib3DosesWithBoosterDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHib3DosesWithBoosterDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHibElements.json",
+    "fshName": "IMMZD2DTHibElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHibElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTHibEncounterElements.json",
+    "fshName": "IMMZD2DTHibEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTHibEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTJEElements.json",
+    "fshName": "IMMZD2DTJEElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTJEElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTJEEncounterElements.json",
+    "fshName": "IMMZD2DTJEEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTJEEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTJEInactivatedVeroCellDerivedVaccineLogic.json",
+    "fshName": "IMMZD2DTJEInactivatedVeroCellDerivedVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTJEInactivatedVeroCellDerivedVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTJELiveAttenuatedVaccineLogic.json",
+    "fshName": "IMMZD2DTJELiveAttenuatedVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTJELiveAttenuatedVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTJELiveRecombinantVaccineLogic.json",
+    "fshName": "IMMZD2DTJELiveRecombinantVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTJELiveRecombinantVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMalariaElements.json",
+    "fshName": "IMMZD2DTMalariaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMalariaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMalariaEncounterElements.json",
+    "fshName": "IMMZD2DTMalariaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMalariaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMalariaLogic.json",
+    "fshName": "IMMZD2DTMalariaLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMalariaLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeaslesElements.json",
+    "fshName": "IMMZD2DTMeaslesElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeaslesElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeaslesEncounterElements.json",
+    "fshName": "IMMZD2DTMeaslesEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeaslesEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeaslesLowTransmissionLogic.json",
+    "fshName": "IMMZD2DTMeaslesLowTransmissionLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeaslesLowTransmissionLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeaslesMCVDose0Logic.json",
+    "fshName": "IMMZD2DTMeaslesMCVDose0Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeaslesMCVDose0Logic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeaslesOngoingTransmissionLogic.json",
+    "fshName": "IMMZD2DTMeaslesOngoingTransmissionLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeaslesOngoingTransmissionLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeaslesSupplementaryDoseLogic.json",
+    "fshName": "IMMZD2DTMeaslesSupplementaryDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeaslesSupplementaryDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalElements.json",
+    "fshName": "IMMZD2DTMeningococcalElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalEncounterElements.json",
+    "fshName": "IMMZD2DTMeningococcalEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalMenAConjugateVaccine1DoseLogic.json",
+    "fshName": "IMMZD2DTMeningococcalMenAConjugateVaccine1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalMenAConjugateVaccine1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalMenAConjugateVaccine2DosesLogic.json",
+    "fshName": "IMMZD2DTMeningococcalMenAConjugateVaccine2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalMenAConjugateVaccine2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalMonovalentMenCConjugateVaccineLogic.json",
+    "fshName": "IMMZD2DTMeningococcalMonovalentMenCConjugateVaccineLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalMonovalentMenCConjugateVaccineLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalPolysaccharideVaccinesLogic.json",
+    "fshName": "IMMZD2DTMeningococcalPolysaccharideVaccinesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalPolysaccharideVaccinesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseLogic.json",
+    "fshName": "IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2DosesLogic.json",
+    "fshName": "IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMumpsElements.json",
+    "fshName": "IMMZD2DTMumpsElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMumpsElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMumpsEncounterElements.json",
+    "fshName": "IMMZD2DTMumpsEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMumpsEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTMumpsLogic.json",
+    "fshName": "IMMZD2DTMumpsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTMumpsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPneumococcal2DosesWithBoosterDoseLogic.json",
+    "fshName": "IMMZD2DTPneumococcal2DosesWithBoosterDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPneumococcal2DosesWithBoosterDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPneumococcal3DosesLogic.json",
+    "fshName": "IMMZD2DTPneumococcal3DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPneumococcal3DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPneumococcalElements.json",
+    "fshName": "IMMZD2DTPneumococcalElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPneumococcalElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPneumococcalEncounterElements.json",
+    "fshName": "IMMZD2DTPneumococcalEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPneumococcalEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPolioBOPVPlusIPVLogic.json",
+    "fshName": "IMMZD2DTPolioBOPVPlusIPVLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPolioBOPVPlusIPVLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPolioBirthDoseLogic.json",
+    "fshName": "IMMZD2DTPolioBirthDoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPolioBirthDoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPolioElements.json",
+    "fshName": "IMMZD2DTPolioElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPolioElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPolioEncounterElements.json",
+    "fshName": "IMMZD2DTPolioEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPolioEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPolioIPVOnlyLogic.json",
+    "fshName": "IMMZD2DTPolioIPVOnlyLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPolioIPVOnlyLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTPolioSequentialIPVbOPVLogic.json",
+    "fshName": "IMMZD2DTPolioSequentialIPVbOPVLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTPolioSequentialIPVbOPVLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRabiesElements.json",
+    "fshName": "IMMZD2DTRabiesElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRabiesElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRabiesEncounterElements.json",
+    "fshName": "IMMZD2DTRabiesEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRabiesEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRabiesLogic.json",
+    "fshName": "IMMZD2DTRabiesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRabiesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRotavirusElements.json",
+    "fshName": "IMMZD2DTRotavirusElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRotavirusElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRotavirusEncounterElements.json",
+    "fshName": "IMMZD2DTRotavirusEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRotavirusEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRotavirusLogic.json",
+    "fshName": "IMMZD2DTRotavirusLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRotavirusLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRubellaElements.json",
+    "fshName": "IMMZD2DTRubellaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRubellaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRubellaEncounterElements.json",
+    "fshName": "IMMZD2DTRubellaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRubellaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRubellaHighIncidenceLogic.json",
+    "fshName": "IMMZD2DTRubellaHighIncidenceLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRubellaHighIncidenceLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTRubellaLowIncidenceLogic.json",
+    "fshName": "IMMZD2DTRubellaLowIncidenceLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTRubellaLowIncidenceLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTSeasonalinfluenzaElements.json",
+    "fshName": "IMMZD2DTSeasonalinfluenzaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTSeasonalinfluenzaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTSeasonalinfluenzaEncounterElements.json",
+    "fshName": "IMMZD2DTSeasonalinfluenzaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTSeasonalinfluenzaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTSeasonalinfluenzaSeasonalInfluenzaLogic.json",
+    "fshName": "IMMZD2DTSeasonalinfluenzaSeasonalInfluenzaLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTSeasonalinfluenzaSeasonalInfluenzaLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTBEElements.json",
+    "fshName": "IMMZD2DTTBEElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTBEElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTBEEnceVirLogic.json",
+    "fshName": "IMMZD2DTTBEEnceVirLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTBEEnceVirLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTBEEncepurLogic.json",
+    "fshName": "IMMZD2DTTBEEncepurLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTBEEncepurLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTBEEncounterElements.json",
+    "fshName": "IMMZD2DTTBEEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTBEEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTBEFSMEImmunLogic.json",
+    "fshName": "IMMZD2DTTBEFSMEImmunLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTBEFSMEImmunLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTBETBEMoscowLogic.json",
+    "fshName": "IMMZD2DTTBETBEMoscowLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTBETBEMoscowLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTyphoidElements.json",
+    "fshName": "IMMZD2DTTyphoidElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTyphoidElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTyphoidEncounterElements.json",
+    "fshName": "IMMZD2DTTyphoidEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTyphoidEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTyphoidTCVLogic.json",
+    "fshName": "IMMZD2DTTyphoidTCVLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTyphoidTCVLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTyphoidTy21aLogic.json",
+    "fshName": "IMMZD2DTTyphoidTy21aLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTyphoidTy21aLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTTyphoidViPSLogic.json",
+    "fshName": "IMMZD2DTTyphoidViPSLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTTyphoidViPSLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTVaricella1DoseLogic.json",
+    "fshName": "IMMZD2DTVaricella1DoseLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTVaricella1DoseLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTVaricella2DosesLogic.json",
+    "fshName": "IMMZD2DTVaricella2DosesLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTVaricella2DosesLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTVaricellaElements.json",
+    "fshName": "IMMZD2DTVaricellaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTVaricellaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTVaricellaEncounterElements.json",
+    "fshName": "IMMZD2DTVaricellaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTVaricellaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTYellowfeverElements.json",
+    "fshName": "IMMZD2DTYellowfeverElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTYellowfeverElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTYellowfeverEncounterElements.json",
+    "fshName": "IMMZD2DTYellowfeverEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTYellowfeverEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD2DTYellowfeverYellowFeverLogic.json",
+    "fshName": "IMMZD2DTYellowfeverYellowFeverLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD2DTYellowfeverYellowFeverLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTBCGContraindicationsLogic.json",
+    "fshName": "IMMZD5DTBCGContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTBCGContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTBCGElements.json",
+    "fshName": "IMMZD5DTBCGElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTBCGElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTBCGEncounterElements.json",
+    "fshName": "IMMZD5DTBCGEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTBCGEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTDTPContraindicationsLogic.json",
+    "fshName": "IMMZD5DTDTPContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTDTPContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTDTPElements.json",
+    "fshName": "IMMZD5DTDTPElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTDTPElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTDTPEncounterElements.json",
+    "fshName": "IMMZD5DTDTPEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTDTPEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTDengueContraindicationsLogic.json",
+    "fshName": "IMMZD5DTDengueContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTDengueContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTDengueElements.json",
+    "fshName": "IMMZD5DTDengueElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTDengueElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTDengueEncounterElements.json",
+    "fshName": "IMMZD5DTDengueEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTDengueEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHPVContraindicationsLogic.json",
+    "fshName": "IMMZD5DTHPVContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHPVContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHPVElements.json",
+    "fshName": "IMMZD5DTHPVElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHPVElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHPVEncounterElements.json",
+    "fshName": "IMMZD5DTHPVEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHPVEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHepatitisAContraindicationsLogic.json",
+    "fshName": "IMMZD5DTHepatitisAContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHepatitisAContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHepatitisAElements.json",
+    "fshName": "IMMZD5DTHepatitisAElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHepatitisAElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHepatitisAEncounterElements.json",
+    "fshName": "IMMZD5DTHepatitisAEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHepatitisAEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHepatitisBContraindicationsLogic.json",
+    "fshName": "IMMZD5DTHepatitisBContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHepatitisBContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHepatitisBElements.json",
+    "fshName": "IMMZD5DTHepatitisBElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHepatitisBElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHepatitisBEncounterElements.json",
+    "fshName": "IMMZD5DTHepatitisBEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHepatitisBEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHibContraindicationsLogic.json",
+    "fshName": "IMMZD5DTHibContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHibContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHibElements.json",
+    "fshName": "IMMZD5DTHibElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHibElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTHibEncounterElements.json",
+    "fshName": "IMMZD5DTHibEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTHibEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTJEContraindicationsLogic.json",
+    "fshName": "IMMZD5DTJEContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTJEContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTJEElements.json",
+    "fshName": "IMMZD5DTJEElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTJEElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTJEEncounterElements.json",
+    "fshName": "IMMZD5DTJEEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTJEEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMalariaContraindicationsLogic.json",
+    "fshName": "IMMZD5DTMalariaContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMalariaContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMalariaElements.json",
+    "fshName": "IMMZD5DTMalariaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMalariaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMalariaEncounterElements.json",
+    "fshName": "IMMZD5DTMalariaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMalariaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMeaslesContraindicationsLogic.json",
+    "fshName": "IMMZD5DTMeaslesContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMeaslesContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMeaslesElements.json",
+    "fshName": "IMMZD5DTMeaslesElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMeaslesElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMeaslesEncounterElements.json",
+    "fshName": "IMMZD5DTMeaslesEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMeaslesEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMeningococcalContraindicationsLogic.json",
+    "fshName": "IMMZD5DTMeningococcalContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMeningococcalContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMeningococcalElements.json",
+    "fshName": "IMMZD5DTMeningococcalElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMeningococcalElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMeningococcalEncounterElements.json",
+    "fshName": "IMMZD5DTMeningococcalEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMeningococcalEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMumpsContraindicationsLogic.json",
+    "fshName": "IMMZD5DTMumpsContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMumpsContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMumpsElements.json",
+    "fshName": "IMMZD5DTMumpsElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMumpsElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTMumpsEncounterElements.json",
+    "fshName": "IMMZD5DTMumpsEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTMumpsEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTPneumococcalContraindicationsLogic.json",
+    "fshName": "IMMZD5DTPneumococcalContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTPneumococcalContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTPneumococcalElements.json",
+    "fshName": "IMMZD5DTPneumococcalElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTPneumococcalElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTPneumococcalEncounterElements.json",
+    "fshName": "IMMZD5DTPneumococcalEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTPneumococcalEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTPolioContraindicationsLogic.json",
+    "fshName": "IMMZD5DTPolioContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTPolioContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTPolioElements.json",
+    "fshName": "IMMZD5DTPolioElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTPolioElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTPolioEncounterElements.json",
+    "fshName": "IMMZD5DTPolioEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTPolioEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRabiesContraindicationsLogic.json",
+    "fshName": "IMMZD5DTRabiesContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRabiesContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRabiesElements.json",
+    "fshName": "IMMZD5DTRabiesElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRabiesElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRabiesEncounterElements.json",
+    "fshName": "IMMZD5DTRabiesEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRabiesEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRotavirusContraindicationsLogic.json",
+    "fshName": "IMMZD5DTRotavirusContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRotavirusContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRotavirusElements.json",
+    "fshName": "IMMZD5DTRotavirusElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRotavirusElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRotavirusEncounterElements.json",
+    "fshName": "IMMZD5DTRotavirusEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRotavirusEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRubellaContraindicationsLogic.json",
+    "fshName": "IMMZD5DTRubellaContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRubellaContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRubellaElements.json",
+    "fshName": "IMMZD5DTRubellaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRubellaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTRubellaEncounterElements.json",
+    "fshName": "IMMZD5DTRubellaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTRubellaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTSeasonalInfluenzaContraindicationsLogic.json",
+    "fshName": "IMMZD5DTSeasonalInfluenzaContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTSeasonalInfluenzaContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTSeasonalinfluenzaElements.json",
+    "fshName": "IMMZD5DTSeasonalinfluenzaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTSeasonalinfluenzaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTSeasonalinfluenzaEncounterElements.json",
+    "fshName": "IMMZD5DTSeasonalinfluenzaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTSeasonalinfluenzaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTTBEContraindicationsLogic.json",
+    "fshName": "IMMZD5DTTBEContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTTBEContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTTBEElements.json",
+    "fshName": "IMMZD5DTTBEElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTTBEElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTTBEEncounterElements.json",
+    "fshName": "IMMZD5DTTBEEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTTBEEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTTyphoidContraindicationsLogic.json",
+    "fshName": "IMMZD5DTTyphoidContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTTyphoidContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTTyphoidElements.json",
+    "fshName": "IMMZD5DTTyphoidElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTTyphoidElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTTyphoidEncounterElements.json",
+    "fshName": "IMMZD5DTTyphoidEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTTyphoidEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTVaricellaContraindicationsLogic.json",
+    "fshName": "IMMZD5DTVaricellaContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTVaricellaContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTVaricellaElements.json",
+    "fshName": "IMMZD5DTVaricellaElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTVaricellaElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTVaricellaEncounterElements.json",
+    "fshName": "IMMZD5DTVaricellaEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTVaricellaEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTYellowFeverContraindicationsLogic.json",
+    "fshName": "IMMZD5DTYellowFeverContraindicationsLogic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTYellowFeverContraindicationsLogic.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTYellowfeverElements.json",
+    "fshName": "IMMZD5DTYellowfeverElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTYellowfeverElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZD5DTYellowfeverEncounterElements.json",
+    "fshName": "IMMZD5DTYellowfeverEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZD5DTYellowfeverEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZElements.json",
+    "fshName": "IMMZElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZEncounterElements.json",
+    "fshName": "IMMZEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-IMMZIND01Logic.json",
+    "fshName": "IMMZIND01Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND01Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND02Logic.json",
+    "fshName": "IMMZIND02Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND02Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND03Logic.json",
+    "fshName": "IMMZIND03Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND03Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND04Logic.json",
+    "fshName": "IMMZIND04Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND04Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND05Logic.json",
+    "fshName": "IMMZIND05Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND05Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND06Logic.json",
+    "fshName": "IMMZIND06Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND06Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND07Logic.json",
+    "fshName": "IMMZIND07Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND07Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND08Logic.json",
+    "fshName": "IMMZIND08Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND08Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND09Logic.json",
+    "fshName": "IMMZIND09Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND09Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND10Logic.json",
+    "fshName": "IMMZIND10Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND10Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND11Logic.json",
+    "fshName": "IMMZIND11Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND11Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND12Logic.json",
+    "fshName": "IMMZIND12Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND12Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND13Logic.json",
+    "fshName": "IMMZIND13Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND13Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND14Logic.json",
+    "fshName": "IMMZIND14Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND14Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND15Logic.json",
+    "fshName": "IMMZIND15Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND15Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND16Logic.json",
+    "fshName": "IMMZIND16Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND16Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND17Logic.json",
+    "fshName": "IMMZIND17Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND17Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND18Logic.json",
+    "fshName": "IMMZIND18Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND18Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND19Logic.json",
+    "fshName": "IMMZIND19Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND19Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND20Logic.json",
+    "fshName": "IMMZIND20Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND20Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND21Logic.json",
+    "fshName": "IMMZIND21Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND21Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND22Logic.json",
+    "fshName": "IMMZIND22Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND22Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND23Logic.json",
+    "fshName": "IMMZIND23Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND23Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND24Logic.json",
+    "fshName": "IMMZIND24Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND24Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND25Logic.json",
+    "fshName": "IMMZIND25Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND25Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND26Logic.json",
+    "fshName": "IMMZIND26Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND26Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND27Logic.json",
+    "fshName": "IMMZIND27Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND27Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND28Logic.json",
+    "fshName": "IMMZIND28Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND28Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND29Logic.json",
+    "fshName": "IMMZIND29Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND29Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND30Logic.json",
+    "fshName": "IMMZIND30Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND30Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND31Logic.json",
+    "fshName": "IMMZIND31Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND31Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND32Logic.json",
+    "fshName": "IMMZIND32Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND32Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND33Logic.json",
+    "fshName": "IMMZIND33Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND33Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND34Logic.json",
+    "fshName": "IMMZIND34Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND34Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND35Logic.json",
+    "fshName": "IMMZIND35Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND35Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND36Logic.json",
+    "fshName": "IMMZIND36Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND36Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND37Logic.json",
+    "fshName": "IMMZIND37Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND37Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND38Logic.json",
+    "fshName": "IMMZIND38Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND38Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND39Logic.json",
+    "fshName": "IMMZIND39Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND39Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND44Logic.json",
+    "fshName": "IMMZIND44Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND44Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIND45Logic.json",
+    "fshName": "IMMZIND45Logic",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIND45Logic.fsh",
+    "startLine": 2,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Library-IMMZIndicatorElements.json",
+    "fshName": "IMMZIndicatorElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/IMMZIndicatorElements.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "Library-WHOCommon.json",
+    "fshName": "WHOCommon",
+    "fshType": "Instance",
+    "fshFile": "libraries/WHOCommon.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-WHOConcepts.json",
+    "fshName": "WHOConcepts",
+    "fshType": "Instance",
+    "fshFile": "libraries/WHOConcepts.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-WHOElements.json",
+    "fshName": "WHOElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/WHOElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Library-WHOEncounterElements.json",
+    "fshName": "WHOEncounterElements",
+    "fshType": "Instance",
+    "fshFile": "libraries/WHOEncounterElements.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND01.json",
+    "fshName": "IMMZIND01",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND01.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND02.json",
+    "fshName": "IMMZIND02",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND02.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND03.json",
+    "fshName": "IMMZIND03",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND03.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND04.json",
+    "fshName": "IMMZIND04",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND04.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND05.json",
+    "fshName": "IMMZIND05",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND05.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND06.json",
+    "fshName": "IMMZIND06",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND06.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND07.json",
+    "fshName": "IMMZIND07",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND07.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND08.json",
+    "fshName": "IMMZIND08",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND08.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND09.json",
+    "fshName": "IMMZIND09",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND09.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND10.json",
+    "fshName": "IMMZIND10",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND10.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND11.json",
+    "fshName": "IMMZIND11",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND11.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND12.json",
+    "fshName": "IMMZIND12",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND12.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND13.json",
+    "fshName": "IMMZIND13",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND13.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND14.json",
+    "fshName": "IMMZIND14",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND14.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND15.json",
+    "fshName": "IMMZIND15",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND15.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND16.json",
+    "fshName": "IMMZIND16",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND16.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND17.json",
+    "fshName": "IMMZIND17",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND17.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND18.json",
+    "fshName": "IMMZIND18",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND18.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND19.json",
+    "fshName": "IMMZIND19",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND19.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND20.json",
+    "fshName": "IMMZIND20",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND20.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND21.json",
+    "fshName": "IMMZIND21",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND21.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND22.json",
+    "fshName": "IMMZIND22",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND22.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND23.json",
+    "fshName": "IMMZIND23",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND23.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND24.json",
+    "fshName": "IMMZIND24",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND24.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND25.json",
+    "fshName": "IMMZIND25",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND25.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND26.json",
+    "fshName": "IMMZIND26",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND26.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND27.json",
+    "fshName": "IMMZIND27",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND27.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND28.json",
+    "fshName": "IMMZIND28",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND28.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND29.json",
+    "fshName": "IMMZIND29",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND29.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND30.json",
+    "fshName": "IMMZIND30",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND30.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND31.json",
+    "fshName": "IMMZIND31",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND31.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND32.json",
+    "fshName": "IMMZIND32",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND32.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND33.json",
+    "fshName": "IMMZIND33",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND33.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND34.json",
+    "fshName": "IMMZIND34",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND34.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND35.json",
+    "fshName": "IMMZIND35",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND35.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND36.json",
+    "fshName": "IMMZIND36",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND36.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND37.json",
+    "fshName": "IMMZIND37",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND37.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND38.json",
+    "fshName": "IMMZIND38",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND38.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND39.json",
+    "fshName": "IMMZIND39",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND39.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND44.json",
+    "fshName": "IMMZIND44",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND44.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "Measure-IMMZIND45.json",
+    "fshName": "IMMZIND45",
+    "fshType": "Instance",
+    "fshFile": "measures/IMMZIND45.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "Patient-IMMZ.C.Patient.1.json",
+    "fshName": "IMMZ.C.Patient.1",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.C.Patient.1.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Patient-IMMZ.C.Patient.2.json",
+    "fshName": "IMMZ.C.Patient.2",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.C.Patient.2.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SBCG.json",
+    "fshName": "IMMZD18SBCG",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SBCG.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SCholeraWCRBSVaccine2Doses.json",
+    "fshName": "IMMZD18SCholeraWCRBSVaccine2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SCholeraWCRBSVaccine2Doses.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SCholeraWCRBSVaccine3Doses.json",
+    "fshName": "IMMZD18SCholeraWCRBSVaccine3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SCholeraWCRBSVaccine3Doses.fsh",
+    "startLine": 1,
+    "endLine": 51
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SCholeraWCVaccines.json",
+    "fshName": "IMMZD18SCholeraWCVaccines",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SCholeraWCVaccines.fsh",
+    "startLine": 1,
+    "endLine": 46
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SDTPDelayedOrInterruptedSeries.json",
+    "fshName": "IMMZD18SDTPDelayedOrInterruptedSeries",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SDTPDelayedOrInterruptedSeries.fsh",
+    "startLine": 1,
+    "endLine": 71
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SDTPOnTimeStart.json",
+    "fshName": "IMMZD18SDTPOnTimeStart",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SDTPOnTimeStart.fsh",
+    "startLine": 1,
+    "endLine": 67
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SDTPPregnancyStartingWith3Doses.json",
+    "fshName": "IMMZD18SDTPPregnancyStartingWith3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SDTPPregnancyStartingWith3Doses.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SDTPPregnancyStartingWith4Doses.json",
+    "fshName": "IMMZD18SDTPPregnancyStartingWith4Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SDTPPregnancyStartingWith4Doses.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SDengue3DosesWithPreVaccinationScreening.json",
+    "fshName": "IMMZD18SDengue3DosesWithPreVaccinationScreening",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SDengue3DosesWithPreVaccinationScreening.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHPV2Doses.json",
+    "fshName": "IMMZD18SHPV2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHPV2Doses.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHPVSingleDose.json",
+    "fshName": "IMMZD18SHPVSingleDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHPVSingleDose.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisAInactivatedHAV1Dose.json",
+    "fshName": "IMMZD18SHepatitisAInactivatedHAV1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisAInactivatedHAV1Dose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisAInactivatedHAV2Doses.json",
+    "fshName": "IMMZD18SHepatitisAInactivatedHAV2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisAInactivatedHAV2Doses.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisALiveAttenuatedHAV1Dose.json",
+    "fshName": "IMMZD18SHepatitisALiveAttenuatedHAV1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisALiveAttenuatedHAV1Dose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisB3Doses.json",
+    "fshName": "IMMZD18SHepatitisB3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisB3Doses.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisB4Doses.json",
+    "fshName": "IMMZD18SHepatitisB4Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisB4Doses.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisBBirthDose.json",
+    "fshName": "IMMZD18SHepatitisBBirthDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisBBirthDose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHepatitisBDelayedStart.json",
+    "fshName": "IMMZD18SHepatitisBDelayedStart",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHepatitisBDelayedStart.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHib2DosesWithBoosterDose.json",
+    "fshName": "IMMZD18SHib2DosesWithBoosterDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHib2DosesWithBoosterDose.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHib3Doses.json",
+    "fshName": "IMMZD18SHib3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHib3Doses.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SHib3DosesWithBoosterDose.json",
+    "fshName": "IMMZD18SHib3DosesWithBoosterDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SHib3DosesWithBoosterDose.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SJEInactivatedVeroCellDerivedVaccine.json",
+    "fshName": "IMMZD18SJEInactivatedVeroCellDerivedVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SJEInactivatedVeroCellDerivedVaccine.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SJELiveAttenuatedVaccine.json",
+    "fshName": "IMMZD18SJELiveAttenuatedVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SJELiveAttenuatedVaccine.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SJELiveRecombinantVaccine.json",
+    "fshName": "IMMZD18SJELiveRecombinantVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SJELiveRecombinantVaccine.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMalaria.json",
+    "fshName": "IMMZD18SMalaria",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMalaria.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeaslesLowTransmission.json",
+    "fshName": "IMMZD18SMeaslesLowTransmission",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeaslesLowTransmission.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeaslesMCVDose0.json",
+    "fshName": "IMMZD18SMeaslesMCVDose0",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeaslesMCVDose0.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeaslesOngoingTransmission.json",
+    "fshName": "IMMZD18SMeaslesOngoingTransmission",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeaslesOngoingTransmission.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeaslesSupplementaryDose.json",
+    "fshName": "IMMZD18SMeaslesSupplementaryDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeaslesSupplementaryDose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeningococcalMenAConjugateVaccine1Dose.json",
+    "fshName": "IMMZD18SMeningococcalMenAConjugateVaccine1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeningococcalMenAConjugateVaccine1Dose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeningococcalMenAConjugateVaccine2Doses.json",
+    "fshName": "IMMZD18SMeningococcalMenAConjugateVaccine2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeningococcalMenAConjugateVaccine2Doses.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeningococcalMonovalentMenCConjugateVaccine.json",
+    "fshName": "IMMZD18SMeningococcalMonovalentMenCConjugateVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeningococcalMonovalentMenCConjugateVaccine.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeningococcalPolysaccharideVaccines.json",
+    "fshName": "IMMZD18SMeningococcalPolysaccharideVaccines",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeningococcalPolysaccharideVaccines.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeningococcalQuadrivalentConjugateVaccines1Dose.json",
+    "fshName": "IMMZD18SMeningococcalQuadrivalentConjugateVaccines1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeningococcalQuadrivalentConjugateVaccines1Dose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMeningococcalQuadrivalentConjugateVaccines2Doses.json",
+    "fshName": "IMMZD18SMeningococcalQuadrivalentConjugateVaccines2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMeningococcalQuadrivalentConjugateVaccines2Doses.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SMumps.json",
+    "fshName": "IMMZD18SMumps",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SMumps.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SPneumococcal2DosesWithBoosterDose.json",
+    "fshName": "IMMZD18SPneumococcal2DosesWithBoosterDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SPneumococcal2DosesWithBoosterDose.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SPneumococcal3Doses.json",
+    "fshName": "IMMZD18SPneumococcal3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SPneumococcal3Doses.fsh",
+    "startLine": 1,
+    "endLine": 51
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SPolioBOPVPlusIPV.json",
+    "fshName": "IMMZD18SPolioBOPVPlusIPV",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SPolioBOPVPlusIPV.fsh",
+    "startLine": 1,
+    "endLine": 51
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SPolioBirthDose.json",
+    "fshName": "IMMZD18SPolioBirthDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SPolioBirthDose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SPolioIPVOnly.json",
+    "fshName": "IMMZD18SPolioIPVOnly",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SPolioIPVOnly.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SPolioSequentialIPVbOPV.json",
+    "fshName": "IMMZD18SPolioSequentialIPVbOPV",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SPolioSequentialIPVbOPV.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SRabies.json",
+    "fshName": "IMMZD18SRabies",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SRabies.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SRotavirus.json",
+    "fshName": "IMMZD18SRotavirus",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SRotavirus.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SRubellaHighIncidence.json",
+    "fshName": "IMMZD18SRubellaHighIncidence",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SRubellaHighIncidence.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SRubellaLowIncidence.json",
+    "fshName": "IMMZD18SRubellaLowIncidence",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SRubellaLowIncidence.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SSeasonalinfluenzaSeasonalInfluenza.json",
+    "fshName": "IMMZD18SSeasonalinfluenzaSeasonalInfluenza",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SSeasonalinfluenzaSeasonalInfluenza.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18STBEEnceVir.json",
+    "fshName": "IMMZD18STBEEnceVir",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18STBEEnceVir.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18STBEEncepur.json",
+    "fshName": "IMMZD18STBEEncepur",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18STBEEncepur.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18STBEFSMEImmun.json",
+    "fshName": "IMMZD18STBEFSMEImmun",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18STBEFSMEImmun.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18STBETBEMoscow.json",
+    "fshName": "IMMZD18STBETBEMoscow",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18STBETBEMoscow.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18STyphoidTCV.json",
+    "fshName": "IMMZD18STyphoidTCV",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18STyphoidTCV.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18STyphoidTy21a.json",
+    "fshName": "IMMZD18STyphoidTy21a",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18STyphoidTy21a.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18STyphoidViPS.json",
+    "fshName": "IMMZD18STyphoidViPS",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18STyphoidViPS.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SVaricella1Dose.json",
+    "fshName": "IMMZD18SVaricella1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SVaricella1Dose.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SVaricella2Doses.json",
+    "fshName": "IMMZD18SVaricella2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SVaricella2Doses.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD18SYellowfeverYellowFever.json",
+    "fshName": "IMMZD18SYellowfeverYellowFever",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD18SYellowfeverYellowFever.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTBCG.json",
+    "fshName": "IMMZD2DTBCG",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTBCG.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTCholeraWCRBSVaccine2Doses.json",
+    "fshName": "IMMZD2DTCholeraWCRBSVaccine2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTCholeraWCRBSVaccine2Doses.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTCholeraWCRBSVaccine3Doses.json",
+    "fshName": "IMMZD2DTCholeraWCRBSVaccine3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTCholeraWCRBSVaccine3Doses.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTCholeraWCVaccines.json",
+    "fshName": "IMMZD2DTCholeraWCVaccines",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTCholeraWCVaccines.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTDTPDelayedOrInterruptedSeries.json",
+    "fshName": "IMMZD2DTDTPDelayedOrInterruptedSeries",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTDTPDelayedOrInterruptedSeries.fsh",
+    "startLine": 1,
+    "endLine": 125
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTDTPOnTimeStart.json",
+    "fshName": "IMMZD2DTDTPOnTimeStart",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTDTPOnTimeStart.fsh",
+    "startLine": 1,
+    "endLine": 67
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTDTPPregnancy.json",
+    "fshName": "IMMZD2DTDTPPregnancy",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTDTPPregnancy.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTDTPPregnancyStartingWith3Doses.json",
+    "fshName": "IMMZD2DTDTPPregnancyStartingWith3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTDTPPregnancyStartingWith3Doses.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTDTPPregnancyStartingWith4Doses.json",
+    "fshName": "IMMZD2DTDTPPregnancyStartingWith4Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTDTPPregnancyStartingWith4Doses.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTDengue3DosesWithPreVaccinationScreening.json",
+    "fshName": "IMMZD2DTDengue3DosesWithPreVaccinationScreening",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTDengue3DosesWithPreVaccinationScreening.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTDengue3DosesWithoutPreVaccinationScreening.json",
+    "fshName": "IMMZD2DTDengue3DosesWithoutPreVaccinationScreening",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTDengue3DosesWithoutPreVaccinationScreening.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHPV2Doses.json",
+    "fshName": "IMMZD2DTHPV2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHPV2Doses.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHPVSingleDose.json",
+    "fshName": "IMMZD2DTHPVSingleDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHPVSingleDose.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHepatitisAInactivatedHAV1Dose.json",
+    "fshName": "IMMZD2DTHepatitisAInactivatedHAV1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHepatitisAInactivatedHAV1Dose.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHepatitisAInactivatedHAV2Doses.json",
+    "fshName": "IMMZD2DTHepatitisAInactivatedHAV2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHepatitisAInactivatedHAV2Doses.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHepatitisALiveAttenuatedHAV1Dose.json",
+    "fshName": "IMMZD2DTHepatitisALiveAttenuatedHAV1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHepatitisALiveAttenuatedHAV1Dose.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHepatitisB3Doses.json",
+    "fshName": "IMMZD2DTHepatitisB3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHepatitisB3Doses.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHepatitisB4Doses.json",
+    "fshName": "IMMZD2DTHepatitisB4Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHepatitisB4Doses.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHepatitisBBirthDose.json",
+    "fshName": "IMMZD2DTHepatitisBBirthDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHepatitisBBirthDose.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHepatitisBDelayedStart.json",
+    "fshName": "IMMZD2DTHepatitisBDelayedStart",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHepatitisBDelayedStart.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHib2DosesWithBoosterDose.json",
+    "fshName": "IMMZD2DTHib2DosesWithBoosterDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHib2DosesWithBoosterDose.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHib3Doses.json",
+    "fshName": "IMMZD2DTHib3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHib3Doses.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTHib3DosesWithBoosterDose.json",
+    "fshName": "IMMZD2DTHib3DosesWithBoosterDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTHib3DosesWithBoosterDose.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTJEInactivatedVeroCellDerivedVaccine.json",
+    "fshName": "IMMZD2DTJEInactivatedVeroCellDerivedVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTJEInactivatedVeroCellDerivedVaccine.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTJELiveAttenuatedVaccine.json",
+    "fshName": "IMMZD2DTJELiveAttenuatedVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTJELiveAttenuatedVaccine.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTJELiveRecombinantVaccine.json",
+    "fshName": "IMMZD2DTJELiveRecombinantVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTJELiveRecombinantVaccine.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMalaria.json",
+    "fshName": "IMMZD2DTMalaria",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMalaria.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeaslesLowTransmission.json",
+    "fshName": "IMMZD2DTMeaslesLowTransmission",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeaslesLowTransmission.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeaslesMCVDose0.json",
+    "fshName": "IMMZD2DTMeaslesMCVDose0",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeaslesMCVDose0.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeaslesOngoingTransmission.json",
+    "fshName": "IMMZD2DTMeaslesOngoingTransmission",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeaslesOngoingTransmission.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeaslesSupplementaryDose.json",
+    "fshName": "IMMZD2DTMeaslesSupplementaryDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeaslesSupplementaryDose.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeningococcalMenAConjugateVaccine1Dose.json",
+    "fshName": "IMMZD2DTMeningococcalMenAConjugateVaccine1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeningococcalMenAConjugateVaccine1Dose.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeningococcalMenAConjugateVaccine2Doses.json",
+    "fshName": "IMMZD2DTMeningococcalMenAConjugateVaccine2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeningococcalMenAConjugateVaccine2Doses.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeningococcalMonovalentMenCConjugateVaccine.json",
+    "fshName": "IMMZD2DTMeningococcalMonovalentMenCConjugateVaccine",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeningococcalMonovalentMenCConjugateVaccine.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeningococcalPolysaccharideVaccines.json",
+    "fshName": "IMMZD2DTMeningococcalPolysaccharideVaccines",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeningococcalPolysaccharideVaccines.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1Dose.json",
+    "fshName": "IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1Dose.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2Doses.json",
+    "fshName": "IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2Doses.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTMumps.json",
+    "fshName": "IMMZD2DTMumps",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTMumps.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTPneumococcal2DosesWithBoosterDose.json",
+    "fshName": "IMMZD2DTPneumococcal2DosesWithBoosterDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTPneumococcal2DosesWithBoosterDose.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTPneumococcal3Doses.json",
+    "fshName": "IMMZD2DTPneumococcal3Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTPneumococcal3Doses.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTPolioBOPVPlusIPV.json",
+    "fshName": "IMMZD2DTPolioBOPVPlusIPV",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTPolioBOPVPlusIPV.fsh",
+    "startLine": 1,
+    "endLine": 63
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTPolioBirthDose.json",
+    "fshName": "IMMZD2DTPolioBirthDose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTPolioBirthDose.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTPolioIPVOnly.json",
+    "fshName": "IMMZD2DTPolioIPVOnly",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTPolioIPVOnly.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTPolioSequentialIPVbOPV.json",
+    "fshName": "IMMZD2DTPolioSequentialIPVbOPV",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTPolioSequentialIPVbOPV.fsh",
+    "startLine": 1,
+    "endLine": 39
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTRabies.json",
+    "fshName": "IMMZD2DTRabies",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTRabies.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTRotavirus.json",
+    "fshName": "IMMZD2DTRotavirus",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTRotavirus.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTRubellaHighIncidence.json",
+    "fshName": "IMMZD2DTRubellaHighIncidence",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTRubellaHighIncidence.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTRubellaLowIncidence.json",
+    "fshName": "IMMZD2DTRubellaLowIncidence",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTRubellaLowIncidence.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTSeasonalinfluenzaSeasonalInfluenza.json",
+    "fshName": "IMMZD2DTSeasonalinfluenzaSeasonalInfluenza",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTSeasonalinfluenzaSeasonalInfluenza.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTTBEEnceVir.json",
+    "fshName": "IMMZD2DTTBEEnceVir",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTTBEEnceVir.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTTBEEncepur.json",
+    "fshName": "IMMZD2DTTBEEncepur",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTTBEEncepur.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTTBEFSMEImmun.json",
+    "fshName": "IMMZD2DTTBEFSMEImmun",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTTBEFSMEImmun.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTTBETBEMoscow.json",
+    "fshName": "IMMZD2DTTBETBEMoscow",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTTBETBEMoscow.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTTyphoidTCV.json",
+    "fshName": "IMMZD2DTTyphoidTCV",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTTyphoidTCV.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTTyphoidTy21a.json",
+    "fshName": "IMMZD2DTTyphoidTy21a",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTTyphoidTy21a.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTTyphoidViPS.json",
+    "fshName": "IMMZD2DTTyphoidViPS",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTTyphoidViPS.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTVaricella1Dose.json",
+    "fshName": "IMMZD2DTVaricella1Dose",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTVaricella1Dose.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTVaricella2Doses.json",
+    "fshName": "IMMZD2DTVaricella2Doses",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTVaricella2Doses.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD2DTYellowfeverYellowFever.json",
+    "fshName": "IMMZD2DTYellowfeverYellowFever",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD2DTYellowfeverYellowFever.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTBCGContraindications.json",
+    "fshName": "IMMZD5DTBCGContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTBCGContraindications.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTDTPContraindications.json",
+    "fshName": "IMMZD5DTDTPContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTDTPContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTDengueContraindications.json",
+    "fshName": "IMMZD5DTDengueContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTDengueContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTHPVContraindications.json",
+    "fshName": "IMMZD5DTHPVContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTHPVContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTHepatitisAContraindications.json",
+    "fshName": "IMMZD5DTHepatitisAContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTHepatitisAContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTHepatitisBContraindications.json",
+    "fshName": "IMMZD5DTHepatitisBContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTHepatitisBContraindications.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTHibContraindications.json",
+    "fshName": "IMMZD5DTHibContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTHibContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTJEContraindications.json",
+    "fshName": "IMMZD5DTJEContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTJEContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTMalariaContraindications.json",
+    "fshName": "IMMZD5DTMalariaContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTMalariaContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTMeaslesContraindications.json",
+    "fshName": "IMMZD5DTMeaslesContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTMeaslesContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTMeningococcalContraindications.json",
+    "fshName": "IMMZD5DTMeningococcalContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTMeningococcalContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTMumpsContraindications.json",
+    "fshName": "IMMZD5DTMumpsContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTMumpsContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTPneumococcalContraindications.json",
+    "fshName": "IMMZD5DTPneumococcalContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTPneumococcalContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTPolioContraindications.json",
+    "fshName": "IMMZD5DTPolioContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTPolioContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTRabiesContraindications.json",
+    "fshName": "IMMZD5DTRabiesContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTRabiesContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTRotavirusContraindications.json",
+    "fshName": "IMMZD5DTRotavirusContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTRotavirusContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTRubellaContraindications.json",
+    "fshName": "IMMZD5DTRubellaContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTRubellaContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTSeasonalInfluenzaContraindications.json",
+    "fshName": "IMMZD5DTSeasonalInfluenzaContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTSeasonalInfluenzaContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTTBEContraindications.json",
+    "fshName": "IMMZD5DTTBEContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTTBEContraindications.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTTyphoidContraindications.json",
+    "fshName": "IMMZD5DTTyphoidContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTTyphoidContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTVaricellaContraindications.json",
+    "fshName": "IMMZD5DTVaricellaContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTVaricellaContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "PlanDefinition-IMMZD5DTYellowFeverContraindications.json",
+    "fshName": "IMMZD5DTYellowFeverContraindications",
+    "fshType": "Instance",
+    "fshFile": "plandefinitions/IMMZD5DTYellowFeverContraindications.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZC4.json",
+    "fshName": "QIMMZC4",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZC4.fsh",
+    "startLine": 1,
+    "endLine": 73
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD1.json",
+    "fshName": "QIMMZD1",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD1.fsh",
+    "startLine": 1,
+    "endLine": 329
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD13.json",
+    "fshName": "QIMMZD13",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD13.fsh",
+    "startLine": 1,
+    "endLine": 251
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD17.json",
+    "fshName": "QIMMZD17",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD17.fsh",
+    "startLine": 1,
+    "endLine": 64
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD18.json",
+    "fshName": "QIMMZD18",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD18.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD2.json",
+    "fshName": "QIMMZD2",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD2.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD20.json",
+    "fshName": "QIMMZD20",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD20.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD21.json",
+    "fshName": "QIMMZD21",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD21.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD5.json",
+    "fshName": "QIMMZD5",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD5.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Questionnaire-QIMMZD7.json",
+    "fshName": "QIMMZD7",
+    "fshType": "Instance",
+    "fshFile": "questionnaires/QIMMZD7.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.C.QuestionnaireResponse.1.json",
+    "fshName": "Example.IMMZ.C.QuestionnaireResponse.1",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.C.QuestionnaireResponse.1.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.BCG.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.BCG",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.BCG.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.COVID.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.COVID",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.COVID.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Cholera.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Cholera",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Cholera.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.DTP.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.DTP",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.DTP.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Dengue.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Dengue",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Dengue.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Diphtheria.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Diphtheria",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Diphtheria.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Flu.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Flu",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Flu.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.HPV.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.HPV",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.HPV.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.HepA.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.HepA",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.HepA.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.HepB.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.HepB",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.HepB.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Hib.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Hib",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Hib.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.JE.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.JE",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.JE.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Malaria.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Malaria",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Malaria.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Measles.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Measles",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Measles.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Meningococcal.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Meningococcal",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Meningococcal.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Mumps.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Mumps",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Mumps.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Pertussis.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Pertussis",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Pertussis.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Pneumococcal.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Pneumococcal",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Pneumococcal.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Polio.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Polio",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Polio.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Rabies.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Rabies",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Rabies.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Rotavirus.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Rotavirus",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Rotavirus.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Rubella.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Rubella",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Rubella.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.TBE.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.TBE",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.TBE.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Tetanus.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Tetanus",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Tetanus.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Typhoid.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Typhoid",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Typhoid.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.Varicella.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.Varicella",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.Varicella.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D1.QuestionnaireResponse.YellowFever.json",
+    "fshName": "Example.IMMZ.D1.QuestionnaireResponse.YellowFever",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D1.QuestionnaireResponse.YellowFever.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D13.QuestionnaireResponse.BCG.json",
+    "fshName": "Example.IMMZ.D13.QuestionnaireResponse.BCG",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D13.QuestionnaireResponse.BCG.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D13.QuestionnaireResponse.Measles.2.json",
+    "fshName": "Example.IMMZ.D13.QuestionnaireResponse.Measles.2",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D13.QuestionnaireResponse.Measles.2.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D13.QuestionnaireResponse.Measles.json",
+    "fshName": "Example.IMMZ.D13.QuestionnaireResponse.Measles",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D13.QuestionnaireResponse.Measles.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D17.QuestionnaireResponse.1.json",
+    "fshName": "Example.IMMZ.D17.QuestionnaireResponse.1",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D17.QuestionnaireResponse.1.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "QuestionnaireResponse-Example.IMMZ.D5.QuestionnaireResponse.1.json",
+    "fshName": "Example.IMMZ.D5.QuestionnaireResponse.1",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.D5.QuestionnaireResponse.1.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "RelatedPerson-IMMZ.C.Caregiver.1.json",
+    "fshName": "IMMZ.C.Caregiver.1",
+    "fshType": "Instance",
+    "fshFile": "examples/IMMZ.C.Caregiver.1.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZ.AdverseEvent.json",
+    "fshName": "IMMZAdverseEvent",
+    "fshType": "Profile",
+    "fshFile": "profiles/IMMZAdverseEvent.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZ.Caregiver.json",
+    "fshName": "IMMZCaregiver",
+    "fshType": "Profile",
+    "fshFile": "profiles/IMMZRelatedPerson.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZ.Immunization.json",
+    "fshName": "IMMZImmunization",
+    "fshType": "Profile",
+    "fshFile": "profiles/IMMZImmunization.fsh",
+    "startLine": 1,
+    "endLine": 60
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZ.Observation.json",
+    "fshName": "IMMZObservation",
+    "fshType": "Profile",
+    "fshFile": "profiles/IMMZObservation.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZ.Patient.json",
+    "fshName": "IMMZPatient",
+    "fshType": "Profile",
+    "fshFile": "profiles/IMMZPatient.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZAdministrativeArea.json",
+    "fshName": "IMMZAdministrativeArea",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZAdministrativeArea.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZC4.json",
+    "fshName": "IMMZC4",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZC4.fsh",
+    "startLine": 11,
+    "endLine": 83
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZCountryOfVaccination.json",
+    "fshName": "IMMZCountryOfVaccination",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZCountryOfVaccination.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD1.json",
+    "fshName": "IMMZD1",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD1.fsh",
+    "startLine": 113,
+    "endLine": 254
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD13.json",
+    "fshName": "IMMZD13",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD13.fsh",
+    "startLine": 11,
+    "endLine": 149
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD17.json",
+    "fshName": "IMMZD17",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD17.fsh",
+    "startLine": 7,
+    "endLine": 50
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD18.json",
+    "fshName": "IMMZD18",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD18.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD2.json",
+    "fshName": "IMMZD2",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD2.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD20.json",
+    "fshName": "IMMZD20",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD20.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD21.json",
+    "fshName": "IMMZD21",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD21.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD5.json",
+    "fshName": "IMMZD5",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD5.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZD7.json",
+    "fshName": "IMMZD7",
+    "fshType": "Logical",
+    "fshFile": "models/IMMZD7.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZDueDateOfNextDose.json",
+    "fshName": "IMMZDueDateOfNextDose",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZDueDateOfNextDose.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZLiveVaccine.json",
+    "fshName": "IMMZLiveVaccine",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZLiveVaccine.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZMarketAuthorization.json",
+    "fshName": "IMMZMarketAuthorization",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZVaccineMarketAuthorization.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZOtherMedicalEvent.json",
+    "fshName": "IMMZOtherMedicalEvent",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZOtherMedicalEvent.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZTypeOfDose.json",
+    "fshName": "IMMZTypeOfDose",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZTypeOfDose.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-IMMZVaccineBrand.json",
+    "fshName": "IMMZVaccineBrand",
+    "fshType": "Extension",
+    "fshFile": "extensions/IMMZVaccineBrand.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.C.DE5.json",
+    "fshName": "IMMZ.C.DE5",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.C.DE5.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE1.json",
+    "fshName": "IMMZ.D.DE1",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE1.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE107.json",
+    "fshName": "IMMZ.D.DE107",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE107.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE115.json",
+    "fshName": "IMMZ.D.DE115",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE115.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE126.json",
+    "fshName": "IMMZ.D.DE126",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE126.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE156.json",
+    "fshName": "IMMZ.D.DE156",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE156.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE161.json",
+    "fshName": "IMMZ.D.DE161",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE161.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE18.json",
+    "fshName": "IMMZ.D.DE18",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE18.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE19.json",
+    "fshName": "IMMZ.D.DE19",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE19.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE204.json",
+    "fshName": "IMMZ.D.DE204",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE204.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE212.json",
+    "fshName": "IMMZ.D.DE212",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE212.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE216.json",
+    "fshName": "IMMZ.D.DE216",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE216.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE220.json",
+    "fshName": "IMMZ.D.DE220",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE220.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE225.json",
+    "fshName": "IMMZ.D.DE225",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE225.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE229.json",
+    "fshName": "IMMZ.D.DE229",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE229.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE23.json",
+    "fshName": "IMMZ.D.DE23",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE23.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE232.json",
+    "fshName": "IMMZ.D.DE232",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE232.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE237.json",
+    "fshName": "IMMZ.D.DE237",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE237.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE241.json",
+    "fshName": "IMMZ.D.DE241",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE241.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE243.json",
+    "fshName": "IMMZ.D.DE243",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE243.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE246.json",
+    "fshName": "IMMZ.D.DE246",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE246.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE25.json",
+    "fshName": "IMMZ.D.DE25",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE25.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE254.json",
+    "fshName": "IMMZ.D.DE254",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE254.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE258.json",
+    "fshName": "IMMZ.D.DE258",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE258.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE5.json",
+    "fshName": "IMMZ.D.DE5",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE5.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE86.json",
+    "fshName": "IMMZ.D.DE86",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE86.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.DE95.json",
+    "fshName": "IMMZ.D.DE95",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.DE95.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.D.Observation.json",
+    "fshName": "IMMZ.D.Observation",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.D.Observation.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.I.DE30.json",
+    "fshName": "IMMZ.I.DE30",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.I.DE30.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.I.DE48.json",
+    "fshName": "IMMZ.I.DE48",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.I.DE48.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE1.json",
+    "fshName": "IMMZ.Z.DE1",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE1.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE10.json",
+    "fshName": "IMMZ.Z.DE10",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE10.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE11.json",
+    "fshName": "IMMZ.Z.DE11",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE11.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE12.json",
+    "fshName": "IMMZ.Z.DE12",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE12.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE13.json",
+    "fshName": "IMMZ.Z.DE13",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE13.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE14.json",
+    "fshName": "IMMZ.Z.DE14",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE14.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE15.json",
+    "fshName": "IMMZ.Z.DE15",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE15.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE16.json",
+    "fshName": "IMMZ.Z.DE16",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE16.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE17.json",
+    "fshName": "IMMZ.Z.DE17",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE17.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE18.json",
+    "fshName": "IMMZ.Z.DE18",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE18.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE19.json",
+    "fshName": "IMMZ.Z.DE19",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE19.fsh",
+    "startLine": 1,
+    "endLine": 42
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE2.json",
+    "fshName": "IMMZ.Z.DE2",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE2.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE20.json",
+    "fshName": "IMMZ.Z.DE20",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE20.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE21.json",
+    "fshName": "IMMZ.Z.DE21",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE21.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE22.json",
+    "fshName": "IMMZ.Z.DE22",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE22.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE23.json",
+    "fshName": "IMMZ.Z.DE23",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE23.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE24.json",
+    "fshName": "IMMZ.Z.DE24",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE24.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE25.json",
+    "fshName": "IMMZ.Z.DE25",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE25.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE26.json",
+    "fshName": "IMMZ.Z.DE26",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE26.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE27.json",
+    "fshName": "IMMZ.Z.DE27",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE27.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE28.json",
+    "fshName": "IMMZ.Z.DE28",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE28.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE29.json",
+    "fshName": "IMMZ.Z.DE29",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE29.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE3.json",
+    "fshName": "IMMZ.Z.DE3",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE3.fsh",
+    "startLine": 1,
+    "endLine": 44
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE30.json",
+    "fshName": "IMMZ.Z.DE30",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE30.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE31.json",
+    "fshName": "IMMZ.Z.DE31",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE31.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE32.json",
+    "fshName": "IMMZ.Z.DE32",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE32.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE33.json",
+    "fshName": "IMMZ.Z.DE33",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE33.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE34.json",
+    "fshName": "IMMZ.Z.DE34",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE34.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE4.json",
+    "fshName": "IMMZ.Z.DE4",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE4.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE5.json",
+    "fshName": "IMMZ.Z.DE5",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE5.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE6.json",
+    "fshName": "IMMZ.Z.DE6",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE6.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE7.json",
+    "fshName": "IMMZ.Z.DE7",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE7.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE8.json",
+    "fshName": "IMMZ.Z.DE8",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE8.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.DE9.json",
+    "fshName": "IMMZ.Z.DE9",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.DE9.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.LiveAttenuated.json",
+    "fshName": "IMMZ.Z.LiveAttenuated",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.LiveAttenuated.fsh",
+    "startLine": 1,
+    "endLine": 51
+  },
+  {
+    "outputFile": "ValueSet-IMMZ.Z.VS.json",
+    "fshName": "IMMZ.Z.VS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZ.Z.VS.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SBCGVS.json",
+    "fshName": "IMMZD18SBCGVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SBCGVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SCholeraWCRBSVaccine2DosesVS.json",
+    "fshName": "IMMZD18SCholeraWCRBSVaccine2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SCholeraWCRBSVaccine2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SCholeraWCRBSVaccine3DosesVS.json",
+    "fshName": "IMMZD18SCholeraWCRBSVaccine3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SCholeraWCRBSVaccine3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SCholeraWCVaccinesVS.json",
+    "fshName": "IMMZD18SCholeraWCVaccinesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SCholeraWCVaccinesVS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SDTPDelayedOrInterruptedSeriesVS.json",
+    "fshName": "IMMZD18SDTPDelayedOrInterruptedSeriesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SDTPDelayedOrInterruptedSeriesVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SDTPOnTimeStartVS.json",
+    "fshName": "IMMZD18SDTPOnTimeStartVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SDTPOnTimeStartVS.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SDTPPregnancyStartingWith3DosesVS.json",
+    "fshName": "IMMZD18SDTPPregnancyStartingWith3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SDTPPregnancyStartingWith3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SDTPPregnancyStartingWith4DosesVS.json",
+    "fshName": "IMMZD18SDTPPregnancyStartingWith4DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SDTPPregnancyStartingWith4DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SDengue3DosesWithPreVaccinationScreeningVS.json",
+    "fshName": "IMMZD18SDengue3DosesWithPreVaccinationScreeningVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SDengue3DosesWithPreVaccinationScreeningVS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHPV2DosesVS.json",
+    "fshName": "IMMZD18SHPV2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHPV2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHPVSingleDoseVS.json",
+    "fshName": "IMMZD18SHPVSingleDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHPVSingleDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHepatitisAInactivatedHAV1DoseVS.json",
+    "fshName": "IMMZD18SHepatitisAInactivatedHAV1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHepatitisAInactivatedHAV1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHepatitisAInactivatedHAV2DosesVS.json",
+    "fshName": "IMMZD18SHepatitisAInactivatedHAV2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHepatitisAInactivatedHAV2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHepatitisALiveAttenuatedHAV1DoseVS.json",
+    "fshName": "IMMZD18SHepatitisALiveAttenuatedHAV1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHepatitisALiveAttenuatedHAV1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHib2DosesWithBoosterDoseVS.json",
+    "fshName": "IMMZD18SHib2DosesWithBoosterDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHib2DosesWithBoosterDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHib3DosesVS.json",
+    "fshName": "IMMZD18SHib3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHib3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SHib3DosesWithBoosterDoseVS.json",
+    "fshName": "IMMZD18SHib3DosesWithBoosterDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SHib3DosesWithBoosterDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SJEInactivatedVeroCellDerivedVaccineVS.json",
+    "fshName": "IMMZD18SJEInactivatedVeroCellDerivedVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SJEInactivatedVeroCellDerivedVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SJELiveAttenuatedVaccineVS.json",
+    "fshName": "IMMZD18SJELiveAttenuatedVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SJELiveAttenuatedVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SJELiveRecombinantVaccineVS.json",
+    "fshName": "IMMZD18SJELiveRecombinantVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SJELiveRecombinantVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMalariaVS.json",
+    "fshName": "IMMZD18SMalariaVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMalariaVS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeaslesLowTransmissionVS.json",
+    "fshName": "IMMZD18SMeaslesLowTransmissionVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeaslesLowTransmissionVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeaslesMCVDose0VS.json",
+    "fshName": "IMMZD18SMeaslesMCVDose0VS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeaslesMCVDose0VS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeaslesOngoingTransmissionVS.json",
+    "fshName": "IMMZD18SMeaslesOngoingTransmissionVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeaslesOngoingTransmissionVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeaslesSupplementaryDoseVS.json",
+    "fshName": "IMMZD18SMeaslesSupplementaryDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeaslesSupplementaryDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeningococcalMenAConjugateVaccine1DoseVS.json",
+    "fshName": "IMMZD18SMeningococcalMenAConjugateVaccine1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeningococcalMenAConjugateVaccine1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeningococcalMenAConjugateVaccine2DosesVS.json",
+    "fshName": "IMMZD18SMeningococcalMenAConjugateVaccine2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeningococcalMenAConjugateVaccine2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeningococcalMonovalentMenCConjugateVaccineVS.json",
+    "fshName": "IMMZD18SMeningococcalMonovalentMenCConjugateVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeningococcalMonovalentMenCConjugateVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeningococcalPolysaccharideVaccinesVS.json",
+    "fshName": "IMMZD18SMeningococcalPolysaccharideVaccinesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeningococcalPolysaccharideVaccinesVS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeningococcalQuadrivalentConjugateVaccines1DoseVS.json",
+    "fshName": "IMMZD18SMeningococcalQuadrivalentConjugateVaccines1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeningococcalQuadrivalentConjugateVaccines1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMeningococcalQuadrivalentConjugateVaccines2DosesVS.json",
+    "fshName": "IMMZD18SMeningococcalQuadrivalentConjugateVaccines2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMeningococcalQuadrivalentConjugateVaccines2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SMumpsVS.json",
+    "fshName": "IMMZD18SMumpsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SMumpsVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SPneumococcal2DosesWithBoosterDoseVS.json",
+    "fshName": "IMMZD18SPneumococcal2DosesWithBoosterDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SPneumococcal2DosesWithBoosterDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SPneumococcal3DosesVS.json",
+    "fshName": "IMMZD18SPneumococcal3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SPneumococcal3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SPolioBOPVPlusIPVVS.json",
+    "fshName": "IMMZD18SPolioBOPVPlusIPVVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SPolioBOPVPlusIPVVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SPolioBirthDoseVS.json",
+    "fshName": "IMMZD18SPolioBirthDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SPolioBirthDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SPolioIPVOnlyVS.json",
+    "fshName": "IMMZD18SPolioIPVOnlyVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SPolioIPVOnlyVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SPolioSequentialIPVbOPVVS.json",
+    "fshName": "IMMZD18SPolioSequentialIPVbOPVVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SPolioSequentialIPVbOPVVS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SRabiesVS.json",
+    "fshName": "IMMZD18SRabiesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SRabiesVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SRotavirusVS.json",
+    "fshName": "IMMZD18SRotavirusVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SRotavirusVS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SRubellaHighIncidenceVS.json",
+    "fshName": "IMMZD18SRubellaHighIncidenceVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SRubellaHighIncidenceVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SRubellaLowIncidenceVS.json",
+    "fshName": "IMMZD18SRubellaLowIncidenceVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SRubellaLowIncidenceVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18STBEEnceVirVS.json",
+    "fshName": "IMMZD18STBEEnceVirVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18STBEEnceVirVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18STBEEncepurVS.json",
+    "fshName": "IMMZD18STBEEncepurVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18STBEEncepurVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18STBEFSMEImmunVS.json",
+    "fshName": "IMMZD18STBEFSMEImmunVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18STBEFSMEImmunVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18STBETBEMoscowVS.json",
+    "fshName": "IMMZD18STBETBEMoscowVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18STBETBEMoscowVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18STyphoidTCVVS.json",
+    "fshName": "IMMZD18STyphoidTCVVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18STyphoidTCVVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18STyphoidTy21aVS.json",
+    "fshName": "IMMZD18STyphoidTy21aVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18STyphoidTy21aVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18STyphoidViPSVS.json",
+    "fshName": "IMMZD18STyphoidViPSVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18STyphoidViPSVS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SVaricella1DoseVS.json",
+    "fshName": "IMMZD18SVaricella1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SVaricella1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SVaricella2DosesVS.json",
+    "fshName": "IMMZD18SVaricella2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SVaricella2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD18SYellowfeverYellowFeverVS.json",
+    "fshName": "IMMZD18SYellowfeverYellowFeverVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD18SYellowfeverYellowFeverVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTBCGVS.json",
+    "fshName": "IMMZD2DTBCGVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTBCGVS.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTCholeraWCRBSVaccine2DosesVS.json",
+    "fshName": "IMMZD2DTCholeraWCRBSVaccine2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTCholeraWCRBSVaccine2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTCholeraWCRBSVaccine3DosesVS.json",
+    "fshName": "IMMZD2DTCholeraWCRBSVaccine3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTCholeraWCRBSVaccine3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTCholeraWCVaccinesVS.json",
+    "fshName": "IMMZD2DTCholeraWCVaccinesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTCholeraWCVaccinesVS.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTDTPDelayedOrInterruptedSeriesVS.json",
+    "fshName": "IMMZD2DTDTPDelayedOrInterruptedSeriesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTDTPDelayedOrInterruptedSeriesVS.fsh",
+    "startLine": 1,
+    "endLine": 43
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTDTPOnTimeStartVS.json",
+    "fshName": "IMMZD2DTDTPOnTimeStartVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTDTPOnTimeStartVS.fsh",
+    "startLine": 1,
+    "endLine": 49
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTDTPPregnancyStartingWith3DosesVS.json",
+    "fshName": "IMMZD2DTDTPPregnancyStartingWith3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTDTPPregnancyStartingWith3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTDTPPregnancyStartingWith4DosesVS.json",
+    "fshName": "IMMZD2DTDTPPregnancyStartingWith4DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTDTPPregnancyStartingWith4DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTDTPPregnancyVS.json",
+    "fshName": "IMMZD2DTDTPPregnancyVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTDTPPregnancyVS.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTDengue3DosesWithPreVaccinationScreeningVS.json",
+    "fshName": "IMMZD2DTDengue3DosesWithPreVaccinationScreeningVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTDengue3DosesWithPreVaccinationScreeningVS.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTDengue3DosesWithoutPreVaccinationScreeningVS.json",
+    "fshName": "IMMZD2DTDengue3DosesWithoutPreVaccinationScreeningVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTDengue3DosesWithoutPreVaccinationScreeningVS.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHPV2DosesVS.json",
+    "fshName": "IMMZD2DTHPV2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHPV2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHPVSingleDoseVS.json",
+    "fshName": "IMMZD2DTHPVSingleDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHPVSingleDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHepatitisAInactivatedHAV1DoseVS.json",
+    "fshName": "IMMZD2DTHepatitisAInactivatedHAV1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHepatitisAInactivatedHAV1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHepatitisAInactivatedHAV2DosesVS.json",
+    "fshName": "IMMZD2DTHepatitisAInactivatedHAV2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHepatitisAInactivatedHAV2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHepatitisALiveAttenuatedHAV1DoseVS.json",
+    "fshName": "IMMZD2DTHepatitisALiveAttenuatedHAV1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHepatitisALiveAttenuatedHAV1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHib2DosesWithBoosterDoseVS.json",
+    "fshName": "IMMZD2DTHib2DosesWithBoosterDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHib2DosesWithBoosterDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHib3DosesVS.json",
+    "fshName": "IMMZD2DTHib3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHib3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTHib3DosesWithBoosterDoseVS.json",
+    "fshName": "IMMZD2DTHib3DosesWithBoosterDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTHib3DosesWithBoosterDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTJEInactivatedVeroCellDerivedVaccineVS.json",
+    "fshName": "IMMZD2DTJEInactivatedVeroCellDerivedVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTJEInactivatedVeroCellDerivedVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTJELiveAttenuatedVaccineVS.json",
+    "fshName": "IMMZD2DTJELiveAttenuatedVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTJELiveAttenuatedVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTJELiveRecombinantVaccineVS.json",
+    "fshName": "IMMZD2DTJELiveRecombinantVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTJELiveRecombinantVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMalariaVS.json",
+    "fshName": "IMMZD2DTMalariaVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMalariaVS.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeaslesLowTransmissionVS.json",
+    "fshName": "IMMZD2DTMeaslesLowTransmissionVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeaslesLowTransmissionVS.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeaslesMCVDose0VS.json",
+    "fshName": "IMMZD2DTMeaslesMCVDose0VS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeaslesMCVDose0VS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeaslesOngoingTransmissionVS.json",
+    "fshName": "IMMZD2DTMeaslesOngoingTransmissionVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeaslesOngoingTransmissionVS.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeaslesSupplementaryDoseVS.json",
+    "fshName": "IMMZD2DTMeaslesSupplementaryDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeaslesSupplementaryDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeningococcalMenAConjugateVaccine1DoseVS.json",
+    "fshName": "IMMZD2DTMeningococcalMenAConjugateVaccine1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeningococcalMenAConjugateVaccine1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeningococcalMenAConjugateVaccine2DosesVS.json",
+    "fshName": "IMMZD2DTMeningococcalMenAConjugateVaccine2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeningococcalMenAConjugateVaccine2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeningococcalMonovalentMenCConjugateVaccineVS.json",
+    "fshName": "IMMZD2DTMeningococcalMonovalentMenCConjugateVaccineVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeningococcalMonovalentMenCConjugateVaccineVS.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeningococcalPolysaccharideVaccinesVS.json",
+    "fshName": "IMMZD2DTMeningococcalPolysaccharideVaccinesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeningococcalPolysaccharideVaccinesVS.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseVS.json",
+    "fshName": "IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2DosesVS.json",
+    "fshName": "IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMeningococcalQuadrivalentConjugateVaccines2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTMumpsVS.json",
+    "fshName": "IMMZD2DTMumpsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTMumpsVS.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTPneumococcal2DosesWithBoosterDoseVS.json",
+    "fshName": "IMMZD2DTPneumococcal2DosesWithBoosterDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTPneumococcal2DosesWithBoosterDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 48
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTPneumococcal3DosesVS.json",
+    "fshName": "IMMZD2DTPneumococcal3DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTPneumococcal3DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 53
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTPolioBOPVPlusIPVVS.json",
+    "fshName": "IMMZD2DTPolioBOPVPlusIPVVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTPolioBOPVPlusIPVVS.fsh",
+    "startLine": 1,
+    "endLine": 45
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTPolioBirthDoseVS.json",
+    "fshName": "IMMZD2DTPolioBirthDoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTPolioBirthDoseVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTPolioIPVOnlyVS.json",
+    "fshName": "IMMZD2DTPolioIPVOnlyVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTPolioIPVOnlyVS.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTPolioSequentialIPVbOPVVS.json",
+    "fshName": "IMMZD2DTPolioSequentialIPVbOPVVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTPolioSequentialIPVbOPVVS.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTRabiesVS.json",
+    "fshName": "IMMZD2DTRabiesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTRabiesVS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTRotavirusVS.json",
+    "fshName": "IMMZD2DTRotavirusVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTRotavirusVS.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTRubellaHighIncidenceVS.json",
+    "fshName": "IMMZD2DTRubellaHighIncidenceVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTRubellaHighIncidenceVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTRubellaLowIncidenceVS.json",
+    "fshName": "IMMZD2DTRubellaLowIncidenceVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTRubellaLowIncidenceVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTTBEEnceVirVS.json",
+    "fshName": "IMMZD2DTTBEEnceVirVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTTBEEnceVirVS.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTTBEEncepurVS.json",
+    "fshName": "IMMZD2DTTBEEncepurVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTTBEEncepurVS.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTTBEFSMEImmunVS.json",
+    "fshName": "IMMZD2DTTBEFSMEImmunVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTTBEFSMEImmunVS.fsh",
+    "startLine": 1,
+    "endLine": 33
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTTBETBEMoscowVS.json",
+    "fshName": "IMMZD2DTTBETBEMoscowVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTTBETBEMoscowVS.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTTyphoidTCVVS.json",
+    "fshName": "IMMZD2DTTyphoidTCVVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTTyphoidTCVVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTTyphoidTy21aVS.json",
+    "fshName": "IMMZD2DTTyphoidTy21aVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTTyphoidTy21aVS.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTTyphoidViPSVS.json",
+    "fshName": "IMMZD2DTTyphoidViPSVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTTyphoidViPSVS.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTVaricella1DoseVS.json",
+    "fshName": "IMMZD2DTVaricella1DoseVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTVaricella1DoseVS.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTVaricella2DosesVS.json",
+    "fshName": "IMMZD2DTVaricella2DosesVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTVaricella2DosesVS.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-IMMZD2DTYellowfeverYellowFeverVS.json",
+    "fshName": "IMMZD2DTYellowfeverYellowFeverVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD2DTYellowfeverYellowFeverVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTBCGContraindicationsVS.json",
+    "fshName": "IMMZD5DTBCGContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTBCGContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTDTPContraindicationsVS.json",
+    "fshName": "IMMZD5DTDTPContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTDTPContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTDengueContraindicationsVS.json",
+    "fshName": "IMMZD5DTDengueContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTDengueContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTHPVContraindicationsVS.json",
+    "fshName": "IMMZD5DTHPVContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTHPVContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTHepatitisAContraindicationsVS.json",
+    "fshName": "IMMZD5DTHepatitisAContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTHepatitisAContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTHibContraindicationsVS.json",
+    "fshName": "IMMZD5DTHibContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTHibContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTJEContraindicationsVS.json",
+    "fshName": "IMMZD5DTJEContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTJEContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTMalariaContraindicationsVS.json",
+    "fshName": "IMMZD5DTMalariaContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTMalariaContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTMeaslesContraindicationsVS.json",
+    "fshName": "IMMZD5DTMeaslesContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTMeaslesContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTMeningococcalContraindicationsVS.json",
+    "fshName": "IMMZD5DTMeningococcalContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTMeningococcalContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTMumpsContraindicationsVS.json",
+    "fshName": "IMMZD5DTMumpsContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTMumpsContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTPneumococcalContraindicationsVS.json",
+    "fshName": "IMMZD5DTPneumococcalContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTPneumococcalContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTPolioContraindicationsVS.json",
+    "fshName": "IMMZD5DTPolioContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTPolioContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTRabiesContraindicationsVS.json",
+    "fshName": "IMMZD5DTRabiesContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTRabiesContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTRotavirusContraindicationsVS.json",
+    "fshName": "IMMZD5DTRotavirusContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTRotavirusContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTRubellaContraindicationsVS.json",
+    "fshName": "IMMZD5DTRubellaContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTRubellaContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTTBEContraindicationsVS.json",
+    "fshName": "IMMZD5DTTBEContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTTBEContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTTyphoidContraindicationsVS.json",
+    "fshName": "IMMZD5DTTyphoidContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTTyphoidContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTVaricellaContraindicationsVS.json",
+    "fshName": "IMMZD5DTVaricellaContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTVaricellaContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ValueSet-IMMZD5DTYellowFeverContraindicationsVS.json",
+    "fshName": "IMMZD5DTYellowFeverContraindicationsVS",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/IMMZD5DTYellowFeverContraindicationsVS.fsh",
+    "startLine": 1,
+    "endLine": 23
+  }
+]
