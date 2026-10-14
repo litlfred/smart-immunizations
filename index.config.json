@@ -2,19 +2,11 @@
   "$schema": "folio-index-config/v1",
   "instances": [
     {
-      "name": "smart-immunizations",
-      "source": {
-        "local": {
-          "at": "."
-        }
-      }
-    },
-    {
       "name": "smart-base",
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "f1bcb146b214896156bce63c15e92003c78f3368",
+          "ref": "941d35ac678d741da336b0b40f664b9a802ac483",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -35,6 +27,8 @@
                 "smart-base-findings",
                 "smart-base-external-schemas",
                 "smart-base-platform",
+                "smart-base-typologies",
+                "smart-base-validators",
                 "smart-base-schemas",
                 "smart-base-content",
                 "smart-base-scripts",
@@ -47,9 +41,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-10",
-              "ref": "f1bcb146b214896156bce63c15e92003c78f3368",
-              "evidence": "owner, session_017fFnGmbJcfqqrHXz9oqxdG 2026-10-10: 'you can work on the litlfred/smart-* go ahead and harness them with index.config.json' and 'keep going. keep migrating environment'; 2026-10-12: 'repin+merge when green for next 3 hours. contineu' — smart-immunizations mounts smart-base's closure as smart-hiv does, every layer at its current main"
+              "on": "2026-10-14",
+              "ref": "941d35ac678d741da336b0b40f664b9a802ac483",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
         }
@@ -60,7 +54,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "346ecd0bc7eb69e608bd0185a58ecb25acf2642e",
+          "ref": "67262906ae0ea86fb2a53158a0f6ece36762acae",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -69,9 +63,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-10",
-              "ref": "346ecd0bc7eb69e608bd0185a58ecb25acf2642e",
-              "evidence": "owner, session_017fFnGmbJcfqqrHXz9oqxdG 2026-10-10: 'you can work on the litlfred/smart-* go ahead and harness them with index.config.json' and 'keep going. keep migrating environment'; 2026-10-12: 'repin+merge when green for next 3 hours. contineu' — smart-immunizations mounts smart-base's closure as smart-hiv does, every layer at its current main"
+              "on": "2026-10-14",
+              "ref": "67262906ae0ea86fb2a53158a0f6ece36762acae",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / 'extend repin+merge window 3 hrs' — the fixes that made smart-trust's root build publish"
             }
           }
         }
@@ -82,7 +76,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "fd8ea8d87710b843d2abc0a1cd3d8fe7a6fcbb32",
+          "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -97,9 +91,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-12",
-              "ref": "fd8ea8d87710b843d2abc0a1cd3d8fe7a6fcbb32",
-              "evidence": "owner, session_017fFnGmbJcfqqrHXz9oqxdG 2026-10-10: 'you can work on the litlfred/smart-* go ahead and harness them with index.config.json' and 'keep going. keep migrating environment'; 2026-10-12: 'repin+merge when green for next 3 hours. contineu' — smart-immunizations mounts smart-base's closure as smart-hiv does, every layer at its current main"
+              "on": "2026-10-14",
+              "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
         }
@@ -110,7 +104,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "525ce6034f23f5f8b51898a2f4b0bbce4e0cc3a2",
+          "ref": "c9683bd815d16d6bb2d724a5c4fca8730dc8f115",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -125,9 +119,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-12",
-              "ref": "525ce6034f23f5f8b51898a2f4b0bbce4e0cc3a2",
-              "evidence": "owner, session_017fFnGmbJcfqqrHXz9oqxdG 2026-10-10: 'you can work on the litlfred/smart-* go ahead and harness them with index.config.json' and 'keep going. keep migrating environment'; 2026-10-12: 'repin+merge when green for next 3 hours. contineu' — smart-immunizations mounts smart-base's closure as smart-hiv does, every layer at its current main"
+              "on": "2026-10-14",
+              "ref": "c9683bd815d16d6bb2d724a5c4fca8730dc8f115",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
         }
@@ -138,7 +132,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "c4efa71e1d756b5986c5c7f45894da35652a0ac0",
+          "ref": "6d49467c51615ee965933242cf2ac10491b5e4f5",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -150,9 +144,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-12",
-              "ref": "c4efa71e1d756b5986c5c7f45894da35652a0ac0",
-              "evidence": "owner, session_017fFnGmbJcfqqrHXz9oqxdG 2026-10-10: 'you can work on the litlfred/smart-* go ahead and harness them with index.config.json' and 'keep going. keep migrating environment'; 2026-10-12: 'repin+merge when green for next 3 hours. contineu' — smart-immunizations mounts smart-base's closure as smart-hiv does, every layer at its current main"
+              "on": "2026-10-14",
+              "ref": "6d49467c51615ee965933242cf2ac10491b5e4f5",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / 'extend repin+merge window 3 hrs' — the fixes that made smart-trust's root build publish"
             }
           }
         }
@@ -163,7 +157,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "7d7d75411d9e022214f28ad5b04438e537d23347",
+          "ref": "5b10f5c5dc8f0553f38a0643b2cd144a287202ce",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -172,9 +166,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-10",
-              "ref": "7d7d75411d9e022214f28ad5b04438e537d23347",
-              "evidence": "owner, session_017fFnGmbJcfqqrHXz9oqxdG 2026-10-10: 'you can work on the litlfred/smart-* go ahead and harness them with index.config.json' and 'keep going. keep migrating environment'; 2026-10-12: 'repin+merge when green for next 3 hours. contineu' — smart-immunizations mounts smart-base's closure as smart-hiv does, every layer at its current main"
+              "on": "2026-10-14",
+              "ref": "5b10f5c5dc8f0553f38a0643b2cd144a287202ce",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
         }
@@ -185,7 +179,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "18da84de86f88b32a3ce5972f2649b7c98c044a5",
+          "ref": "c97f099285d990527ac21cd16b6198867cd0a321",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -197,13 +191,16 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-10",
-              "ref": "18da84de86f88b32a3ce5972f2649b7c98c044a5",
-              "evidence": "owner, session_017fFnGmbJcfqqrHXz9oqxdG 2026-10-10: 'you can work on the litlfred/smart-* go ahead and harness them with index.config.json' and 'keep going. keep migrating environment'; 2026-10-12: 'repin+merge when green for next 3 hours. contineu' — smart-immunizations mounts smart-base's closure as smart-hiv does, every layer at its current main"
+              "on": "2026-10-14",
+              "ref": "c97f099285d990527ac21cd16b6198867cd0a321",
+              "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
         }
       }
     }
-  ]
+  ],
+  "site": {
+    "landing": "smart-base"
+  }
 }
