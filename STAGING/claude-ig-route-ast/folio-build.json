@@ -1,0 +1,13 @@
+{
+  "$schema": "folio-site-build/v1",
+  "instance": "smart-immunizations",
+  "platform": {
+    "commit": "d18472378fbbf910aff9ea21b19ae91e40559147"
+  },
+  "source": {
+    "repo": "litlfred/smart-immunizations",
+    "ref": "claude/ig-route-ast",
+    "commit": "8169d6b2a3d6d0f6e0ae6c93194f9962c0fe5366"
+  },
+  "builtAt": "2026-10-14T21:32:17.435Z"
+}
