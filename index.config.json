@@ -2,14 +2,6 @@
   "$schema": "folio-index-config/v1",
   "instances": [
     {
-      "name": "smart-immunizations",
-      "source": {
-        "local": {
-          "at": "."
-        }
-      }
-    },
-    {
       "name": "smart-base",
       "source": {
         "remote": {
@@ -62,7 +54,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "e9906e92ae99844598347b1cf2cd71d07c08787a",
+          "ref": "1ff6f3115dc64dbbf44196dc8992018d7760e34c",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -72,7 +64,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-14",
-              "ref": "e9906e92ae99844598347b1cf2cd71d07c08787a",
+              "ref": "1ff6f3115dc64dbbf44196dc8992018d7760e34c",
               "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
@@ -84,7 +76,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "789175ad9a270cb1feb7440252e1c201dbc457ab",
+          "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -100,7 +92,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-14",
-              "ref": "789175ad9a270cb1feb7440252e1c201dbc457ab",
+              "ref": "30fc7057c1b48283973917d76e1a35abcd76cee8",
               "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
@@ -140,7 +132,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "7698ce940a28232a60c38735ad1ff1fcd2ddcd21",
+          "ref": "8b6f16a02a5f20b46354b5253be057169abeeebf",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -153,7 +145,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-14",
-              "ref": "7698ce940a28232a60c38735ad1ff1fcd2ddcd21",
+              "ref": "8b6f16a02a5f20b46354b5253be057169abeeebf",
               "evidence": "owner, session 2026-10-14 (session_01Pc8vSeXCwp5Ckvmz56cMDs): 'merge when green, repin and publish smart-trust' / '1 2' — every layer to its merged main"
             }
           }
