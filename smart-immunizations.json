@@ -43,6 +43,18 @@
       "graphTypologies": [
         "l1-extraction"
       ]
+    },
+    {
+      "id": "qa",
+      "path": "test/results/",
+      "storage": {
+        "branch": "cat/cat-harness/qa-reports",
+        "keyedBy": "commit"
+      },
+      "description": "What auditing THIS instance produced: one QA verdict sidecar per audited subject, among them the check:l1-complete verdict of each library/ entry. Stored on the cat/cat-harness/qa-reports branch keyed by commit, as who-iris, smart-base and folio-assistant-sci declare theirs, so the working copy is not a record and a consumer reads every verdict as unknown until it names the commit it is about, never as current. `qa` is a perInstance graph typology: these verdicts are about this instance's nodes.",
+      "graphTypologies": [
+        "qa"
+      ]
     }
   ],
   "avatar": {
