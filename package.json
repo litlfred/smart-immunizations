@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "l1-scenarios:measles": "bun run smart-base/scripts/l1-recommendation-scenarios.ts --l1 library/l1-recommendation-scenarios/measles/measles-position-paper-2017.l1.yaml --vocabulary library/l1-recommendation-scenarios/measles/immz-vocabulary.json --generic smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json --mapping library/l1-recommendation-scenarios/measles/measles-immz-mapping.yaml --out library/l1-recommendation-scenarios/measles/candidates",
+    "l1-scenarios:measles:check": "bun run smart-base/scripts/l1-recommendation-scenarios.ts --l1 library/l1-recommendation-scenarios/measles/measles-position-paper-2017.l1.yaml --vocabulary library/l1-recommendation-scenarios/measles/immz-vocabulary.json --generic smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json --mapping library/l1-recommendation-scenarios/measles/measles-immz-mapping.yaml --out library/l1-recommendation-scenarios/measles/candidates --check"
+  },
   "dependencies": {
     "fsh-sushi": "^3.16.5",
     "npm": "^11.5.2"
