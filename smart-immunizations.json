@@ -10,6 +10,22 @@
   "needs": [
     "smart-base"
   ],
+  "assets": [
+    {
+      "id": "agent-instructions",
+      "src": "AGENTS.md",
+      "role": "agent-instructions",
+      "title": "AGENTS.md — smart-immunizations",
+      "description": "Cold start for work here, and its one rule: the declaration names only what an index mounting this instance has. folio-assistant mounts no directories of it (owner B1, 2026-10-15)."
+    },
+    {
+      "id": "instance-readme",
+      "src": "README.md",
+      "role": "instance-readme",
+      "title": "WHO SMART Guidelines — Immunizations",
+      "description": "The WHO SMART Guidelines immunizations implementation guide, and where to send feedback."
+    }
+  ],
   "_directories_comment": "Owner, 2026-10-15 (~10:45Z, B1): the declaration names only what an index mounting this instance has. folio-assistant mounts none of this repository's directories (its override for smart-immunizations lists `directories: []`), so the `library` entry (library/) and the measles `library-l1-recommendation-scenarios` entry inside it (library/l1-recommendation-scenarios/, smart-base's l1-extraction kind) each named a directory that is absent there: check:declared-dirs, check:declaration-resolution `dh4f`. Both are dropped together, since the second is a path inside the first. The files stay in this repository; an index that wants them mounted declares them again, with the measles example given a home that is not read as a library entry.",
   "directories": [],
   "avatar": {
