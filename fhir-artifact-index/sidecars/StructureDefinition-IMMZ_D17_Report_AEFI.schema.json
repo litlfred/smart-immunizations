@@ -134,9 +134,9 @@
           "const": {
             "@version": 1.1,
             "fhir": "http://hl7.org/fhir/",
-            "IMMZ.D.DE107": "http://smart.who.int/base/ValueSet-IMMZ.D.DE107.jsonld",
             "IMMZ.D.DE95": "http://smart.who.int/base/ValueSet-IMMZ.D.DE95.jsonld",
-            "IMMZ.D.DE115": "http://smart.who.int/base/ValueSet-IMMZ.D.DE115.jsonld"
+            "IMMZ.D.DE115": "http://smart.who.int/base/ValueSet-IMMZ.D.DE115.jsonld",
+            "IMMZ.D.DE107": "http://smart.who.int/base/ValueSet-IMMZ.D.DE107.jsonld"
           }
         }
       }

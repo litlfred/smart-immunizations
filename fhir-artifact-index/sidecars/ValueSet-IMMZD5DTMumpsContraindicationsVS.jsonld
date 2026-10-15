@@ -16,7 +16,7 @@
   },
   "@id": "http://smart.who.int/immunizations/ValueSet-IMMZD5DTMumpsContraindicationsVS.jsonld",
   "@type": "http://www.w3.org/ns/prov#Entity",
-  "generatedAt": "2026-10-15T20:31:05.360441Z",
+  "generatedAt": "2026-10-15T20:59:04.279730Z",
   "@graph": [
     {
       "id": "#The client is currently pregnant-52",

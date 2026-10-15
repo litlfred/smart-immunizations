@@ -3,6 +3,40 @@
   "id": "9789240016514-eng",
   "blocks": [
     {
+      "id": "library/9789240016514-eng/blocks/figure-img-p001-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../images/img-p001-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
+      "id": "library/9789240016514-eng/blocks/figure-img-p001-2",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 1,
+      "pageEnd": 1,
+      "target": "../images/img-p001-2.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
       "id": "library/9789240016514-eng/blocks/prose-page-001",
       "types": [
         "folio-assistant-core:Prose",
@@ -39,6 +73,23 @@
       "summary": {
         "status": "not-summarised"
       }
+    },
+    {
+      "id": "library/9789240016514-eng/blocks/figure-img-p003-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 3,
+      "pageEnd": 3,
+      "target": "../images/img-p003-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
     },
     {
       "id": "library/9789240016514-eng/blocks/prose-page-003",
@@ -191,6 +242,23 @@
       "summary": {
         "status": "not-summarised"
       }
+    },
+    {
+      "id": "library/9789240016514-eng/blocks/figure-img-p011-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 11,
+      "pageEnd": 11,
+      "target": "../images/img-p011-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
     },
     {
       "id": "library/9789240016514-eng/blocks/prose-page-011",
@@ -630,6 +698,23 @@
       }
     },
     {
+      "id": "library/9789240016514-eng/blocks/figure-img-p034-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "target": "../images/img-p034-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
       "id": "library/9789240016514-eng/blocks/prose-page-034",
       "types": [
         "folio-assistant-core:Prose",
@@ -706,6 +791,23 @@
       }
     },
     {
+      "id": "library/9789240016514-eng/blocks/figure-img-p038-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "target": "../images/img-p038-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
       "id": "library/9789240016514-eng/blocks/prose-page-038",
       "types": [
         "folio-assistant-core:Prose",
@@ -723,6 +825,23 @@
       "summary": {
         "status": "not-summarised"
       }
+    },
+    {
+      "id": "library/9789240016514-eng/blocks/figure-img-p039-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "target": "../images/img-p039-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
     },
     {
       "id": "library/9789240016514-eng/blocks/prose-page-039",
@@ -763,6 +882,23 @@
       }
     },
     {
+      "id": "library/9789240016514-eng/blocks/figure-img-p041-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 41,
+      "pageEnd": 41,
+      "target": "../images/img-p041-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
+    },
+    {
       "id": "library/9789240016514-eng/blocks/prose-page-041",
       "types": [
         "folio-assistant-core:Prose",
@@ -780,6 +916,23 @@
       "summary": {
         "status": "not-summarised"
       }
+    },
+    {
+      "id": "library/9789240016514-eng/blocks/figure-img-p042-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 42,
+      "pageEnd": 42,
+      "target": "../images/img-p042-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
     },
     {
       "id": "library/9789240016514-eng/blocks/prose-page-042",
@@ -989,6 +1142,23 @@
       "summary": {
         "status": "not-summarised"
       }
+    },
+    {
+      "id": "library/9789240016514-eng/blocks/figure-img-p053-1",
+      "types": [
+        "folio-assistant-core:Figure",
+        "doco:Figure"
+      ],
+      "kind": "figure",
+      "title": "",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "target": "../images/img-p053-1.png",
+      "narrative": "not-authored",
+      "content": null,
+      "truncated": false,
+      "provenance": "ingested",
+      "summary": null
     },
     {
       "id": "library/9789240016514-eng/blocks/prose-page-053",
