@@ -18,7 +18,7 @@
   },
   "@id": "http://smart.who.int/immunizations/ValueSet-IMMZ.Z.DE19.jsonld",
   "@type": "http://www.w3.org/ns/prov#Entity",
-  "generatedAt": "2026-10-15T19:42:18.053558Z",
+  "generatedAt": "2026-10-15T20:31:05.308709Z",
   "@graph": [
     {
       "id": "#DE19",

@@ -23,6 +23,22 @@
                   "count": 10,
                   "schemas": [
                     {
+                      "filename": "StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
+                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
+                      "title": "IMMZ.D20.Does client require a verifiable digital certificate",
+                      "description": "Data elements for the IMMZ.D20.Does client require a verifiable digital certificate Data Dictionary Activity.",
+                      "url": "./StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
+                      "propertyCount": 4
+                    },
+                    {
+                      "filename": "StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
+                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
+                      "title": "IMMZ.C4.Create client record",
+                      "description": "Data elements for the IMMZ.C4.Create client record Data Dictionary Activity.  Identical to IMMZ.C5.3.Update client details.",
+                      "url": "./StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
+                      "propertyCount": 19
+                    },
+                    {
                       "filename": "StructureDefinition-IMMZ_D17_Report_AEFI.schema.json",
                       "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D17_Report_AEFI.schema.json",
                       "title": "IMMZ.D17.Report AEFI",
@@ -31,12 +47,20 @@
                       "propertyCount": 11
                     },
                     {
-                      "filename": "StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
-                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
-                      "title": "IMMZ.D20.Does client require a verifiable digital certificate",
-                      "description": "Data elements for the IMMZ.D20.Does client require a verifiable digital certificate Data Dictionary Activity.",
-                      "url": "./StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
-                      "propertyCount": 4
+                      "filename": "StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
+                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
+                      "title": "IMMZ.D21.Generate verifiable digital certificate",
+                      "description": "Data elements for the IMMZ.D21.Generate verifiable digital certificate Data Dictionary Activity.",
+                      "url": "./StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
+                      "propertyCount": 8
+                    },
+                    {
+                      "filename": "StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
+                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
+                      "title": "IMMZ.D18.Determine time for next visit",
+                      "description": "Data elements for the IMMZ.D18.Determine time for next visit Data Dictionary Activity.",
+                      "url": "./StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
+                      "propertyCount": 5
                     },
                     {
                       "filename": "StructureDefinition-IMMZ_D2_Determine_required_vaccination_s_.schema.json",
@@ -55,6 +79,14 @@
                       "propertyCount": 38
                     },
                     {
+                      "filename": "StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
+                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
+                      "title": "IMMZ.D13.Update client record",
+                      "description": "Data elements for the IMMZ.D13.Update client record Data Dictionary Activity.",
+                      "url": "./StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
+                      "propertyCount": 39
+                    },
+                    {
                       "filename": "StructureDefinition-IMMZ_D7_Counsel_client.schema.json",
                       "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D7_Counsel_client.schema.json",
                       "title": "IMMZ.D7.Counsel client",
@@ -69,38 +101,6 @@
                       "description": "Data elements for the IMMZ.D5.Determine vaccine(s) to be administered based on contraindications Data Dictionary Activity.",
                       "url": "./StructureDefinition-IMMZ_D5_Determine_vaccine_s__to_be_administered_based_on_contraindications.schema.json",
                       "propertyCount": 6
-                    },
-                    {
-                      "filename": "StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
-                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
-                      "title": "IMMZ.D21.Generate verifiable digital certificate",
-                      "description": "Data elements for the IMMZ.D21.Generate verifiable digital certificate Data Dictionary Activity.",
-                      "url": "./StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
-                      "propertyCount": 8
-                    },
-                    {
-                      "filename": "StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
-                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
-                      "title": "IMMZ.D13.Update client record",
-                      "description": "Data elements for the IMMZ.D13.Update client record Data Dictionary Activity.",
-                      "url": "./StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
-                      "propertyCount": 39
-                    },
-                    {
-                      "filename": "StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
-                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
-                      "title": "IMMZ.D18.Determine time for next visit",
-                      "description": "Data elements for the IMMZ.D18.Determine time for next visit Data Dictionary Activity.",
-                      "url": "./StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
-                      "propertyCount": 5
-                    },
-                    {
-                      "filename": "StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
-                      "id": "http://smart.who.int/base/StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
-                      "title": "IMMZ.C4.Create client record",
-                      "description": "Data elements for the IMMZ.C4.Create client record Data Dictionary Activity.  Identical to IMMZ.C5.3.Update client details.",
-                      "url": "./StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
-                      "propertyCount": 19
                     }
                   ]
                 }
@@ -182,6 +182,22 @@
           "count": 10,
           "schemas": [
             {
+              "filename": "StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
+              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
+              "title": "IMMZ.D20.Does client require a verifiable digital certificate",
+              "description": "Data elements for the IMMZ.D20.Does client require a verifiable digital certificate Data Dictionary Activity.",
+              "url": "./StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
+              "propertyCount": 4
+            },
+            {
+              "filename": "StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
+              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
+              "title": "IMMZ.C4.Create client record",
+              "description": "Data elements for the IMMZ.C4.Create client record Data Dictionary Activity.  Identical to IMMZ.C5.3.Update client details.",
+              "url": "./StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
+              "propertyCount": 19
+            },
+            {
               "filename": "StructureDefinition-IMMZ_D17_Report_AEFI.schema.json",
               "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D17_Report_AEFI.schema.json",
               "title": "IMMZ.D17.Report AEFI",
@@ -190,12 +206,20 @@
               "propertyCount": 11
             },
             {
-              "filename": "StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
-              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
-              "title": "IMMZ.D20.Does client require a verifiable digital certificate",
-              "description": "Data elements for the IMMZ.D20.Does client require a verifiable digital certificate Data Dictionary Activity.",
-              "url": "./StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
-              "propertyCount": 4
+              "filename": "StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
+              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
+              "title": "IMMZ.D21.Generate verifiable digital certificate",
+              "description": "Data elements for the IMMZ.D21.Generate verifiable digital certificate Data Dictionary Activity.",
+              "url": "./StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
+              "propertyCount": 8
+            },
+            {
+              "filename": "StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
+              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
+              "title": "IMMZ.D18.Determine time for next visit",
+              "description": "Data elements for the IMMZ.D18.Determine time for next visit Data Dictionary Activity.",
+              "url": "./StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
+              "propertyCount": 5
             },
             {
               "filename": "StructureDefinition-IMMZ_D2_Determine_required_vaccination_s_.schema.json",
@@ -214,6 +238,14 @@
               "propertyCount": 38
             },
             {
+              "filename": "StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
+              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
+              "title": "IMMZ.D13.Update client record",
+              "description": "Data elements for the IMMZ.D13.Update client record Data Dictionary Activity.",
+              "url": "./StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
+              "propertyCount": 39
+            },
+            {
               "filename": "StructureDefinition-IMMZ_D7_Counsel_client.schema.json",
               "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D7_Counsel_client.schema.json",
               "title": "IMMZ.D7.Counsel client",
@@ -228,38 +260,6 @@
               "description": "Data elements for the IMMZ.D5.Determine vaccine(s) to be administered based on contraindications Data Dictionary Activity.",
               "url": "./StructureDefinition-IMMZ_D5_Determine_vaccine_s__to_be_administered_based_on_contraindications.schema.json",
               "propertyCount": 6
-            },
-            {
-              "filename": "StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
-              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
-              "title": "IMMZ.D21.Generate verifiable digital certificate",
-              "description": "Data elements for the IMMZ.D21.Generate verifiable digital certificate Data Dictionary Activity.",
-              "url": "./StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
-              "propertyCount": 8
-            },
-            {
-              "filename": "StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
-              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
-              "title": "IMMZ.D13.Update client record",
-              "description": "Data elements for the IMMZ.D13.Update client record Data Dictionary Activity.",
-              "url": "./StructureDefinition-IMMZ_D13_Update_client_record.schema.json",
-              "propertyCount": 39
-            },
-            {
-              "filename": "StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
-              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
-              "title": "IMMZ.D18.Determine time for next visit",
-              "description": "Data elements for the IMMZ.D18.Determine time for next visit Data Dictionary Activity.",
-              "url": "./StructureDefinition-IMMZ_D18_Determine_time_for_next_visit.schema.json",
-              "propertyCount": 5
-            },
-            {
-              "filename": "StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
-              "id": "http://smart.who.int/base/StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
-              "title": "IMMZ.C4.Create client record",
-              "description": "Data elements for the IMMZ.C4.Create client record Data Dictionary Activity.  Identical to IMMZ.C5.3.Update client details.",
-              "url": "./StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
-              "propertyCount": 19
             }
           ]
         }
