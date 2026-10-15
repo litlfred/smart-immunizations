@@ -5,13 +5,17 @@
     {
       "id": "vfig-p014",
       "file": "figures/vfig-p014.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 1, three boxes naming the DDCC guidance documents, above the 'What is the DDCC:VS?' text",
         "page": 14
       },
       "page": 14,
@@ -20,7 +24,7 @@
         "1"
       ],
       "region": [
-        0.0,
+        0,
         17.26,
         595.15,
         828.92
@@ -31,7 +35,7 @@
         "groups": [
           {
             "bbox": [
-              0.0,
+              0,
               17.26,
               595.15,
               828.92
@@ -132,7 +136,7 @@
           {
             "id": "b1",
             "bbox": [
-              0.0,
+              0,
               77.95,
               595.15,
               301.89
@@ -274,18 +278,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "1"
+      ],
+      "narrative": {
+        "text": "Figure 1, 'Guidance documents for DDCC'. Three boxes: DDCC: Vaccination Status, guidance on digitally documenting COVID-19 vaccination status, shown with the cover of this document; DDCC: SARS-CoV-2 Test Result, guidance on digitally documenting SARS-CoV-2 test results; and DDCC: History of SARS-CoV-2 Infection, guidance on digitally documenting history of SARS-CoV-2 infection.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p015",
       "file": "figures/vfig-p015.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 2, five numbered certificate formats with pictures",
         "page": 15
       },
       "page": 15,
@@ -409,7 +431,7 @@
           {
             "id": "b1",
             "bbox": [
-              0.0,
+              0,
               307.56,
               595.28,
               841.89
@@ -489,7 +511,7 @@
           {
             "id": "b6",
             "bbox": [
-              54.0,
+              54,
               536.65,
               206.27,
               798.36
@@ -680,18 +702,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "2"
+      ],
+      "narrative": {
+        "text": "Figure 2, 'Different illustrative formats of DDCC:VS'. Two existing paper formats: 1, the International Certificate of Vaccination or Prophylaxis (the yellow card); 2, a national immunization home-based record, pictured as a COVID-19 vaccination record card. Then, grouped under Digital Documentation of COVID-19 Certificates: Vaccination Status: 3, a handwritten paper certificate with only an HCID that links to a DDCC:VS, or with a 2D barcode containing the full DDCC:VS core data set; 4, a PDF print-out certificate with only an HCID linking to a DDCC:VS, or with a 2D barcode containing the full core data set; 5, a DDCC:VS held on a smartphone. Formats 3-5 are pictured as a 'National COVID-19 Certificate' with a QR code.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p036",
       "file": "figures/vfig-p036.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 3, a four-lane Continuity of Care workflow with every path shown",
         "page": 36
       },
       "page": 36,
@@ -701,7 +741,7 @@
       ],
       "region": [
         0.75,
-        0.0,
+        0,
         595.28,
         841.89
       ],
@@ -712,7 +752,7 @@
           {
             "bbox": [
               0.75,
-              0.0,
+              0,
               595.28,
               841.89
             ],
@@ -1230,18 +1270,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "3"
+      ],
+      "narrative": {
+        "text": "Figure 3, 'Continuity of Care scenario': the vaccine is administered, the core data set is recorded on the DDCC paper certificate, and the record is then made available in digital form. Four lanes: subject of care, vaccinator, data entry personnel, DDCC holder. (1) The subject of care arrives at the care site; (2) the vaccinator vaccinates and (3) records core data set elements on a paper certificate, which the holder receives as Point A, a paper record of DDCC:VS. Is there a digital health solution at the care site? If no, (5) data entry personnel record the elements in a digital health solution. If yes, (4) the vaccinator records them in one; then, does the care site have Internet connectivity? Yes leads directly, and no via step 5, to Point B: the record of vaccination status is available in a digital form. End.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p038",
       "file": "figures/vfig-p038.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 4, the Figure 3 workflow with the Paper First path highlighted and the rest greyed",
         "page": 38
       },
       "page": 38,
@@ -1251,7 +1309,7 @@
       ],
       "region": [
         0.75,
-        0.0,
+        0,
         595.28,
         841.89
       ],
@@ -1262,7 +1320,7 @@
           {
             "bbox": [
               0.75,
-              0.0,
+              0,
               595.28,
               841.89
             ],
@@ -1852,18 +1910,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "4"
+      ],
+      "narrative": {
+        "text": "Figure 4, 'Continuity of Care scenario: Paper First use case (UC001)'. The Figure 3 workflow with one path highlighted: arrival (1), vaccination (2), recording on the paper certificate (3) which gives Point A, then no digital health solution at the care site, so data entry personnel record the data in a digital health solution (5), reaching Point B, the record available in digital form. Step 4 and the connectivity decision are greyed out.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p039",
       "file": "figures/vfig-p039.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 5, the Figure 3 workflow with the Offline Digital path highlighted",
         "page": 39
       },
       "page": 39,
@@ -1872,8 +1948,8 @@
         "5"
       ],
       "region": [
-        0.0,
-        0.0,
+        0,
+        0,
         595.28,
         841.89
       ],
@@ -1883,8 +1959,8 @@
         "groups": [
           {
             "bbox": [
-              0.0,
-              0.0,
+              0,
+              0,
               595.28,
               841.89
             ],
@@ -2514,18 +2590,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "5"
+      ],
+      "narrative": {
+        "text": "Figure 5, 'Continuity of Care scenario: Offline Digital use case (UC002)'. The Figure 3 workflow with one path highlighted: arrival (1), vaccination (2), paper recording (3) giving Point A; a digital health solution is at the care site, so the vaccinator records the data in it (4); the site has no Internet connectivity, so data entry personnel record the data (5), reaching Point B. The direct 'no digital solution' and 'connected' branches are greyed out.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p040",
       "file": "figures/vfig-p040.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 6, the Figure 3 workflow with the Online Digital path highlighted",
         "page": 40
       },
       "page": 40,
@@ -2534,8 +2628,8 @@
         "6"
       ],
       "region": [
-        0.0,
-        0.0,
+        0,
+        0,
         595.28,
         841.89
       ],
@@ -2545,8 +2639,8 @@
         "groups": [
           {
             "bbox": [
-              0.0,
-              0.0,
+              0,
+              0,
               595.28,
               841.89
             ],
@@ -3176,18 +3270,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "6"
+      ],
+      "narrative": {
+        "text": "Figure 6, 'Continuity of Care scenario: Online Digital use case (UC003)'. The Figure 3 workflow with one path highlighted: arrival (1), vaccination (2), paper recording (3) giving Point A; a digital health solution is at the care site and the vaccinator records the data in it (4); the site has Internet connectivity, so the record goes directly to Point B, available in digital form. Step 5 by data entry personnel is greyed out.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p046",
       "file": "figures/vfig-p046.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 7, five services joined by labelled arrows, some dashed and optional",
         "page": 46
       },
       "page": 46,
@@ -3196,7 +3308,7 @@
         "7"
       ],
       "region": [
-        0.0,
+        0,
         17.26,
         595.28,
         828.92
@@ -3207,7 +3319,7 @@
         "groups": [
           {
             "bbox": [
-              0.0,
+              0,
               17.26,
               595.28,
               828.92
@@ -3301,7 +3413,7 @@
           {
             "id": "b1",
             "bbox": [
-              0.0,
+              0,
               121.61,
               595.28,
               511.65
@@ -3440,7 +3552,7 @@
               376.01,
               198.35,
               450.28,
-              222.0
+              222
             ],
             "parent": "b1",
             "labels": [
@@ -3558,18 +3670,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "7"
+      ],
+      "narrative": {
+        "text": "Figure 7, 'The relationships between digital services for Proof of Vaccination'. A digital health solution submits a vaccination event to the DDCC:VS generation service, which returns a DDCC:VS. The HCID is provided by an existing national system or issued by the generation service. The generation service registers the DDCC:VS with the DDCC:VS registry service and may optionally store it in a DDCC:VS repository. Optional dashed links: an online status check between the registry service and the repository, and online verification of a DDCC:VS between an optional status checking application and the registry service. A note explains that the HCID, the unique identifier in a DDCC:VS, is used throughout these services and lets verifiers search for and retrieve a DDCC:VS.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p048",
       "file": "figures/vfig-p048.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 8, a four-lane Proof of Vaccination workflow with every path shown",
         "page": 48
       },
       "page": 48,
@@ -3578,8 +3708,8 @@
         "8"
       ],
       "region": [
-        0.0,
-        0.0,
+        0,
+        0,
         595.28,
         841.89
       ],
@@ -3589,8 +3719,8 @@
         "groups": [
           {
             "bbox": [
-              0.0,
-              0.0,
+              0,
+              0,
               595.28,
               841.89
             ],
@@ -4104,9 +4234,9 @@
             "to": "b1",
             "bbox": [
               252.59,
-              342.0,
+              342,
               436.95,
-              342.0
+              342
             ]
           },
           {
@@ -4172,18 +4302,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "8"
+      ],
+      "narrative": {
+        "text": "Figure 8, 'Proof of Vaccination scenario': verification of a claim of vaccination. Four lanes: DDCC holder, verifier, national PHA, international PHA. (1) The holder presents the DDCC:VS; (2) the verifier receives the claim. Is cryptographic verification required? No leads straight to Point C, the decision on the verification. Yes: (3) the verifier uses a status checking application; perform check online? No leads to Point C. Yes: (4) the national PHA performs an online check with its DDCC registry service; check with international PHA? If yes, (5) the international PHA performs an online check with its registry service; either way (6) results are communicated back to the verifier, then Point C and End.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p050",
       "file": "figures/vfig-p050.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 9, the Figure 8 workflow with only the manual-verification path highlighted",
         "page": 50
       },
       "page": 50,
@@ -4192,8 +4340,8 @@
         "9"
       ],
       "region": [
-        0.0,
-        0.0,
+        0,
+        0,
         595.28,
         841.89
       ],
@@ -4203,8 +4351,8 @@
         "groups": [
           {
             "bbox": [
-              0.0,
-              0.0,
+              0,
+              0,
               595.28,
               841.89
             ],
@@ -4820,9 +4968,9 @@
             "to": "b0",
             "bbox": [
               252.59,
-              342.0,
+              342,
               436.22,
-              342.0
+              342
             ]
           },
           {
@@ -4888,18 +5036,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "9"
+      ],
+      "narrative": {
+        "text": "Figure 9, 'Proof of Vaccination scenario: Manual Verification use case (UC004)'. The Figure 8 workflow with one path highlighted: the holder presents the DDCC:VS (1), the verifier receives the claim (2), no cryptographic verification is required, and the verifier goes directly to Point C, the decision on the claim. All the status-checking and PHA steps are greyed out.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p051",
       "file": "figures/vfig-p051.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 10, the Figure 8 workflow with the offline cryptographic path highlighted",
         "page": 51
       },
       "page": 51,
@@ -4908,8 +5074,8 @@
         "10"
       ],
       "region": [
-        0.0,
-        0.0,
+        0,
+        0,
         595.28,
         841.89
       ],
@@ -4919,8 +5085,8 @@
         "groups": [
           {
             "bbox": [
-              0.0,
-              0.0,
+              0,
+              0,
               595.28,
               841.89
             ],
@@ -5548,9 +5714,9 @@
             "to": "b0",
             "bbox": [
               252.72,
-              342.0,
+              342,
               437.07,
-              342.0
+              342
             ]
           },
           {
@@ -5616,18 +5782,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "10"
+      ],
+      "narrative": {
+        "text": "Figure 10, 'Proof of Vaccination scenario: Offline Cryptographic Verification use case (UC005)'. The Figure 8 workflow with one path highlighted: presentation (1), receipt of the claim (2), cryptographic verification required, the verifier uses a status checking application (3) and does not check online, going to Point C. The online PHA checks are greyed out.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p052",
       "file": "figures/vfig-p052.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 11, the Figure 8 workflow with the national online status check highlighted",
         "page": 52
       },
       "page": 52,
@@ -5636,8 +5820,8 @@
         "11"
       ],
       "region": [
-        0.0,
-        0.0,
+        0,
+        0,
         595.28,
         841.89
       ],
@@ -5647,8 +5831,8 @@
         "groups": [
           {
             "bbox": [
-              0.0,
-              0.0,
+              0,
+              0,
               595.28,
               841.89
             ],
@@ -6266,9 +6450,9 @@
             "to": "b0",
             "bbox": [
               252.59,
-              342.0,
+              342,
               436.95,
-              342.0
+              342
             ]
           },
           {
@@ -6334,18 +6518,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "11"
+      ],
+      "narrative": {
+        "text": "Figure 11, 'Proof of Vaccination scenario: Online Status Check (National DDCC:VS) use case (UC006)'. The Figure 8 workflow with one path highlighted: presentation (1), receipt (2), cryptographic verification required, status checking application (3), online check performed by the national PHA against its DDCC registry service (4), no international check, results communicated back to the verifier (6), Point C. The international PHA step is greyed out.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p053",
       "file": "figures/vfig-p053.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 12, the Figure 8 workflow with the international online status check highlighted",
         "page": 53
       },
       "page": 53,
@@ -6354,8 +6556,8 @@
         "12"
       ],
       "region": [
-        0.0,
-        0.0,
+        0,
+        0,
         595.28,
         841.89
       ],
@@ -6365,8 +6567,8 @@
         "groups": [
           {
             "bbox": [
-              0.0,
-              0.0,
+              0,
+              0,
               595.28,
               841.89
             ],
@@ -6994,9 +7196,9 @@
             "to": "b0",
             "bbox": [
               252.72,
-              342.0,
+              342,
               437.07,
-              342.0
+              342
             ]
           },
           {
@@ -7052,18 +7254,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "12"
+      ],
+      "narrative": {
+        "text": "Figure 12, 'Proof of Vaccination scenario: Online Status Check (International DDCC:VS) use case (UC007)'. The Figure 8 workflow with one path highlighted: presentation (1), receipt (2), cryptographic verification required, status checking application (3), national PHA online check (4), check with the international PHA, which performs an online check with its DDCC registry service (5), results communicated back to the verifier (6), Point C. The manual and offline branches are greyed out.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p064",
       "file": "figures/vfig-p064.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 13, three certificate boxes with a numbered signing arc above and a dotted verifying arc below",
         "page": 64
       },
       "page": 64,
@@ -7072,7 +7292,7 @@
         "13"
       ],
       "region": [
-        0.0,
+        0,
         17.26,
         595.28,
         828.92
@@ -7083,7 +7303,7 @@
         "groups": [
           {
             "bbox": [
-              0.0,
+              0,
               17.26,
               595.28,
               828.92
@@ -7176,7 +7396,7 @@
           {
             "id": "b1",
             "bbox": [
-              0.0,
+              0,
               68.03,
               595.28,
               442.2
@@ -7462,18 +7682,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "13"
+      ],
+      "narrative": {
+        "text": "Figure 13, 'The chain of trust'. Three linked boxes: CSCA (country signing certificate authority) and DSC (document signer certificate), each with a private and a public key, and DDCC (Digital Documentation of COVID-19 Certificate), marked with a QR code. Above, 'Signing and issuing a DDCC' runs in steps 1-3 from CSCA through DSC to DDCC. Below, a dotted 'Verifying a DDCC' arc runs in steps 1-3 the other way, from DDCC back to CSCA.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p065",
       "file": "figures/vfig-p065.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 14, a left-to-right document-signing flow",
         "page": 65
       },
       "page": 65,
@@ -7482,7 +7720,7 @@
         "14"
       ],
       "region": [
-        0.0,
+        0,
         17.26,
         595.28,
         828.92
@@ -7493,7 +7731,7 @@
         "groups": [
           {
             "bbox": [
-              0.0,
+              0,
               17.26,
               595.28,
               828.92
@@ -7597,7 +7835,7 @@
           {
             "id": "b1",
             "bbox": [
-              0.0,
+              0,
               449.29,
               595.28,
               711.49
@@ -7733,7 +7971,7 @@
             "bbox": [
               222.99,
               606.36,
-              267.0,
+              267,
               614.17
             ],
             "parent": "b3",
@@ -7810,18 +8048,36 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "14"
+      ],
+      "narrative": {
+        "text": "Figure 14, 'How digital signatures work', under the heading Document Signing. A signer starts from a document (vaccination data); a hash is calculated from the document, giving the document hash; the hash is digitally signed with a private key, giving the signed hash; the signed hash is added to the document, giving a document with a digitally signed hash (the DDCC:VS).",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     },
     {
       "id": "vfig-p066",
       "file": "figures/vfig-p066.png",
-      "role": "undetermined",
+      "role": "figure",
       "basis": {
-        "method": "assembly",
+        "method": "inspection",
         "by": {
-          "kind": "script",
-          "id": "cat-harness/scripts/pdf-vector-figures.py"
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
         },
+        "at": "2026-10-15",
+        "saw": "Figure 15, the signing flow above a validation flow",
         "page": 66
       },
       "page": 66,
@@ -8154,7 +8410,7 @@
           {
             "id": "b14",
             "bbox": [
-              490.0,
+              490,
               505.94,
               558.47,
               599.42
@@ -8292,6 +8548,20 @@
         ],
         "between": [],
         "outside": 0
+      },
+      "shows": [
+        "15"
+      ],
+      "narrative": {
+        "text": "Figure 15, 'How digital signature verification works'. The upper panel, Document Signing, repeats Figure 14: document, document hash, signed with the private key, signed hash added to the document to make the DDCC:VS. The signer sends the digitally signed document and the public key to the verifier. The lower panel, Document Validation: the verifier calculates a hash from the document and, using the public key, obtains the hash from the signed hash; the two values are compared, and a matching hash indicates a valid document, one that contains the information that was signed with the private key.",
+        "state": "draft",
+        "drafted_by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+        },
+        "drafted_at": "2026-10-15"
       }
     }
   ]

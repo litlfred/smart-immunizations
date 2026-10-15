@@ -16,8 +16,15 @@
   "pageStart": 27,
   "pageEnd": 27,
   "narrative": {
-    "text": null,
-    "state": "not-authored"
+    "text": "The cover of 'Analysis and use of health facility data: Guidance for immunization programme managers', working document, February 2018, with white line drawings of a vaccine vial and a syringe on a blue panel. Listed among the WHO guidance this kit draws on.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+    },
+    "drafted_at": "2026-10-15"
   },
   "derivedFrom": "library/9789240099456-eng/sections/page-027",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",

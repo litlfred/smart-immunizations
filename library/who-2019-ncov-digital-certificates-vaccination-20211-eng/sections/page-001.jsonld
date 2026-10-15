@@ -13,8 +13,7 @@
   "pageStart": 1,
   "pageEnd": 1,
   "contains": [
-    "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/blocks/prose-page-001",
-    "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/blocks/figure-img-p001-1"
+    "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/blocks/prose-page-001"
   ],
   "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",

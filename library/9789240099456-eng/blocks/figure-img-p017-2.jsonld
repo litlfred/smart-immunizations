@@ -16,8 +16,15 @@
   "pageStart": 17,
   "pageEnd": 17,
   "narrative": {
-    "text": null,
-    "state": "not-authored"
+    "text": "A small image of a blue-framed table titled 'Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children', one of the documents stacked in Fig. 2's L1 Narrative row. Its cell text is too small to read at this size.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+    },
+    "drafted_at": "2026-10-15"
   },
   "derivedFrom": "library/9789240099456-eng/sections/page-017",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",

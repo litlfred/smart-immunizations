@@ -16,8 +16,15 @@
   "pageStart": 27,
   "pageEnd": 27,
   "narrative": {
-    "text": null,
-    "state": "not-authored"
+    "text": "A thumbnail of 'Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children', a blue-framed table with columns for antigen, age of first dose, doses in primary series, intervals between doses, booster dose and considerations. Listed among the WHO guidance this kit draws on.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+    },
+    "drafted_at": "2026-10-15"
   },
   "derivedFrom": "library/9789240099456-eng/sections/page-027",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",

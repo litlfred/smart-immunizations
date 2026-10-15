@@ -13,8 +13,7 @@
   "pageStart": 100,
   "pageEnd": 100,
   "contains": [
-    "library/9789240099456-eng/blocks/prose-page-100",
-    "library/9789240099456-eng/blocks/figure-img-p100-1"
+    "library/9789240099456-eng/blocks/prose-page-100"
   ],
   "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",

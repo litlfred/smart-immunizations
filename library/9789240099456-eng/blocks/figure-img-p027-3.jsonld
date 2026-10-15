@@ -16,8 +16,15 @@
   "pageStart": 27,
   "pageEnd": 27,
   "narrative": {
-    "text": null,
-    "state": "not-authored"
+    "text": "The cover of 'Digital Documentation of COVID-19 Certificates: Vaccination Status - Technical specifications and implementation guidance', dated 27 August 2021: a dark blue cover with an illustration of a circuit board joining vaccine vials, a syringe, a virus particle, a mobile phone and a laptop, and the WHO logo. Listed among the WHO guidance this kit draws on.",
+    "state": "draft",
+    "drafted_by": {
+      "kind": "agent",
+      "id": "claude",
+      "model": "not-disclosed",
+      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+    },
+    "drafted_at": "2026-10-15"
   },
   "derivedFrom": "library/9789240099456-eng/sections/page-027",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",
