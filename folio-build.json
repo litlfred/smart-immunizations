@@ -2,12 +2,12 @@
   "$schema": "folio-site-build/v1",
   "instance": "smart-immunizations",
   "platform": {
-    "commit": "353cc79ee30368c65c5106249aa088426af6f0eb"
+    "commit": "d884f1404a072a162c3e49ffe11f0946ada3a934"
   },
   "source": {
     "repo": "litlfred/smart-immunizations",
-    "ref": "claude/seed-smart-base",
-    "commit": "6004ec5372f44b61e14c34a87a9d316419b08c8a"
+    "ref": "main",
+    "commit": "def252f8bd8c2befdb5ce6c82c8e258b2fbe5c77"
   },
-  "builtAt": "2026-10-12T18:44:35.945Z"
+  "builtAt": "2026-10-15T09:24:11.050Z"
 }

@@ -16,7 +16,7 @@
   },
   "@id": "http://smart.who.int/immunizations/ValueSet-IMMZD18SMeningococcalQuadrivalentConjugateVaccines2DosesVS.jsonld",
   "@type": "http://www.w3.org/ns/prov#Entity",
-  "generatedAt": "2026-10-12T18:43:55.761595Z",
+  "generatedAt": "2026-10-15T09:23:34.466065Z",
   "@graph": [
     {
       "id": "#Child's birth-0",
