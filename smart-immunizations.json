@@ -1,6 +1,7 @@
 {
   "$schema": "cat-harness-declaration/1.0.0",
   "name": "smart-immunizations",
+  "version": "0.1.0",
   "repository": "litlfred/smart-immunizations",
   "_restored_comment": "RESTORED 2026-10-15 (bean folio-assistant-63q4; owner: \"Fix trust and immz\"). 556b5bf1 removed this declaration on 2026-10-14 when the repository moved to the smart-hiv shape (owner: \"Smart-hiv doesn't need its own harness. It can just define index.config.json and reference smart-base as a dependency\"). That shape still governs how THIS repository mounts smart-base: index.config.json does it, and this file declares no remoteMounts. What it cannot do is let folio-assistant mount smart-immunizations as an instance, because remote-mount finds an instance only by its `<name>.json` declaration. Restored from 556b5bf1^, at the repository root where it was, plus its library/ (below).",
   "iriBase": "https://litlfred.github.io/smart-immunizations/",
