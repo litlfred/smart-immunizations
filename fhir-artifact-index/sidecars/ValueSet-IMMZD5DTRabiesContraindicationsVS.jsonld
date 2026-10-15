@@ -16,7 +16,7 @@
   },
   "@id": "http://smart.who.int/immunizations/ValueSet-IMMZD5DTRabiesContraindicationsVS.jsonld",
   "@type": "http://www.w3.org/ns/prov#Entity",
-  "generatedAt": "2026-10-15T10:56:21.776250Z",
+  "generatedAt": "2026-10-15T12:35:45.041039Z",
   "@graph": [
     {
       "id": "#The client has history of severe allergic reactions-59",
