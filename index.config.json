@@ -48,11 +48,6 @@
             }
           }
         }
-      },
-      "site": {
-        "build": {
-          "coverage": "report"
-        }
       }
     },
     {
@@ -60,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "fcbd5452447beaa5666f7c19661cae77ccf443f0",
+          "ref": "c2fe449ab41f8765b7be16b75d2fc6c6cb781183",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -70,8 +65,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "fcbd5452447beaa5666f7c19661cae77ccf443f0",
-              "evidence": "owner litlfred, 2026-10-15: 'extend merge and repin 3 hrs' — IG coverage recipe (fhir-harness#105), first paint (cat-harness-tools#345)"
+              "ref": "c2fe449ab41f8765b7be16b75d2fc6c6cb781183",
+              "evidence": "owner, 2026-10-15: \"extend merge window 3 hrs\"; coverage fixes #358 #359 #365"
             }
           }
         }
@@ -138,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "e563f0c78ab9015efdf246a6f1f0335c8d2e9550",
+          "ref": "2230223fcac6d7b759e073f49a14bc2bc8c18685",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -151,8 +146,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "e563f0c78ab9015efdf246a6f1f0335c8d2e9550",
-              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
+              "ref": "2230223fcac6d7b759e073f49a14bc2bc8c18685",
+              "evidence": "owner, 2026-10-15: \"extend merge window 3 hrs\"; coverage fixes #358 #359 #365"
             }
           }
         }
