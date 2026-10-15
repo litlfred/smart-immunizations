@@ -112,7 +112,7 @@
     "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/sections/page-099"
   ],
   "provenance": "ingested",
-  "inSubgraph": "smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
   "license": "CC-BY-NC-SA-3.0-IGO",
   "licenceRecord": {
     "status": "stated",

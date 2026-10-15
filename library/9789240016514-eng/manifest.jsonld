@@ -66,7 +66,7 @@
     "library/9789240016514-eng/sections/page-053"
   ],
   "provenance": "ingested",
-  "inSubgraph": "smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
   "license": "CC-BY-NC-SA-3.0-IGO",
   "licenceRecord": {
     "status": "stated",
