@@ -53,8 +53,12 @@ validator in smart-base `kg/`**, which also checks property values.
 | [`who-2019-ncov-digital-certificates-vaccination-20211-eng/`](who-2019-ncov-digital-certificates-vaccination-20211-eng/) | Digital documentation of COVID-19 certificates: vaccination status (2021) | (28) | [IRIS 10665/343361](https://iris.who.int/handle/10665/343361) |
 
 All three are CC BY-NC-SA 3.0 IGO (each entry's `licence.json` says where that
-is stated). Each was ingested by page; the extracted images are not yet
-described, so the entries are **staged, not promoted**.
+is stated). Each was ingested by page. Every extracted image and every
+vector-figure render now carries a description, judged by looking at it and
+recorded in [`image-verdicts.json`](image-verdicts.json) (applied by
+`apply-image-verdicts.ts`), so all three entries pass `check:l1-complete`.
+The descriptions were drafted by an agent and are in the `draft` state: no
+person has reviewed them yet (`bun run cat narratives` to confirm or reject).
 
 **Cited but not held**, each recorded in the graph with its URL: (15) PAHO
 *Electronic immunization registry* (PAHO IRIS refused the fetch), (26) and (32)

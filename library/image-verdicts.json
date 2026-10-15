@@ -1,0 +1,431 @@
+{
+  "$schema": "folio-image-verdicts/v1",
+  "_comment": "One agent's INSPECTION of every extracted image and every vector-figure render in this library, as data rather than code, so the judgement can be reviewed line by line and re-run (bean d5f1; vector renders, bean ay3x). `saw` is the REASON for the role, not the description; `draft` is the description. Every entry was produced by looking at the image or render file; where a thumbnail's text was too small to read, the draft says so rather than guessing. Applied by cat-harness-tools/scripts/apply-image-verdicts.ts, which writes an `inspection` basis naming this agent and leaves every narrative in `draft` -- only a human may confirm one (schemas/narrative.ts). No person has reviewed these drafts. The model is recorded as `not-disclosed` with the session it can be recovered from (schemas/attribution.ts, MODEL_NOT_DISCLOSED).",
+  "inspected_by": {
+    "kind": "agent",
+    "id": "claude",
+    "model": "not-disclosed",
+    "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+  },
+  "inspected_at": "2026-10-15",
+  "verdicts": {
+    "9789240016514-eng": {
+      "img-p001-1": {
+        "role": "decorative",
+        "saw": "the cover photograph of a vaccination session outdoors",
+        "draft": "A photograph of an outdoor vaccination session. A masked health worker in a white coat and gloves leans over to give an injection to an infant held on the lap of a young woman seated on a wooden chair. Other people stand in the background beside a table with papers on it, under a thatched shelter. Illustrative; it carries no information the text does not."
+      },
+      "img-p001-2": {
+        "role": "logo",
+        "saw": "the WHO emblem and name, white on transparent",
+        "draft": "The World Health Organization logo in white: the WHO emblem (a staff with serpent over a globe, framed by olive branches) beside the words World Health Organization."
+      },
+      "img-p003-1": {
+        "role": "logo",
+        "saw": "the WHO emblem and name, black on white",
+        "draft": "The World Health Organization logo in black: the WHO emblem (a staff with serpent over a globe, framed by olive branches) beside the words World Health Organization."
+      },
+      "img-p011-1": {
+        "role": "figure",
+        "saw": "Figure 1, a pie of five segments around a central circle",
+        "draft": "Figure 1, 'Elements of a strong catch-up vaccination strategy'. A circle divided into five coloured segments around a central circle labelled 'Catch-up vaccination policy and schedule'. The segments, clockwise from the top right, are: vaccines and supplies for catch-up vaccination; health worker knowledge and practice; recording and reporting practices, information systems and tools; communications and community engagement to build support; and strategies for catch-up vaccination."
+      },
+      "img-p034-1": {
+        "role": "figure",
+        "saw": "a table of minimum intervals between DTP-containing doses by age group",
+        "draft": "A table headed 'Minimum interval from the most recent dose administered'. Rows give the age-appropriate vaccine: 1-4 years, DTwP, DTaP or DT; 4-7 years, DTwP, DTaP, Td or DT; over 7 years, Td or TdaP. Columns give the dose, with the same interval for all three rows: 1st dose as early as possible; 2nd dose at least 4 weeks after the 1st; 3rd dose at least 6 months after the 2nd; 4th dose at least 1 year after the 3rd; 5th dose at least 1 year after the 4th."
+      },
+      "img-p038-1": {
+        "role": "figure",
+        "saw": "an 'Instructions' panel of three steps with two cartoon children",
+        "draft": "An 'Instructions' panel of three steps for the health worker. Step 1: praise the parent or caregiver for bringing the child, and find out from the immunization record or caregiver how old the child is today and which vaccines the child has already received. Step 2: use the chart to the right to decide what to give; the child should already have received all vaccines due up to their current age, and if doses are missing it is not too late; administer the vaccines for which the child is eligible, respecting the necessary spacing. Step 3: remind the caregiver when to bring the child back for subsequent doses and emphasise the importance of completing the series. Cartoon drawings of a standing girl and a seated baby decorate the panel."
+      },
+      "img-p039-1": {
+        "role": "figure",
+        "saw": "the 'Which vaccines can be given today?' chart of vaccine columns against age rows",
+        "draft": "A chart titled 'Which vaccines can be given today?', with the line 'It is better to vaccinate late than never!'. Rows are ages (birth, 6 weeks, 10 weeks, 14 weeks, 9 months, 18 months, 2 years); coloured columns are vaccines, each starting at the age of its first dose and running downward as an arrow. HepB BD and BCG start at birth, HepB BD ending at a stop sign; OPV 1-3, PCV 1-3, Penta 1-3 and RV 1-3 at 6, 10 and 14 weeks, RV ending at a stop sign before 2 years; IPV at 14 weeks; MCV 1 at 9 months; DTP4 (or Penta4), MCV 2 and MenA at 18 months. A 'When to give' column gives the timing for each row (for example, at 10 weeks or as soon as possible thereafter, and at least 4 weeks after dose 1), and a 'When not to give' column gives the limits: HepB BD not after 6 weeks; RV1, RV2 and RV3 not after 2 years of age; later doses not before 4 weeks since the previous dose; MCV1 and MenA not before 9 months of age except where indicated. A footer says there is no need to restart a series after a long gap, and there is no upper age limit for most vaccines except rotavirus (under 2 years) and the hepatitis B birth dose (under 6 weeks)."
+      },
+      "img-p041-1": {
+        "role": "figure",
+        "saw": "a tally sheet with two age columns, 0-11 months and 12 months or older",
+        "draft": "A blank tally sheet for recording vaccinations. Header fields for date, region, district, health facility, location and service delivery strategy (fixed, outreach or mobile). Rows list antigens and items: BCG, Hep B BD, OPV 0-3, IPV, Penta 1-3, Rota 1-3, PCV 1-3, M/MR 1 and 2, DTP4/Other, vitamin A and long-lasting insecticidal net. Each row has rows of tally circles and a total for 0-11 months and for 12 months or older, and a total-vaccinated column. Cells that do not apply are shaded dark: Hep B BD and OPV 0 for 12 months or older, and M/MR 2, DTP4/Other and the net for 0-11 months. A footnote marks Rota 3, DTP4/Other and the net as depending on national health priorities and schedule of services."
+      },
+      "img-p042-1": {
+        "role": "figure",
+        "saw": "a tally sheet with three age columns, 0-11, 12-23 and 24 months or older",
+        "draft": "A blank tally sheet for recording vaccinations, the same as the previous one but with three age columns: 0-11 months, 12-23 months and 24 months or older, each with tally circles and a total, and a total-vaccinated column. Rows list BCG, Hep B BD, OPV 0-3, IPV, Penta 1-3, Rota 1-3, PCV 1-3, M/MR 1 and 2, DTP4/Other, vitamin A and long-lasting insecticidal net. Cells that do not apply are shaded dark: Hep B BD and OPV 0 for 12 months and older; Rota 1-3 for 24 months or older; M/MR 2, DTP4/Other and the net for 0-11 months. A footnote marks Rota 3, DTP4/Other and the net as depending on national health priorities and schedule of services."
+      },
+      "img-p053-1": {
+        "role": "decorative",
+        "saw": "an ISBN barcode on the back cover",
+        "draft": "The back-cover ISBN barcode for 9789240016514."
+      },
+      "vfig-p011": {
+        "role": "figure",
+        "shows": [
+          "1"
+        ],
+        "saw": "a full-page render of page 1: Section 1 introduction text above Figure 1, the five-segment catch-up strategy circle",
+        "draft": "Figure 1, 'Elements of a strong catch-up vaccination strategy', on the page that introduces Section 1, 'Principles of catch-up vaccination'. A circle of five coloured segments around a central circle, 'Catch-up vaccination policy and schedule': strategies for catch-up vaccination; vaccines and supplies for catch-up vaccination; health worker knowledge and practice; recording and reporting practices, information systems and tools; and communications and community engagement to build support. The same figure is also placed on the page as a raster image (img-p011-1)."
+      }
+    },
+    "9789240099456-eng": {
+      "img-p013-1": {
+        "role": "figure",
+        "saw": "a thumbnail of this document's own cover, set inside Fig. 1's HEALTH CONTENT box",
+        "draft": "A small image of the cover of the 'Digital adaptation kit for immunizations' (SMART Guidelines collection): a green cover with the subtitle 'Operational requirements for implementing WHO recommendations in digital systems', line icons of vaccine vials, a calendar, a baby, a laptop and a person at a board, and the WHO logo on a dark band at the bottom. In Fig. 1 it stands for the health content that the kit represents."
+      },
+      "img-p015-1": {
+        "role": "figure",
+        "saw": "the cover of the WHO guideline 'Recommendations on digital interventions for health system strengthening'",
+        "draft": "The cover of the WHO guideline 'Recommendations on digital interventions for health system strengthening': an illustration of two health workers at a desk with a computer, other people seated in a waiting area, and a hand holding a tablet, with the WHO logo at the lower left."
+      },
+      "img-p017-1": {
+        "role": "figure",
+        "saw": "a thumbnail of this document's own cover, set in Fig. 2's L2 Operational row",
+        "draft": "A small image of the green cover of the 'Digital adaptation kit for immunizations', used in Fig. 2 to illustrate the L2 Operational layer (digital adaptation kits)."
+      },
+      "img-p017-2": {
+        "role": "figure",
+        "saw": "a thumbnail of a WHO position-paper summary table, title legible only when enlarged",
+        "draft": "A small image of a blue-framed table titled 'Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children', one of the documents stacked in Fig. 2's L1 Narrative row. Its cell text is too small to read at this size."
+      },
+      "img-p017-3": {
+        "role": "figure",
+        "saw": "a thumbnail of a WHO position-paper summary table, title legible only when enlarged",
+        "draft": "A small image of a blue-framed table titled 'Table 1: Summary of WHO Position Papers - Recommendations for Routine Immunization', one of the documents stacked in Fig. 2's L1 Narrative row. Its cell text is too small to read at this size."
+      },
+      "img-p017-4": {
+        "role": "figure",
+        "saw": "the cover of 'Guidance for immunization programme managers'",
+        "draft": "The cover of 'Analysis and use of health facility data: Guidance for immunization programme managers', working document, February 2018: a blue panel with white line drawings of a vaccine vial and a syringe, and the WHO logo. In Fig. 2 it sits with the L1 Narrative guidance."
+      },
+      "img-p027-1": {
+        "role": "figure",
+        "saw": "a thumbnail of WHO position-paper summary Table 1",
+        "draft": "A thumbnail of 'Table 1: Summary of WHO Position Papers - Recommendations for Routine Immunization', a blue-framed table with columns for antigen, children, adolescents, adults and considerations. Listed among the WHO guidance this kit draws on; the accompanying text describes it as summarising recommended routine immunizations for all age groups."
+      },
+      "img-p027-2": {
+        "role": "figure",
+        "saw": "a thumbnail of WHO position-paper summary Table 2",
+        "draft": "A thumbnail of 'Table 2: Summary of WHO Position Papers - Recommended Routine Immunizations for Children', a blue-framed table with columns for antigen, age of first dose, doses in primary series, intervals between doses, booster dose and considerations. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p027-3": {
+        "role": "figure",
+        "saw": "the cover of 'Digital Documentation of COVID-19 Certificates: Vaccination Status'",
+        "draft": "The cover of 'Digital Documentation of COVID-19 Certificates: Vaccination Status - Technical specifications and implementation guidance', dated 27 August 2021: a dark blue cover with an illustration of a circuit board joining vaccine vials, a syringe, a virus particle, a mobile phone and a laptop, and the WHO logo. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p027-4": {
+        "role": "figure",
+        "saw": "a thumbnail of WHO position-paper summary Table 3",
+        "draft": "A thumbnail of 'Table 3: Recommendations for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers', a blue-framed table with columns including age of first dose, doses in the primary series, interrupted primary series, doses for those starting late and booster. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p027-5": {
+        "role": "figure",
+        "saw": "a thumbnail of WHO position-paper summary Table 4",
+        "draft": "A thumbnail of 'Table 4: Summary of WHO Position Papers - Immunization of Health Care Workers', a blue-framed table listing antigens with the recommendation for health care workers beside each. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p027-6": {
+        "role": "figure",
+        "saw": "the cover of 'Guidance for immunization programme managers'",
+        "draft": "The cover of 'Analysis and use of health facility data: Guidance for immunization programme managers', working document, February 2018, with white line drawings of a vaccine vial and a syringe on a blue panel. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p027-7": {
+        "role": "figure",
+        "saw": "a screenshot of the WHO/UNICEF Joint Reporting Form instructions",
+        "draft": "A screenshot of the opening of the WHO/UNICEF Joint Reporting Form on Immunization: 'Annual Report on Immunization Performance for the Period January-December 2016 from Ministry of Health <<Country Name>> to WHO/UNICEF'. Instructions say to enter NR if a question is not relevant, ND if no data are available, and 0 if the number of cases is zero; that blue cells provide drop-down lists; and that earlier data are available from WHO and UNICEF web addresses. Listed among the WHO guidance this kit draws on as a sample of the joint report form."
+      },
+      "img-p027-8": {
+        "role": "figure",
+        "saw": "a screenshot of the WHO Immunization dashboard",
+        "draft": "A screenshot of the WHO 'Immunization dashboard - Global' web page, headed 'Reported cases of vaccine-preventable diseases (VPDs) globally', with small tiles giving a case count and trend chart for diseases including diphtheria, Japanese encephalitis, measles, mumps, neonatal tetanus, pertussis, rubella and total tetanus. The figures are too small to read reliably. Listed among the WHO guidance this kit draws on as the WHO Immunization Data Portal."
+      },
+      "img-p027-9": {
+        "role": "figure",
+        "saw": "the cover of 'Leave no one behind: guidance for planning and implementing catch-up vaccination'",
+        "draft": "The cover of 'Leave no one behind: guidance for planning and implementing catch-up vaccination': a photograph of a health worker vaccinating an infant held by a seated woman, under a dark blue title band, with the WHO logo. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p027-10": {
+        "role": "figure",
+        "saw": "the cover of 'Electronic Immunization Registry: Practical Considerations'",
+        "draft": "The cover of 'Electronic Immunization Registry: Practical Considerations for Planning, Development, Implementation and Evaluation', with an illustration of a laptop screen showing two vaccine vials and check marks, and the Pan American Health Organization and WHO logos. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p027-11": {
+        "role": "figure",
+        "saw": "the cover of 'Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World'",
+        "draft": "The cover of 'Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World', July 2022 update: a blue cover with line drawings of a virus particle and a syringe, and the WHO logo. Listed among the WHO guidance this kit draws on."
+      },
+      "img-p100-1": {
+        "role": "decorative",
+        "saw": "an ISBN barcode on the back cover",
+        "draft": "The back-cover ISBN barcode for 9789240099456."
+      },
+      "vfig-p013": {
+        "role": "figure",
+        "shows": [
+          "1"
+        ],
+        "saw": "Fig. 1, health content plus digital health interventions plus digital applications, above a foundational-layer grid",
+        "draft": "Fig. 1, 'Digital adaptation kits representing health content within broader needs for digital health implementations'. Three boxes are joined by plus signs: HEALTH CONTENT (information aligned with recommended health practices or validated health content), shown with the cover of this kit; DIGITAL HEALTH INTERVENTIONS (a discrete function of digital technology to achieve health-sector objectives); and DIGITAL APPLICATIONS (ICT systems and communication channels that facilitate delivery of the interventions and content). An orange frame encloses the three, and dotted lines run from it to the highlighted 'Services and applications' cell of a Foundational Layer (ICT and enabling environment) below, whose other cells are leadership and governance, strategy and investment, standards and interoperability, infrastructure, legislation, policy and compliance, and workforce. Source: adapted from reference 14."
+      },
+      "vfig-p017": {
+        "role": "figure",
+        "shows": [
+          "2"
+        ],
+        "saw": "Fig. 2, the five SMART layers L1-L5 on the left, each feeding a country L1-L5 adaptation on the right through a localisation bar",
+        "draft": "Fig. 2, 'Digital adaptation kits within the SMART guideline continuum'. Five rows: L1 Narrative (narrative guidelines: evidence-based recommendations with implementation and data guidance); L2 Operational (digital adaptation kits: software-neutral documentation of operational and functional requirements such as personas, workflows, metadata, algorithms, minimum data sets and priority metrics); L3 Machine readable (structured software-neutral specifications, code, terminology and interoperability standards); L4 Executable (reference software that executes static algorithms and interoperable components); and L5 Dynamic (precision health models trained and optimised with advanced analytics). Each row passes through a vertical 'Localisation' bar to its country-implementation adaptation: national policies and procedures; localised requirements; localised machine-readable code and standards; localised static digital services within a digital health enterprise; and dynamic applications optimised for local outcomes. A blue arrow beside them runs from 'Paper systems' at the top to 'Smart digital systems' at the bottom. Source: adapted from reference 18."
+      },
+      "vfig-p024": {
+        "role": "figure",
+        "shows": [
+          "3"
+        ],
+        "saw": "Fig. 3, seven coloured phases with their steps, beside a grid of resource tiles",
+        "draft": "Fig. 3, 'Planning and implementing a digital health enterprise: phases, steps and resources'. Seven numbered phases, each with its steps: 01 assessing the current state and enabling environment; 02 establishing a shared understanding and strategic planning; 03 defining the future state; 04 planning the enterprise architecture; 05 determining health content requirements; 06 M&E of digital health implementations and fostering data use; 07 implementing, maintaining and scaling. Beside them a grid of tiles names resources for each phase, marked as PDF for print or online environment; among them the WHO-ITU national eHealth strategy toolkit, the Digital implementation investment guide (DIIG), WHO guideline recommendations on digital interventions, Open Health Information Exchange, TOGAF, and a highlighted tile 'WHO SMART guidelines: digital adaptation kits (this document) and machine-readable recommendations' in phase 05. Source: adapted from WHO (reference 1)."
+      },
+      "vfig-p040": {
+        "role": "figure",
+        "saw": "Fig. 4, a two-lane process overview of workflows A-I",
+        "draft": "Fig. 4, 'Overview of key immunization processes'. Two swimlanes. Vaccination location management holds A. vaccination location registration, G. resolve duplicate client records, H. resolve duplicate vaccination events, I. report generation, and a grey 'Supply chain management' box not covered by this kit. Vaccination location runs from Start through B. plan service delivery into a Service Delivery area: C. client registration, D. administer vaccine, then 'All vaccine series complete?'; yes ends the process, no leads to E. client reminder and 'Overdue for a dose?', where yes leads to F. defaulter tracing and no to the end. Each workflow box carries a subprocess marker."
+      },
+      "vfig-p042": {
+        "role": "decorative",
+        "saw": "a 33-pixel-wide strip holding only the page-edge section tabs; the render does NOT include Fig. 5, which lies outside the crop",
+        "draft": "A narrow vertical strip of the page edge: the document's navigation tabs reading Recommendations, Personas, Scenarios, Workflows (highlighted), Data, Decisions, Indicators and Requirements. It does not show the figure on this page."
+      },
+      "vfig-p046": {
+        "role": "figure",
+        "saw": "Fig. 6, a single-lane process for planning service delivery",
+        "draft": "Fig. 6, 'Workflow B: plan service delivery business process', in one lane (vaccination location, health worker). From Start: 1. review past vaccination records to estimate vaccines needed; 2. record details on planning sheet; 3. sufficient stock in immediate location? If no, 4. order additional stock (a grey subprocess not covered by this kit); then 5. get needed stock; 6. record stock taken; 7. assemble all needed materials for the immunization session; End."
+      },
+      "vfig-p048": {
+        "role": "decorative",
+        "saw": "a 33-pixel-wide strip holding only the page-edge section tabs, byte-identical to vfig-p042; the render does NOT include Fig. 7",
+        "draft": "A narrow vertical strip of the page edge: the document's navigation tabs reading Recommendations, Personas, Scenarios, Workflows (highlighted), Data, Decisions, Indicators and Requirements. It does not show the figure on this page."
+      },
+      "vfig-p052": {
+        "role": "decorative",
+        "saw": "a 33-pixel-wide strip holding only the page-edge section tabs, byte-identical to vfig-p042; the render does NOT include Fig. 8",
+        "draft": "A narrow vertical strip of the page edge: the document's navigation tabs reading Recommendations, Personas, Scenarios, Workflows (highlighted), Data, Decisions, Indicators and Requirements. It does not show the figure on this page."
+      },
+      "vfig-p058": {
+        "role": "figure",
+        "saw": "Fig. 9, a two-lane reminder process between the immunization registry and the health worker",
+        "draft": "Fig. 9, 'Workflow E: client reminder business process'. Two lanes: electronic immunization registry, and vaccination location health worker. From Start the health worker does 1. define/evaluate criteria and 2. select notification method; the registry does 3. generate list of clients and 4. send notifications. Then 5. client shows up for vaccination? Yes leads to D. administer vaccine; no leads to 6. is another reminder needed? Yes loops back to step 1; no leads to F. defaulter tracing."
+      },
+      "vfig-p060": {
+        "role": "decorative",
+        "saw": "a 33-pixel-wide strip holding only the page-edge section tabs, byte-identical to vfig-p042; the render does NOT include Fig. 10",
+        "draft": "A narrow vertical strip of the page edge: the document's navigation tabs reading Recommendations, Personas, Scenarios, Workflows (highlighted), Data, Decisions, Indicators and Requirements. It does not show the figure on this page."
+      },
+      "vfig-p064": {
+        "role": "figure",
+        "saw": "Fig. 11, a two-lane process for resolving duplicate client records",
+        "draft": "Fig. 11, 'Workflow G: resolve duplicate client records business process'. Two lanes: PCPOSS, and vaccination location health worker or system administrator. The PCPOSS does 1. flag client records for evaluation and 2. produce list of potential duplicate records; the person does 3. perform manual review and decides 4. can records be merged? Yes leads to 5. merge records in the PCPOSS; no leads to 6. mark as 'not a duplicate' or 'pending'. Both end the process."
+      },
+      "vfig-p066": {
+        "role": "figure",
+        "saw": "Fig. 12, a two-lane process for resolving duplicate vaccination events",
+        "draft": "Fig. 12, 'Workflow H: resolve duplicate vaccination events business process'. Two lanes: PCPOSS, and vaccination location health worker or system administrator. The PCPOSS does 1. identify groups of vaccination events for evaluation; the person does 2. evaluate vaccination event records and decides 3. duplicate events? No ends the process; yes leads to 4. select the most accurate/suitable event record, then the PCPOSS does 5. update vaccination event records and 6. generate report of duplicate vaccination events, and the process ends."
+      },
+      "vfig-p068": {
+        "role": "figure",
+        "saw": "Fig. 13, a two-lane process for generating reports",
+        "draft": "Fig. 13, 'Workflow I: report generation business process'. Two lanes: vaccination location health worker, and PCPOSS. From Start the health worker does 1. define parameters for report; the PCPOSS does 2. generate report; the health worker does 3. high level review and decides 4. report acceptable? No loops back to step 1; yes leads to 5. analyse, and the process ends."
+      }
+    },
+    "who-2019-ncov-digital-certificates-vaccination-20211-eng": {
+      "img-p001-1": {
+        "role": "logo",
+        "saw": "the WHO emblem and name, white on transparent (visible only when composited on a dark ground)",
+        "draft": "The World Health Organization logo in white: the WHO emblem (a staff with serpent over a globe, framed by olive branches) beside the words World Health Organization."
+      },
+      "img-p014-1": {
+        "role": "figure",
+        "saw": "a thumbnail of this document's own cover, inside Figure 1's Vaccination Status box",
+        "draft": "A small image of the cover of 'Digital Documentation of COVID-19 Certificates: Vaccination Status - Technical specifications and implementation guidance': a dark blue cover with an illustration of a circuit board joining vaccine vials, a syringe, a virus particle, a phone and a laptop, and the WHO logo. In Figure 1 it illustrates the DDCC: Vaccination Status guidance."
+      },
+      "img-p015-1": {
+        "role": "figure",
+        "saw": "the yellow International Certificate of Vaccination or Prophylaxis, panel 1 of Figure 2",
+        "draft": "The front of the yellow International Certificate of Vaccination or Prophylaxis, with the WHO emblem and the title in English and French ('Certificat international de vaccination ou de prophylaxie') and a blank 'Issued to / Délivré à' line. In Figure 2 it is format 1, the yellow card."
+      },
+      "img-p015-2": {
+        "role": "figure",
+        "saw": "a smartphone showing a COVID-19 vaccination certificate with a QR code, panel 5 of Figure 2",
+        "draft": "A drawing of a smartphone displaying a 'COVID-19 Vaccination Certificate' with the WHO emblem, two stacked entries dated 'COVID-19 | 21 May 2021' and 'COVID-19 18 June 2021', and a QR code. In Figure 2 it is format 5, a DDCC:VS held on a smartphone. On the rendered page the WHO emblem and title are covered by the label 'National COVID-19 Certificate'."
+      },
+      "img-p015-3": {
+        "role": "figure",
+        "saw": "a bilingual COVID-19 vaccination certificate with a QR code and a PDF icon, panel 4 of Figure 2",
+        "draft": "A bilingual 'COVID-19 Vaccination Certificate / Certificat de vaccination contre la Covid-19' with the WHO emblem in English and French, a blank 'Issued to / Délivré à' line, a QR code and a red PDF icon. In Figure 2 it is format 4, a PDF print-out with a health certificate identifier or a 2D barcode. On the rendered page the WHO emblem and title are covered by the label 'National COVID-19 Certificate'."
+      },
+      "img-p015-4": {
+        "role": "figure",
+        "saw": "a bilingual COVID-19 vaccination certificate with a QR code, panel 3 of Figure 2",
+        "draft": "A bilingual 'COVID-19 Vaccination Certificate / Certificat de vaccination contre la Covid-19' with the WHO emblem in English and French, a blank 'Issued to / Délivré à' line and a QR code. In Figure 2 it is format 3, a handwritten paper certificate with a health certificate identifier or a 2D barcode. On the rendered page the WHO emblem and title are covered by the label 'National COVID-19 Certificate'."
+      },
+      "img-p015-5": {
+        "role": "figure",
+        "saw": "a photograph of a hand holding a CDC COVID-19 Vaccination Record Card, panel 2 of Figure 2",
+        "draft": "A photograph of a hand holding a blank CDC 'COVID-19 Vaccination Record Card', in English and Spanish, with fields for name, date of birth and patient number, and rows for 1st and 2nd dose COVID-19 and two 'Other' doses, each with product name/manufacturer and lot number, date, and healthcare professional or clinic site. In Figure 2 it is format 2, a national immunization home-based record."
+      },
+      "img-p080-1": {
+        "role": "figure",
+        "saw": "a QR code from the illustrative paper certificate in Annex 1",
+        "draft": "A QR code printed on the illustrative paper vaccination certificate in Annex 1 (Figures A1.1 and A1.2), where the text calls it the digital scanned code of the vaccination card. Its content was not decoded."
+      },
+      "img-p081-1": {
+        "role": "figure",
+        "saw": "a black rounded rectangle, the activity symbol in Table A2.1",
+        "draft": "An empty rounded rectangle with a black outline: the BPMN symbol for an activity, process, step or task in Table A2.1, 'Business process symbols used in workflows'."
+      },
+      "img-p081-2": {
+        "role": "figure",
+        "saw": "a solid black arrow, the sequence-flow symbol in Table A2.1",
+        "draft": "A solid black line ending in a filled arrowhead: the BPMN symbol for a sequence flow, the direction from one process step to the next, in Table A2.1."
+      },
+      "img-p081-3": {
+        "role": "figure",
+        "saw": "a dashed arrow with a small circle at its tail, the message-flow symbol in Table A2.1",
+        "draft": "A dashed black line starting at a small open circle and ending in an open arrowhead: the BPMN symbol for a message flow, the flow of data or information between processes, in Table A2.1."
+      },
+      "img-p081-4": {
+        "role": "figure",
+        "saw": "a white diamond with a black outline, the gateway symbol in Table A2.1",
+        "draft": "A white diamond with a black outline: the BPMN gateway symbol, a fork or decision point in a workflow, in Table A2.1."
+      },
+      "img-p086-1": {
+        "role": "figure",
+        "saw": "a screenshot of the PuTTY Key Generator window",
+        "draft": "A screenshot of the PuTTY Key Generator window, given as an example of a key generation tool (Figure A4.2). The Key panel shows a highlighted RSA public key for pasting into an OpenSSH authorized_keys file, a key fingerprint beginning 'ssh-rsa 2048', and the key comment 'rsa-key-20210701', with empty passphrase fields. Actions offer Generate, Load, Save public key and Save private key; the parameters select an RSA key of 2048 bits."
+      },
+      "img-p095-1": {
+        "role": "figure",
+        "saw": "the OpenHIE architecture diagram, Figure A6.1",
+        "draft": "Figure A6.1, the OpenHIE architecture. The OpenHIE component layer holds business domain services (logistics management information service, shared health record, health management information service, finance and insurance service) and registry services (terminology services, client registry, facility registry, health worker registry, product catalogue). Below it the interoperability services layer is a green 'Interoperability Layer' band with authentication, interlinking service and entity mapping. Along the bottom, point-of-service systems: mobile system, electronic medical record, health management information system, lab system, pharmacy system, logistics management information system, and finance and insurance system. Credited 'OpenHIE 2020-05-28; CC BY 4.0'. The page's footnote says orange boxes mark the registries and repositories relevant to DDCC:VS; no orange marking is visible in this extracted image."
+      },
+      "vfig-p014": {
+        "role": "figure",
+        "shows": [
+          "1"
+        ],
+        "saw": "Figure 1, three boxes naming the DDCC guidance documents, above the 'What is the DDCC:VS?' text",
+        "draft": "Figure 1, 'Guidance documents for DDCC'. Three boxes: DDCC: Vaccination Status, guidance on digitally documenting COVID-19 vaccination status, shown with the cover of this document; DDCC: SARS-CoV-2 Test Result, guidance on digitally documenting SARS-CoV-2 test results; and DDCC: History of SARS-CoV-2 Infection, guidance on digitally documenting history of SARS-CoV-2 infection."
+      },
+      "vfig-p015": {
+        "role": "figure",
+        "shows": [
+          "2"
+        ],
+        "saw": "Figure 2, five numbered certificate formats with pictures",
+        "draft": "Figure 2, 'Different illustrative formats of DDCC:VS'. Two existing paper formats: 1, the International Certificate of Vaccination or Prophylaxis (the yellow card); 2, a national immunization home-based record, pictured as a COVID-19 vaccination record card. Then, grouped under Digital Documentation of COVID-19 Certificates: Vaccination Status: 3, a handwritten paper certificate with only an HCID that links to a DDCC:VS, or with a 2D barcode containing the full DDCC:VS core data set; 4, a PDF print-out certificate with only an HCID linking to a DDCC:VS, or with a 2D barcode containing the full core data set; 5, a DDCC:VS held on a smartphone. Formats 3-5 are pictured as a 'National COVID-19 Certificate' with a QR code."
+      },
+      "vfig-p036": {
+        "role": "figure",
+        "shows": [
+          "3"
+        ],
+        "saw": "Figure 3, a four-lane Continuity of Care workflow with every path shown",
+        "draft": "Figure 3, 'Continuity of Care scenario': the vaccine is administered, the core data set is recorded on the DDCC paper certificate, and the record is then made available in digital form. Four lanes: subject of care, vaccinator, data entry personnel, DDCC holder. (1) The subject of care arrives at the care site; (2) the vaccinator vaccinates and (3) records core data set elements on a paper certificate, which the holder receives as Point A, a paper record of DDCC:VS. Is there a digital health solution at the care site? If no, (5) data entry personnel record the elements in a digital health solution. If yes, (4) the vaccinator records them in one; then, does the care site have Internet connectivity? Yes leads directly, and no via step 5, to Point B: the record of vaccination status is available in a digital form. End."
+      },
+      "vfig-p038": {
+        "role": "figure",
+        "shows": [
+          "4"
+        ],
+        "saw": "Figure 4, the Figure 3 workflow with the Paper First path highlighted and the rest greyed",
+        "draft": "Figure 4, 'Continuity of Care scenario: Paper First use case (UC001)'. The Figure 3 workflow with one path highlighted: arrival (1), vaccination (2), recording on the paper certificate (3) which gives Point A, then no digital health solution at the care site, so data entry personnel record the data in a digital health solution (5), reaching Point B, the record available in digital form. Step 4 and the connectivity decision are greyed out."
+      },
+      "vfig-p039": {
+        "role": "figure",
+        "shows": [
+          "5"
+        ],
+        "saw": "Figure 5, the Figure 3 workflow with the Offline Digital path highlighted",
+        "draft": "Figure 5, 'Continuity of Care scenario: Offline Digital use case (UC002)'. The Figure 3 workflow with one path highlighted: arrival (1), vaccination (2), paper recording (3) giving Point A; a digital health solution is at the care site, so the vaccinator records the data in it (4); the site has no Internet connectivity, so data entry personnel record the data (5), reaching Point B. The direct 'no digital solution' and 'connected' branches are greyed out."
+      },
+      "vfig-p040": {
+        "role": "figure",
+        "shows": [
+          "6"
+        ],
+        "saw": "Figure 6, the Figure 3 workflow with the Online Digital path highlighted",
+        "draft": "Figure 6, 'Continuity of Care scenario: Online Digital use case (UC003)'. The Figure 3 workflow with one path highlighted: arrival (1), vaccination (2), paper recording (3) giving Point A; a digital health solution is at the care site and the vaccinator records the data in it (4); the site has Internet connectivity, so the record goes directly to Point B, available in digital form. Step 5 by data entry personnel is greyed out."
+      },
+      "vfig-p046": {
+        "role": "figure",
+        "shows": [
+          "7"
+        ],
+        "saw": "Figure 7, five services joined by labelled arrows, some dashed and optional",
+        "draft": "Figure 7, 'The relationships between digital services for Proof of Vaccination'. A digital health solution submits a vaccination event to the DDCC:VS generation service, which returns a DDCC:VS. The HCID is provided by an existing national system or issued by the generation service. The generation service registers the DDCC:VS with the DDCC:VS registry service and may optionally store it in a DDCC:VS repository. Optional dashed links: an online status check between the registry service and the repository, and online verification of a DDCC:VS between an optional status checking application and the registry service. A note explains that the HCID, the unique identifier in a DDCC:VS, is used throughout these services and lets verifiers search for and retrieve a DDCC:VS."
+      },
+      "vfig-p048": {
+        "role": "figure",
+        "shows": [
+          "8"
+        ],
+        "saw": "Figure 8, a four-lane Proof of Vaccination workflow with every path shown",
+        "draft": "Figure 8, 'Proof of Vaccination scenario': verification of a claim of vaccination. Four lanes: DDCC holder, verifier, national PHA, international PHA. (1) The holder presents the DDCC:VS; (2) the verifier receives the claim. Is cryptographic verification required? No leads straight to Point C, the decision on the verification. Yes: (3) the verifier uses a status checking application; perform check online? No leads to Point C. Yes: (4) the national PHA performs an online check with its DDCC registry service; check with international PHA? If yes, (5) the international PHA performs an online check with its registry service; either way (6) results are communicated back to the verifier, then Point C and End."
+      },
+      "vfig-p050": {
+        "role": "figure",
+        "shows": [
+          "9"
+        ],
+        "saw": "Figure 9, the Figure 8 workflow with only the manual-verification path highlighted",
+        "draft": "Figure 9, 'Proof of Vaccination scenario: Manual Verification use case (UC004)'. The Figure 8 workflow with one path highlighted: the holder presents the DDCC:VS (1), the verifier receives the claim (2), no cryptographic verification is required, and the verifier goes directly to Point C, the decision on the claim. All the status-checking and PHA steps are greyed out."
+      },
+      "vfig-p051": {
+        "role": "figure",
+        "shows": [
+          "10"
+        ],
+        "saw": "Figure 10, the Figure 8 workflow with the offline cryptographic path highlighted",
+        "draft": "Figure 10, 'Proof of Vaccination scenario: Offline Cryptographic Verification use case (UC005)'. The Figure 8 workflow with one path highlighted: presentation (1), receipt of the claim (2), cryptographic verification required, the verifier uses a status checking application (3) and does not check online, going to Point C. The online PHA checks are greyed out."
+      },
+      "vfig-p052": {
+        "role": "figure",
+        "shows": [
+          "11"
+        ],
+        "saw": "Figure 11, the Figure 8 workflow with the national online status check highlighted",
+        "draft": "Figure 11, 'Proof of Vaccination scenario: Online Status Check (National DDCC:VS) use case (UC006)'. The Figure 8 workflow with one path highlighted: presentation (1), receipt (2), cryptographic verification required, status checking application (3), online check performed by the national PHA against its DDCC registry service (4), no international check, results communicated back to the verifier (6), Point C. The international PHA step is greyed out."
+      },
+      "vfig-p053": {
+        "role": "figure",
+        "shows": [
+          "12"
+        ],
+        "saw": "Figure 12, the Figure 8 workflow with the international online status check highlighted",
+        "draft": "Figure 12, 'Proof of Vaccination scenario: Online Status Check (International DDCC:VS) use case (UC007)'. The Figure 8 workflow with one path highlighted: presentation (1), receipt (2), cryptographic verification required, status checking application (3), national PHA online check (4), check with the international PHA, which performs an online check with its DDCC registry service (5), results communicated back to the verifier (6), Point C. The manual and offline branches are greyed out."
+      },
+      "vfig-p064": {
+        "role": "figure",
+        "shows": [
+          "13"
+        ],
+        "saw": "Figure 13, three certificate boxes with a numbered signing arc above and a dotted verifying arc below",
+        "draft": "Figure 13, 'The chain of trust'. Three linked boxes: CSCA (country signing certificate authority) and DSC (document signer certificate), each with a private and a public key, and DDCC (Digital Documentation of COVID-19 Certificate), marked with a QR code. Above, 'Signing and issuing a DDCC' runs in steps 1-3 from CSCA through DSC to DDCC. Below, a dotted 'Verifying a DDCC' arc runs in steps 1-3 the other way, from DDCC back to CSCA."
+      },
+      "vfig-p065": {
+        "role": "figure",
+        "shows": [
+          "14"
+        ],
+        "saw": "Figure 14, a left-to-right document-signing flow",
+        "draft": "Figure 14, 'How digital signatures work', under the heading Document Signing. A signer starts from a document (vaccination data); a hash is calculated from the document, giving the document hash; the hash is digitally signed with a private key, giving the signed hash; the signed hash is added to the document, giving a document with a digitally signed hash (the DDCC:VS)."
+      },
+      "vfig-p066": {
+        "role": "figure",
+        "shows": [
+          "15"
+        ],
+        "saw": "Figure 15, the signing flow above a validation flow",
+        "draft": "Figure 15, 'How digital signature verification works'. The upper panel, Document Signing, repeats Figure 14: document, document hash, signed with the private key, signed hash added to the document to make the DDCC:VS. The signer sends the digitally signed document and the public key to the verifier. The lower panel, Document Validation: the verifier calculates a hash from the document and, using the public key, obtains the hash from the signed hash; the two values are compared, and a matching hash indicates a valid document, one that contains the information that was signed with the private key."
+      }
+    }
+  }
+}
