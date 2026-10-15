@@ -23,10 +23,10 @@ drop it from both.
 
 ## What an index mounts from here
 
-**folio-assistant mounts no directories** of this repository (owner ruling B1,
-2026-10-15). Its override lists `directories: []`, and `smart-immunizations.json`
-declares none. Only the declaration, this file and the README reach the index,
-the last two as declared assets. `library/`, `input/` and the rest stay in this
-repository. An index that wants `library/` declares it again, and gives the
-measles example (`library/l1-recommendation-scenarios/`) a home that is not
-read as a library entry.
+**folio-assistant mounts two directories** of this repository: `library/`
+(the L1 library) and `examples/l1-recommendation-scenarios/` (the measles
+worked example, smart-base's `l1-extraction` kind). Its override lists exactly
+those two ids, and `smart-immunizations.json` declares exactly those two (owner
+ruling B1, 2026-10-15; "Mount it everywhere", the same day). The measles
+example sits outside `library/` so it is not read as a library entry.
+`input/` and the rest stay in this repository.
