@@ -6,5 +6,18 @@
   "dependencies": {
     "fsh-sushi": "^3.16.5",
     "npm": "^11.5.2"
-  }
+  },
+  "private": true,
+  "_workspaces_comment": "The mounted code layers, as workspaces, as folio-assistant's root package.json lists them: they import each other by package name (@litlfred/cat-harness, ...), and nothing publishes those packages, so a bare `bun install` in a mount fails with a 404. Owner, 2026-10-14: \"Repo declares workspaces\". The mounts are laid down from index.lock.json and gitignored; smart-base and bootstrap declare no dependencies, so they are not listed; smart-base's scripts still import packages (zod, @litlfred/bootstrap-tools), which reach it through the ONE root node_modules that bunfig.toml's hoisted linker lays out, as in folio-assistant.",
+  "workspaces": [
+    "bootstrap-tools",
+    "cat-harness",
+    "cat-harness-tools",
+    "folio-assistant-core",
+    "fhir-harness"
+  ],
+  "scripts": {
+    "cat": "bun cat-harness-tools/scripts/run-script.ts"
+  },
+  "_scripts_comment": "`bun run cat <name>` runs a declared script wherever its instance declares it, as folio-assistant's root does. Without it `bun run cat qa:refresh` falls through to /usr/bin/cat (smart-immunizations#35: uml:overview:check)."
 }
