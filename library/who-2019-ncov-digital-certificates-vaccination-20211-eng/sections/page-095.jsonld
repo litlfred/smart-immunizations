@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    {
+      "@base": "https://litlfred.github.io/folio/"
+    }
+  ],
+  "@id": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/sections/page-095",
+  "@type": [
+    "doco:Section"
+  ],
+  "title": "Page 95",
+  "pageStart": 95,
+  "pageEnd": 95,
+  "contains": [
+    "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/blocks/prose-page-095",
+    "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/blocks/figure-img-p095-1"
+  ],
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",
+  "provenance": "ingested"
+}
