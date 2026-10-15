@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "41ed9b217b4539c80345ad6b3a7b01a32b36ceee",
+          "ref": "7886a3e008deedd4c224e9d8f23ceb5c9febc446",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -43,8 +43,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "41ed9b217b4539c80345ad6b3a7b01a32b36ceee",
-              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+              "ref": "7886a3e008deedd4c224e9d8f23ceb5c9febc446",
+              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
             }
           }
         }
@@ -82,7 +82,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "f412c113e5eae7b7d5eaff5188005dd3bd0315ff",
+          "ref": "61db7aea2cfac0d3dc73aaeb60b2df241f078de9",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -98,8 +98,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "f412c113e5eae7b7d5eaff5188005dd3bd0315ff",
-              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+              "ref": "61db7aea2cfac0d3dc73aaeb60b2df241f078de9",
+              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
             }
           }
         }
@@ -110,7 +110,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "5463bf121d472bbda817c6e0a4a73a2945793164",
+          "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -126,8 +126,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "5463bf121d472bbda817c6e0a4a73a2945793164",
-              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+              "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
+              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
             }
           }
         }
@@ -138,7 +138,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "d9302bdfd1c2a2c31b77344321a6318fa4b8eceb",
+          "ref": "e563f0c78ab9015efdf246a6f1f0335c8d2e9550",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -151,8 +151,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-15",
-              "ref": "d9302bdfd1c2a2c31b77344321a6318fa4b8eceb",
-              "evidence": "owner litlfred, 2026-10-15: 'extend merge and repin 3 hrs' — IG coverage recipe (fhir-harness#105), first paint (cat-harness-tools#345)"
+              "ref": "e563f0c78ab9015efdf246a6f1f0335c8d2e9550",
+              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
             }
           }
         }

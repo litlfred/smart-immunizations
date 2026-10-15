@@ -83,3 +83,6 @@ tramp
 # instance can hold it current.
 /ns/context/v1.jsonld
 # END built at publish
+
+# The IG AST stage-local restores for the site build (build output)
+output-ast/
