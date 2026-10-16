@@ -133,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "2230223fcac6d7b759e073f49a14bc2bc8c18685",
+          "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -145,9 +145,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "2230223fcac6d7b759e073f49a14bc2bc8c18685",
-              "evidence": "owner, 2026-10-15: \"extend merge window 3 hrs\"; coverage fixes #358 #359 #365"
+              "on": "2026-10-16",
+              "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
+              "evidence": "owner litlfred, 2026-10-16 ~06:10Z: \"3 2\" — merge-and-repin window extended ~2 hrs; cat-harness-tools#374 (declared-path-literal for eval-crdm-detect's own test/results) merged as e96c04d so this instance can declare its qa test/results storage (smart-immunizations#60)"
             }
           }
         }
