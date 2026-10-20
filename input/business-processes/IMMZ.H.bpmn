@@ -5,8 +5,10 @@
     <bpmn:participant id="IMMZ.H.Participant" name="Resolve duplicate vaccination events" processRef="IMMZ.H" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.H" name="Resolve duplicate vaccination events" isExecutable="false">
+    <bpmn:documentation>To identify duplicate vaccination events within a client record and update into one event</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.H.LaneSet">
       <bpmn:lane id="IMMZ.Lane.PCPOSS" name="PCPOSS">
+        <bpmn:documentation>PCPOSS: a system, not a persona (owner, 2026-10-12): it stands beside the health worker / system administrator lane in G, H and I as the Electronic immunization registry does in E</bpmn:documentation>
         <bpmn:flowNodeRef>IMMZ.H.Start</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IMMZ.H.1</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IMMZ.H.5</bpmn:flowNodeRef>

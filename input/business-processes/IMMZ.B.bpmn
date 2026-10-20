@@ -5,6 +5,7 @@
     <bpmn:participant id="IMMZ.B.Participant" name="Plan service delivery" processRef="IMMZ.B" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.B" name="Plan service delivery" isExecutable="false">
+    <bpmn:documentation>In preparation for a vaccination session, ensure sufficient supply and organize workload</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.B.LaneSet">
       <bpmn:lane id="IMMZ.Lane.HealthWorker" name="Vaccination location Health worker">
         <bpmn:documentation>Personas: Health worker (HW) (IMMZ.Persona.HealthWorker)</bpmn:documentation>

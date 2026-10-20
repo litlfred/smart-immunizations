@@ -5,6 +5,7 @@
     <bpmn:participant id="IMMZ.F.Participant" name="Defaulter tracing" processRef="IMMZ.F" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.F" name="Defaulter tracing" isExecutable="false">
+    <bpmn:documentation>To identify those who are overdue for a vaccine and reach out to them to schedule their vaccination</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.F.LaneSet">
       <bpmn:lane id="IMMZ.Lane.HealthWorker" name="Vaccination location Health worker">
         <bpmn:documentation>Personas: Health worker (HW) (IMMZ.Persona.HealthWorker)</bpmn:documentation>

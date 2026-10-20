@@ -5,6 +5,7 @@
     <bpmn:participant id="IMMZ.D.Participant" name="Administer vaccine" processRef="IMMZ.D" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.D" name="Administer vaccine" isExecutable="false">
+    <bpmn:documentation>To determine which vaccines a client needs, administer those and record the relevant necessary data both in the EIR as well as in the appropriate paper records</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.D.LaneSet">
       <bpmn:lane id="IMMZ.Lane.HealthWorker" name="Vaccination location Health worker">
         <bpmn:documentation>Personas: Health worker (HW) (IMMZ.Persona.HealthWorker)</bpmn:documentation>

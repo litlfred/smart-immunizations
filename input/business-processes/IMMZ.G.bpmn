@@ -5,8 +5,10 @@
     <bpmn:participant id="IMMZ.G.Participant" name="Resolve duplicate client records" processRef="IMMZ.G" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.G" name="Resolve duplicate client records" isExecutable="false">
+    <bpmn:documentation>To identify duplicate client records and consolidate them into one most accurate/suitable record</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.G.LaneSet">
       <bpmn:lane id="IMMZ.Lane.PCPOSS" name="PCPOSS">
+        <bpmn:documentation>PCPOSS: a system, not a persona (owner, 2026-10-12): it stands beside the health worker / system administrator lane in G, H and I as the Electronic immunization registry does in E</bpmn:documentation>
         <bpmn:flowNodeRef>IMMZ.G.Start</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IMMZ.G.1</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IMMZ.G.2</bpmn:flowNodeRef>

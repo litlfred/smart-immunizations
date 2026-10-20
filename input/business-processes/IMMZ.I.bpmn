@@ -5,6 +5,7 @@
     <bpmn:participant id="IMMZ.I.Participant" name="Report generation" processRef="IMMZ.I" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.I" name="Report generation" isExecutable="false">
+    <bpmn:documentation>To provide the ability to access and analyse data and to improve immunization programme decision-making</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.I.LaneSet">
       <bpmn:lane id="IMMZ.Lane.HealthWorker" name="Vaccination location Health worker">
         <bpmn:documentation>Personas: Health worker (HW) (IMMZ.Persona.HealthWorker)</bpmn:documentation>
@@ -16,6 +17,7 @@
         <bpmn:flowNodeRef>IMMZ.I.3</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="IMMZ.Lane.PCPOSS" name="PCPOSS">
+        <bpmn:documentation>PCPOSS: a system, not a persona (owner, 2026-10-12): it stands beside the health worker / system administrator lane in G, H and I as the Electronic immunization registry does in E</bpmn:documentation>
         <bpmn:flowNodeRef>IMMZ.I.2</bpmn:flowNodeRef>
       </bpmn:lane>
     </bpmn:laneSet>

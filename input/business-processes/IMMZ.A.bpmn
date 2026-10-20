@@ -5,6 +5,7 @@
     <bpmn:participant id="IMMZ.A.Participant" name="Vaccination location registration" processRef="IMMZ.A" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.A" name="Vaccination location registration" isExecutable="false">
+    <bpmn:documentation>All vaccination locations (including private sector facilities, government centres and/or other entities involved in public health efforts) able to administer vaccines must be registered and uniquely identified to enable appropriate tracking of vaccine coverage and stock. In the case of a health-care facility with multiple vaccination locations, only the facility will be registered.</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.A.LaneSet">
       <bpmn:lane id="IMMZ.Lane.SystemAdministrator" name="System administrator">
         <bpmn:documentation>Personas: System administrator (IMMZ.Persona.SystemAdministrator)</bpmn:documentation>

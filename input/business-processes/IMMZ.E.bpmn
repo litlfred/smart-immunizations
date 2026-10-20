@@ -5,6 +5,7 @@
     <bpmn:participant id="IMMZ.E.Participant" name="Client reminder" processRef="IMMZ.E" />
   </bpmn:collaboration>
   <bpmn:process id="IMMZ.E" name="Client reminder" isExecutable="false">
+    <bpmn:documentation>To remind clients it is time to return for a vaccine</bpmn:documentation>
     <bpmn:laneSet id="IMMZ.E.LaneSet">
       <bpmn:lane id="IMMZ.Lane.HealthWorker" name="Vaccination location Health worker">
         <bpmn:documentation>Personas: Health worker (HW) (IMMZ.Persona.HealthWorker)</bpmn:documentation>
@@ -17,6 +18,7 @@
         <bpmn:flowNodeRef>IMMZ.E.Start</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="IMMZ.Lane.ElectronicImmunizationRegistry" name="Electronic immunization registry">
+        <bpmn:documentation>Electronic immunization registry: a system, not a persona</bpmn:documentation>
         <bpmn:flowNodeRef>IMMZ.E.3</bpmn:flowNodeRef>
         <bpmn:flowNodeRef>IMMZ.E.4</bpmn:flowNodeRef>
       </bpmn:lane>
