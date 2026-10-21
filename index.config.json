@@ -133,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "14600dd6d0e3b9588f9926bc35079bfb3d30ff22",
+          "ref": "b424ee33ff34ed709cb3b3ce00ff9194d4bb26f4",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -146,8 +146,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-21",
-              "ref": "14600dd6d0e3b9588f9926bc35079bfb3d30ff22",
-              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; cat-harness-tools#526, the absence record matched across CI's .git origin rewrite)"
+              "ref": "b424ee33ff34ed709cb3b3ce00ff9194d4bb26f4",
+              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; cat-harness-tools#529, the absence record names the configured origin)"
             }
           }
         }
