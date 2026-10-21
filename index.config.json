@@ -133,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "fef557d515a1945a833fc75deb2f19e78b227297",
+          "ref": "d2b17cc38fa8c56544f0be87cad6931f11c6e83d",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -146,8 +146,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-21",
-              "ref": "fef557d515a1945a833fc75deb2f19e78b227297",
-              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; every layer to its main together, as smart-base#117, so the layers agree: cat-harness-tools main imports narrativeFor from cat-harness main)"
+              "ref": "d2b17cc38fa8c56544f0be87cad6931f11c6e83d",
+              "evidence": "owner, 2026-10-21 (after 15:52Z), session_016heucWhrncLm4uy52csBcz: \"1, extend window +3hrs\" (re-pin cat-harness-tools for #535, translation:catalogue)"
             }
           }
         }
