@@ -77,7 +77,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "61db7aea2cfac0d3dc73aaeb60b2df241f078de9",
+          "ref": "f35c1daff72439fec61ef8f5c15d218dc9e16d09",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -92,9 +92,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "61db7aea2cfac0d3dc73aaeb60b2df241f078de9",
-              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
+              "on": "2026-10-21",
+              "ref": "f35c1daff72439fec61ef8f5c15d218dc9e16d09",
+              "evidence": "owner, 2026-10-21 06:44Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; folio-assistant-core moves with cat-harness ac96988, whose own-namespaces list no longer carries folio-assistant-core-dspace)"
             }
           }
         }
