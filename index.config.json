@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "7886a3e008deedd4c224e9d8f23ceb5c9febc446",
+          "ref": "05045849f494e7ad717e835975ec3042ae41ca48",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "7886a3e008deedd4c224e9d8f23ceb5c9febc446",
-              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
+              "on": "2026-10-21",
+              "ref": "05045849f494e7ad717e835975ec3042ae41ca48",
+              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; every layer to its main together, as smart-base#117, so the layers agree: cat-harness-tools main imports narrativeFor from cat-harness main)"
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "c2fe449ab41f8765b7be16b75d2fc6c6cb781183",
+          "ref": "dc057a26798b097a691717826db8d53567e42bca",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "c2fe449ab41f8765b7be16b75d2fc6c6cb781183",
-              "evidence": "owner, 2026-10-15: \"extend merge window 3 hrs\"; coverage fixes #358 #359 #365"
+              "on": "2026-10-21",
+              "ref": "dc057a26798b097a691717826db8d53567e42bca",
+              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; every layer to its main together, as smart-base#117, so the layers agree: cat-harness-tools main imports narrativeFor from cat-harness main)"
             }
           }
         }
@@ -77,7 +77,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "f35c1daff72439fec61ef8f5c15d218dc9e16d09",
+          "ref": "812a3df087858864cd0f188b9c00b636373c3ba4",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -93,8 +93,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-21",
-              "ref": "f35c1daff72439fec61ef8f5c15d218dc9e16d09",
-              "evidence": "owner, 2026-10-21 06:44Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; folio-assistant-core moves with cat-harness ac96988, whose own-namespaces list no longer carries folio-assistant-core-dspace)"
+              "ref": "812a3df087858864cd0f188b9c00b636373c3ba4",
+              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; every layer to its main together, as smart-base#117, so the layers agree: cat-harness-tools main imports narrativeFor from cat-harness main)"
             }
           }
         }
@@ -105,7 +105,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "ac96988fb23ec0b289cf8fbfe11ca1a8b913fe0d",
+          "ref": "54f012501b520620e0a12603540c6e513afc216e",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -121,8 +121,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-21",
-              "ref": "ac96988fb23ec0b289cf8fbfe11ca1a8b913fe0d",
-              "evidence": "owner, 2026-10-21 06:44Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; the platform re-pin for smart-immunizations#65: cat-harness 87651092 for subgraph:jsonld, cat-harness-tools #498 for the standalone rehearsal)"
+              "ref": "54f012501b520620e0a12603540c6e513afc216e",
+              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; every layer to its main together, as smart-base#117, so the layers agree: cat-harness-tools main imports narrativeFor from cat-harness main)"
             }
           }
         }
@@ -133,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "b424ee33ff34ed709cb3b3ce00ff9194d4bb26f4",
+          "ref": "fef557d515a1945a833fc75deb2f19e78b227297",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -146,8 +146,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-21",
-              "ref": "b424ee33ff34ed709cb3b3ce00ff9194d4bb26f4",
-              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; cat-harness-tools#529, the absence record names the configured origin)"
+              "ref": "fef557d515a1945a833fc75deb2f19e78b227297",
+              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; every layer to its main together, as smart-base#117, so the layers agree: cat-harness-tools main imports narrativeFor from cat-harness main)"
             }
           }
         }
@@ -180,7 +180,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "3f5b43c8c9454da1272e5b08067535941b70178a",
+          "ref": "dc87778aa5dc1be1ae233a131c313b0308d355bd",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -193,8 +193,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-10-21",
-              "ref": "3f5b43c8c9454da1272e5b08067535941b70178a",
-              "evidence": "owner, 2026-10-21 06:44Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; bootstrap layers move with cat-harness ac96988, whose translation templates track bootstrap main)"
+              "ref": "dc87778aa5dc1be1ae233a131c313b0308d355bd",
+              "evidence": "owner, 2026-10-21 12:49Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; every layer to its main together, as smart-base#117, so the layers agree: cat-harness-tools main imports narrativeFor from cat-harness main)"
             }
           }
         }
