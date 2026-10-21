@@ -19,12 +19,12 @@
     {
       "harness": "cat-harness",
       "repository": "litlfred/cat-harness",
-      "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf"
+      "ref": "ac96988fb23ec0b289cf8fbfe11ca1a8b913fe0d"
     },
     {
       "harness": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465"
+      "ref": "ca99a6b11decc95cb04eff779620ee49cbc9c7f5"
     },
     {
       "harness": "bootstrap",
@@ -99,58 +99,58 @@
     {
       "instance": "cat-harness",
       "repository": "litlfred/cat-harness",
-      "sha": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
+      "sha": "ac96988fb23ec0b289cf8fbfe11ca1a8b913fe0d",
       "upstreamRoot": "",
       "path": "cat-harness",
       "via": "cat-harness",
       "pinnedBy": "declared",
       "declaration": {
         "file": "cat-harness.json",
-        "sha256": "26251c3ea63e07755232a305372b4a27530ef60188245826f241eb14c80aad4d"
+        "sha256": "90d4de6b4307ca95db294c3373f47443fb9378a21d0c0d031bd108d261d29189"
       },
       "directories": [
         {
           "id": "*",
           "path": "cat-harness",
           "upstreamPath": ".",
-          "treeDigest": "4ddd41d0c8dc902594ad6bf0ee7ec0ee32b6413281365929e18f8be4d58abbc2",
-          "files": 14042
+          "treeDigest": "7fb5f1fabb687626c4a06eb539377444eaad572a2290450f366024f217d434cd",
+          "files": 13681
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-10-15",
-        "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
+        "on": "2026-10-21",
+        "ref": "ac96988fb23ec0b289cf8fbfe11ca1a8b913fe0d",
         "approver": "unverified"
       }
     },
     {
       "instance": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "sha": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
+      "sha": "ca99a6b11decc95cb04eff779620ee49cbc9c7f5",
       "upstreamRoot": "",
       "path": "cat-harness-tools",
       "via": "cat-harness-tools",
       "pinnedBy": "declared",
       "declaration": {
         "file": "cat-harness-tools.json",
-        "sha256": "8837b2525c36a0ce893a25bea3b9a1cbc07b6b0aa44c91f10459135afcf44ffe"
+        "sha256": "4e377e74f47d770fd8ec53864e867af81603fa016117963a7fba806ded559588"
       },
       "directories": [
         {
           "id": "*",
           "path": "cat-harness-tools",
           "upstreamPath": ".",
-          "treeDigest": "be23b2a059836a6a6d219bf61af75b5e69709b003f4740b688a7d6478aca2867",
-          "files": 2460
+          "treeDigest": "3f9578d1478b55fe35ab0ba67be7ef2730fafc37d4f7ad4e6efdce503c0f7727",
+          "files": 2508
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-10-16",
-        "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
+        "on": "2026-10-21",
+        "ref": "ca99a6b11decc95cb04eff779620ee49cbc9c7f5",
         "approver": "unverified"
       }
     },

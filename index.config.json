@@ -105,7 +105,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
+          "ref": "ac96988fb23ec0b289cf8fbfe11ca1a8b913fe0d",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -120,9 +120,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-15",
-              "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
-              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
+              "on": "2026-10-21",
+              "ref": "ac96988fb23ec0b289cf8fbfe11ca1a8b913fe0d",
+              "evidence": "owner, 2026-10-21 06:44Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; the platform re-pin for smart-immunizations#65: cat-harness 87651092 for subgraph:jsonld, cat-harness-tools #498 for the standalone rehearsal)"
             }
           }
         }
@@ -133,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
+          "ref": "ca99a6b11decc95cb04eff779620ee49cbc9c7f5",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -145,9 +145,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-16",
-              "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
-              "evidence": "owner litlfred, 2026-10-16 ~06:10Z: \"3 2\" — merge-and-repin window extended ~2 hrs; cat-harness-tools#374 (declared-path-literal for eval-crdm-detect's own test/results) merged as e96c04d so this instance can declare its qa test/results storage (smart-immunizations#60)"
+              "on": "2026-10-21",
+              "ref": "ca99a6b11decc95cb04eff779620ee49cbc9c7f5",
+              "evidence": "owner, 2026-10-21 06:44Z, session_016heucWhrncLm4uy52csBcz: \"Extend window +3hrs\" (re-pin and merge; the platform re-pin for smart-immunizations#65: cat-harness 87651092 for subgraph:jsonld, cat-harness-tools #498 for the standalone rehearsal)"
             }
           }
         }
