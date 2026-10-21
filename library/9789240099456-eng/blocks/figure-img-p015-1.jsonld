@@ -15,17 +15,20 @@
   "file": "../images/img-p015-1.png",
   "pageStart": 15,
   "pageEnd": 15,
-  "narrative": {
-    "text": "The cover of the WHO guideline 'Recommendations on digital interventions for health system strengthening': an illustration of two health workers at a desk with a computer, other people seated in a waiting area, and a hand holding a tablet, with the WHO logo at the lower left.",
-    "state": "draft",
-    "drafted_by": {
-      "kind": "agent",
-      "id": "claude",
-      "model": "not-disclosed",
-      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
-    },
-    "drafted_at": "2026-10-15"
-  },
+  "narrative": [
+    {
+      "text": "The cover of the WHO guideline 'Recommendations on digital interventions for health system strengthening': an illustration of two health workers at a desk with a computer, other people seated in a waiting area, and a hand holding a tablet, with the WHO logo at the lower left.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    }
+  ],
   "derivedFrom": "library/9789240099456-eng/sections/page-015",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",
   "provenance": "ingested"

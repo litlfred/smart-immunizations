@@ -15,17 +15,20 @@
   "file": "../images/img-p027-8.png",
   "pageStart": 27,
   "pageEnd": 27,
-  "narrative": {
-    "text": "A screenshot of the WHO 'Immunization dashboard - Global' web page, headed 'Reported cases of vaccine-preventable diseases (VPDs) globally', with small tiles giving a case count and trend chart for diseases including diphtheria, Japanese encephalitis, measles, mumps, neonatal tetanus, pertussis, rubella and total tetanus. The figures are too small to read reliably. Listed among the WHO guidance this kit draws on as the WHO Immunization Data Portal.",
-    "state": "draft",
-    "drafted_by": {
-      "kind": "agent",
-      "id": "claude",
-      "model": "not-disclosed",
-      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
-    },
-    "drafted_at": "2026-10-15"
-  },
+  "narrative": [
+    {
+      "text": "A screenshot of the WHO 'Immunization dashboard - Global' web page, headed 'Reported cases of vaccine-preventable diseases (VPDs) globally', with small tiles giving a case count and trend chart for diseases including diphtheria, Japanese encephalitis, measles, mumps, neonatal tetanus, pertussis, rubella and total tetanus. The figures are too small to read reliably. Listed among the WHO guidance this kit draws on as the WHO Immunization Data Portal.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    }
+  ],
   "derivedFrom": "library/9789240099456-eng/sections/page-027",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",
   "provenance": "ingested"
