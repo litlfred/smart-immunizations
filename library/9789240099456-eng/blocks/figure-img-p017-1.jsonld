@@ -15,17 +15,20 @@
   "file": "../images/img-p017-1.png",
   "pageStart": 17,
   "pageEnd": 17,
-  "narrative": {
-    "text": "A small image of the green cover of the 'Digital adaptation kit for immunizations', used in Fig. 2 to illustrate the L2 Operational layer (digital adaptation kits).",
-    "state": "draft",
-    "drafted_by": {
-      "kind": "agent",
-      "id": "claude",
-      "model": "not-disclosed",
-      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
-    },
-    "drafted_at": "2026-10-15"
-  },
+  "narrative": [
+    {
+      "text": "A small image of the green cover of the 'Digital adaptation kit for immunizations', used in Fig. 2 to illustrate the L2 Operational layer (digital adaptation kits).",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    }
+  ],
   "derivedFrom": "library/9789240099456-eng/sections/page-017",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",
   "provenance": "ingested"

@@ -15,17 +15,20 @@
   "file": "../images/img-p027-4.png",
   "pageStart": 27,
   "pageEnd": 27,
-  "narrative": {
-    "text": "A thumbnail of 'Table 3: Recommendations for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers', a blue-framed table with columns including age of first dose, doses in the primary series, interrupted primary series, doses for those starting late and booster. Listed among the WHO guidance this kit draws on.",
-    "state": "draft",
-    "drafted_by": {
-      "kind": "agent",
-      "id": "claude",
-      "model": "not-disclosed",
-      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
-    },
-    "drafted_at": "2026-10-15"
-  },
+  "narrative": [
+    {
+      "text": "A thumbnail of 'Table 3: Recommendations for Interrupted or Delayed Routine Immunization - Summary of WHO Position Papers', a blue-framed table with columns including age of first dose, doses in the primary series, interrupted primary series, doses for those starting late and booster. Listed among the WHO guidance this kit draws on.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    }
+  ],
   "derivedFrom": "library/9789240099456-eng/sections/page-027",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",
   "provenance": "ingested"
