@@ -15,17 +15,20 @@
   "file": "../images/img-p027-11.png",
   "pageStart": 27,
   "pageEnd": 27,
-  "narrative": {
-    "text": "The cover of 'Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World', July 2022 update: a blue cover with line drawings of a virus particle and a syringe, and the WHO logo. Listed among the WHO guidance this kit draws on.",
-    "state": "draft",
-    "drafted_by": {
-      "kind": "agent",
-      "id": "claude",
-      "model": "not-disclosed",
-      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
-    },
-    "drafted_at": "2026-10-15"
-  },
+  "narrative": [
+    {
+      "text": "The cover of 'Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World', July 2022 update: a blue cover with line drawings of a virus particle and a syringe, and the WHO logo. Listed among the WHO guidance this kit draws on.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    }
+  ],
   "derivedFrom": "library/9789240099456-eng/sections/page-027",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240099456-eng/manifest.jsonld",
   "provenance": "ingested"

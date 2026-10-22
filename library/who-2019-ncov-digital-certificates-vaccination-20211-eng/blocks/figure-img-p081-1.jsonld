@@ -15,17 +15,20 @@
   "file": "../images/img-p081-1.png",
   "pageStart": 81,
   "pageEnd": 81,
-  "narrative": {
-    "text": "An empty rounded rectangle with a black outline: the BPMN symbol for an activity, process, step or task in Table A2.1, 'Business process symbols used in workflows'.",
-    "state": "draft",
-    "drafted_by": {
-      "kind": "agent",
-      "id": "claude",
-      "model": "not-disclosed",
-      "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
-    },
-    "drafted_at": "2026-10-15"
-  },
+  "narrative": [
+    {
+      "text": "An empty rounded rectangle with a black outline: the BPMN symbol for an activity, process, step or task in Table A2.1, 'Business process symbols used in workflows'.",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01Pc8vSeXCwp5Ckvmz56cMDs"
+      },
+      "drafted_at": "2026-10-15",
+      "lang": "en"
+    }
+  ],
   "derivedFrom": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/sections/page-081",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",
   "provenance": "ingested"
