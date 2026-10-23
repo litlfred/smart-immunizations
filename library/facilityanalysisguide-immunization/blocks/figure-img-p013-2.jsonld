@@ -15,10 +15,20 @@
   "file": "../images/img-p013-2.png",
   "pageStart": 13,
   "pageEnd": 13,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A choropleth map titled \"EPI: BCG coverage by district - last month\" showing the districts of a single country, coloured by BCG coverage (%) for December 2016. The legend gives five bands with district counts: Low 0-70 (1), Mid 70-80 (3), High 80-90 (5), Highest 90-100 (3) and Invalid 100-1000 (0). Only the southernmost district is in the low band.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-012",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

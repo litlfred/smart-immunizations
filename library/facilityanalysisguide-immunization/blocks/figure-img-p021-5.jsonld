@@ -15,10 +15,20 @@
   "file": "../images/img-p021-5.png",
   "pageStart": 21,
   "pageEnd": 21,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"EPI: Functional refrigerators by orgunit - last 12 months\" (cold chain refrigerator functional), November 2015 to October 2016. Animal Region stays between 231 and 240 functional refrigerators each month; Food Region stays between 119 and 122. Both lines are nearly flat.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-037",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

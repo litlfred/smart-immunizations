@@ -15,10 +15,20 @@
   "file": "../images/img-p023-1.png",
   "pageStart": 23,
   "pageEnd": 23,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A table titled \"EPI: AEFI cases - this and last 5 years\" for Trainingland; the year headings are too blurred to read, and the first two columns are empty. The four columns with data give suspected non-serious AEFI cases 335, 361, 352, 342; suspected serious 51, 72, 80, 62; and totals 386, 433, 432, 404.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-045",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

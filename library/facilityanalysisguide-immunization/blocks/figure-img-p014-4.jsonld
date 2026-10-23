@@ -15,10 +15,20 @@
   "file": "../images/img-p014-4.png",
   "pageStart": 14,
   "pageEnd": 14,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"EPI: Tracer vaccine coverages - last 5 years\" for Trainingland, coverage (%) from 2013 to 2016 for BCG, DPT-HepB-Hib 1, DPT-HepB-Hib 3, IPV, MR 1, MR 2 and yellow fever. Every series rises. The top line (BCG and DPT-HepB-Hib 1, overlapping) goes 68.9, 73.1, 80.2, 81.4; MR 2 is lowest, from 46.2 in 2013 through 49.7 and 54.4 to about 68 in 2016. Other labelled values (54.9, 64.3, 66.7, 72.5, 64.4) sit on overlapping middle lines.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-015",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

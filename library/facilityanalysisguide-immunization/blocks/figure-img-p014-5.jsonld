@@ -15,10 +15,20 @@
   "file": "../images/img-p014-5.png",
   "pageStart": 14,
   "pageEnd": 14,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A bar chart comparing facility reports (light red) with survey estimates (dark red, with error bars) by year, on a y-axis from 80 to 100. Facility reports: 88 (2009), 93 (2010), 94 (2011), 95 (2012). Survey: 88 (2009) and 95 (2011); no survey in 2010 or 2012. The quantity measured is not named in the image.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-015",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

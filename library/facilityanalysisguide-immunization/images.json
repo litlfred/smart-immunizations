@@ -16,482 +16,994 @@
     {
       "id": "img-p003-1",
       "file": "images/img-p003-1.png",
-      "role": "figure",
+      "role": "logo",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.0178,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "the World Health Organization emblem and wordmark in black",
         "page": 3
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "The World Health Organization logo: the WHO emblem (a staff with a serpent over a world map, framed by olive branches) beside the words \"World Health Organization\", in black.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p005-1",
       "file": "images/img-p005-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.042682,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a thin blue banded swoosh, page decoration",
         "page": 5
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A decorative horizontal band of solid blue, rising gently from left to right and broken by narrow white gaps into five segments. It carries no information.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p011-1",
       "file": "images/img-p011-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.143876,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of monthly doses of Penta1, Penta3 and OPV3, 2012-2014",
         "page": 11
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"Monthly reported number of doses administered, 2012-2014 for Penta1, Penta3, OPV3\". The y-axis is reported number of doses administered (0 to 18000); the x-axis is year and month, January 2012 to December 2014. Penta 1 (blue) runs mostly between about 7000 and 10000 a month, with sharp peaks of about 16000 in December 2012 and about 12800 in August 2013; Penta 3 (red) follows a similar shape slightly lower, peaking at about 15000 in December 2012. OPV3 (green) tracks Penta 3 but peaks lower in December 2012 (about 10400) and has its own spike of about 9000 in January 2014, when the pentavalent doses are lower.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p013-1",
       "file": "images/img-p013-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.056276,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a cumulative line chart of DPT-HepB-Hib 3 doses against target by month",
         "page": 13
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart of doses administered by month, January to December, comparing a dashed orange \"Target\" line, rising steadily from about 200 to about 2650, with a solid blue line for DPT-HepB-Hib 3 doses, rising from about 150 to about 1850. The gap between the doses given and the target widens through the year. The series label is cut off at the right edge of the image.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p013-2",
       "file": "images/img-p013-2.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.077766,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a district map of BCG coverage, December 2016",
         "page": 13
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A choropleth map titled \"EPI: BCG coverage by district - last month\" showing the districts of a single country, coloured by BCG coverage (%) for December 2016. The legend gives five bands with district counts: Low 0-70 (1), Mid 70-80 (3), High 80-90 (5), Highest 90-100 (3) and Invalid 100-1000 (0). Only the southernmost district is in the low band.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p013-3",
       "file": "images/img-p013-3.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.06688,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a district map of DPT-HepB-Hib 3 coverage, December 2016",
         "page": 13
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A choropleth map titled \"EPI: DPT-HepB-Hib 3 coverage by district - last month\" for December 2016, using the same districts and bands. Legend counts: Low 0-70 (6), Mid 70-80 (2), High 80-90 (3), Highest 90-100 (1), Invalid 100-1000 (0). Most of the northern and central districts are in the low band.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p013-4",
       "file": "images/img-p013-4.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.063475,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a district map of MR1 coverage, December 2016",
         "page": 13
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A choropleth map titled \"EPI: MR1 coverage by district - last month\" for December 2016, using the same districts and bands. Legend counts: Low 0-70 (4), Mid 70-80 (4), High 80-90 (3), Highest 90-100 (1), Invalid 100-1000 (0).",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p014-1",
       "file": "images/img-p014-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.076267,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a bar chart of DPT-HepB-Hib 1 and 3 coverage by district, 2016",
         "page": 14
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A grouped bar chart titled \"EPI: DPT-HepB-Hib 1 and 3 coverage by orgunit - last year\", 2016, with coverage (%) for twelve districts sorted by DPT-HepB-Hib 1 coverage, which is labelled on each bar: Bird 33.5, Dessert 67.1, Sweet 74.7, Staple 76.4, Fish 82.8, Insect 83.4, Cat 83.7, Game 84.5, Fruit 89.7, Dinner 90.5, Dog 91.9 and Vegetable 96.9. The DPT-HepB-Hib 3 bar is lower than the DPT-HepB-Hib 1 bar in every district; its values are not labelled.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p014-2",
       "file": "images/img-p014-2.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.068025,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of tracer vaccine doses by month, 2016",
         "page": 14
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Tracer vaccines administered - last 12 months\" for Trainingland, January to December 2016, with doses administered on the y-axis (0 to 40k). Six series are shown: BCG, DPT-HepB-HIB 1, DPT-HepB-HIB 3, MR 1, MR 2 and yellow fever doses given. All six lines are roughly flat across the year, between about 20k and 33k a month, with BCG highest and MR 2 lowest.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p014-3",
       "file": "images/img-p014-3.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.076849,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of tracer vaccine doses by year, 2013-2016",
         "page": 14
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Tracer vaccines administered - this and last 5 years\" for Trainingland, with doses administered by year for six series: BCG, DPT-HepB-HIB 1, DPT-HepB-HIB 3, MR 1, MR 2 and yellow fever doses given. Data run from 2013 to 2016, and every series rises. The highest line rises from about 293 000 in 2013 to roughly 380 000 in 2016; the lowest, MR 2, rises from 184 016 to 251 824. Other labelled values are 305 383, 344 559, 362 425, 379 207, 250 702, 268 074, 269 780, 229 531, 203 808 and 285 677; several lines overlap, so which label belongs to which series is not certain from the image.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p014-4",
       "file": "images/img-p014-4.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.076692,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of tracer vaccine coverage by year, 2013-2016",
         "page": 14
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Tracer vaccine coverages - last 5 years\" for Trainingland, coverage (%) from 2013 to 2016 for BCG, DPT-HepB-Hib 1, DPT-HepB-Hib 3, IPV, MR 1, MR 2 and yellow fever. Every series rises. The top line (BCG and DPT-HepB-Hib 1, overlapping) goes 68.9, 73.1, 80.2, 81.4; MR 2 is lowest, from 46.2 in 2013 through 49.7 and 54.4 to about 68 in 2016. Other labelled values (54.9, 64.3, 66.7, 72.5, 64.4) sit on overlapping middle lines.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p014-5",
       "file": "images/img-p014-5.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.058307,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a bar chart comparing facility-reported and survey coverage, 2009-2012",
         "page": 14
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A bar chart comparing facility reports (light red) with survey estimates (dark red, with error bars) by year, on a y-axis from 80 to 100. Facility reports: 88 (2009), 93 (2010), 94 (2011), 95 (2012). Survey: 88 (2009) and 95 (2011); no survey in 2010 or 2012. The quantity measured is not named in the image.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p018-1",
       "file": "images/img-p018-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.048511,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of dropout rates by year, 2013-2016",
         "page": 18
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: Dropout rates - this and last 5 years\" for Trainingland, with columns 2012 to 2017 and data for 2013 to 2016. BCG to MR 1 dropout rate (%): 14.6, 15.2, 15.2, 14. DPT 1 to 3 dropout rate (%): 11.6, 12, 12.4, 11.2. MR 1 to 2 dropout rate (%): 26.6, 24.7, 25.2, 9.8. The 2012 and 2017 columns are empty.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p018-2",
       "file": "images/img-p018-2.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.077475,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of dropout rates by year, 2013-2016",
         "page": 18
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Dropout rate - this and last 5 years\" for Trainingland, plotting the same values as the dropout table: BCG to MR 1 (14.6, 15.2, 15.2, 14), DPT 1 to 3 (11.6, 12, 12.4, 11.2) and MR 1 to 2 (26.6, 24.7, 25.2, then a sharp fall to 9.8 in 2016).",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p018-3",
       "file": "images/img-p018-3.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.045492,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of 2016 dropout rates for two regions",
         "page": 18
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: Dropout rates by orgunit - last 12 months cumulative\", January to December 2016. Animal Region: BCG to MR 1 dropout 15.1%, DPT 1 to 3 dropout 11.2%, MR 1 to 2 dropout 10.2%. Food Region: 11.7%, 11.3% and 8.9%.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p018-4",
       "file": "images/img-p018-4.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.075261,
-        "imagesOnPage": 4,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a bar chart of 2016 dropout rates for two regions",
         "page": 18
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A grouped bar chart titled \"Last 12 months\" (January to December 2016) of dropout rate (%) for two regions, plotting the same values as the regional dropout table. Animal Region: BCG to MR 1 15.1, DPT 1 to 3 11.2, MR 1 to 2 10.2. Food Region: 11.7, 11.3 and 8.9.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p019-1",
       "file": "images/img-p019-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.230794,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a scatter plot of DPT1 coverage against DPT 1-3 dropout by organisation unit",
         "page": 19
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A scatter plot titled \"December 2016\" with one square per organisation unit: DPT 1 coverage (%) on the x-axis (0 to 110) against DPT 1 to 3 dropout rate (%) on the y-axis (0 to 50). A vertical line marks coverage = 90% and a horizontal line marks dropout rate = 10%, dividing the plot into four quadrants. Most units cluster at 70-100% coverage and 5-20% dropout, with a group in the low-dropout, high-coverage quadrant; a few outliers have coverage of about 20-55% and dropout of about 20-40%, and two units report coverage above 100%.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p020-1",
       "file": "images/img-p020-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.050826,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of closed vial wastage rates by vaccine for two regions",
         "page": 20
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: Closed vial wastage rate by orgunit - last 12 months cumulative\", November 2015 to October 2016, giving the closed vial wastage rate (%) of seven vaccines (BCG, DPT-HepB-Hib, IPV, MR, OPV, PCV, RV) for two regions. Animal Region: 1.4, 1.2, 2.7, 1.3, 1.2, 1.2, 1.3. Food Region: 1.5, 1.2, 2.6, 1.2, 1.2, 1.3, 1.4. IPV has the highest rate in both.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p020-2",
       "file": "images/img-p020-2.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.067164,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of closed vial wastage rates by vaccine over several years",
         "page": 20
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: Closed vial wastage rate - this and last 5 years\" for Trainingland, with one row per vaccine (BCG, DPT-HepB-Hib, IPV, MR, OPV, PCV, RV, TT, yellow fever) and one column per year; the year headings are too blurred to read. The first two columns are empty, and the four columns with data show rates between about 1.2% and 1.6% for every vaccine except IPV, at about 2.7-3%.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p020-3",
       "file": "images/img-p020-3.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.135403,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of monthly closed vial wastage rates by vaccine",
         "page": 20
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Closed vial wastage rates - last 12 months\" for Trainingland, November 2015 to October 2016, with wastage rate (%) for nine vaccines (BCG, DPT-HepB-Hib, IPV, MR, OPV, PCV, RV, TT and yellow fever). IPV (red) is highest in almost every month, between about 2 and 3.2%, peaking at 3.2 in April 2016; the other vaccines overlap between about 1 and 2%.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p021-1",
       "file": "images/img-p021-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.051271,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of open vial wastage rates by vaccine for two regions, including a negative value",
         "page": 21
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: Open vial wastage rate by orgunit - last 12 months cumulative\", November 2015 to October 2016, giving the open vial wastage rate (%) of seven vaccines for two regions. Animal Region: BCG 5.8, DPT-HepB-Hib 4.1, IPV -20.1, MR blank, OPV 6.4, PCV 6, RV 6.3. Food Region: 6.4, 4.6, 20.4, blank, 6.4, 6.7, 5.9. The negative IPV rate for Animal Region is an impossible value, and MR is empty for both.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p021-2",
       "file": "images/img-p021-2.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.058903,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of open vial wastage rates by vaccine over several years",
         "page": 21
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: Open vial wastage rate - this and last 5 years\" for Trainingland, one row per vaccine and one column per year; the year headings are too blurred to read. Four columns hold data. BCG runs 5.9, 6.5, 5.9, 5.9; DPT-HepB-Hib 4.5, 4.5, 4.7, 4.1; IPV 19.9, 14.7, 3, then a negative value (-4); OPV 6, 6.2, 6.6, 6.3; PCV 5.7, 6.4, 6.2, 6.3; RV 6.1, 6.3, 5.9, 6.4; TT 5.9, 5.7, 5.8, 6.3. The MR and yellow fever rows are empty.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p021-3",
       "file": "images/img-p021-3.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.076306,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of monthly cold chain temperature alarms",
         "page": 21
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Temperature alarms - last 12 months\" for Trainingland, November 2015 to October 2016, with two series. Cold chain low temperature alarms (green): 35, 31, 34, 34, 42, 29, 34, 28, 41, 34, 43, 30. Cold chain high temperature alarms (blue) run slightly lower, between 23 and about 38, and meet the low-alarm line at about 30 in October 2016.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p021-4",
       "file": "images/img-p021-4.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.074363,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a stacked bar chart of 2016 temperature alarms for two regions",
         "page": 21
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A stacked bar chart titled \"EPI: Temperature alarms by orgunit - this year\", 2016. Food Region: 115 high temperature alarms and 113 low temperature alarms. Animal Region: 244 high and 311 low, about 555 in total.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p021-5",
       "file": "images/img-p021-5.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.144785,
-        "imagesOnPage": 5,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of functional refrigerators by region, last 12 months",
         "page": 21
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Functional refrigerators by orgunit - last 12 months\" (cold chain refrigerator functional), November 2015 to October 2016. Animal Region stays between 231 and 240 functional refrigerators each month; Food Region stays between 119 and 122. Both lines are nearly flat.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p023-1",
       "file": "images/img-p023-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.042501,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of AEFI cases by seriousness over several years",
         "page": 23
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: AEFI cases - this and last 5 years\" for Trainingland; the year headings are too blurred to read, and the first two columns are empty. The four columns with data give suspected non-serious AEFI cases 335, 361, 352, 342; suspected serious 51, 72, 80, 62; and totals 386, 433, 432, 404.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p023-2",
       "file": "images/img-p023-2.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.061028,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a bar chart of AEFI cases by seriousness for two regions",
         "page": 23
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A grouped bar chart titled \"Last 12 months\" (November 2015 to October 2016) of AEFI cases for two regions. Food Region: 5 suspected serious and 119 suspected non-serious. Animal Region: 60 serious and 223 non-serious.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p023-3",
       "file": "images/img-p023-3.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.075996,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a bar chart of monthly AEFI cases by seriousness",
         "page": 23
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A grouped bar chart titled \"EPI: AEFI cases - last 12 months\" for Trainingland, November 2015 to October 2016. Suspected serious cases by month: 5, 8, 8, 5, 9, 3, 5, 1, 7, 4, 2, 8. Suspected non-serious: 28, 25, 35, 28, 25, 24, 24, 22, 39, 36, 29, 27.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p024-1",
       "file": "images/img-p024-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.060973,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a table of outreach session completion that is all zeros",
         "page": 24
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A table titled \"EPI: Outreach immunization sessions completion by orgunit - this and last 5 years\", giving the percentage of outreach immunization sessions conducted for Trainingland, Animal Region and Food Region by year. The first two year columns are empty and every other cell is 0; the year headings are too blurred to read reliably.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p025-1",
       "file": "images/img-p025-1.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.059509,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a bar chart of October 2016 reporting completeness for the country and two regions",
         "page": 25
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A bar chart titled \"EPI: Completeness by orgunit - last month\", October 2016, of the WHO immunisation monthly report reporting rate: Trainingland 79.9%, Animal Region 78.9%, Food Region 81.4%.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p025-2",
       "file": "images/img-p025-2.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.062014,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of annual reporting completeness, 2013-2015",
         "page": 25
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Completeness - last 5 years\" for Trainingland, the WHO immunisation monthly report reporting rate by year, 2011 to 2015. Data exist only for 2013 (62.8%), 2014 (71.8%) and 2015 (77.3%), rising each year.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p025-3",
       "file": "images/img-p025-3.png",
       "role": "figure",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.111015,
-        "imagesOnPage": 3,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a line chart of monthly reporting completeness",
         "page": 25
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A line chart titled \"EPI: Completeness - last 12 months\" for Trainingland, November 2015 to October 2016, of the WHO immunisation monthly report reporting rate: 79.3, 77.7, 80.4, 81, 81, 79.9, 79.9, 80.4, 82.6, 81, 78.8 and 79.9%. The rate is nearly flat at about 80%.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p026-1",

@@ -15,10 +15,20 @@
   "file": "../images/img-p014-1.png",
   "pageStart": 14,
   "pageEnd": 14,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A grouped bar chart titled \"EPI: DPT-HepB-Hib 1 and 3 coverage by orgunit - last year\", 2016, with coverage (%) for twelve districts sorted by DPT-HepB-Hib 1 coverage, which is labelled on each bar: Bird 33.5, Dessert 67.1, Sweet 74.7, Staple 76.4, Fish 82.8, Insect 83.4, Cat 83.7, Game 84.5, Fruit 89.7, Dinner 90.5, Dog 91.9 and Vegetable 96.9. The DPT-HepB-Hib 3 bar is lower than the DPT-HepB-Hib 1 bar in every district; its values are not labelled.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-015",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"
