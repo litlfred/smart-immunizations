@@ -1,11 +1,11 @@
 {
   "@context": [
-    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    "https://litlfred.github.io/smart-immunizations/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/"
     }
   ],
-  "@id": "library/immunization-summary-table-2/manifest",
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-2/manifest.jsonld",
   "@type": [
     "cat-harness:SourceDocument"
   ],
@@ -17,11 +17,26 @@
     "library/immunization-summary-table-2/sections/sec-002"
   ],
   "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "licenceRecord": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children, item page",
+        "result": "states copyright only ('WHO'), no licence"
+      }
+    ]
+  },
   "meta": {
     "doc_id": "immunization-summary-table-2",
+    "title_source": "slug",
     "source_file": "immunization-summary-table-2.pdf",
     "source_sha256": "ad39704721d999437c3856de0ccb1e825e4f414358142f3bb5970da031fbe025",
-    "granularity": null,
+    "pages": 14,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
     "disposition": "ingested source material — attributed to its document, not folio content"
   }
 }

@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    "https://litlfred.github.io/smart-immunizations/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/",
       "folio-assistant-core": "https://litlfred.github.io/folio-assistant-core/0.1.0/ns#"
@@ -16,7 +16,7 @@
   "pageStart": 15,
   "pageEnd": 15,
   "text": "../sections/sec-021-monitoring-coverage-with-all-vaccines-in-the-sch.md",
-  "derivedFrom": "library/facilityanalysisguide-immunization/manifest",
-  "sourceDocument": "library/facilityanalysisguide-immunization/manifest",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"
 }

@@ -1,11 +1,11 @@
 {
   "@context": [
-    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    "https://litlfred.github.io/smart-immunizations/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/"
     }
   ],
-  "@id": "library/immunization-summary-table-3/manifest",
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-3/manifest.jsonld",
   "@type": [
     "cat-harness:SourceDocument"
   ],
@@ -15,11 +15,26 @@
     "library/immunization-summary-table-3/sections/sec-000"
   ],
   "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "licenceRecord": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers, item page",
+        "result": "states copyright only ('WHO'), no licence"
+      }
+    ]
+  },
   "meta": {
     "doc_id": "immunization-summary-table-3",
+    "title_source": "slug",
     "source_file": "immunization-summary-table-3.pdf",
     "source_sha256": "aead588449159c46bad3a190f6427f4bf3d53ead55786b165105ccffaeb357a2",
-    "granularity": null,
+    "pages": 8,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
     "disposition": "ingested source material — attributed to its document, not folio content"
   }
 }

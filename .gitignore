@@ -70,3 +70,22 @@ tramp
 
 # Upload PDFs are pinned by sha256 in intake.json, not committed (library/README.md).
 uploads/**/*.pdf
+
+# BEGIN index mounts (generated from index.config.json — do not edit)
+/smart-base/
+/fhir-harness/
+/folio-assistant-core/
+/cat-harness/
+/cat-harness-tools/
+/bootstrap/
+/bootstrap-tools/
+# END index mounts
+
+# BEGIN built at publish (smart-immunizations.json `builtAtPublish`)
+# Owner, 2026-10-14 (B1): computed at the checkout's pins, so no commit of this
+# instance can hold it current.
+/ns/context/v1.jsonld
+# END built at publish
+
+# The IG AST stage-local restores for the site build (build output)
+output-ast/

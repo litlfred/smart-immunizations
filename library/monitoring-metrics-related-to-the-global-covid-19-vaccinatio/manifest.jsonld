@@ -1,15 +1,15 @@
 {
   "@context": [
-    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    "https://litlfred.github.io/smart-immunizations/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/"
     }
   ],
-  "@id": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest",
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest.jsonld",
   "@type": [
     "cat-harness:SourceDocument"
   ],
-  "title": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+  "title": "Monitoring Metrics Related to the Global Covid-19 Vaccination Strategy in a Changing World",
   "contains": [
     "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-001",
     "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-002",
@@ -20,11 +20,28 @@
     "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/sections/page-007"
   ],
   "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "licenceRecord": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world--july-2022-update, item page",
+        "result": "no copyright or licence stated"
+      }
+    ]
+  },
   "meta": {
     "doc_id": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
+    "title_source": "corroborated",
+    "title_from": "structure.json metadata.title",
+    "title_verified": true,
     "source_file": "monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy---july-2022-update.pdf",
     "source_sha256": "129415f7c33d6069c1e200fe2848ebbfbab0dcec2d78149012b7a9543d7f033e",
-    "granularity": "page",
+    "pages": 7,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
     "disposition": "ingested source material — attributed to its document, not folio content"
   }
 }

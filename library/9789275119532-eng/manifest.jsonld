@@ -1,15 +1,15 @@
 {
   "@context": [
-    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    "https://litlfred.github.io/smart-immunizations/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/"
     }
   ],
-  "@id": "library/9789275119532-eng/manifest",
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789275119532-eng/manifest.jsonld",
   "@type": [
     "cat-harness:SourceDocument"
   ],
-  "title": "9789275119532-eng",
+  "title": "ELECTRONIC IMMUNIZATION REGISTRY",
   "contains": [
     "library/9789275119532-eng/sections/sec-front-matter",
     "library/9789275119532-eng/sections/sec-000",
@@ -32,11 +32,28 @@
     "library/9789275119532-eng/sections/sec-017"
   ],
   "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "licenceRecord": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://iris.paho.org/items/d340d0af-aac8-46f1-b98e-001b04c9d677 item metadata, dc.rights and dc.rights.uri",
+        "result": "no dc.rights field"
+      }
+    ]
+  },
   "meta": {
     "doc_id": "9789275119532-eng",
+    "title_source": "corroborated",
+    "title_from": "structure.json metadata.title",
+    "title_verified": true,
     "source_file": "9789275119532_eng.pdf",
     "source_sha256": "1010a882f2c1990aec1b6ad1f69a6eda548ba007f3c667db5c1edef1b87dcd34",
-    "granularity": null,
+    "pages": 116,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
     "disposition": "ingested source material — attributed to its document, not folio content"
   }
 }

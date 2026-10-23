@@ -1,0 +1,216 @@
+{
+  "$schema": "folio-index-config/v1",
+  "instances": [
+    {
+      "name": "smart-base",
+      "source": {
+        "remote": {
+          "repository": "litlfred/smart-base",
+          "ref": "7886a3e008deedd4c224e9d8f23ceb5c9febc446",
+          "overrides": {
+            "smart-base": {
+              "path": "smart-base",
+              "directories": [
+                "smart-base-qa-checkers",
+                "smart-base-block-kinds",
+                "smart-base-content-adapters",
+                "smart-base-translations",
+                "library",
+                "methodologies",
+                "processes",
+                "smart-base-house-processes",
+                "smart-base-artifact-index",
+                "tools",
+                "smart-base-themes",
+                "smart-base-docs",
+                "smart-base-document-kinds",
+                "smart-base-findings",
+                "smart-base-external-schemas",
+                "smart-base-platform",
+                "smart-base-typologies",
+                "smart-base-validators",
+                "smart-base-schemas",
+                "smart-base-content",
+                "smart-base-scripts",
+                "smart-base-skills",
+                "smart-base-scenarios",
+                "smart-base-code-lists"
+              ],
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "7886a3e008deedd4c224e9d8f23ceb5c9febc446",
+              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "fhir-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/fhir-harness",
+          "ref": "c2fe449ab41f8765b7be16b75d2fc6c6cb781183",
+          "overrides": {
+            "fhir-harness": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "c2fe449ab41f8765b7be16b75d2fc6c6cb781183",
+              "evidence": "owner, 2026-10-15: \"extend merge window 3 hrs\"; coverage fixes #358 #359 #365"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "folio-assistant-core",
+      "source": {
+        "remote": {
+          "repository": "litlfred/folio-assistant-core",
+          "ref": "61db7aea2cfac0d3dc73aaeb60b2df241f078de9",
+          "overrides": {
+            "folio-assistant-core": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            },
+            "cat-harness-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "61db7aea2cfac0d3dc73aaeb60b2df241f078de9",
+              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness",
+          "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
+          "overrides": {
+            "cat-harness": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            },
+            "bootstrap-tools": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "472a4f0880818b90d1388e50b85f3d71f8c3cfdf",
+              "evidence": "owner, 2026-10-15: \"y\" (smart-immunizations site next); window \"extend merge and repin 3 hrs\""
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cat-harness-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/cat-harness-tools",
+          "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
+          "overrides": {
+            "cat-harness-tools": {
+              "whole": true
+            },
+            "cat-harness": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-16",
+              "ref": "e96c04dcc887f94d6868cdc35069566ea0e7b465",
+              "evidence": "owner litlfred, 2026-10-16 ~06:10Z: \"3 2\" — merge-and-repin window extended ~2 hrs; cat-harness-tools#374 (declared-path-literal for eval-crdm-detect's own test/results) merged as e96c04d so this instance can declare its qa test/results storage (smart-immunizations#60)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap",
+          "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
+          "overrides": {
+            "bootstrap": {
+              "whole": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "9ecfb729b38b9196063fee76c6f7932f92502353",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "bootstrap-tools",
+      "source": {
+        "remote": {
+          "repository": "litlfred/bootstrap-tools",
+          "ref": "7dc55773590bbc3158c877a3d61222aa7864006c",
+          "overrides": {
+            "bootstrap-tools": {
+              "whole": true
+            },
+            "bootstrap": {
+              "skip": true
+            }
+          },
+          "trust": {
+            "consent": {
+              "by": "litlfred",
+              "on": "2026-10-15",
+              "ref": "7dc55773590bbc3158c877a3d61222aa7864006c",
+              "evidence": "Owner litlfred, 2026-10-15 (17:30Z): 'merge and repin for next 3 hrs. keep draining'"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "smart-immunizations",
+      "source": {
+        "local": {
+          "at": "."
+        }
+      }
+    }
+  ],
+  "site": {
+    "landing": "smart-base",
+    "agentRun": true
+  }
+}

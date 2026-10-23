@@ -1,11 +1,11 @@
 {
   "@context": [
-    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    "https://litlfred.github.io/smart-immunizations/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/"
     }
   ],
-  "@id": "library/facilityanalysisguide-immunization/manifest",
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "@type": [
     "cat-harness:SourceDocument"
   ],
@@ -71,11 +71,26 @@
     "library/facilityanalysisguide-immunization/sections/sec-056"
   ],
   "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "licenceRecord": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers, item page",
+        "result": "states copyright only ('© World Health Organization 2018'), no licence"
+      }
+    ]
+  },
   "meta": {
     "doc_id": "facilityanalysisguide-immunization",
+    "title_source": "slug",
     "source_file": "facilityanalysisguide-immunization.pdf",
     "source_sha256": "899513a64de612a66e318efdd8ed84ec1d63eec3a72bba49f73bdfefe387d01b",
-    "granularity": null,
+    "pages": 26,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
     "disposition": "ingested source material — attributed to its document, not folio content"
   }
 }

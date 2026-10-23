@@ -1,11 +1,11 @@
 {
   "@context": [
-    "https://litlfred.github.io/folio-assistant/ns/content/v1.jsonld",
+    "https://litlfred.github.io/smart-immunizations/ns/context/v1.jsonld",
     {
       "@base": "https://litlfred.github.io/folio/"
     }
   ],
-  "@id": "library/immunization-summary-table-1/manifest",
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-1/manifest.jsonld",
   "@type": [
     "cat-harness:SourceDocument"
   ],
@@ -16,11 +16,26 @@
     "library/immunization-summary-table-1/sections/sec-001"
   ],
   "provenance": "ingested",
+  "inSubgraph": "https://litlfred.github.io/folio-assistant/smart-immunizations/smart-immunizations.jsonld#directory/library",
+  "licenceRecord": {
+    "status": "unknown",
+    "searched": [
+      {
+        "where": "https://www.who.int/publications/m/item/table1-summary-of-who-position-papers-recommendations-for-routine-immunization, item page",
+        "result": "no copyright or licence stated"
+      }
+    ]
+  },
   "meta": {
     "doc_id": "immunization-summary-table-1",
+    "title_source": "slug",
     "source_file": "immunization-summary-table-1.pdf",
     "source_sha256": "9861c483644986f477485fdf98f61f493a4f1e2ace8e20f48c04ba70e0d18f8d",
-    "granularity": null,
+    "pages": 13,
+    "arxiv": null,
+    "doi": null,
+    "document_class": null,
+    "extractor_validated": null,
     "disposition": "ingested source material — attributed to its document, not folio content"
   }
 }

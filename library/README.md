@@ -68,6 +68,7 @@ carries the owner's `declared` one.
 | [`who-2019-ncov-digital-certificates-vaccination-20211-eng/`](who-2019-ncov-digital-certificates-vaccination-20211-eng/), (28) DDCC | Owner ruling, 2026-10-07. §1.2's context says L1; the declaration wins, and the run reports the disagreement. |
 | (24) WHO Immunization Data Portal | A website, not a publication. Not fetched. |
 | (30) Sample WHO/UNICEF joint reporting form | A blank spreadsheet form. Not fetched; data.unicef.org also refuses this environment. |
+| (22) UHC compendium: health interventions for universal health coverage | A web compendium of interventions, not guidance. Not fetched. §1.1's unnumbered "WHO universal health coverage list of essential interventions" resolves to it: the DAK names it on PDF p. 18, "The list of health interventions is drawn from the universal health coverage menu of interventions compiled by WHO (22)." Reviewed 2026-10-06 (litlfred/smart-immunizations#3). |
 
 ## What needs a person
 
@@ -84,6 +85,13 @@ carries the owner's `declared` one.
   charts, images, flowcharts and lists. Each publication's note names them.
 - **Table cells are not modelled.** Each summary table is one `table` element;
   its rows are the next step (`pdf-tables.py`).
+
+**Image descriptions are drafts.** Every extracted image and every
+vector-figure render of the three entries ingested before 2026-10-07 carries a
+description, judged by looking at it and recorded in
+[`image-verdicts.json`](image-verdicts.json) (applied by
+`apply-image-verdicts.ts`). An agent drafted them and no person has reviewed
+them yet (`bun run cat narratives` to confirm or reject).
 
 `../uploads/<doc_id>/` holds each fetched item's `intake.json` and its Dublin
 Core record. The PDFs are pinned there by sha256 and not committed.
@@ -102,3 +110,6 @@ bun run smart-base/scripts/extract-dak-l1-references.ts \
 # each L1 source as L1 (a non-L1 entry is reported and skipped); --check to verify
 bun run smart-base/scripts/l1-specialise.ts --entry ../smart-immunizations/library/<entry> --validate-zod <smart-base checkout>
 ```
+
+The measles L1 recommendation-scenarios worked example is not a library entry,
+so it lives in [`examples/l1-recommendation-scenarios/`](../examples/l1-recommendation-scenarios/README.md).
