@@ -68,6 +68,9 @@ tramp
 .\#*
 .swp
 
+# Upload PDFs are pinned by sha256 in intake.json, not committed (library/README.md).
+uploads/**/*.pdf
+
 # BEGIN index mounts (generated from index.config.json — do not edit)
 /smart-base/
 /fhir-harness/

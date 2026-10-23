@@ -1,1034 +1,1806 @@
 {
-  "source": {
-    "file": "9789240099456-eng.pdf",
-    "sha256": "6b0f603e2a792bb4e81014b4e3302d450c4b5be8c72ac4106723610ec7db0303",
-    "bytes": 2838908,
-    "mtime": "2026-10-06T08:54:46Z",
-    "mimetype_sniffed": "application/pdf",
-    "mimetype_source": "magic-bytes",
-    "text_source": "embedded"
-  },
-  "metadata": {
-    "title": null,
-    "docinfo": {
-      "Producer": "Adobe PDF Library 17.0",
-      "Creator": "Adobe InDesign 20.0 (Macintosh)",
-      "CreationDate": "D:20241210144245-08'00'"
-    },
-    "title_raw": null,
-    "title_source": "filename",
-    "title_verified": false,
-    "title_evidence": {
-      "heading": "Digital adaptation kit for immunizations",
-      "corroborated_by": [],
-      "browser_print": false
-    }
-  },
-  "_schema": "pdf-structure/v1",
-  "doc_id": "9789240099456-eng",
-  "toc_source": "none",
-  "granularity": "page",
-  "sections": [
-    {
-      "id": "page-001",
-      "number": null,
-      "title": "Page 1",
-      "level": 1,
-      "page_start": 1,
-      "page_end": 1,
-      "n_chars": 153,
-      "n_words": 17
-    },
-    {
-      "id": "page-002",
-      "number": null,
-      "title": "Page 2",
-      "level": 1,
-      "page_start": 2,
-      "page_end": 2,
-      "n_chars": 24,
-      "n_words": 5
-    },
-    {
-      "id": "page-003",
-      "number": null,
-      "title": "Page 3",
-      "level": 1,
-      "page_start": 3,
-      "page_end": 3,
-      "n_chars": 125,
-      "n_words": 14
-    },
-    {
-      "id": "page-004",
-      "number": null,
-      "title": "Page 4",
-      "level": 1,
-      "page_start": 4,
-      "page_end": 4,
-      "n_chars": 3555,
-      "n_words": 507
-    },
-    {
-      "id": "page-005",
-      "number": null,
-      "title": "Page 5",
-      "level": 1,
-      "page_start": 5,
-      "page_end": 5,
-      "n_chars": 6678,
-      "n_words": 1957
-    },
-    {
-      "id": "page-006",
-      "number": null,
-      "title": "Page 6",
-      "level": 1,
-      "page_start": 6,
-      "page_end": 6,
-      "n_chars": 3074,
-      "n_words": 399
-    },
-    {
-      "id": "page-007",
-      "number": null,
-      "title": "Page 7",
-      "level": 1,
-      "page_start": 7,
-      "page_end": 7,
-      "n_chars": 1242,
-      "n_words": 135
-    },
-    {
-      "id": "page-008",
-      "number": null,
-      "title": "Page 8",
-      "level": 1,
-      "page_start": 8,
-      "page_end": 8,
-      "n_chars": 4500,
-      "n_words": 636
-    },
-    {
-      "id": "page-009",
-      "number": null,
-      "title": "Page 9",
-      "level": 1,
-      "page_start": 9,
-      "page_end": 9,
-      "n_chars": 5077,
-      "n_words": 704
-    },
-    {
-      "id": "page-010",
-      "number": null,
-      "title": "Page 10",
-      "level": 1,
-      "page_start": 10,
-      "page_end": 10,
-      "n_chars": 1844,
-      "n_words": 196
-    },
-    {
-      "id": "page-011",
-      "number": null,
-      "title": "Page 11",
-      "level": 1,
-      "page_start": 11,
-      "page_end": 11,
-      "n_chars": 63,
-      "n_words": 10
-    },
-    {
-      "id": "page-012",
-      "number": null,
-      "title": "Page 12",
-      "level": 1,
-      "page_start": 12,
-      "page_end": 12,
-      "n_chars": 3981,
-      "n_words": 545
-    },
-    {
-      "id": "page-013",
-      "number": null,
-      "title": "Page 13",
-      "level": 1,
-      "page_start": 13,
-      "page_end": 13,
-      "n_chars": 2597,
-      "n_words": 351
-    },
-    {
-      "id": "page-014",
-      "number": null,
-      "title": "Page 14",
-      "level": 1,
-      "page_start": 14,
-      "page_end": 14,
-      "n_chars": 2525,
-      "n_words": 355
-    },
-    {
-      "id": "page-015",
-      "number": null,
-      "title": "Page 15",
-      "level": 1,
-      "page_start": 15,
-      "page_end": 15,
-      "n_chars": 1862,
-      "n_words": 257
-    },
-    {
-      "id": "page-016",
-      "number": null,
-      "title": "Page 16",
-      "level": 1,
-      "page_start": 16,
-      "page_end": 16,
-      "n_chars": 2817,
-      "n_words": 411
-    },
-    {
-      "id": "page-017",
-      "number": null,
-      "title": "Page 17",
-      "level": 1,
-      "page_start": 17,
-      "page_end": 17,
-      "n_chars": 1537,
-      "n_words": 176
-    },
-    {
-      "id": "page-018",
-      "number": null,
-      "title": "Page 18",
-      "level": 1,
-      "page_start": 18,
-      "page_end": 18,
-      "n_chars": 3670,
-      "n_words": 523
-    },
-    {
-      "id": "page-019",
-      "number": null,
-      "title": "Page 19",
-      "level": 1,
-      "page_start": 19,
-      "page_end": 19,
-      "n_chars": 3144,
-      "n_words": 456
-    },
-    {
-      "id": "page-020",
-      "number": null,
-      "title": "Page 20",
-      "level": 1,
-      "page_start": 20,
-      "page_end": 20,
-      "n_chars": 2402,
-      "n_words": 319
-    },
-    {
-      "id": "page-021",
-      "number": null,
-      "title": "Page 21",
-      "level": 1,
-      "page_start": 21,
-      "page_end": 21,
-      "n_chars": 3032,
-      "n_words": 435
-    },
-    {
-      "id": "page-022",
-      "number": null,
-      "title": "Page 22",
-      "level": 1,
-      "page_start": 22,
-      "page_end": 22,
-      "n_chars": 2987,
-      "n_words": 435
-    },
-    {
-      "id": "page-023",
-      "number": null,
-      "title": "Page 23",
-      "level": 1,
-      "page_start": 23,
-      "page_end": 23,
-      "n_chars": 4072,
-      "n_words": 578
-    },
-    {
-      "id": "page-024",
-      "number": null,
-      "title": "Page 24",
-      "level": 1,
-      "page_start": 24,
-      "page_end": 24,
-      "n_chars": 4665,
-      "n_words": 627
-    },
-    {
-      "id": "page-025",
-      "number": null,
-      "title": "Page 25",
-      "level": 1,
-      "page_start": 25,
-      "page_end": 25,
-      "n_chars": 74,
-      "n_words": 10
-    },
-    {
-      "id": "page-026",
-      "number": null,
-      "title": "Page 26",
-      "level": 1,
-      "page_start": 26,
-      "page_end": 26,
-      "n_chars": 1811,
-      "n_words": 243
-    },
-    {
-      "id": "page-027",
-      "number": null,
-      "title": "Page 27",
-      "level": 1,
-      "page_start": 27,
-      "page_end": 27,
-      "n_chars": 1530,
-      "n_words": 190
-    },
-    {
-      "id": "page-028",
-      "number": null,
-      "title": "Page 28",
-      "level": 1,
-      "page_start": 28,
-      "page_end": 28,
-      "n_chars": 2397,
-      "n_words": 316
-    },
-    {
-      "id": "page-029",
-      "number": null,
-      "title": "Page 29",
-      "level": 1,
-      "page_start": 29,
-      "page_end": 29,
-      "n_chars": 2512,
-      "n_words": 347
-    },
-    {
-      "id": "page-030",
-      "number": null,
-      "title": "Page 30",
-      "level": 1,
-      "page_start": 30,
-      "page_end": 30,
-      "n_chars": 1595,
-      "n_words": 223
-    },
-    {
-      "id": "page-031",
-      "number": null,
-      "title": "Page 31",
-      "level": 1,
-      "page_start": 31,
-      "page_end": 31,
-      "n_chars": 2000,
-      "n_words": 310
-    },
-    {
-      "id": "page-032",
-      "number": null,
-      "title": "Page 32",
-      "level": 1,
-      "page_start": 32,
-      "page_end": 32,
-      "n_chars": 2190,
-      "n_words": 341
-    },
-    {
-      "id": "page-033",
-      "number": null,
-      "title": "Page 33",
-      "level": 1,
-      "page_start": 33,
-      "page_end": 33,
-      "n_chars": 4268,
-      "n_words": 730
-    },
-    {
-      "id": "page-034",
-      "number": null,
-      "title": "Page 34",
-      "level": 1,
-      "page_start": 34,
-      "page_end": 34,
-      "n_chars": 2886,
-      "n_words": 482
-    },
-    {
-      "id": "page-035",
-      "number": null,
-      "title": "Page 35",
-      "level": 1,
-      "page_start": 35,
-      "page_end": 35,
-      "n_chars": 3063,
-      "n_words": 438
-    },
-    {
-      "id": "page-036",
-      "number": null,
-      "title": "Page 36",
-      "level": 1,
-      "page_start": 36,
-      "page_end": 36,
-      "n_chars": 2769,
-      "n_words": 384
-    },
-    {
-      "id": "page-037",
-      "number": null,
-      "title": "Page 37",
-      "level": 1,
-      "page_start": 37,
-      "page_end": 37,
-      "n_chars": 2713,
-      "n_words": 401
-    },
-    {
-      "id": "page-038",
-      "number": null,
-      "title": "Page 38",
-      "level": 1,
-      "page_start": 38,
-      "page_end": 38,
-      "n_chars": 2439,
-      "n_words": 349
-    },
-    {
-      "id": "page-039",
-      "number": null,
-      "title": "Page 39",
-      "level": 1,
-      "page_start": 39,
-      "page_end": 39,
-      "n_chars": 3856,
-      "n_words": 654
-    },
-    {
-      "id": "page-040",
-      "number": null,
-      "title": "Page 40",
-      "level": 1,
-      "page_start": 40,
-      "page_end": 40,
-      "n_chars": 651,
-      "n_words": 88
-    },
-    {
-      "id": "page-041",
-      "number": null,
-      "title": "Page 41",
-      "level": 1,
-      "page_start": 41,
-      "page_end": 41,
-      "n_chars": 626,
-      "n_words": 81
-    },
-    {
-      "id": "page-042",
-      "number": null,
-      "title": "Page 42",
-      "level": 1,
-      "page_start": 42,
-      "page_end": 42,
-      "n_chars": 1899,
-      "n_words": 269
-    },
-    {
-      "id": "page-043",
-      "number": null,
-      "title": "Page 43",
-      "level": 1,
-      "page_start": 43,
-      "page_end": 43,
-      "n_chars": 391,
-      "n_words": 46
-    },
-    {
-      "id": "page-044",
-      "number": null,
-      "title": "Page 44",
-      "level": 1,
-      "page_start": 44,
-      "page_end": 44,
-      "n_chars": 3539,
-      "n_words": 535
-    },
-    {
-      "id": "page-045",
-      "number": null,
-      "title": "Page 45",
-      "level": 1,
-      "page_start": 45,
-      "page_end": 45,
-      "n_chars": 715,
-      "n_words": 97
-    },
-    {
-      "id": "page-046",
-      "number": null,
-      "title": "Page 46",
-      "level": 1,
-      "page_start": 46,
-      "page_end": 46,
-      "n_chars": 1080,
-      "n_words": 163
-    },
-    {
-      "id": "page-047",
-      "number": null,
-      "title": "Page 47",
-      "level": 1,
-      "page_start": 47,
-      "page_end": 47,
-      "n_chars": 3908,
-      "n_words": 610
-    },
-    {
-      "id": "page-048",
-      "number": null,
-      "title": "Page 48",
-      "level": 1,
-      "page_start": 48,
-      "page_end": 48,
-      "n_chars": 1911,
-      "n_words": 288
-    },
-    {
-      "id": "page-049",
-      "number": null,
-      "title": "Page 49",
-      "level": 1,
-      "page_start": 49,
-      "page_end": 49,
-      "n_chars": 304,
-      "n_words": 42
-    },
-    {
-      "id": "page-050",
-      "number": null,
-      "title": "Page 50",
-      "level": 1,
-      "page_start": 50,
-      "page_end": 50,
-      "n_chars": 3366,
-      "n_words": 559
-    },
-    {
-      "id": "page-051",
-      "number": null,
-      "title": "Page 51",
-      "level": 1,
-      "page_start": 51,
-      "page_end": 51,
-      "n_chars": 1733,
-      "n_words": 261
-    },
-    {
-      "id": "page-052",
-      "number": null,
-      "title": "Page 52",
-      "level": 1,
-      "page_start": 52,
-      "page_end": 52,
-      "n_chars": 2250,
-      "n_words": 324
-    },
-    {
-      "id": "page-053",
-      "number": null,
-      "title": "Page 53",
-      "level": 1,
-      "page_start": 53,
-      "page_end": 53,
-      "n_chars": 663,
-      "n_words": 94
-    },
-    {
-      "id": "page-054",
-      "number": null,
-      "title": "Page 54",
-      "level": 1,
-      "page_start": 54,
-      "page_end": 54,
-      "n_chars": 2475,
-      "n_words": 382
-    },
-    {
-      "id": "page-055",
-      "number": null,
-      "title": "Page 55",
-      "level": 1,
-      "page_start": 55,
-      "page_end": 55,
-      "n_chars": 3757,
-      "n_words": 568
-    },
-    {
-      "id": "page-056",
-      "number": null,
-      "title": "Page 56",
-      "level": 1,
-      "page_start": 56,
-      "page_end": 56,
-      "n_chars": 2993,
-      "n_words": 469
-    },
-    {
-      "id": "page-057",
-      "number": null,
-      "title": "Page 57",
-      "level": 1,
-      "page_start": 57,
-      "page_end": 57,
-      "n_chars": 127,
-      "n_words": 14
-    },
-    {
-      "id": "page-058",
-      "number": null,
-      "title": "Page 58",
-      "level": 1,
-      "page_start": 58,
-      "page_end": 58,
-      "n_chars": 1084,
-      "n_words": 163
-    },
-    {
-      "id": "page-059",
-      "number": null,
-      "title": "Page 59",
-      "level": 1,
-      "page_start": 59,
-      "page_end": 59,
-      "n_chars": 3170,
-      "n_words": 498
-    },
-    {
-      "id": "page-060",
-      "number": null,
-      "title": "Page 60",
-      "level": 1,
-      "page_start": 60,
-      "page_end": 60,
-      "n_chars": 1541,
-      "n_words": 237
-    },
-    {
-      "id": "page-061",
-      "number": null,
-      "title": "Page 61",
-      "level": 1,
-      "page_start": 61,
-      "page_end": 61,
-      "n_chars": 412,
-      "n_words": 58
-    },
-    {
-      "id": "page-062",
-      "number": null,
-      "title": "Page 62",
-      "level": 1,
-      "page_start": 62,
-      "page_end": 62,
-      "n_chars": 3942,
-      "n_words": 645
-    },
-    {
-      "id": "page-063",
-      "number": null,
-      "title": "Page 63",
-      "level": 1,
-      "page_start": 63,
-      "page_end": 63,
-      "n_chars": 1070,
-      "n_words": 170
-    },
-    {
-      "id": "page-064",
-      "number": null,
-      "title": "Page 64",
-      "level": 1,
-      "page_start": 64,
-      "page_end": 64,
-      "n_chars": 839,
-      "n_words": 123
-    },
-    {
-      "id": "page-065",
-      "number": null,
-      "title": "Page 65",
-      "level": 1,
-      "page_start": 65,
-      "page_end": 65,
-      "n_chars": 2874,
-      "n_words": 438
-    },
-    {
-      "id": "page-066",
-      "number": null,
-      "title": "Page 66",
-      "level": 1,
-      "page_start": 66,
-      "page_end": 66,
-      "n_chars": 1344,
-      "n_words": 204
-    },
-    {
-      "id": "page-067",
-      "number": null,
-      "title": "Page 67",
-      "level": 1,
-      "page_start": 67,
-      "page_end": 67,
-      "n_chars": 1848,
-      "n_words": 271
-    },
-    {
-      "id": "page-068",
-      "number": null,
-      "title": "Page 68",
-      "level": 1,
-      "page_start": 68,
-      "page_end": 68,
-      "n_chars": 1596,
-      "n_words": 225
-    },
-    {
-      "id": "page-069",
-      "number": null,
-      "title": "Page 69",
-      "level": 1,
-      "page_start": 69,
-      "page_end": 69,
-      "n_chars": 3183,
-      "n_words": 480
-    },
-    {
-      "id": "page-070",
-      "number": null,
-      "title": "Page 70",
-      "level": 1,
-      "page_start": 70,
-      "page_end": 70,
-      "n_chars": 1801,
-      "n_words": 268
-    },
-    {
-      "id": "page-071",
-      "number": null,
-      "title": "Page 71",
-      "level": 1,
-      "page_start": 71,
-      "page_end": 71,
-      "n_chars": 3390,
-      "n_words": 485
-    },
-    {
-      "id": "page-072",
-      "number": null,
-      "title": "Page 72",
-      "level": 1,
-      "page_start": 72,
-      "page_end": 72,
-      "n_chars": 2650,
-      "n_words": 354
-    },
-    {
-      "id": "page-073",
-      "number": null,
-      "title": "Page 73",
-      "level": 1,
-      "page_start": 73,
-      "page_end": 73,
-      "n_chars": 2368,
-      "n_words": 347
-    },
-    {
-      "id": "page-074",
-      "number": null,
-      "title": "Page 74",
-      "level": 1,
-      "page_start": 74,
-      "page_end": 74,
-      "n_chars": 2692,
-      "n_words": 351
-    },
-    {
-      "id": "page-075",
-      "number": null,
-      "title": "Page 75",
-      "level": 1,
-      "page_start": 75,
-      "page_end": 75,
-      "n_chars": 4321,
-      "n_words": 520
-    },
-    {
-      "id": "page-076",
-      "number": null,
-      "title": "Page 76",
-      "level": 1,
-      "page_start": 76,
-      "page_end": 76,
-      "n_chars": 4201,
-      "n_words": 484
-    },
-    {
-      "id": "page-077",
-      "number": null,
-      "title": "Page 77",
-      "level": 1,
-      "page_start": 77,
-      "page_end": 77,
-      "n_chars": 3905,
-      "n_words": 432
-    },
-    {
-      "id": "page-078",
-      "number": null,
-      "title": "Page 78",
-      "level": 1,
-      "page_start": 78,
-      "page_end": 78,
-      "n_chars": 4066,
-      "n_words": 449
-    },
-    {
-      "id": "page-079",
-      "number": null,
-      "title": "Page 79",
-      "level": 1,
-      "page_start": 79,
-      "page_end": 79,
-      "n_chars": 3498,
-      "n_words": 389
-    },
-    {
-      "id": "page-080",
-      "number": null,
-      "title": "Page 80",
-      "level": 1,
-      "page_start": 80,
-      "page_end": 80,
-      "n_chars": 3540,
-      "n_words": 544
-    },
-    {
-      "id": "page-081",
-      "number": null,
-      "title": "Page 81",
-      "level": 1,
-      "page_start": 81,
-      "page_end": 81,
-      "n_chars": 3452,
-      "n_words": 535
-    },
-    {
-      "id": "page-082",
-      "number": null,
-      "title": "Page 82",
-      "level": 1,
-      "page_start": 82,
-      "page_end": 82,
-      "n_chars": 3060,
-      "n_words": 475
-    },
-    {
-      "id": "page-083",
-      "number": null,
-      "title": "Page 83",
-      "level": 1,
-      "page_start": 83,
-      "page_end": 83,
-      "n_chars": 2727,
-      "n_words": 337
-    },
-    {
-      "id": "page-084",
-      "number": null,
-      "title": "Page 84",
-      "level": 1,
-      "page_start": 84,
-      "page_end": 84,
-      "n_chars": 2689,
-      "n_words": 394
-    },
-    {
-      "id": "page-085",
-      "number": null,
-      "title": "Page 85",
-      "level": 1,
-      "page_start": 85,
-      "page_end": 85,
-      "n_chars": 1722,
-      "n_words": 250
-    },
-    {
-      "id": "page-086",
-      "number": null,
-      "title": "Page 86",
-      "level": 1,
-      "page_start": 86,
-      "page_end": 86,
-      "n_chars": 1999,
-      "n_words": 297
-    },
-    {
-      "id": "page-087",
-      "number": null,
-      "title": "Page 87",
-      "level": 1,
-      "page_start": 87,
-      "page_end": 87,
-      "n_chars": 2809,
-      "n_words": 391
-    },
-    {
-      "id": "page-088",
-      "number": null,
-      "title": "Page 88",
-      "level": 1,
-      "page_start": 88,
-      "page_end": 88,
-      "n_chars": 2587,
-      "n_words": 357
-    },
-    {
-      "id": "page-089",
-      "number": null,
-      "title": "Page 89",
-      "level": 1,
-      "page_start": 89,
-      "page_end": 89,
-      "n_chars": 3671,
-      "n_words": 525
-    },
-    {
-      "id": "page-090",
-      "number": null,
-      "title": "Page 90",
-      "level": 1,
-      "page_start": 90,
-      "page_end": 90,
-      "n_chars": 4000,
-      "n_words": 550
-    },
-    {
-      "id": "page-091",
-      "number": null,
-      "title": "Page 91",
-      "level": 1,
-      "page_start": 91,
-      "page_end": 91,
-      "n_chars": 3260,
-      "n_words": 418
-    },
-    {
-      "id": "page-092",
-      "number": null,
-      "title": "Page 92",
-      "level": 1,
-      "page_start": 92,
-      "page_end": 92,
-      "n_chars": 3492,
-      "n_words": 428
-    },
-    {
-      "id": "page-093",
-      "number": null,
-      "title": "Page 93",
-      "level": 1,
-      "page_start": 93,
-      "page_end": 93,
-      "n_chars": 1429,
-      "n_words": 185
-    },
-    {
-      "id": "page-094",
-      "number": null,
-      "title": "Page 94",
-      "level": 1,
-      "page_start": 94,
-      "page_end": 94,
-      "n_chars": 6567,
-      "n_words": 707
-    },
-    {
-      "id": "page-095",
-      "number": null,
-      "title": "Page 95",
-      "level": 1,
-      "page_start": 95,
-      "page_end": 95,
-      "n_chars": 1874,
-      "n_words": 168
-    },
-    {
-      "id": "page-096",
-      "number": null,
-      "title": "Page 96",
-      "level": 1,
-      "page_start": 96,
-      "page_end": 96,
-      "n_chars": 3335,
-      "n_words": 546
-    },
-    {
-      "id": "page-097",
-      "number": null,
-      "title": "Page 97",
-      "level": 1,
-      "page_start": 97,
-      "page_end": 97,
-      "n_chars": 3388,
-      "n_words": 545
-    },
-    {
-      "id": "page-098",
-      "number": null,
-      "title": "Page 98",
-      "level": 1,
-      "page_start": 98,
-      "page_end": 98,
-      "n_chars": 4213,
-      "n_words": 618
-    },
-    {
-      "id": "page-099",
-      "number": null,
-      "title": "Page 99",
-      "level": 1,
-      "page_start": 99,
-      "page_end": 99,
-      "n_chars": 24,
-      "n_words": 5
-    },
-    {
-      "id": "page-100",
-      "number": null,
-      "title": "Page 100",
-      "level": 1,
-      "page_start": 100,
-      "page_end": 100,
-      "n_chars": 100,
-      "n_words": 11
-    }
+ "_schema": "pdf-structure/v1",
+ "doc_id": "9789240099456-eng",
+ "source": {
+  "file": "9789240099456-eng.pdf",
+  "sha256": "6b0f603e2a792bb4e81014b4e3302d450c4b5be8c72ac4106723610ec7db0303",
+  "bytes": 2838908,
+  "pages": 100,
+  "text_source": "embedded",
+  "extractor": "pymupdf",
+  "mtime": "2026-10-07T12:38:31Z",
+  "mimetype_sniffed": "application/pdf",
+  "mimetype_source": "magic-bytes"
+ },
+ "metadata": {
+  "arxiv": null,
+  "doi": null,
+  "title": "Digital adaptation kit for immunizations",
+  "authors_raw": null,
+  "title_lines": [
+   "SMART GUIDELINES COLLECTION",
+   "Digital",
+   "adaptation kit for",
+   "immunizations",
+   "Operational requirements for",
+   "implementing WHO recommendations",
+   "in digital systems"
   ],
-  "structure_note": "Ingested at PAGE granularity by scripts/pdf-pages.py. This PDF carries no embedded outline and its inferred chapter structure was measurably wrong (bean 6xaz), so no chapter tree is claimed. A page is a determined division; an inferred chapter was not."
+  "abstract": null,
+  "docinfo": {
+   "Producer": "Adobe PDF Library 17.0",
+   "Creator": "Adobe InDesign 20.0 (Macintosh)",
+   "CreationDate": "D:20241210144245-08'00'"
+  },
+  "title_raw": "SMART GUIDELINES COLLECTION Digital adaptation kit for immunizations Operational requirements for implementing WHO recommendations in digital systems",
+  "title_source": "heading",
+  "title_verified": true,
+  "title_evidence": {
+   "heading": "Digital adaptation kit for immunizations",
+   "text": "SMART GUIDELINES COLLECTION Digital adaptation kit for immunizations Operational requirements for implementing WHO recommendations in digital systems",
+   "corroborated_by": [
+    "text"
+   ],
+   "browser_print": false
+  }
+ },
+ "toc": [
+  {
+   "level": 1,
+   "title": "Acknowledgements",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Abbreviations",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Glossary",
+   "page": null,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": null
+  },
+  {
+   "level": 1,
+   "title": "Overview of SMART guideline digital adaptation kits Background",
+   "page": 12,
+   "source": "inferred",
+   "number": "1",
+   "confidence": 0.55,
+   "evidence": [
+    "contents",
+    "number"
+   ],
+   "page_label": "2"
+  },
+  {
+   "level": 1,
+   "title": "Digital health interventions incorporated into this digital adaptation kit",
+   "page": 15,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "5"
+  },
+  {
+   "level": 1,
+   "title": "Digital adaptation kits within a strategic vision for SMART guidelines",
+   "page": 16,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.65,
+   "evidence": [
+    "contents",
+    "style"
+   ],
+   "page_label": "6"
+  },
+  {
+   "level": 1,
+   "title": "Objectives",
+   "page": 16,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "6"
+  },
+  {
+   "level": 1,
+   "title": "Components of a digital adaptation kit",
+   "page": 18,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "8"
+  },
+  {
+   "level": 1,
+   "title": "How this digital adaptation kit was developed",
+   "page": 21,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "11"
+  },
+  {
+   "level": 1,
+   "title": "How to use this digital adaptation kit",
+   "page": 21,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.75,
+   "evidence": [
+    "contents",
+    "body"
+   ],
+   "page_label": "11"
+  },
+  {
+   "level": 1,
+   "title": "Links to the broader digital health ecosystem",
+   "page": 23,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.65,
+   "evidence": [
+    "contents",
+    "style"
+   ],
+   "page_label": "13"
+  },
+  {
+   "level": 2,
+   "title": "Component 1. Health interventions and recommendations",
+   "page": 26,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "16"
+  },
+  {
+   "level": 2,
+   "title": "Component 2. Generic personas",
+   "page": 28,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "18"
+  },
+  {
+   "level": 2,
+   "title": "Component 3. User scenarios",
+   "page": 31,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "21"
+  },
+  {
+   "level": 2,
+   "title": "Component 4. Generic business processes and workflows",
+   "page": 36,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "26"
+  },
+  {
+   "level": 2,
+   "title": "Component 5. Core data elements",
+   "page": 70,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "60"
+  },
+  {
+   "level": 2,
+   "title": "Component 6. Decision-support logic",
+   "page": 74,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "64"
+  },
+  {
+   "level": 2,
+   "title": "Component 7. Indicators and performance metrics",
+   "page": 86,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "76"
+  },
+  {
+   "level": 2,
+   "title": "Component 8. High-level functional and non-functional requirements",
+   "page": 88,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.5,
+   "evidence": [
+    "contents"
+   ],
+   "page_label": "78"
+  },
+  {
+   "level": 1,
+   "title": "References",
+   "page": 94,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "84"
+  },
+  {
+   "level": 1,
+   "title": "Annex. Guidance for adding data elements to or amending existing data elements in the data dictionary",
+   "page": 96,
+   "source": "inferred",
+   "number": null,
+   "confidence": 0.9,
+   "evidence": [
+    "contents",
+    "body",
+    "style"
+   ],
+   "page_label": "86"
+  }
+ ],
+ "toc_source": "inferred",
+ "toc_undetermined_reason": null,
+ "figures": [
+  {
+   "kind": "table",
+   "number": "1",
+   "title": "Components of the digital adaptation kit",
+   "page": 18,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "8"
+  },
+  {
+   "kind": "table",
+   "number": "2",
+   "title": "Descriptions of key generic personas",
+   "page": 28,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "18"
+  },
+  {
+   "kind": "table",
+   "number": "3",
+   "title": "Descriptions of related personas",
+   "page": 29,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "19"
+  },
+  {
+   "kind": "table",
+   "number": "4",
+   "title": "Descriptions of settings",
+   "page": 29,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "19"
+  },
+  {
+   "kind": "table",
+   "number": "5",
+   "title": "Interpretation of the routine vaccination clinic user scenario",
+   "page": 32,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "22"
+  },
+  {
+   "kind": "table",
+   "number": "6",
+   "title": "Interpretation of the defaulter tracing user scenario",
+   "page": 32,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "22"
+  },
+  {
+   "kind": "table",
+   "number": "7",
+   "title": "Interpretation of the catch-up campaign user scenario",
+   "page": 32,
+   "confidence": 0.6,
+   "evidence": [
+    "in-sequence"
+   ],
+   "page_label": "22"
+  },
+  {
+   "kind": "table",
+   "number": "8",
+   "title": "Overview of business processes",
+   "page": 36,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "26"
+  },
+  {
+   "kind": "table",
+   "number": "9",
+   "title": "Business process symbols used in workflows",
+   "page": 38,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "28"
+  },
+  {
+   "kind": "figure",
+   "number": "4",
+   "title": "Overview of key immunization processes",
+   "page": 40,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "30"
+  },
+  {
+   "kind": "figure",
+   "number": "5",
+   "title": "Workflow A: vaccination location registration business process",
+   "page": 42,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "32"
+  },
+  {
+   "kind": "figure",
+   "number": "6",
+   "title": "Workflow B: plan service delivery business process",
+   "page": 46,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "36"
+  },
+  {
+   "kind": "figure",
+   "number": "7",
+   "title": "Workflow C: client registration business process",
+   "page": 48,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "38"
+  },
+  {
+   "kind": "figure",
+   "number": "8",
+   "title": "Workflow D: administer vaccine business process",
+   "page": 52,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "42"
+  },
+  {
+   "kind": "figure",
+   "number": "9",
+   "title": "Workflow E: client reminder business process",
+   "page": 58,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "48"
+  },
+  {
+   "kind": "figure",
+   "number": "10",
+   "title": "Workflow F: defaulter tracing business process",
+   "page": 60,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "50"
+  },
+  {
+   "kind": "figure",
+   "number": "11",
+   "title": "Workflow G: resolve duplicate client records business process",
+   "page": 64,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "54"
+  },
+  {
+   "kind": "figure",
+   "number": "12",
+   "title": "Workflow H: resolve duplicate vaccination events business process",
+   "page": 66,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "56"
+  },
+  {
+   "kind": "figure",
+   "number": "13",
+   "title": "Workflow I: report generation business process",
+   "page": 68,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "graphic"
+   ],
+   "page_label": "58"
+  },
+  {
+   "kind": "table",
+   "number": "10",
+   "title": "Workflow core data elements for identified business processes",
+   "page": 70,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "60"
+  },
+  {
+   "kind": "table",
+   "number": "11",
+   "title": "Overview of decision-support tables and scheduling-logic tables for vaccine delivery",
+   "page": 74,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "64"
+  },
+  {
+   "kind": "table",
+   "number": "12",
+   "title": "Components of the decision-support tables",
+   "page": 80,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "70"
+  },
+  {
+   "kind": "table",
+   "number": "13",
+   "title": "Example decision-support table for measles vaccination in countries with ongoing transmission in which the risk of measles mortality remains high",
+   "page": 81,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "71"
+  },
+  {
+   "kind": "table",
+   "number": "14",
+   "title": "Example contraindications table for measles vaccination",
+   "page": 83,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "73"
+  },
+  {
+   "kind": "table",
+   "number": "15",
+   "title": "Example scheduling-logic table for measles vaccination schedule in countries with ongoing transmission in which the risk of measles mortality remains",
+   "page": 84,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "74"
+  },
+  {
+   "kind": "table",
+   "number": "16",
+   "title": "Indicators and performance metrics",
+   "page": 87,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "77"
+  },
+  {
+   "kind": "table",
+   "number": "17",
+   "title": "Functional requirements",
+   "page": 88,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "78"
+  },
+  {
+   "kind": "table",
+   "number": "18",
+   "title": "Non-functional requirements",
+   "page": 91,
+   "confidence": 0.8,
+   "evidence": [
+    "referenced",
+    "in-sequence"
+   ],
+   "page_label": "81"
+  }
+ ],
+ "pages": [
+  {
+   "physical": 1,
+   "label": "A",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 2,
+   "label": "B",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 3,
+   "label": "i",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 4,
+   "label": "ii",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 5,
+   "label": "iii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 6,
+   "label": "iv",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 7,
+   "label": "v",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 8,
+   "label": "vi",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 9,
+   "label": "vii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 10,
+   "label": "viii",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 11,
+   "label": "1",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 12,
+   "label": "2",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 13,
+   "label": "3",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 14,
+   "label": "4",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 15,
+   "label": "5",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 16,
+   "label": "6",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 17,
+   "label": "7",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 18,
+   "label": "8",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 19,
+   "label": "9",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 20,
+   "label": "10",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 21,
+   "label": "11",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 22,
+   "label": "12",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 23,
+   "label": "13",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 24,
+   "label": "14",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 25,
+   "label": "15",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 26,
+   "label": "16",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 27,
+   "label": "17",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 28,
+   "label": "18",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 29,
+   "label": "19",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 30,
+   "label": "20",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 31,
+   "label": "21",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 32,
+   "label": "22",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 33,
+   "label": "23",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 34,
+   "label": "24",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 35,
+   "label": "25",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 36,
+   "label": "26",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 37,
+   "label": "27",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 38,
+   "label": "28",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 39,
+   "label": "29",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 40,
+   "label": "30",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 41,
+   "label": "31",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 42,
+   "label": "32",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 43,
+   "label": "33",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 44,
+   "label": "34",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 45,
+   "label": "35",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 46,
+   "label": "36",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 47,
+   "label": "37",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 48,
+   "label": "38",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 49,
+   "label": "39",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 50,
+   "label": "40",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 51,
+   "label": "41",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 52,
+   "label": "42",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 53,
+   "label": "43",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 54,
+   "label": "44",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 55,
+   "label": "45",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 56,
+   "label": "46",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 57,
+   "label": "47",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 58,
+   "label": "48",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 59,
+   "label": "49",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 60,
+   "label": "50",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 61,
+   "label": "51",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 62,
+   "label": "52",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 63,
+   "label": "53",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 64,
+   "label": "54",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 65,
+   "label": "55",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 66,
+   "label": "56",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 67,
+   "label": "57",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 68,
+   "label": "58",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 69,
+   "label": "59",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 70,
+   "label": "60",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 71,
+   "label": "61",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 72,
+   "label": "62",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 73,
+   "label": "63",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 74,
+   "label": "64",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 75,
+   "label": "65",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 76,
+   "label": "66",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 77,
+   "label": "67",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 78,
+   "label": "68",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 79,
+   "label": "69",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 80,
+   "label": "70",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 81,
+   "label": "71",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 82,
+   "label": "72",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 83,
+   "label": "73",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 84,
+   "label": "74",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 85,
+   "label": "75",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 86,
+   "label": "76",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 87,
+   "label": "77",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 88,
+   "label": "78",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 89,
+   "label": "79",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 90,
+   "label": "80",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 91,
+   "label": "81",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 92,
+   "label": "82",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 93,
+   "label": "83",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 94,
+   "label": "84",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 95,
+   "label": "85",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 96,
+   "label": "86",
+   "source": "printed",
+   "confidence": 1.0,
+   "evidence": [
+    "printed",
+    "pdf-labels",
+    "contents"
+   ]
+  },
+  {
+   "physical": 97,
+   "label": "87",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 98,
+   "label": "88",
+   "source": "printed",
+   "confidence": 0.85,
+   "evidence": [
+    "printed",
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 99,
+   "label": "89",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  },
+  {
+   "physical": 100,
+   "label": "90",
+   "source": "pdf-labels",
+   "confidence": 0.7,
+   "evidence": [
+    "pdf-labels"
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "sec-front-matter",
+   "number": null,
+   "title": "Front matter",
+   "level": 1,
+   "page_start": 1,
+   "page_end": 15,
+   "n_chars": 35734,
+   "n_words": 5867,
+   "label_start": "A",
+   "label_end": "5"
+  },
+  {
+   "id": "sec-000-digital-health-interventions-incorporated-into-t",
+   "number": null,
+   "title": "Digital health interventions incorporated into this digital adaptation kit",
+   "level": 1,
+   "page_start": 15,
+   "page_end": 16,
+   "n_chars": 2510,
+   "n_words": 353,
+   "label_start": "5",
+   "label_end": "6"
+  },
+  {
+   "id": "sec-001-objectives",
+   "number": null,
+   "title": "Objectives",
+   "level": 1,
+   "page_start": 16,
+   "page_end": 18,
+   "n_chars": 3367,
+   "n_words": 447,
+   "label_start": "6",
+   "label_end": "8"
+  },
+  {
+   "id": "sec-002-components-of-a-digital-adaptation-kit",
+   "number": null,
+   "title": "Components of a digital adaptation kit",
+   "level": 1,
+   "page_start": 18,
+   "page_end": 21,
+   "n_chars": 9150,
+   "n_words": 1288,
+   "label_start": "8",
+   "label_end": "11"
+  },
+  {
+   "id": "sec-003-how-this-digital-adaptation-kit-was-developed",
+   "number": null,
+   "title": "How this digital adaptation kit was developed",
+   "level": 1,
+   "page_start": 21,
+   "page_end": 21,
+   "n_chars": 2434,
+   "n_words": 347,
+   "label_start": "11",
+   "label_end": "11"
+  },
+  {
+   "id": "sec-004-how-to-use-this-digital-adaptation-kit",
+   "number": null,
+   "title": "How to use this digital adaptation kit",
+   "level": 1,
+   "page_start": 21,
+   "page_end": 94,
+   "n_chars": 177075,
+   "n_words": 25302,
+   "label_start": "11",
+   "label_end": "84"
+  },
+  {
+   "id": "sec-005-references",
+   "number": null,
+   "title": "References",
+   "level": 1,
+   "page_start": 94,
+   "page_end": 96,
+   "n_chars": 8438,
+   "n_words": 875,
+   "label_start": "84",
+   "label_end": "86"
+  },
+  {
+   "id": "sec-006-annex-guidance-for-adding-data-elements-to-or-am",
+   "number": null,
+   "title": "Annex. Guidance for adding data elements to or amending existing data elements in the data dictionary",
+   "level": 1,
+   "page_start": 96,
+   "page_end": 100,
+   "n_chars": 10885,
+   "n_words": 1697,
+   "label_start": "86",
+   "label_end": "90"
+  }
+ ],
+ "diagnostics": {
+  "pages_without_text": 2,
+  "likely_scanned": false,
+  "toc_entries": 21,
+  "toc_inferred_entries": 21,
+  "toc_inferred_mean_confidence": 0.7,
+  "toc_inferred_empty_share": 0.0,
+  "toc_inferred_method": "contents",
+  "figure_entries": 28,
+  "figure_sequence_gaps": [
+   "figure 1",
+   "figure 2",
+   "figure 3"
+  ],
+  "page_label_conflicts": {
+   "count": 0,
+   "items": []
+  },
+  "toc_alignment": {
+   "listed_not_found": {
+    "count": 3,
+    "items": [
+     "Overview of SMART guideline digital adaptation kits Background",
+     "Links to the broader digital health ecosystem",
+     "Component 4. Generic business processes and workflows"
+    ]
+   },
+   "found_not_listed": {
+    "count": 0,
+    "items": []
+   },
+   "page_mismatch": {
+    "count": 8,
+    "items": [
+     "Digital adaptation kits within a strategic vision for SMART guidelines: listed p16, found p11",
+     "Component 1. Health interventions and recommendations: listed p26, found p20",
+     "Component 2. Generic personas: listed p28, found p20",
+     "Component 3. User scenarios: listed p31, found p20",
+     "Component 5. Core data elements: listed p70, found p20",
+     "Component 6. Decision-support logic: listed p74, found p20",
+     "Component 7. Indicators and performance metrics: listed p86, found p20",
+     "Component 8. High-level functional and non-functional requirements: listed p88, found p20"
+    ]
+   }
+  },
+  "sections": 8,
+  "chars_total": 249593
+ }
 }

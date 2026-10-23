@@ -29,7 +29,7 @@
       "lang": "en"
     }
   ],
-  "derivedFrom": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/sections/page-015",
+  "derivedFrom": "library/who-2019-ncov-digital-certificates-vaccination-20211-eng/sections/sec-front-matter",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/who-2019-ncov-digital-certificates-vaccination-20211-eng/manifest.jsonld",
   "provenance": "ingested"
 }

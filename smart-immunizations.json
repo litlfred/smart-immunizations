@@ -31,7 +31,7 @@
     {
       "id": "library",
       "path": "library/",
-      "description": "L1 source content for this DAK: one `<bib-slug>/` per ingested WHO publication (`sections/*.md`, `structure.json`, `manifest.jsonld`, `blocks/`) and the Component 1 L1 knowledge graph in `9789240099456-eng/smart-kg-l1-dak-references.json`. The id is `library`, the CONVENTIONAL one, so this entry overrides the default rather than joining it. Declared EXPLICITLY although the default already resolves `library/` in this checkout: remote-mount reads only declared directories, so without this entry an index mounting smart-immunizations mounts none of it, and gen-instance-contexts reads no document to build `ns/context/v1.jsonld` from.",
+      "description": "L1 source content for this DAK: one `<bib-slug>/` per ingested WHO publication (`sections/*.md`, `structure.json`, `manifest.jsonld`, `blocks/`) and, beside each L1 source the DAK's Component 1 cites, its own L1 3.0 knowledge graph `smart-kg-l1-library.jsonld`. The DAK itself (`9789240099456-eng/`) is L2 and library-only, with no L1 graph (owner, 2026-10-08). The id is `library`, the CONVENTIONAL one, so this entry overrides the default rather than joining it. Declared EXPLICITLY although the default already resolves `library/` in this checkout: remote-mount reads only declared directories, so without this entry an index mounting smart-immunizations mounts none of it, and gen-instance-contexts reads no document to build `ns/context/v1.jsonld` from.",
       "graphTypologies": [
         "library"
       ]

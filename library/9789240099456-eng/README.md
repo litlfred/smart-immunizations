@@ -1,5 +1,5 @@
 <!-- kg:subgraph:begin -->
-# 9789240099456-eng
+# Digital adaptation kit for immunizations
 
 ingested source material — attributed to its document, not folio content
 
@@ -9,12 +9,13 @@ Held in the library [`smart-immunizations/library/`](../README.md) as `978924009
 |---|---|
 | document id | `9789240099456-eng` |
 | source file | `9789240099456-eng.pdf` (sha256 `6b0f603e2a79…`) |
+| pages | 100 |
 | provenance | ingested |
 
 | holds | count |
 |---|---|
-| [sections](sections/) | 200 |
-| [blocks](blocks/) | 117 |
+| [sections](sections/) | 16 |
+| [blocks](blocks/) | 25 |
 | images | 18 |
 
 <!-- kg:subgraph:end -->
