@@ -15,10 +15,20 @@
   "file": "../images/img-p025-1.png",
   "pageStart": 25,
   "pageEnd": 25,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A bar chart titled \"EPI: Completeness by orgunit - last month\", October 2016, of the WHO immunisation monthly report reporting rate: Trainingland 79.9%, Animal Region 78.9%, Food Region 81.4%.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-052",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

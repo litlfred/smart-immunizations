@@ -5,227 +5,467 @@
     {
       "id": "img-p011-1",
       "file": "images/img-p011-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.281064,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a portrait photograph of a woman and a toddler",
         "page": 11
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a young child in a navy-and-yellow striped shirt sitting on the lap of a smiling woman in a red-and-white striped top; other adults are blurred in the background. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p024-1",
       "file": "images/img-p024-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.146347,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of women holding infants in a waiting area",
         "page": 24
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of women and young children seated in a clinic waiting area. In front, an older woman in a patterned headscarf holds an infant in a white sun hat who holds a paper card; beside them a young woman and a small boy with a snack packet. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p033-1",
       "file": "images/img-p033-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.18951,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of a health worker writing at a desk",
         "page": 33
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a health worker in a white uniform and glasses seated at a desk, pen in hand over printed forms, beside a wooden box with compartments holding supplies. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p035-1",
       "file": "images/img-p035-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.175365,
-        "imagesOnPage": 2,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of health workers in a clinic room",
         "page": 35
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph inside a clinic room with health posters on the wall: a smiling woman in a black jacket stands with her arm outstretched towards a seated health worker in a light-blue uniform, who smiles and reaches back; another worker sits at a desk to the right. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p035-2",
       "file": "images/img-p035-2.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.175586,
-        "imagesOnPage": 2,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of a child being vaccinated in the arm",
         "page": 35
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a vaccinator in a green T-shirt and glasses giving an injection in the upper arm of a girl in a green top, under a corrugated roof, while a man in a red-and-white striped shirt and other children look on. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p042-1",
       "file": "images/img-p042-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.142584,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of a vaccination registration desk",
         "page": 42
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a registration desk at a vaccination post: a man in a turquoise shirt writes in a register, a woman in a yellow jacket holds a swaddled infant beside him, and two women in yellow campaign polo shirts stand by; a vaccination poster hangs on the wall. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p043-1",
       "file": "images/img-p043-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.141656,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a group photograph of health workers behind a table of vaccine supplies",
         "page": 43
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of six health workers, most in light-blue uniforms, standing behind a table with two vaccine cool boxes, a sharps disposal box and other supplies, in front of a wall with charts. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p051-1",
       "file": "images/img-p051-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.155467,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a group photograph of schoolchildren",
         "page": 51
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a group of smiling schoolchildren in white shirts, standing close together outdoors beside a school building. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p052-1",
       "file": "images/img-p052-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.19259,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a close-up photograph of a hand filling in vaccination forms",
         "page": 52
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A wide, cropped photograph of a hand writing with a pen on paper vaccination registers and cards spread on a table; one card is headed in Haitian Creole as from the Republic of Haiti's Ministry of Public Health and Population. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p069-1",
       "file": "images/img-p069-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.355427,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of a girl holding a child health booklet",
         "page": 69
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a smiling girl holding a stack of booklets, the top one a Spanish-language child health booklet titled \"Libreta de salud del niño y la niña\", with a handwritten name and cartoon illustrations of a family and children. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p074-1",
       "file": "images/img-p074-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.360077,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of a man holding a young boy",
         "page": 74
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a smiling man in a lime-green T-shirt holding a small boy in a red T-shirt and a cap on his lap, against a yellow wall. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p076-1",
       "file": "images/img-p076-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.286145,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a close-up portrait photograph of a boy",
         "page": 76
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A close-up photograph of a smiling boy with short dark hair in a navy T-shirt. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p089-1",
       "file": "images/img-p089-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.087253,
-        "imagesOnPage": 2,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of a desktop computer showing an immunization programme splash screen",
         "page": 89
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a desktop computer with keyboard and mouse on a white desk, beside a printed form. The screen shows a splash page headed in Portuguese \"Programa Nacional de Imunizações\" with cartoon droplet characters and the DATASUS name. Illustrative of a computerized immunization registry; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p089-2",
       "file": "images/img-p089-2.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.086478,
-        "imagesOnPage": 2,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a photograph of a woman at a computer displaying a data table",
         "page": 89
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A photograph of a smiling woman seated at an office desk beside a computer monitor that shows a spreadsheet-like table of figures; the table's text is too small to read. A wall calendar and other desks are behind. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p091-1",
       "file": "images/img-p091-1.png",
-      "role": "figure",
+      "role": "decorative",
       "basis": {
-        "method": "geometry",
-        "coverage": 0.196094,
-        "imagesOnPage": 1,
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "claude",
+          "model": "not-disclosed",
+          "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+        },
+        "at": "2026-10-23",
+        "saw": "a group photograph at an outdoor vaccination event with clowns and balloons",
         "page": 91
       },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
+      "narrative": [
+        {
+          "text": "A wide photograph of a crowd of children and adults at an outdoor event with balloons and two performers dressed as clowns. Several adults give a thumbs-up, and one holds a sign whose legible Spanish text says vaccines are safe and free in health establishments in Peru. Illustrative; it carries no information the text does not.",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "claude",
+            "model": "not-disclosed",
+            "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+          },
+          "drafted_at": "2026-10-23"
+        }
+      ]
     },
     {
       "id": "img-p116-1",

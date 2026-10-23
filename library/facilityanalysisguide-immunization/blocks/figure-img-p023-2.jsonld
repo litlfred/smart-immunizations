@@ -15,10 +15,20 @@
   "file": "../images/img-p023-2.png",
   "pageStart": 23,
   "pageEnd": 23,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A grouped bar chart titled \"Last 12 months\" (November 2015 to October 2016) of AEFI cases for two regions. Food Region: 5 suspected serious and 119 suspected non-serious. Animal Region: 60 serious and 223 non-serious.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-045",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

@@ -15,10 +15,20 @@
   "file": "../images/img-p024-1.png",
   "pageStart": 24,
   "pageEnd": 24,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A table titled \"EPI: Outreach immunization sessions completion by orgunit - this and last 5 years\", giving the percentage of outreach immunization sessions conducted for Trainingland, Animal Region and Food Region by year. The first two year columns are empty and every other cell is 0; the year headings are too blurred to read reliably.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-049",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

@@ -15,10 +15,20 @@
   "file": "../images/img-p021-1.png",
   "pageStart": 21,
   "pageEnd": 21,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A table titled \"EPI: Open vial wastage rate by orgunit - last 12 months cumulative\", November 2015 to October 2016, giving the open vial wastage rate (%) of seven vaccines for two regions. Animal Region: BCG 5.8, DPT-HepB-Hib 4.1, IPV -20.1, MR blank, OPV 6.4, PCV 6, RV 6.3. Food Region: 6.4, 4.6, 20.4, blank, 6.4, 6.7, 5.9. The negative IPV rate for Animal Region is an impossible value, and MR is empty for both.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-037",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"
