@@ -23,10 +23,14 @@ drop it from both.
 
 ## What an index mounts from here
 
-**folio-assistant mounts two directories** of this repository: `library/`
-(the L1 library) and `examples/l1-recommendation-scenarios/` (the measles
-worked example, smart-base's `l1-extraction` kind). Its override lists exactly
-those two ids, and `smart-immunizations.json` declares exactly those two (owner
-ruling B1, 2026-10-15; "Mount it everywhere", the same day). The measles
+**folio-assistant mounts three directories** of this repository: `library/`
+(the L1 library), `examples/l1-recommendation-scenarios/` (the measles
+worked example, smart-base's `l1-extraction` kind) and `document-kinds/` (this
+IG's DAK coverage report, moved here from smart-base by wrong-direction move
+M13). Its override lists exactly those three ids, and
+`smart-immunizations.json` declares exactly those three (owner ruling B1,
+2026-10-15; "Mount it everywhere", the same day; M13 added the third, and the
+index re-pin that mounts it adds `smart-immunizations-document-kinds` to the
+override). The measles
 example sits outside `library/` so it is not read as a library entry.
 `input/` and the rest stay in this repository.
