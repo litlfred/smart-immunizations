@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-08T10:51:01Z",
+  "generatedAt": "2026-10-23T08:07:45Z",
   "wasDerivedFrom": [
     {
       "path": "facilityanalysisguide-immunization.pdf",
@@ -16,11 +16,11 @@
     },
     {
       "path": "library/facilityanalysisguide-immunization/manifest.jsonld",
-      "sha256": "ba2fffa1fc031c4bb4f4ddaef1d5d603a68bd02ab9e8b69bd805047170cb64e8"
+      "sha256": "003cf8e26a3453013537e57ef98a862cb9cfc9eba4c06509504967bdd865dccc"
     },
     {
       "path": "uploads/facilityanalysisguide-immunization/intake.json",
-      "sha256": "2814998fa31ff1422ea39ec84624bd63be2ac4b811a4a793d78f4b6ae5ad791b"
+      "sha256": "ffe85c4e655d901c1fa6fe3492f4703c032413513d869101685ae55321c88c24"
     },
     {
       "path": "uploads/facilityanalysisguide-immunization/facilityanalysisguide-immunization.dc.json",
@@ -55,11 +55,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/facilityanalysisguide-immunization/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry facilityanalysisguide-immunization",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/facilityanalysisguide-immunization/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "facilityanalysisguide-immunization"
       },
@@ -1818,7 +1818,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers",
-      "target": "https://litlfred.github.io/folio/library/facilityanalysisguide-immunization/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },

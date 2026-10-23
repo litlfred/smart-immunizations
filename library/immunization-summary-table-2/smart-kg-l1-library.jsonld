@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-08T10:50:59Z",
+  "generatedAt": "2026-10-23T08:08:55Z",
   "wasDerivedFrom": [
     {
       "path": "immunization-summary-table-2.pdf",
@@ -16,11 +16,11 @@
     },
     {
       "path": "library/immunization-summary-table-2/manifest.jsonld",
-      "sha256": "850763bc0ab1f96e188736ceab9b9e49eadcbf408fb896495c8b03fa5682e591"
+      "sha256": "03c47cd1bb8c27abc9e9f044f722263b2a6c3a84140f04dd4fd26addc54af019"
     },
     {
       "path": "uploads/immunization-summary-table-2/intake.json",
-      "sha256": "701a1024105bbfada1904ccfbd35fca852833b7be5db46d08c4e7de3be629d6d"
+      "sha256": "472ebd6d4b5e45573f3e0c4952c6047db01268d6548dfb9bb769abcdef1f4c25"
     },
     {
       "path": "uploads/immunization-summary-table-2/immunization-summary-table-2.dc.json",
@@ -55,11 +55,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/immunization-summary-table-2/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-2/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry immunization-summary-table-2",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/immunization-summary-table-2/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-2/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "immunization-summary-table-2"
       },
@@ -194,7 +194,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table-2-summary-of-who-position-papers-recommended-routine-immunizations-for-children",
-      "target": "https://litlfred.github.io/folio/library/immunization-summary-table-2/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-2/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },

@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/isbn-9789240016514/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-07T12:53:27Z",
+  "generatedAt": "2026-10-23T08:07:39Z",
   "wasDerivedFrom": [
     {
       "path": "9789240016514-eng.pdf",
@@ -16,7 +16,7 @@
     },
     {
       "path": "library/9789240016514-eng/manifest.jsonld",
-      "sha256": "73f569193813b7fbad8f5a16be4693e2e39c7e2d88b27ec73c9796281edc5f6c"
+      "sha256": "a66adbad13e59fedfcbedc37c32c722bc4a36c31766d852f6c6f3e9255df9e01"
     },
     {
       "path": "uploads/9789240016514-eng/intake.json",
@@ -70,11 +70,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/9789240016514-eng/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240016514-eng/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry 9789240016514-eng",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/9789240016514-eng/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240016514-eng/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "9789240016514-eng"
       },
@@ -1139,7 +1139,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/isbn-9789240016514",
-      "target": "https://litlfred.github.io/folio/library/9789240016514-eng/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789240016514-eng/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },

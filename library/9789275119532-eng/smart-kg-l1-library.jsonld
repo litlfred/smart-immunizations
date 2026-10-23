@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/isbn-9789275119532/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-08T08:18:47Z",
+  "generatedAt": "2026-10-23T08:07:43Z",
   "wasDerivedFrom": [
     {
       "path": "9789275119532_eng.pdf",
@@ -16,11 +16,11 @@
     },
     {
       "path": "library/9789275119532-eng/manifest.jsonld",
-      "sha256": "818b04c2f46b0cfd3c7fc24b55e1e50e95f315e7f2730eb3e813f30766a2ef9a"
+      "sha256": "1b9e62f4b7ddacbefab2232b0a85154021c38bca2f8e84591fc9e7691b4acfbe"
     },
     {
       "path": "uploads/9789275119532_eng/intake.json",
-      "sha256": "597d54c02030798945277b2e38bc3c3617aae107c044f5d267132dfc9010caf7"
+      "sha256": "11ca2ec625b5913e56c49baf50cdc2f22b59971f0c6442efba1e07369b2eeb4b"
     },
     {
       "path": "uploads/9789275119532_eng/9789275119532_eng.dc.json",
@@ -59,11 +59,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/9789275119532-eng/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789275119532-eng/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry 9789275119532-eng",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789275119532-eng/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "9789275119532-eng"
       },
@@ -1476,7 +1476,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/isbn-9789275119532",
-      "target": "https://litlfred.github.io/folio/library/9789275119532-eng/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789275119532-eng/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },

@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world-july-2022-update/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-08T08:18:42Z",
+  "generatedAt": "2026-10-23T08:07:55Z",
   "wasDerivedFrom": [
     {
       "path": "monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy---july-2022-update.pdf",
@@ -16,11 +16,11 @@
     },
     {
       "path": "library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest.jsonld",
-      "sha256": "d0a6c58c27fb53b98fa500e7239382fe905a5fd593a59a9b79b458663dc8e116"
+      "sha256": "f3179d953604fed2840284a4c0984c17ce4ac46875acb0e72b1c501fae6ac942"
     },
     {
       "path": "uploads/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy---july-2022-update/intake.json",
-      "sha256": "357234be2ad5edd0fa86d7820e523d670c0b6fdb33dafff82b9b5f9dbfed6849"
+      "sha256": "73a9c2dacfa1350ebf4019a618fdaeb1d1c65f70006b8a78facf0d15fc5b2647"
     },
     {
       "path": "uploads/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy---july-2022-update/monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy---july-2022-update.dc.json",
@@ -53,11 +53,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "monitoring-metrics-related-to-the-global-covid-19-vaccinatio"
       },
@@ -344,7 +344,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-monitoring-metrics-related-to-the-global-covid-19-vaccination-strategy-in-a-changing-world-july-2022-update",
-      "target": "https://litlfred.github.io/folio/library/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },

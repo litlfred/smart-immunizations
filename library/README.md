@@ -70,21 +70,40 @@ carries the owner's `declared` one.
 | (30) Sample WHO/UNICEF joint reporting form | A blank spreadsheet form. Not fetched; data.unicef.org also refuses this environment. |
 | (22) UHC compendium: health interventions for universal health coverage | A web compendium of interventions, not guidance. Not fetched. §1.1's unnumbered "WHO universal health coverage list of essential interventions" resolves to it: the DAK names it on PDF p. 18, "The list of health interventions is drawn from the universal health coverage menu of interventions compiled by WHO (22)." Reviewed 2026-10-06 (litlfred/smart-immunizations#3). |
 
-## What needs a person
+## Decided by the owner, 2026-10-23
 
-- **(29) is a newer edition than the one cited.** The DAK (2024) cites the
-  tables "updated in 2024". who.int now serves the editions dated
-  **1 December 2025**, and those are what was ingested. Each table's intake
-  says so.
-- **Licences are `unknown`** for the who.int and PAHO items:
-  - a who.int item page states copyright, not a licence;
-  - PAHO's record names no licence this recognises.
+- **(29) is a newer edition than the one cited, and stays.** The DAK (2024)
+  cites the tables "updated in 2024"; the entries hold the editions dated
+  **1 December 2025** (fetched 2026-10-08, re-fetched 2026-10-23 with the same
+  sha256). The 2024 editions were searched for and not found: WHO IRIS holds
+  none; who.int replaced the 2024 files in place (its
+  `table_N_dec_2024_english.pdf` names now redirect to the 2025 PDFs); the
+  Internet Archive and third-party copies were not reachable from the agent's
+  environment. Each table's README and intake says so, with what was
+  searched. A Wayback snapshot of the cdn.who.int URLs (2024 to mid-2025) is
+  where to look next.
+- **Licences are read from each PDF, and no WHO default is assumed.**
 
-  The licence each PDF prints on its imprint page is not read automatically.
+  | ref | entry | licence | evidence |
+  |---|---|---|---|
+  | (15) | [PAHO EIR](9789275119532-eng/) | all rights reserved (`LicenseRef-All-Rights-Reserved`) | imprint, p. 2: "All rights reserved. … Requests for permission to reproduce or translate PAHO Publications should be addressed to the Communications Department"; "© Pan American Health Organization 2017" |
+  | (26) | [Analysis and use of health facility data](facilityanalysisguide-immunization/) | all rights reserved (`LicenseRef-All-Rights-Reserved`) | p. 4: "© World Health Organization 2018 All rights reserved. This is a working document and should not be quoted, reproduced, translated or adapted, in part or in whole, in any form or by any means." |
+  | (29) | Tables 1–4 | `unknown` | no copyright notice or licence on any page or in the metadata |
+  | (32) | [Monitoring metrics, July 2022](monitoring-metrics-related-to-the-global-covid-19-vaccinatio/) | `unknown` | no copyright notice or licence on any page or in the metadata |
+
+  Each entry's `licence.json` (and its upload's `intake.json`) carries the
+  page and the quote. (26) asks not to be quoted or reproduced, and the
+  library holds its extracted text: **a person decides whether it stays.**
+
+## Follow-up
+
+- **Model table rows and cells for the L1 summary tables (smart-immunizations
+  (29)).** Each summary table is one `table` element; its rows and cells are
+  the next step (`pdf-tables.py`). Recorded here because the work plan
+  (`beans`) is not kept on this repository's remote and could not be written
+  from it (owner, 2026-10-23: follow-up, not blocking).
 - **Element types the library does not extract yet:** table rows, footnotes,
   charts, images, flowcharts and lists. Each publication's note names them.
-- **Table cells are not modelled.** Each summary table is one `table` element;
-  its rows are the next step (`pdf-tables.py`).
 
 **Image descriptions are drafts.** Every extracted image and every
 vector-figure render of the three entries ingested before 2026-10-07 carries a

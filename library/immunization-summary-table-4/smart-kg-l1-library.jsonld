@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table-4-summary-of-who-position-papers-immunization-of-health-care-workers/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-08T10:50:46Z",
+  "generatedAt": "2026-10-23T08:08:59Z",
   "wasDerivedFrom": [
     {
       "path": "immunization-summary-table-4.pdf",
@@ -16,11 +16,11 @@
     },
     {
       "path": "library/immunization-summary-table-4/manifest.jsonld",
-      "sha256": "0cc277810efdf8e455affd6447c936957ddc01169ad877f166b6f9ee1ff1ec1e"
+      "sha256": "949fc22e98288aff5fa5c82c2c433bd6b4bfda03695a86a9da9dadadce485287"
     },
     {
       "path": "uploads/immunization-summary-table-4/intake.json",
-      "sha256": "e4bb0880026531f443b00bac1796f5a945aa827b3c32016e0135459d5679cdde"
+      "sha256": "3940eb4a6662b71b91ae7502490840e26b80abf2a822929e366082b7e4f5ca4b"
     },
     {
       "path": "uploads/immunization-summary-table-4/immunization-summary-table-4.dc.json",
@@ -55,11 +55,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/immunization-summary-table-4/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-4/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry immunization-summary-table-4",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/immunization-summary-table-4/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-4/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "immunization-summary-table-4"
       },
@@ -134,7 +134,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table-4-summary-of-who-position-papers-immunization-of-health-care-workers",
-      "target": "https://litlfred.github.io/folio/library/immunization-summary-table-4/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-4/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },

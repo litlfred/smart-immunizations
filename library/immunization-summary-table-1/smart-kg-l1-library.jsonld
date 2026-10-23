@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table1-summary-of-who-position-papers-recommendations-for-routine-immunization/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-08T10:51:20Z",
+  "generatedAt": "2026-10-23T08:08:53Z",
   "wasDerivedFrom": [
     {
       "path": "immunization-summary-table-1.pdf",
@@ -16,11 +16,11 @@
     },
     {
       "path": "library/immunization-summary-table-1/manifest.jsonld",
-      "sha256": "83ab73bf10b53397c99e4410c01be56802f8064e6211c52ab0fea3dc9ada7c14"
+      "sha256": "742a3abfc1bec53e595b697ba7ce2de9eb7144798152ea9a14f6b598be890d77"
     },
     {
       "path": "uploads/immunization-summary-table-1/intake.json",
-      "sha256": "8929a4b44cb697dc4609655cb24a2abacc7e2d0fb7cf99ae9e6a5c68d9fd840a"
+      "sha256": "63598144abeca9a4dbbad16e2adad517d4394341cbbc65dd82d3b4df33a6a4c2"
     },
     {
       "path": "uploads/immunization-summary-table-1/immunization-summary-table-1.dc.json",
@@ -54,11 +54,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/immunization-summary-table-1/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-1/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry immunization-summary-table-1",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/immunization-summary-table-1/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-1/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "immunization-summary-table-1"
       },
@@ -163,7 +163,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table1-summary-of-who-position-papers-recommendations-for-routine-immunization",
-      "target": "https://litlfred.github.io/folio/library/immunization-summary-table-1/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-1/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },

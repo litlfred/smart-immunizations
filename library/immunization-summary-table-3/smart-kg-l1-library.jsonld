@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers/kg/l1-library",
   "type": "Entity",
   "ontologyVersion": "3.0",
-  "generatedAt": "2026-10-08T10:50:45Z",
+  "generatedAt": "2026-10-23T08:08:57Z",
   "wasDerivedFrom": [
     {
       "path": "immunization-summary-table-3.pdf",
@@ -16,11 +16,11 @@
     },
     {
       "path": "library/immunization-summary-table-3/manifest.jsonld",
-      "sha256": "97bed8cb4014c9a823b5853baa008fefdce45b5ff085782540b7edaf64907299"
+      "sha256": "466229ffec5e3df4c8f34f66657772e44a9a08f5463c134c57913722c8d32f65"
     },
     {
       "path": "uploads/immunization-summary-table-3/intake.json",
-      "sha256": "973400c539d64d26dc0d198d7337f86f0abf2d514880f5f4f6c7503e4b617ecf"
+      "sha256": "1bdd832250be49cf25f0198484876c974fd67741b77e660da4b9a42e93105f4a"
     },
     {
       "path": "uploads/immunization-summary-table-3/immunization-summary-table-3.dc.json",
@@ -55,11 +55,11 @@
       "skill": "smart-base/dak-l1-library"
     },
     {
-      "id": "https://litlfred.github.io/folio/library/immunization-summary-table-3/manifest",
+      "id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-3/manifest.jsonld",
       "type": "library-node",
       "label": "Library entry immunization-summary-table-3",
       "properties": {
-        "iri": "https://litlfred.github.io/folio/library/immunization-summary-table-3/manifest",
+        "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-3/manifest.jsonld",
         "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
         "entry": "immunization-summary-table-3"
       },
@@ -134,7 +134,7 @@
       "type": "Statement",
       "predicate": "specializationOf",
       "source": "https://smart.who.int/kg/l1/publication/url-who-int-publications-m-item-table-3-recommendations-for-interrupted-or-delayed-routine-immunization-summary-of-who-position-papers",
-      "target": "https://litlfred.github.io/folio/library/immunization-summary-table-3/manifest",
+      "target": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-3/manifest.jsonld",
       "derivation": "derived",
       "skill": "smart-base/dak-l1-library"
     },
