@@ -466,21 +466,6 @@
           "drafted_at": "2026-10-23"
         }
       ]
-    },
-    {
-      "id": "img-p116-1",
-      "file": "images/img-p116-1.png",
-      "role": "figure",
-      "basis": {
-        "method": "geometry",
-        "coverage": 0.015597,
-        "imagesOnPage": 1,
-        "page": 116
-      },
-      "narrative": {
-        "text": null,
-        "state": "not-authored"
-      }
     }
   ]
 }

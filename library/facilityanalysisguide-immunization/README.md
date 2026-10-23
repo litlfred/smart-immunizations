@@ -15,7 +15,7 @@ Held in the library [`smart-immunizations/library/`](../README.md) as `facilitya
 | holds | count |
 |---|---|
 | [sections](sections/) | 116 |
-| [blocks](blocks/) | 90 |
+| [blocks](blocks/) | 88 |
 | images | 32 |
 
 <!-- kg:subgraph:end -->
