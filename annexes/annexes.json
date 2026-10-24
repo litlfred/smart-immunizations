@@ -1,0 +1,10 @@
+{
+  "$schema": "ig-annexes/v1",
+  "annexes": [
+    {
+      "page": "dictionary.md",
+      "file": "dak/dak-data-dictionary.json",
+      "columns": ["data element id", "data element label", "description and definition", "data type", "input option", "required"]
+    }
+  ]
+}
