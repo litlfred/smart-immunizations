@@ -34,3 +34,12 @@ index re-pin that mounts it adds `smart-immunizations-document-kinds` to the
 override). The measles
 example sits outside `library/` so it is not read as a library entry.
 `input/` and the rest stay in this repository.
+
+**The web annexes (bean folio-assistant-fm9n, 2026-10-24) add two more**:
+`annexes/` (`smart-immunizations-annexes`, fhir-harness's `ig-annex` page
+hook: `annexes.json` places each annex on its page) and `web-annexes/`
+(`smart-immunizations-web-annexes`, smart-base's `web-annex` kind: the data
+dictionary, Web Annex A of the DAK). They are declared here with the
+folio-assistant override change that mounts them, and need fhir-harness and
+smart-base pins that know both kinds: a declaration naming a kind the pinned
+layers do not register is refused when it is read.
