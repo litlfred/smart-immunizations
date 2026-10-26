@@ -15,7 +15,7 @@ Held in the library [`smart-immunizations/library/`](../README.md) as `978927511
 | holds | count |
 |---|---|
 | [sections](sections/) | 38 |
-| [blocks](blocks/) | 35 |
-| images | 16 |
+| [blocks](blocks/) | 19 |
+| images | 15 |
 
 <!-- kg:subgraph:end -->

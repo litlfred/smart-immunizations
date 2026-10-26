@@ -15,10 +15,20 @@
   "file": "../images/img-p020-3.png",
   "pageStart": 20,
   "pageEnd": 20,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"EPI: Closed vial wastage rates - last 12 months\" for Trainingland, November 2015 to October 2016, with wastage rate (%) for nine vaccines (BCG, DPT-HepB-Hib, IPV, MR, OPV, PCV, RV, TT and yellow fever). IPV (red) is highest in almost every month, between about 2 and 3.2%, peaking at 3.2 in April 2016; the other vaccines overlap between about 1 and 2%.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-035",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

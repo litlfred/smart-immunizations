@@ -15,10 +15,20 @@
   "file": "../images/img-p019-1.png",
   "pageStart": 19,
   "pageEnd": 19,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A scatter plot titled \"December 2016\" with one square per organisation unit: DPT 1 coverage (%) on the x-axis (0 to 110) against DPT 1 to 3 dropout rate (%) on the y-axis (0 to 50). A vertical line marks coverage = 90% and a horizontal line marks dropout rate = 10%, dividing the plot into four quadrants. Most units cluster at 70-100% coverage and 5-20% dropout, with a group in the low-dropout, high-coverage quadrant; a few outliers have coverage of about 20-55% and dropout of about 20-40%, and two units report coverage above 100%.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-032",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

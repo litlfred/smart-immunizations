@@ -15,10 +15,20 @@
   "file": "../images/img-p020-2.png",
   "pageStart": 20,
   "pageEnd": 20,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A table titled \"EPI: Closed vial wastage rate - this and last 5 years\" for Trainingland, with one row per vaccine (BCG, DPT-HepB-Hib, IPV, MR, OPV, PCV, RV, TT, yellow fever) and one column per year; the year headings are too blurred to read. The first two columns are empty, and the four columns with data show rates between about 1.2% and 1.6% for every vaccine except IPV, at about 2.7-3%.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-035",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

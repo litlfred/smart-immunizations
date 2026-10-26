@@ -15,10 +15,20 @@
   "file": "../images/img-p021-4.png",
   "pageStart": 21,
   "pageEnd": 21,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A stacked bar chart titled \"EPI: Temperature alarms by orgunit - this year\", 2016. Food Region: 115 high temperature alarms and 113 low temperature alarms. Animal Region: 244 high and 311 low, about 555 in total.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-037",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

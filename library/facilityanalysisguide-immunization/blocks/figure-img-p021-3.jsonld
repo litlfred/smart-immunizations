@@ -15,10 +15,20 @@
   "file": "../images/img-p021-3.png",
   "pageStart": 21,
   "pageEnd": 21,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"EPI: Temperature alarms - last 12 months\" for Trainingland, November 2015 to October 2016, with two series. Cold chain low temperature alarms (green): 35, 31, 34, 34, 42, 29, 34, 28, 41, 34, 43, 30. Cold chain high temperature alarms (blue) run slightly lower, between 23 and about 38, and meet the low-alarm line at about 30 in October 2016.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-037",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

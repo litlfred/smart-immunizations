@@ -15,10 +15,20 @@
   "file": "../images/img-p018-3.png",
   "pageStart": 18,
   "pageEnd": 18,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A table titled \"EPI: Dropout rates by orgunit - last 12 months cumulative\", January to December 2016. Animal Region: BCG to MR 1 dropout 15.1%, DPT 1 to 3 dropout 11.2%, MR 1 to 2 dropout 10.2%. Food Region: 11.7%, 11.3% and 8.9%.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-030",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

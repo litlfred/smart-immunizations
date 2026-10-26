@@ -15,10 +15,20 @@
   "file": "../images/img-p025-2.png",
   "pageStart": 25,
   "pageEnd": 25,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"EPI: Completeness - last 5 years\" for Trainingland, the WHO immunisation monthly report reporting rate by year, 2011 to 2015. Data exist only for 2013 (62.8%), 2014 (71.8%) and 2015 (77.3%), rising each year.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-052",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

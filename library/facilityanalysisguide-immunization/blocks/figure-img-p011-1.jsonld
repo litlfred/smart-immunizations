@@ -15,10 +15,20 @@
   "file": "../images/img-p011-1.png",
   "pageStart": 11,
   "pageEnd": 11,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"Monthly reported number of doses administered, 2012-2014 for Penta1, Penta3, OPV3\". The y-axis is reported number of doses administered (0 to 18000); the x-axis is year and month, January 2012 to December 2014. Penta 1 (blue) runs mostly between about 7000 and 10000 a month, with sharp peaks of about 16000 in December 2012 and about 12800 in August 2013; Penta 3 (red) follows a similar shape slightly lower, peaking at about 15000 in December 2012. OPV3 (green) tracks Penta 3 but peaks lower in December 2012 (about 10400) and has its own spike of about 9000 in January 2014, when the pentavalent doses are lower.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-007",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

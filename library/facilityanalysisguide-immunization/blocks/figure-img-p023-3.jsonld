@@ -15,10 +15,20 @@
   "file": "../images/img-p023-3.png",
   "pageStart": 23,
   "pageEnd": 23,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A grouped bar chart titled \"EPI: AEFI cases - last 12 months\" for Trainingland, November 2015 to October 2016. Suspected serious cases by month: 5, 8, 8, 5, 9, 3, 5, 1, 7, 4, 2, 8. Suspected non-serious: 28, 25, 35, 28, 25, 24, 24, 22, 39, 36, 29, 27.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-045",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

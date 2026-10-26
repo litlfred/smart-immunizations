@@ -13,8 +13,7 @@
   "pageStart": 58,
   "pageEnd": 72,
   "contains": [
-    "library/9789275119532-eng/blocks/prose-sec-009",
-    "library/9789275119532-eng/blocks/figure-img-p069-1"
+    "library/9789275119532-eng/blocks/prose-sec-009"
   ],
   "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789275119532-eng/manifest.jsonld",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789275119532-eng/manifest.jsonld",

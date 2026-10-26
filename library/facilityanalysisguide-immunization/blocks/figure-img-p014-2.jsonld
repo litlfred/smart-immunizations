@@ -15,10 +15,20 @@
   "file": "../images/img-p014-2.png",
   "pageStart": 14,
   "pageEnd": 14,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"EPI: Tracer vaccines administered - last 12 months\" for Trainingland, January to December 2016, with doses administered on the y-axis (0 to 40k). Six series are shown: BCG, DPT-HepB-HIB 1, DPT-HepB-HIB 3, MR 1, MR 2 and yellow fever doses given. All six lines are roughly flat across the year, between about 20k and 33k a month, with BCG highest and MR 2 lowest.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-015",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

@@ -15,10 +15,20 @@
   "file": "../images/img-p021-2.png",
   "pageStart": 21,
   "pageEnd": 21,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A table titled \"EPI: Open vial wastage rate - this and last 5 years\" for Trainingland, one row per vaccine and one column per year; the year headings are too blurred to read. Four columns hold data. BCG runs 5.9, 6.5, 5.9, 5.9; DPT-HepB-Hib 4.5, 4.5, 4.7, 4.1; IPV 19.9, 14.7, 3, then a negative value (-4); OPV 6, 6.2, 6.6, 6.3; PCV 5.7, 6.4, 6.2, 6.3; RV 6.1, 6.3, 5.9, 6.4; TT 5.9, 5.7, 5.8, 6.3. The MR and yellow fever rows are empty.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-037",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

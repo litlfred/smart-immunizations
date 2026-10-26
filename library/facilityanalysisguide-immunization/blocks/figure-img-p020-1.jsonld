@@ -15,10 +15,20 @@
   "file": "../images/img-p020-1.png",
   "pageStart": 20,
   "pageEnd": 20,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A table titled \"EPI: Closed vial wastage rate by orgunit - last 12 months cumulative\", November 2015 to October 2016, giving the closed vial wastage rate (%) of seven vaccines (BCG, DPT-HepB-Hib, IPV, MR, OPV, PCV, RV) for two regions. Animal Region: 1.4, 1.2, 2.7, 1.3, 1.2, 1.2, 1.3. Food Region: 1.5, 1.2, 2.6, 1.2, 1.2, 1.3, 1.4. IPV has the highest rate in both.",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-035",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"

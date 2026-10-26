@@ -15,10 +15,20 @@
   "file": "../images/img-p018-2.png",
   "pageStart": 18,
   "pageEnd": 18,
-  "narrative": {
-    "text": null,
-    "state": "not-authored"
-  },
+  "narrative": [
+    {
+      "text": "A line chart titled \"EPI: Dropout rate - this and last 5 years\" for Trainingland, plotting the same values as the dropout table: BCG to MR 1 (14.6, 15.2, 15.2, 14), DPT 1 to 3 (11.6, 12, 12.4, 11.2) and MR 1 to 2 (26.6, 24.7, 25.2, then a sharp fall to 9.8 in 2016).",
+      "lang": "en",
+      "state": "draft",
+      "drafted_by": {
+        "kind": "agent",
+        "id": "claude",
+        "model": "not-disclosed",
+        "session": "https://claude.ai/code/session_01NVW1gLKTQrfffUSgD3GCd5"
+      },
+      "drafted_at": "2026-10-23"
+    }
+  ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-030",
   "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
   "provenance": "ingested"
