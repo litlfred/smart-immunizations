@@ -39,7 +39,12 @@ example sits outside `library/` so it is not read as a library entry.
 `annexes/` (`smart-immunizations-annexes`, fhir-harness's `ig-annex` page
 hook: `annexes.json` places each annex on its page) and `web-annexes/`
 (`smart-immunizations-web-annexes`, smart-base's `web-annex` kind: the data
-dictionary, Web Annex A of the DAK). They are declared here with the
+dictionary, Web Annex A of the DAK). `annexes/` also holds the two swimlane
+annexes (litlfred/aai-programme#28): `personas-swimlanes.md` on
+`personas.md` and `processes-swimlanes.md` on `business-processes.md`, written
+by smart-base's `dak-swimlanes.ts` from the personas page, the process figures
+and `input/business-processes/swimlanes.json`; regenerate them, never edit
+them. They are declared here with the
 folio-assistant override change that mounts them, and need fhir-harness and
 smart-base pins that know both kinds: a declaration naming a kind the pinned
 layers do not register is refused when it is read.
