@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
+          "ref": "f42c4e8bbdf484ec95a90af54352354bdc77cae6",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "341fbc7b7ee1ffcd3b9dd804762723e6faf1ead5",
-              "evidence": "owner litlfred, 2026-10-24 13:14Z card \"A. Extend 3 hours\" (merge-and-repin window to ~16:48Z) and 15:52Z card \"A. Merge around it\" (smart-base#153) — re-pin to main tips so fhir-harness's ig-annex kind (568607d, fhir-harness#152) and smart-base's web-annex kind (cf6b597, smart-base#153) are known for smart-immunizations#80"
+              "on": "2026-10-29",
+              "ref": "f42c4e8bbdf484ec95a90af54352354bdc77cae6",
+              "evidence": "litlfred, 2026-10-29T07:21Z, project chat: \"You have merge and repin permission for next 4 hrs\"; and 2026-10-28T11:53Z card 'A. Merge both when green' (fhir-harness#174, smart-immunizations#81)"
             }
           }
         }
@@ -105,7 +105,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "f0fa42dab82d8cb37efe3dab42303f8c84edbbb3",
+          "ref": "f7a0fb892e6deb7c16bd815b3a3281cdb8fe7bc7",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -120,9 +120,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "f0fa42dab82d8cb37efe3dab42303f8c84edbbb3",
-              "evidence": "owner litlfred, 2026-10-24 13:14Z card \"A. Extend 3 hours\" (merge-and-repin window to ~16:48Z) and 15:52Z card \"A. Merge around it\" (smart-base#153) — re-pin to main tips so fhir-harness's ig-annex kind (568607d, fhir-harness#152) and smart-base's web-annex kind (cf6b597, smart-base#153) are known for smart-immunizations#80"
+              "on": "2026-10-29",
+              "ref": "f7a0fb892e6deb7c16bd815b3a3281cdb8fe7bc7",
+              "evidence": "litlfred, 2026-10-29T07:21Z, project chat: \"You have merge and repin permission for next 4 hrs\"; and 2026-10-28T11:53Z card 'A. Merge both when green' (fhir-harness#174, smart-immunizations#81)"
             }
           }
         }
@@ -133,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "10771f3e993d80c0c5cb94c55dca92c2267c1440",
+          "ref": "005dd91823a6d8de108566b6c65649dcab8859f8",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -145,9 +145,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "10771f3e993d80c0c5cb94c55dca92c2267c1440",
-              "evidence": "owner litlfred, 2026-10-24 13:14Z card \"A. Extend 3 hours\" (merge-and-repin window to ~16:48Z) and 15:52Z card \"A. Merge around it\" (smart-base#153) — re-pin to main tips so fhir-harness's ig-annex kind (568607d, fhir-harness#152) and smart-base's web-annex kind (cf6b597, smart-base#153) are known for smart-immunizations#80"
+              "on": "2026-10-29",
+              "ref": "005dd91823a6d8de108566b6c65649dcab8859f8",
+              "evidence": "litlfred, 2026-10-29T07:21Z, project chat: \"You have merge and repin permission for next 4 hrs\"; and 2026-10-28T11:53Z card 'A. Merge both when green' (fhir-harness#174, smart-immunizations#81)"
             }
           }
         }
