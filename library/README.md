@@ -46,7 +46,7 @@ The library is **upstream** of L1 (owner, 2026-10-07):
 
 | ref | source | fetched from | sectioning | sections | elements |
 |---|---|---|---|---|---|
-| (31) | [Leave no one behind: guidance for planning and implementing catch-up vaccination](9789240016514-eng/) (2021), implementation guidance | WHO IRIS 10665/340749 | inferred contents | 21 | 1 figure, 7 boxes, 7 tables |
+| (31) | [Leave no one behind: guidance for planning and implementing catch-up vaccination](https://github.com/litlfred/who-iris/tree/main/library/9789240016514-eng/) (in who-iris) (2021), implementation guidance | WHO IRIS 10665/340749 | inferred contents | 21 | 1 figure, 7 boxes, 7 tables |
 | (15) | [Electronic Immunization Registry: practical considerations…](9789275119532-eng/) (PAHO, 2018) | PAHO IRIS 10665.2/34865 | inferred contents | 18 | 14 figures, 21 tables |
 | (26) | [Analysis and use of health facility data: guidance for immunization programme managers](facilityanalysisguide-immunization/) (2018), implementation guidance | who.int item page | PDF outline | 57 | 1 figure |
 | (29) | [Table 1: Summary of WHO position papers – recommendations for routine immunization](immunization-summary-table-1/), summary table | who.int item page | PDF outline | 2 | 1 table |
@@ -55,7 +55,7 @@ The library is **upstream** of L1 (owner, 2026-10-07):
 | (29) | [Table 4: … immunization of health care workers](immunization-summary-table-4/), summary table | who.int item page | PDF outline | 1 | 1 table |
 | (32) | [Monitoring metrics related to the global COVID-19 vaccination strategy in a changing world: July 2022 update](monitoring-metrics-related-to-the-global-covid-19-vaccinatio/) | who.int item page | pages (its inferred contents failed the trust tests) | 7 | 2 tables |
 
-Each source's `uploads/<doc_id>/intake.json` records **why it is L1**.
+Each source's `uploads/<doc_id>/intake.json` records **why it is L1**. For a WHO IRIS item that intake lives in [litlfred/who-iris `uploads/`](https://github.com/litlfred/who-iris/tree/main/uploads), with the item, since 2026-10-30 ([who-iris#107](https://github.com/litlfred/who-iris/issues/107)).
 §1.2 calls everything it cites "WHO guidelines and guidance", so each source
 carries a `context` classification naming its reference number. LNOB also
 carries the owner's `declared` one.
@@ -64,8 +64,8 @@ carries the owner's `declared` one.
 
 | | why |
 |---|---|
-| [`9789240099456-eng/`](9789240099456-eng/), the DAK itself | L2. Library only. |
-| [`who-2019-ncov-digital-certificates-vaccination-20211-eng/`](who-2019-ncov-digital-certificates-vaccination-20211-eng/), (28) DDCC | Owner ruling, 2026-10-07. §1.2's context says L1; the declaration wins, and the run reports the disagreement. |
+| [`9789240099456-eng/`](https://github.com/litlfred/who-iris/tree/main/library/9789240099456-eng/) (in who-iris), the DAK itself | L2. Library only. |
+| [`who-2019-ncov-digital-certificates-vaccination-20211-eng/`](https://github.com/litlfred/who-iris/tree/main/library/who-2019-ncov-digital-certificates-vaccination-20211-eng/) (in who-iris), (28) DDCC | Owner ruling, 2026-10-07. §1.2's context says L1; the declaration wins, and the run reports the disagreement. |
 | (24) WHO Immunization Data Portal | A website, not a publication. Not fetched. |
 | (30) Sample WHO/UNICEF joint reporting form | A blank spreadsheet form. Not fetched; data.unicef.org also refuses this environment. |
 | (22) UHC compendium: health interventions for universal health coverage | A web compendium of interventions, not guidance. Not fetched. §1.1's unnumbered "WHO universal health coverage list of essential interventions" resolves to it: the DAK names it on PDF p. 18, "The list of health interventions is drawn from the universal health coverage menu of interventions compiled by WHO (22)." Reviewed 2026-10-06 (litlfred/smart-immunizations#3). |
@@ -113,19 +113,25 @@ description, judged by looking at it and recorded in
 them yet (`bun run cat narratives` to confirm or reject).
 
 `../uploads/<doc_id>/` holds each fetched item's `intake.json` and its Dublin
-Core record. The PDFs are pinned there by sha256 and not committed.
+Core record. The PDFs are pinned there by sha256 and not committed. WHO IRIS
+items do not stay here: since 2026-10-30 every IRIS item has one home, in
+[litlfred/who-iris](https://github.com/litlfred/who-iris) (intakes in `uploads/`,
+records in `catalogue/records/`, ingested libraries in `library/`;
+[who-iris#107](https://github.com/litlfred/who-iris/issues/107)). The 26 Weekly
+Epidemiological Record position papers, the IMMZ DAK, LNOB, DDCC:VS and the
+other IRIS publications this IG cites are there.
 
 ## Regenerating
 
 From a folio-assistant checkout beside this one:
 
 ```sh
-# fetch (an IRIS handle, or a who.int item page)
-bun run folio-assistant-core/scripts/fetch-dspace-item.ts <handle URL> --out ../smart-immunizations/uploads
+# fetch (an IRIS handle into who-iris, or a who.int item page here)
+bun run folio-assistant-core/scripts/fetch-dspace-item.ts <handle URL> --out ../who-iris/uploads
 bun run folio-assistant-core/scripts/fetch-who-publication.ts <who.int item URL> --out ../smart-immunizations/uploads
 # Component 1: record section 1.2's L1 context on each held source; writes nothing beside the DAK
 bun run smart-base/scripts/extract-dak-l1-references.ts \
-  --entry ../smart-immunizations/library/9789240099456-eng --context-only --record-context
+  --entry ../who-iris/library/9789240099456-eng --context-only --record-context
 # each L1 source as L1 (a non-L1 entry is reported and skipped); --check to verify
 bun run smart-base/scripts/l1-specialise.ts --entry ../smart-immunizations/library/<entry> --validate-zod <smart-base checkout>
 ```
