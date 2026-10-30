@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "cf6b597e81d672722ebd1afe005c18d3cb70834f",
+          "ref": "e61ef9c0dfdf6a14c4a8747eb049e6b9a521f211",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "cf6b597e81d672722ebd1afe005c18d3cb70834f",
-              "evidence": "owner litlfred, 2026-10-24 13:14Z card \"A. Extend 3 hours\" (merge-and-repin window to ~16:48Z) and 15:52Z card \"A. Merge around it\" (smart-base#153) — re-pin to main tips so fhir-harness's ig-annex kind (568607d, fhir-harness#152) and smart-base's web-annex kind (cf6b597, smart-base#153) are known for smart-immunizations#80"
+              "on": "2026-10-29",
+              "ref": "e61ef9c0dfdf6a14c4a8747eb049e6b9a521f211",
+              "evidence": "litlfred, 2026-10-29T07:21Z, project chat: \"You have merge and repin permission for next 4 hrs\"; smart-base#156 merged as e61ef9c at 07:21Z (contentTypes.dak in index.config.json, bean cz17)"
             }
           }
         }
@@ -212,5 +212,26 @@
   "site": {
     "landing": "smart-base",
     "agentRun": true
+  },
+  "contentTypes": {
+    "dak": {
+      "resourceType": "DAK",
+      "resourceDefinition": "http://smart.who.int/base/StructureDefinition/DAK",
+      "id": "smart.who.int.immunizations",
+      "name": "Immunizations",
+      "title": "WHO Immunization Implementation Guide",
+      "description": "WHO Immunization Implementaiton Guide",
+      "version": "0.2.0",
+      "status": "draft",
+      "publicationUrl": "https://smart.who.int/immunizations",
+      "previewUrl": "https://worldhealthorganization.github.io/smart-immunizations",
+      "canonicalUrl": "http://smart.who.int/immunizations",
+      "license": "CC0-1.0",
+      "copyrightYear": "2023+",
+      "publisher": {
+        "name": "WHO",
+        "url": "http://who.int"
+      }
+    }
   }
 }
