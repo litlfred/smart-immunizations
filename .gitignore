@@ -74,6 +74,7 @@ uploads/**/*.pdf
 # BEGIN index mounts (generated from index.config.json — do not edit)
 /smart-base/
 /fhir-harness/
+/who-iris/
 /folio-assistant-core/
 /cat-harness/
 /cat-harness-tools/
