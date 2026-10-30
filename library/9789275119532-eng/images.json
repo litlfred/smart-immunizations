@@ -1366,6 +1366,97 @@
           "drafted_at": "2026-10-28"
         }
       ]
+    },
+    {
+      "id": "img-p116-1",
+      "file": "images/img-p116-1.png",
+      "role": "decorative",
+      "basis": {
+        "method": "inspection",
+        "by": {
+          "kind": "agent",
+          "id": "agy",
+          "model": "not-disclosed",
+          "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+        },
+        "at": "2026-10-30",
+        "saw": "an ISBN barcode on the back cover",
+        "page": 116
+      },
+      "narrative": [
+        {
+          "text": "The back-cover ISBN barcode for 978-92-75-11953-2 (9 789275 119532).",
+          "lang": "en",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "agy",
+            "model": "not-disclosed",
+            "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+          },
+          "drafted_at": "2026-10-30"
+        },
+        {
+          "text": "Le code-barres ISBN de quatrième de couverture pour 978-92-75-11953-2 (9 789275 119532).",
+          "lang": "fr",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "agy",
+            "model": "not-disclosed",
+            "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+          },
+          "drafted_at": "2026-10-30"
+        },
+        {
+          "text": "El código de barras ISBN de la contraportada para 978-92-75-11953-2 (9 789275 119532).",
+          "lang": "es",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "agy",
+            "model": "not-disclosed",
+            "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+          },
+          "drafted_at": "2026-10-30"
+        },
+        {
+          "text": "الرمز الشريطي لرقم ISBN على الغلاف الخلفي للوثيقة 978-92-75-11953-2 (9 789275 119532).",
+          "lang": "ar",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "agy",
+            "model": "not-disclosed",
+            "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+          },
+          "drafted_at": "2026-10-30"
+        },
+        {
+          "text": "Штрихкод ISBN на задней обложке для 978-92-75-11953-2 (9 789275 119532).",
+          "lang": "ru",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "agy",
+            "model": "not-disclosed",
+            "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+          },
+          "drafted_at": "2026-10-30"
+        },
+        {
+          "text": "封底的 ISBN 条形码：978-92-75-11953-2（9 789275 119532）。",
+          "lang": "zh",
+          "state": "draft",
+          "drafted_by": {
+            "kind": "agent",
+            "id": "agy",
+            "model": "not-disclosed",
+            "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+          },
+          "drafted_at": "2026-10-30"
+        }
+      ]
     }
   ]
 }
