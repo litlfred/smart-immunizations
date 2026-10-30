@@ -15,7 +15,8 @@
     "cat-harness",
     "cat-harness-tools",
     "folio-assistant-core",
-    "fhir-harness"
+    "fhir-harness",
+    "who-iris"
   ],
   "_scripts_comment": "`bun run cat <name>` runs a declared script wherever its instance declares it, as folio-assistant's root does. Without it `bun run cat qa:refresh` falls through to /usr/bin/cat (smart-immunizations#35: uml:overview:check).",
   "overrides": {
