@@ -104,6 +104,18 @@
         "role": "decorative",
         "saw": "a group photograph at an outdoor vaccination event with clowns and balloons",
         "draft": "A wide photograph of a crowd of children and adults at an outdoor event with balloons and two performers dressed as clowns. Several adults give a thumbs-up, and one holds a sign whose legible Spanish text says vaccines are safe and free in health establishments in Peru. Illustrative; it carries no information the text does not."
+      },
+      "img-p116-1": {
+        "role": "decorative",
+        "saw": "an ISBN barcode on the back cover",
+        "draft": "The back-cover ISBN barcode for 978-92-75-11953-2 (9 789275 119532).",
+        "inspected_by": {
+          "kind": "agent",
+          "id": "agy",
+          "model": "not-disclosed",
+          "session": "conversation://d2a39e90-fa31-4fbd-9356-885c495e060e"
+        },
+        "inspected_at": "2026-10-30"
       }
     },
     "facilityanalysisguide-immunization": {
