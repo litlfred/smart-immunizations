@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "cf6b597e81d672722ebd1afe005c18d3cb70834f",
+          "ref": "c89c20575e904f6726fea44cfb1fd99e52a355db",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "cf6b597e81d672722ebd1afe005c18d3cb70834f",
-              "evidence": "owner litlfred, 2026-10-24 13:14Z card \"A. Extend 3 hours\" (merge-and-repin window to ~16:48Z) and 15:52Z card \"A. Merge around it\" (smart-base#153) — re-pin to main tips so fhir-harness's ig-annex kind (568607d, fhir-harness#152) and smart-base's web-annex kind (cf6b597, smart-base#153) are known for smart-immunizations#80"
+              "on": "2026-10-30",
+              "ref": "c89c20575e904f6726fea44cfb1fd99e52a355db",
+              "evidence": "card 2026-10-30T15:38Z: B. Use litlfred workflow now"
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "f42c4e8bbdf484ec95a90af54352354bdc77cae6",
+          "ref": "d45d99170823f2bbf6cd310ab062935403175e7b",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-29",
-              "ref": "f42c4e8bbdf484ec95a90af54352354bdc77cae6",
-              "evidence": "litlfred, 2026-10-29T07:21Z, project chat: \"You have merge and repin permission for next 4 hrs\"; and 2026-10-28T11:53Z card 'A. Merge both when green' (fhir-harness#174, smart-immunizations#81)"
+              "on": "2026-10-30",
+              "ref": "d45d99170823f2bbf6cd310ab062935403175e7b",
+              "evidence": "card 2026-10-30T15:38Z: B. Use litlfred workflow now"
             }
           }
         }
@@ -105,7 +105,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "f7a0fb892e6deb7c16bd815b3a3281cdb8fe7bc7",
+          "ref": "ecc231a49258ae62f75f54e0d5c3258a2df8bb7c",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -120,9 +120,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-29",
-              "ref": "f7a0fb892e6deb7c16bd815b3a3281cdb8fe7bc7",
-              "evidence": "litlfred, 2026-10-29T07:21Z, project chat: \"You have merge and repin permission for next 4 hrs\"; and 2026-10-28T11:53Z card 'A. Merge both when green' (fhir-harness#174, smart-immunizations#81)"
+              "on": "2026-10-30",
+              "ref": "ecc231a49258ae62f75f54e0d5c3258a2df8bb7c",
+              "evidence": "card 2026-10-30T15:38Z: B. Use litlfred workflow now"
             }
           }
         }
@@ -133,7 +133,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "005dd91823a6d8de108566b6c65649dcab8859f8",
+          "ref": "9326f5d78c02761a15e3e465333f01f89251ac2b",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -145,9 +145,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-29",
-              "ref": "005dd91823a6d8de108566b6c65649dcab8859f8",
-              "evidence": "litlfred, 2026-10-29T07:21Z, project chat: \"You have merge and repin permission for next 4 hrs\"; and 2026-10-28T11:53Z card 'A. Merge both when green' (fhir-harness#174, smart-immunizations#81)"
+              "on": "2026-10-30",
+              "ref": "9326f5d78c02761a15e3e465333f01f89251ac2b",
+              "evidence": "card 2026-10-30T15:38Z: B. Use litlfred workflow now"
             }
           }
         }
@@ -158,7 +158,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "02dfd19f6cbc6a532f6ba9c0ffedaef0a3775dd3",
+          "ref": "3ce2b5d641779ca78432971abb919e6e3afdc60a",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -167,9 +167,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "02dfd19f6cbc6a532f6ba9c0ffedaef0a3775dd3",
-              "evidence": "owner litlfred, 2026-10-24 13:14Z card \"A. Extend 3 hours\" (merge-and-repin window to ~16:48Z) and 15:52Z card \"A. Merge around it\" (smart-base#153) — re-pin to main tips so fhir-harness's ig-annex kind (568607d, fhir-harness#152) and smart-base's web-annex kind (cf6b597, smart-base#153) are known for smart-immunizations#80"
+              "on": "2026-10-30",
+              "ref": "3ce2b5d641779ca78432971abb919e6e3afdc60a",
+              "evidence": "card 2026-10-30T15:38Z: B. Use litlfred workflow now"
             }
           }
         }
@@ -180,7 +180,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "1584c10dd06edf3e6ebe909de11327d56aa0456c",
+          "ref": "fdceeca33492a0bc434edc1f80c95895180ee587",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -192,9 +192,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-10-24",
-              "ref": "1584c10dd06edf3e6ebe909de11327d56aa0456c",
-              "evidence": "owner litlfred, 2026-10-24 13:14Z card \"A. Extend 3 hours\" (merge-and-repin window to ~16:48Z) and 15:52Z card \"A. Merge around it\" (smart-base#153) — re-pin to main tips so fhir-harness's ig-annex kind (568607d, fhir-harness#152) and smart-base's web-annex kind (cf6b597, smart-base#153) are known for smart-immunizations#80"
+              "on": "2026-10-30",
+              "ref": "fdceeca33492a0bc434edc1f80c95895180ee587",
+              "evidence": "card 2026-10-30T15:38Z: B. Use litlfred workflow now"
             }
           }
         }
@@ -212,5 +212,59 @@
   "site": {
     "landing": "smart-base",
     "agentRun": true
+  },
+  "contentTypes": {
+    "dak": {
+      "resourceType": "DAK",
+      "resourceDefinition": "http://smart.who.int/base/StructureDefinition/DAK",
+      "id": "smart.who.int.immunizations",
+      "name": "Immunizations",
+      "title": "WHO Immunization Implementation Guide",
+      "description": "WHO Immunization Implementaiton Guide",
+      "version": "0.2.0",
+      "status": "draft",
+      "publicationUrl": "https://smart.who.int/immunizations",
+      "previewUrl": "https://worldhealthorganization.github.io/smart-immunizations",
+      "canonicalUrl": "http://smart.who.int/immunizations",
+      "license": "CC0-1.0",
+      "copyrightYear": "2023+",
+      "publisher": {
+        "name": "WHO",
+        "url": "http://who.int"
+      }
+    },
+    "ig": {
+      "_comment": "What this repository is, per the content types its layers register (bean folio-assistant-cz17). `dak`: smart-base's DAK content type (`smart-base/schemas/dak-content-type.ts`, indexSection `dak`), the declaration that was `dak.json` until 2026-10-30 (owner card 2026-10-30T15:38Z, \"B. Use litlfred workflow now\"; smart-base#156 is the model). `ig`: fhir-harness's `ig` content type; `include` is everything the harness reads in this repository, and nothing else is read (owner, 2026-10-30: \"harness desclares what it it pays attention to in the repo\"). It lists every `input/` entry the build used before the section existed, so nothing is dropped; sushi-config.yaml stays SUSHI's file.",
+      "include": [
+        "sushi-config.yaml",
+        "ig.ini",
+        "input/L2/",
+        "input/business-processes/",
+        "input/cql/",
+        "input/data/",
+        "input/decision-logic/",
+        "input/dictionary/",
+        "input/examples/",
+        "input/extensions/",
+        "input/fsh/",
+        "input/history/",
+        "input/ignoreWarnings.txt",
+        "input/images/",
+        "input/images-source/",
+        "input/indicators/",
+        "input/maps/",
+        "input/models/",
+        "input/pagecontent/",
+        "input/profiles/",
+        "input/resources/",
+        "input/scenarios/",
+        "input/scheduling-logic/",
+        "input/system-requirements/",
+        "input/testing/",
+        "input/tests/",
+        "input/vocabulary/",
+        "fsh-generated/"
+      ]
+    }
   }
 }
