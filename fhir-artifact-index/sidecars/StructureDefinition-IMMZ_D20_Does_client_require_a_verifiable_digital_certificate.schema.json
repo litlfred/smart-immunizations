@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://smart.who.int/base/StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
+  "$id": "http://smart.who.int/immunizations/StructureDefinition-IMMZ_D20_Does_client_require_a_verifiable_digital_certificate.schema.json",
   "title": "IMMZ.D20.Does client require a verifiable digital certificate",
   "description": "Data elements for the IMMZ.D20.Does client require a verifiable digital certificate Data Dictionary Activity.",
   "type": "object",

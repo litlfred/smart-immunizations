@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://smart.who.int/base/StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
+  "$id": "http://smart.who.int/immunizations/StructureDefinition-IMMZ_C4_Create_client_record.schema.json",
   "title": "IMMZ.C4.Create client record",
   "description": "Data elements for the IMMZ.C4.Create client record Data Dictionary Activity.  Identical to IMMZ.C5.3.Update client details.",
   "type": "object",
@@ -176,7 +176,7 @@
           "const": {
             "@version": 1.1,
             "fhir": "http://hl7.org/fhir/",
-            "IMMZ.C.DE5": "http://smart.who.int/base/ValueSet-IMMZ.C.DE5.jsonld"
+            "IMMZ.C.DE5": "http://smart.who.int/immunizations/ValueSet-IMMZ.C.DE5.jsonld"
           }
         }
       }

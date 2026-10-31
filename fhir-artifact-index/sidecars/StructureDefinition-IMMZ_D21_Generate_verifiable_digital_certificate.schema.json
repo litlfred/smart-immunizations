@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://smart.who.int/base/StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
+  "$id": "http://smart.who.int/immunizations/StructureDefinition-IMMZ_D21_Generate_verifiable_digital_certificate.schema.json",
   "title": "IMMZ.D21.Generate verifiable digital certificate",
   "description": "Data elements for the IMMZ.D21.Generate verifiable digital certificate Data Dictionary Activity.",
   "type": "object",

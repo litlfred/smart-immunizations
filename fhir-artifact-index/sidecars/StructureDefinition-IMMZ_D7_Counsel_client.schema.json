@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "http://smart.who.int/base/StructureDefinition-IMMZ_D7_Counsel_client.schema.json",
+  "$id": "http://smart.who.int/immunizations/StructureDefinition-IMMZ_D7_Counsel_client.schema.json",
   "title": "IMMZ.D7.Counsel client",
   "description": "Data elements for the IMMZ.D7.Counsel client Data Dictionary Activity.",
   "type": "object",
@@ -111,7 +111,7 @@
           "const": {
             "@version": 1.1,
             "fhir": "http://hl7.org/fhir/",
-            "IMMZ.D.DE86": "http://smart.who.int/base/ValueSet-IMMZ.D.DE86.jsonld"
+            "IMMZ.D.DE86": "http://smart.who.int/immunizations/ValueSet-IMMZ.D.DE86.jsonld"
           }
         }
       }

@@ -29,7 +29,7 @@
     "schemas": {
       "StructureDefinition-IMMZ_D5_Determine_vaccine_s__to_be_administered_based_on_contraindications": {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
-        "$id": "http://smart.who.int/base/StructureDefinition-IMMZ_D5_Determine_vaccine_s__to_be_administered_based_on_contraindications.schema.json",
+        "$id": "http://smart.who.int/immunizations/StructureDefinition-IMMZ_D5_Determine_vaccine_s__to_be_administered_based_on_contraindications.schema.json",
         "title": "IMMZ.D5.Determine vaccine(s) to be administered based on contraindications",
         "description": "Data elements for the IMMZ.D5.Determine vaccine(s) to be administered based on contraindications Data Dictionary Activity.",
         "type": "object",
@@ -146,7 +146,7 @@
                 "const": {
                   "@version": 1.1,
                   "fhir": "http://hl7.org/fhir/",
-                  "IMMZ.D.DE161": "http://smart.who.int/base/ValueSet-IMMZ.D.DE161.jsonld"
+                  "IMMZ.D.DE161": "http://smart.who.int/immunizations/ValueSet-IMMZ.D.DE161.jsonld"
                 }
               }
             }

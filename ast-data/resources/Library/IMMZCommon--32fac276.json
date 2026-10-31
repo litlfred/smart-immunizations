@@ -9,7 +9,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-7f555d99-00a9-46d9-9b45-3911cc272274.html): Unable to read attribute on &lt;FHIR.date&gt; at line 191 column 48</b></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-47a4cd13-f72f-4ed4-9fcb-5c5e4022130a.html): Unable to read attribute on &lt;FHIR.date&gt; at line 191 column 48</b></p></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability",
@@ -27,7 +27,7 @@
       "code" : "logic-library"
     }]
   },
-  "date" : "2026-10-14T20:54:10+00:00",
+  "date" : "2026-10-21T12:33:04+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
