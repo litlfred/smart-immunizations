@@ -1,0 +1,14 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "dak-immz-indicators",
+  "type": "webpage",
+  "title": "Indicators and performance metrics table",
+  "author": [
+    {
+      "literal": "World Health Organization"
+    }
+  ],
+  "note": "Implementation tools of the DAK for Immunizations: link to indicators and performance metrics table.",
+  "URL": "https://smart.who.int/dak-immz/indicators.html",
+  "provenance": "authored"
+}

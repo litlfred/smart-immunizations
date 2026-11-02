@@ -1,0 +1,14 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "dak-immz-decision-logic",
+  "type": "webpage",
+  "title": "Decision-support and scheduling logic",
+  "author": [
+    {
+      "literal": "World Health Organization"
+    }
+  ],
+  "note": "Implementation tools of the DAK for Immunizations: link to decision-support and scheduling logic.",
+  "URL": "https://smart.who.int/dak-immz/decision-logic.html",
+  "provenance": "authored"
+}
