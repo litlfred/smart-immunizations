@@ -1,0 +1,22 @@
+{
+  "$schema": "folio-reference/v1",
+  "id": "who-dak-immunizations",
+  "type": "book",
+  "title": "Digital adaptation kit for immunizations: operational requirements for implementing WHO recommendations in digital systems",
+  "author": [
+    {
+      "literal": "World Health Organization"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2024
+      ]
+    ]
+  },
+  "ISBN": "9789240099456",
+  "note": "Published DAK Document: the WHO Digital Adaptation Kit (DAK) for Immunizations.",
+  "URL": "https://iris.who.int/handle/10665/380303",
+  "provenance": "authored"
+}
