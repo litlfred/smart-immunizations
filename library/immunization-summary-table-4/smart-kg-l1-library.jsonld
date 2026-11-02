@@ -60,7 +60,7 @@
       "label": "Library entry immunization-summary-table-4",
       "properties": {
         "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-4/manifest.jsonld",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#SourceDocument",
+        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/SourceDocument",
         "entry": "immunization-summary-table-4"
       },
       "derivation": "derived",
@@ -121,7 +121,7 @@
       "label": "Library block for sec-000-document",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/immunization-summary-table-4/blocks/prose-sec-000",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns#Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
         "entry": "immunization-summary-table-4",
         "pageRange": "1-2"
       },
