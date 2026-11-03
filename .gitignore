@@ -90,3 +90,6 @@ uploads/**/*.pdf
 
 # The IG AST stage-local restores for the site build (build output)
 output-ast/
+
+# QA results are computed and published to cat/cat-harness/qa-reports (publish-qa.yml), never committed.
+/test/results/
