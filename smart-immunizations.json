@@ -83,19 +83,9 @@
     {
       "id": "smart-immunizations-catalogue",
       "path": "catalogue/",
-      "description": "Qualified Dublin Core (`folio-dublin-core/v1`) and catalogue node (`folio-catalogue-node/v1`) records of the works this IG cites that are not ingested, each a `referenced` item whose record is the IG's bibliography entry for it (the key is the citation's: `#ref-<slug>`) and whose capture is `uploads/<slug>/`. Bean folio-assistant-djj5 (owner, 2026-11-03: references/ retired, \"Library + catalogue only\"). `bun run cat check:catalogue` verifies every node and metadataRef.",
+      "description": "Qualified Dublin Core (`folio-dublin-core/v1`) and catalogue node (`folio-catalogue-node/v1`) records of the works this IG cites that are not ingested, each a `referenced` item whose record is the IG's bibliography entry for it (the key is the citation's: `#ref-<slug>`) (a capture of it, when one exists, is kept in the repository's `uploads/` data store, which is not part of the KG). Bean folio-assistant-djj5 (owner, 2026-11-03: references/ retired, \"Library + catalogue only\"). `bun run cat check:catalogue` verifies every node and metadataRef.",
       "graphTypologies": [
         "catalogue"
-      ]
-    },
-    {
-      "id": "smart-immunizations-uploads",
-      "path": "uploads/",
-      "readOnly": false,
-      "readOnlyBasis": "The ingestion drop zone: a write target by design, as who-iris's `uploads/` states.",
-      "description": "The incoming queue: one `uploads/<slug>/intake.json` (`folio-intake/v1`) per capture, before ingestion. It already held the intakes of the WHO publications ingested into `library/`; since bean folio-assistant-djj5 (owner, 2026-11-03: \"Catalogue + uploads/ copy\") it also records the capture of each cited work that is not ingested (upstream URL, when, size and sha256, licence), naming its catalogue record and item node. NOT L1 and not greppable as corpus. A capture's bytes are committed only once a licence that permits a copy is established.",
-      "graphTypologies": [
-        "uploads"
       ]
     }
   ],
