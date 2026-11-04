@@ -7,7 +7,7 @@ generated: "scripts/subgraph-readmes.ts of the bootstrap toolset (https://github
 
 # smart-immunizations-catalogue
 
-Qualified Dublin Core (`folio-dublin-core/v1`) and catalogue node (`folio-catalogue-node/v1`) records of the works this IG cites that are not ingested, each a `referenced` item whose record is the IG's bibliography entry for it (the key is the citation's: `#ref-<slug>`) (a capture of it, when one exists, is kept in the repository's `uploads/` data store, which is not part of the KG). Bean folio-assistant-djj5 (owner, 2026-11-03: references/ retired, "Library + catalogue only"). `bun run cat check:catalogue` verifies every node and metadataRef.
+Qualified Dublin Core (`folio-dublin-core/v1`) and catalogue node (`folio-catalogue-node/v1`) records of the works this IG cites that are not ingested. Each is a `referenced` item whose record is the IG's bibliography entry for it, keyed by the citation (`#ref-<slug>`). A capture of a work, when one exists, is kept in the repository's `uploads/` data store, which is not part of the KG. `bun run cat check:catalogue` verifies every node and metadataRef.
 
 Part of [WHO SMART Guidelines — Immunizations](../README.md) 0.1.0, declared as `smart-immunizations-catalogue`, holding `catalogue`.
 

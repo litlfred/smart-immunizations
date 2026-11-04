@@ -7,7 +7,7 @@ generated: "scripts/subgraph-readmes.ts of the bootstrap toolset (https://github
 
 # smart-immunizations-document-kinds
 
-How this IG realises the document kinds of the layers it needs: today `dak.coverage.smart-immunizations.json`, the DAK view of the IG's artefact index, which places each artefact in one of the ten DAK components by its FHIR resource type and lists what no rule places. Written by the DAK layer's `gen-document-kinds.ts` (`bun run cat smart-base:document-kinds`) into the `document-kinds` directory of the IG it is about; it lived beside the DAK kind in the layer below until wrong-direction move M13 (folio-assistant#2598), where it was a lower layer holding a file about a higher one. The report was computed from an artefact index (`from`) that this repository does not hold today, so the generator cannot re-derive it here until one is ingested; until then it is carried as it was computed, and its `--check` does not cover it. Declared with its file in one commit, per bean `dh4f`.
+How this IG realises the document kinds of the layers it needs: `dak.coverage.smart-immunizations.json`, the DAK view of the IG's artefact index, which places each artefact in one of the ten DAK components by its FHIR resource type and lists what no rule places. Written by smart-base's `gen-document-kinds.ts` (`bun run cat smart-base:document-kinds`). The artefact index it was computed from (`from`) is not in this repository, so the generator cannot re-derive the report here and its `--check` does not cover it.
 
 Part of [WHO SMART Guidelines — Immunizations](../README.md) 0.1.0, declared as `smart-immunizations-document-kinds`, holding `document-kinds`.
 
