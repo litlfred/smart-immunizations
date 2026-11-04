@@ -4,12 +4,12 @@
     {
       "harness": "smart-base",
       "repository": "litlfred/smart-base",
-      "ref": "db7f311e92ef254ae665dfbbc81d0e3f0959175e"
+      "ref": "a51a3286b7f24b08bc02c03ac1be26b02a0f19b9"
     },
     {
       "harness": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "ref": "c702c345824ce1e883609be8e9b9533e90b51d53"
+      "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552"
     },
     {
       "harness": "who-iris",
@@ -162,29 +162,29 @@
     {
       "instance": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "sha": "c702c345824ce1e883609be8e9b9533e90b51d53",
+      "sha": "ca32a2e32fde62c39b3b9691d629104768fcd552",
       "upstreamRoot": "",
       "path": "fhir-harness",
       "via": "fhir-harness",
       "pinnedBy": "declared",
       "declaration": {
         "file": "fhir-harness.json",
-        "sha256": "f598782b87ed693c109dec8d64169118408762a4eac69960d299c7a3c5a63377"
+        "sha256": "a3d27dd47e89cb38ad3f58ef82e0365f9adbde0306f69b98c8f2457a45f9f2e9"
       },
       "directories": [
         {
           "id": "*",
           "path": "fhir-harness",
           "upstreamPath": ".",
-          "treeDigest": "895e1b207ba7be51a29f1231da36a3f492164c09c4032f5278fe63333b916ae9",
-          "files": 738
+          "treeDigest": "4360569c3edbc835cb69c46e800e70fb4ec2759c1f70fb6c2964bbb07e1ab59e",
+          "files": 750
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-11-02",
-        "ref": "c702c345824ce1e883609be8e9b9533e90b51d53",
+        "on": "2026-11-04",
+        "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552",
         "approver": "unverified"
       }
     },
@@ -220,29 +220,29 @@
     {
       "instance": "smart-base",
       "repository": "litlfred/smart-base",
-      "sha": "db7f311e92ef254ae665dfbbc81d0e3f0959175e",
+      "sha": "a51a3286b7f24b08bc02c03ac1be26b02a0f19b9",
       "upstreamRoot": "smart-base",
       "path": "smart-base",
       "via": "smart-base",
       "pinnedBy": "declared",
       "declaration": {
         "file": "smart-base.json",
-        "sha256": "fb2db5fa05dc158e08a2054a538df2a9ba38bf091289dd526c7beb5d1bd5a8d0"
+        "sha256": "0cb7ae339ecb4c07a6b896312ba97f6dddbc3eee55042a9fa2d4c6cdb3fdaccd"
       },
       "directories": [
         {
           "id": "*",
           "path": "smart-base",
           "upstreamPath": "smart-base",
-          "treeDigest": "1d59ce26a09ad9423101aafbcb67bc5031278335a2ae683b3997764af49c4336",
-          "files": 491
+          "treeDigest": "6c774ffb7092b41c7c802654baac3b00e8401e31400cc2f6eee7c221c732e2eb",
+          "files": 504
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
-        "on": "2026-11-02",
-        "ref": "db7f311e92ef254ae665dfbbc81d0e3f0959175e",
+        "on": "2026-11-04",
+        "ref": "a51a3286b7f24b08bc02c03ac1be26b02a0f19b9",
         "approver": "unverified"
       }
     },

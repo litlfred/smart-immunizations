@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "db7f311e92ef254ae665dfbbc81d0e3f0959175e",
+          "ref": "a51a3286b7f24b08bc02c03ac1be26b02a0f19b9",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "db7f311e92ef254ae665dfbbc81d0e3f0959175e",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-04",
+              "ref": "a51a3286b7f24b08bc02c03ac1be26b02a0f19b9",
+              "evidence": "Owner litlfred, 2026-11-04 (smart-immunizations session): 'Repin and merge when needed and ready'; ~20:2xZ: 'Fix the issues with a failures'."
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "c702c345824ce1e883609be8e9b9533e90b51d53",
+          "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-02",
-              "ref": "c702c345824ce1e883609be8e9b9533e90b51d53",
-              "evidence": "Owner litlfred, 2026-11-01 (20:41Z, MVP thread): 'i want to get all functional stuff done, the full repin on harnesses done and stablized as MVP goal.' and 21:41Z card Q-PIN-4 'B. All, including smart-ra' (re-pin every smart-* site)."
+              "on": "2026-11-04",
+              "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552",
+              "evidence": "Owner litlfred, 2026-11-04 (smart-immunizations session): 'Repin and merge when needed and ready'; ~20:2xZ: 'Fix the issues with a failures'."
             }
           }
         }
