@@ -24,4 +24,4 @@ jobs:
   # index.config.json contentTypes.dak, and dak.json is gone. The called
   # workflow takes no inputs and no secrets.
   call_build:
-    uses: litlfred/smart-base/.github/workflows/fhirbuild.yml@f1c6eb0c6992191c94ef5cf99b5f0cf8f4008d1a # index.lock.json
+    uses: litlfred/smart-base/.github/workflows/fhirbuild.yml@1e111a661b6fe2ada620b4e7480f085cedde36a0 # index.lock.json
