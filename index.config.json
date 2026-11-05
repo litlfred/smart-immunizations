@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "a51a3286b7f24b08bc02c03ac1be26b02a0f19b9",
+          "ref": "f1c6eb0c6992191c94ef5cf99b5f0cf8f4008d1a",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "a51a3286b7f24b08bc02c03ac1be26b02a0f19b9",
-              "evidence": "Owner litlfred, 2026-11-04 (smart-immunizations session): 'Repin and merge when needed and ready'; ~20:2xZ: 'Fix the issues with a failures'."
+              "on": "2026-11-05",
+              "ref": "f1c6eb0c6992191c94ef5cf99b5f0cf8f4008d1a",
+              "evidence": "Owner litlfred, 2026-11-05 (smart-immunizations session): 'Repin and merge'."
             }
           }
         }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552",
+          "ref": "2b29c8c6dfc557d32b67e96886748df3ed2fe4be",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-04",
-              "ref": "ca32a2e32fde62c39b3b9691d629104768fcd552",
-              "evidence": "Owner litlfred, 2026-11-04 (smart-immunizations session): 'Repin and merge when needed and ready'; ~20:2xZ: 'Fix the issues with a failures'."
+              "on": "2026-11-05",
+              "ref": "2b29c8c6dfc557d32b67e96886748df3ed2fe4be",
+              "evidence": "Owner litlfred, 2026-11-05 (smart-immunizations session): 'Repin and merge'."
             }
           }
         }
