@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
+          "ref": "5fdcf6c60cf75c79d69a0bff3e1f3889c6e37dc6",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,9 +42,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "1e111a661b6fe2ada620b4e7480f085cedde36a0",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-06",
+              "ref": "5fdcf6c60cf75c79d69a0bff3e1f3889c6e37dc6",
+              "evidence": "Owner card \"Re-pin how\" option 2 \"All layers to mains\" and \"Re-pin OK?\" option 1, 2026-11-06 ~01:00Z, session_01VQDpPbqnwyoWW5d3Rc1vEk"
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "705a2b8a75be2d20877df25b14b8c34003f02c7a",
+          "ref": "e072ec2d606d396c5e3b54ad9872332de0836cc7",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "705a2b8a75be2d20877df25b14b8c34003f02c7a",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-06",
+              "ref": "e072ec2d606d396c5e3b54ad9872332de0836cc7",
+              "evidence": "Owner card \"Re-pin how\" option 2 \"All layers to mains\" and \"Re-pin OK?\" option 1, 2026-11-06 ~01:00Z, session_01VQDpPbqnwyoWW5d3Rc1vEk"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "f5c9140b1b5391f48b3d4903c4cd40eb8473e37f",
+          "ref": "7321322d08bf79e09bd2d255a2abd3cfce9d2995",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "f5c9140b1b5391f48b3d4903c4cd40eb8473e37f",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-06",
+              "ref": "7321322d08bf79e09bd2d255a2abd3cfce9d2995",
+              "evidence": "Owner card \"Re-pin how\" option 2 \"All layers to mains\" and \"Re-pin OK?\" option 1, 2026-11-06 ~01:00Z, session_01VQDpPbqnwyoWW5d3Rc1vEk"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "42cc850e43e4d798126ee8fe456b72118e128112",
+          "ref": "306a4d69a80841b805ab2f5679fbb3dcedd6a356",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "42cc850e43e4d798126ee8fe456b72118e128112",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-06",
+              "ref": "306a4d69a80841b805ab2f5679fbb3dcedd6a356",
+              "evidence": "Owner card \"#115\" option 1 \"Fix at the source\" (re-pin #115 to the cat-harness-tools main carrying #1575), 2026-11-06, session_01VQDpPbqnwyoWW5d3Rc1vEk"
             }
           }
         }
