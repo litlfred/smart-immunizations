@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "a94472709dea78bd3b988934ca89130ef84b2ced",
+          "ref": "306a4d69a80841b805ab2f5679fbb3dcedd6a356",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-06",
-              "ref": "a94472709dea78bd3b988934ca89130ef84b2ced",
-              "evidence": "Owner card \"Re-pin how\" option 2 \"All layers to mains\" and \"Re-pin OK?\" option 1, 2026-11-06 ~01:00Z, session_01VQDpPbqnwyoWW5d3Rc1vEk"
+              "ref": "306a4d69a80841b805ab2f5679fbb3dcedd6a356",
+              "evidence": "Owner card \"#115\" option 1 \"Fix at the source\" (re-pin #115 to the cat-harness-tools main carrying #1575), 2026-11-06, session_01VQDpPbqnwyoWW5d3Rc1vEk"
             }
           }
         }
