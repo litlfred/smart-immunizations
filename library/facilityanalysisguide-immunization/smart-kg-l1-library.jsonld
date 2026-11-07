@@ -60,7 +60,7 @@
       "label": "Library entry facilityanalysisguide-immunization",
       "properties": {
         "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/SourceDocument",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/SourceDocument",
         "entry": "facilityanalysisguide-immunization"
       },
       "derivation": "derived",
@@ -1805,7 +1805,7 @@
       "label": "Library block for sec-007-2-data-quality",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/facilityanalysisguide-immunization/blocks/prose-sec-007",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "facilityanalysisguide-immunization",
         "pageRange": "10-12"
       },
