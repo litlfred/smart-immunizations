@@ -64,7 +64,7 @@
       "label": "Library entry 9789275119532-eng",
       "properties": {
         "iri": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/9789275119532-eng/manifest.jsonld",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/SourceDocument",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/SourceDocument",
         "entry": "9789275119532-eng"
       },
       "derivation": "derived",
@@ -648,7 +648,7 @@
       "label": "Library block for sec-000-introduction",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-000",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "9-14"
       },
@@ -679,7 +679,7 @@
       "label": "Library block for sec-001-111-definition-of-ehealth",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-001",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "14-15"
       },
@@ -710,7 +710,7 @@
       "label": "Library block for sec-002-114-immunization-information-systems",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-002",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "15-26"
       },
@@ -795,7 +795,7 @@
       "label": "Library block for sec-003-241-registration-of-individuals",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-003",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "26"
       },
@@ -826,7 +826,7 @@
       "label": "Library block for sec-004-24-characteristics-of-an-ideal-eir",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-004",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "26-28"
       },
@@ -858,7 +858,7 @@
       "label": "Library block for sec-005-242-registration-of-vaccination-events",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-005",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "28-45"
       },
@@ -926,7 +926,7 @@
       "label": "Library block for sec-007-336-monitoring-of-implementation-system-follow-u",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-007",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "46-47"
       },
@@ -957,7 +957,7 @@
       "label": "Library block for sec-008-34-current-information-flows",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-008",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "47-58"
       },
@@ -1065,7 +1065,7 @@
       "label": "Library block for sec-009-42-eir-functions",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-009",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "58-72"
       },
@@ -1191,7 +1191,7 @@
       "label": "Library block for sec-010-appropriate-technology",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-010",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "72-74"
       },
@@ -1223,7 +1223,7 @@
       "label": "Library block for sec-011-522-usability",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-011",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "74-77"
       },
@@ -1274,7 +1274,7 @@
       "label": "Library block for sec-012-524-security",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-012",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "77-78"
       },
@@ -1306,7 +1306,7 @@
       "label": "Library block for sec-013-support-decision-making",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-013",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "78-85"
       },
@@ -1393,7 +1393,7 @@
       "label": "Library block for sec-016-632-analysis-of-the-information-system",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-016",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "87-91"
       },
@@ -1425,7 +1425,7 @@
       "label": "Library block for sec-017-7-facing-future-challenges",
       "properties": {
         "iri": "https://litlfred.github.io/folio/library/9789275119532-eng/blocks/prose-sec-017",
-        "libraryClass": "https://litlfred.github.io/cat-harness/0.1.0/ns/Block",
+        "libraryClass": "https://litlfred.github.io/cat-harness/v0/ns/Block",
         "entry": "9789275119532-eng",
         "pageRange": "91-116"
       },
