@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "9a4ccd9c7fbb089e58fbcdcdd0e0db7a404b50e2",
+          "ref": "3c94d7396946f39938f98e3b1da5aaf8174c5e91",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "9a4ccd9c7fbb089e58fbcdcdd0e0db7a404b50e2",
-              "evidence": "litlfred, 2026-11-07, via the merge manager (session_01VQDpPffYARDQ8juksAZScf): card 'Pin target' 'A. Never move back', wave 4 'A. Yes, prepare as drafts', and 'repin + merge open 12 hrs'; earlier in this session: 'align pins'. smart-base at #315's merge, each lower layer at the commit smart-base pins; bean cat-tools-sm8r."
+              "on": "2026-11-08",
+              "ref": "3c94d7396946f39938f98e3b1da5aaf8174c5e91",
+              "evidence": "Owner litlfred, 2026-11-08 06:43:26Z, first-hand in the merge-master thread (cmsg_017WNUkNK8kdDziPK58Pv6G9KXP4MmBwRDyaJzVqgwQDGf): \"non-content can merge/repin + 12hr\" (window to 2026-11-08 19:00Z). cat-harness-tools to 3c94d73 (#1685: translation:block-qa judges only the caller instance)."
             }
           }
         }
