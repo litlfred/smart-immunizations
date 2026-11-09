@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
+          "ref": "3b583fd90778073a6bac853345e64867f6acbf88",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "5e6f2972eefc01de60d0a455bb676ebeb7aeaf7a",
-              "evidence": "litlfred, 2026-11-07, via the merge manager (session_01VQDpPffYARDQ8juksAZScf): card 'Pin target' 'A. Never move back', wave 4 'A. Yes, prepare as drafts', and 'repin + merge open 12 hrs'; earlier in this session: 'align pins'. smart-base at #315's merge, each lower layer at the commit smart-base pins; bean cat-tools-sm8r."
+              "on": "2026-11-09",
+              "ref": "3b583fd90778073a6bac853345e64867f6acbf88",
+              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
             }
           }
         }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "6086f86b80d5d3cde4f98fd95a15e47641d6ce0f",
+          "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,9 +129,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "6086f86b80d5d3cde4f98fd95a15e47641d6ce0f",
-              "evidence": "litlfred, 2026-11-07, via the merge manager (session_01VQDpPffYARDQ8juksAZScf): card 'Pin target' 'A. Never move back', wave 4 'A. Yes, prepare as drafts', and 'repin + merge open 12 hrs'; earlier in this session: 'align pins'. smart-base at #315's merge, each lower layer at the commit smart-base pins; bean cat-tools-sm8r."
+              "on": "2026-11-09",
+              "ref": "52e233c07e181839edfcccd00ec14f7b7a47b479",
+              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "6eed239af4a5a97ba8307cb0ef72a8c899f8eeb4",
+          "ref": "c2e07113bbab32c85a637acfc27c157eb4d404ef",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "6eed239af4a5a97ba8307cb0ef72a8c899f8eeb4",
-              "evidence": "litlfred, 2026-11-07, via the merge manager (session_01VQDpPffYARDQ8juksAZScf): card 'Pin target' 'A. Never move back', wave 4 'A. Yes, prepare as drafts'. cat-harness forward to 6eed239 (past cat-harness 28d16994, which fixes the journey-maps.md column-0 markup that b606cb7 fails check:escaped-markup:source on); bean cat-tools-sm8r."
+              "on": "2026-11-09",
+              "ref": "c2e07113bbab32c85a637acfc27c157eb4d404ef",
+              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "3c94d7396946f39938f98e3b1da5aaf8174c5e91",
+          "ref": "5c4cd89a89847171fd3944ad707db6cab4b778c7",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-08",
-              "ref": "3c94d7396946f39938f98e3b1da5aaf8174c5e91",
-              "evidence": "Owner litlfred, 2026-11-08 06:43:26Z, first-hand in the merge-master thread (cmsg_017WNUkNK8kdDziPK58Pv6G9KXP4MmBwRDyaJzVqgwQDGf): \"non-content can merge/repin + 12hr\" (window to 2026-11-08 19:00Z). cat-harness-tools to 3c94d73 (#1685: translation:block-qa judges only the caller instance)."
+              "on": "2026-11-09",
+              "ref": "5c4cd89a89847171fd3944ad707db6cab4b778c7",
+              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
             }
           }
         }
@@ -195,7 +195,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
+          "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -204,9 +204,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-05",
-              "ref": "12fa6d57dfad06ae73e234f116145dfc8d77ad50",
-              "evidence": "Owner litlfred, 2026-11-05: card '1. Freeze one set' — re-pin all site PRs to one fixed set of layer commits; 'merge when green' (bean folio-assistant-rpc6)."
+              "on": "2026-11-09",
+              "ref": "9435037232a09950ffe442bb4b00cb7da54b5985",
+              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
             }
           }
         }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
+          "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,9 +229,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-07",
-              "ref": "1dc08c906f3a9377534b753fed493b811e040ad7",
-              "evidence": "litlfred, 2026-11-07, via the merge manager (session_01VQDpPffYARDQ8juksAZScf): card 'Pin target' 'A. Never move back', wave 4 'A. Yes, prepare as drafts', and 'repin + merge open 12 hrs'; earlier in this session: 'align pins'. smart-base at #315's merge, each lower layer at the commit smart-base pins; bean cat-tools-sm8r."
+              "on": "2026-11-09",
+              "ref": "30c4585d5dfbf6960e3ecca86b18d131d6cd3921",
+              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
             }
           }
         }
