@@ -45,3 +45,4 @@ jobs:
       ref: ${{ inputs.ref || github.sha }}
       force: ${{ inputs.force || false }}
       template-repos: who.template.root=litlfred/smart-ig-template
+      pre-export: bash .github/test-template-fork.sh
