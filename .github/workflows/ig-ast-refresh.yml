@@ -44,3 +44,4 @@ jobs:
     with:
       ref: ${{ inputs.ref || github.sha }}
       force: ${{ inputs.force || false }}
+      template-repos: who.template.root=litlfred/smart-ig-template
