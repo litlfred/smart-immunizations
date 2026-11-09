@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "c2e07113bbab32c85a637acfc27c157eb4d404ef",
+          "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -158,8 +158,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-09",
-              "ref": "c2e07113bbab32c85a637acfc27c157eb4d404ef",
-              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
+              "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
+              "evidence": "owner 2026-11-09 13:54Z in thread 'Shrink SMART IG docs publishing': 'get smart-html-jtd work with all the shared content' (tools#1739 + cat-harness#1170 merged; si opts into site.sharedAssets)"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "5c4cd89a89847171fd3944ad707db6cab4b778c7",
+          "ref": "21e99640407c925a6e1f68b5a4a908f5130e8b73",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-09",
-              "ref": "5c4cd89a89847171fd3944ad707db6cab4b778c7",
-              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
+              "ref": "21e99640407c925a6e1f68b5a4a908f5130e8b73",
+              "evidence": "owner 2026-11-09 13:54Z in thread 'Shrink SMART IG docs publishing': 'get smart-html-jtd work with all the shared content' (tools#1739 + cat-harness#1170 merged; si opts into site.sharedAssets)"
             }
           }
         }
@@ -248,7 +248,8 @@
   ],
   "site": {
     "landing": "smart-base",
-    "agentRun": true
+    "agentRun": true,
+    "sharedAssets": "https://litlfred.github.io/smart-html-jtd/"
   },
   "contentTypes": {
     "dak": {
