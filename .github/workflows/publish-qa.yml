@@ -16,6 +16,6 @@ permissions:
   contents: write
 jobs:
   publish:
-    uses: litlfred/cat-harness-tools/.github/workflows/layer-qa-publish.yml@a6753f2fda6b5b67e00bec86a7e09506f86af327 # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/layer-qa-publish.yml@9f7df9774465d8a4af4d533bd63ebacc8101d045 # index.lock.json
     with:
       instance: smart-immunizations

@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
+          "ref": "d5e3988b8e9775156a53968451ac17f547c69af7",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -65,8 +65,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
-              "evidence": "owner 2026-11-10 in thread 'Shrink SMART IG docs publishing': thin pages + raw AST (card A), share Form Builder, 'smart-base etc should not be in smart-immunizations... only cross referenced'; fhir-harness#327/#328/#331/#334 and cat-harness-tools#1759/#1767/#1771 merged"
+              "ref": "d5e3988b8e9775156a53968451ac17f547c69af7",
+              "evidence": "litlfred, 2026-11-10 20:22:34Z, thread 'Shrink SMART IG docs publishing': card 'Merge #1791 now and fhir-harness #341 when green?' = 'A. Merge both (on green)' (low-risk trio, card A 20:08Z)"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+          "ref": "9f7df9774465d8a4af4d533bd63ebacc8101d045",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
-              "evidence": "owner 2026-11-10 in thread 'Shrink SMART IG docs publishing': thin pages + raw AST (card A), share Form Builder, 'smart-base etc should not be in smart-immunizations... only cross referenced'; fhir-harness#327/#328/#331/#334 and cat-harness-tools#1759/#1767/#1771 merged"
+              "ref": "9f7df9774465d8a4af4d533bd63ebacc8101d045",
+              "evidence": "litlfred, 2026-11-10 20:22:34Z, thread 'Shrink SMART IG docs publishing': card 'Merge #1791 now and fhir-harness #341 when green?' = 'A. Merge both (on green)' (low-risk trio, card A 20:08Z)"
             }
           }
         }
