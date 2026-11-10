@@ -9,7 +9,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-c0c373b1-4adc-4e05-a226-f785ba927835.html): Malformed XHTML: Found &quot;&lt;/code&gt;&quot; expecting &quot;&lt;/Date&gt;&quot; at line 261 column 8</b></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b style=\"color: maroon\">Exception parsing generated Narrative (see /tmp/liquid-d9623b19-6b8e-446c-963b-2dde32b710b1.html): Malformed XHTML: Found &quot;&lt;/code&gt;&quot; expecting &quot;&lt;/Date&gt;&quot; at line 261 column 8</b></p></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability",
@@ -27,7 +27,7 @@
       "code" : "logic-library"
     }]
   },
-  "date" : "2026-11-10T21:16:07+00:00",
+  "date" : "2026-11-10T21:27:17+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
