@@ -71,7 +71,7 @@ jobs:
   # smart-base" — no IG repository carries a workflow of its own for it).
   ast:
     if: ${{ !inputs.plan }}
-    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@d5e3988b8e9775156a53968451ac17f547c69af7 # index.lock.json
+    uses: litlfred/fhir-harness/.github/workflows/ig-ast-refresh.yml@3f8099be93c7fe73dad16483fb8e018fd87e52bd # index.lock.json
     with:
       # Always the default branch: only its build seeds the shared cache, so a
       # preview of a branch that leaves the IG's inputs as they are on it finds
