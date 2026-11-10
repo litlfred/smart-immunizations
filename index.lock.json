@@ -102,6 +102,93 @@
       }
     },
     {
+      "instance": "cat-harness",
+      "repository": "litlfred/cat-harness",
+      "sha": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
+      "upstreamRoot": "",
+      "path": "cat-harness",
+      "via": "cat-harness",
+      "pinnedBy": "declared",
+      "declaration": {
+        "file": "cat-harness.json",
+        "sha256": "a93ab25040ef3ccea00aab4b0b7f37279f0dc022f8d466d5d2ac16356bbd7bcb"
+      },
+      "directories": [
+        {
+          "id": "*",
+          "path": "cat-harness",
+          "upstreamPath": ".",
+          "treeDigest": "9b20bc412452b94951199025f2f4cb34d30ad192ae49ed5ad423804f1e56915e",
+          "files": 12592
+        }
+      ],
+      "trust": {
+        "basis": "consent",
+        "by": "litlfred",
+        "on": "2026-11-09",
+        "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
+        "approver": "unverified"
+      }
+    },
+    {
+      "instance": "cat-harness-tools",
+      "repository": "litlfred/cat-harness-tools",
+      "sha": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+      "upstreamRoot": "",
+      "path": "cat-harness-tools",
+      "via": "cat-harness-tools",
+      "pinnedBy": "declared",
+      "declaration": {
+        "file": "cat-harness-tools.json",
+        "sha256": "a2baa5b04b69a3063fd1bb043348233b854d2b83eea22a0520249b96e8b19c86"
+      },
+      "directories": [
+        {
+          "id": "*",
+          "path": "cat-harness-tools",
+          "upstreamPath": ".",
+          "treeDigest": "b5a4a39d8c17561642b337b6e3b163b825310407feb59c29b7cd2ac96fc367fa",
+          "files": 3651
+        }
+      ],
+      "trust": {
+        "basis": "consent",
+        "by": "litlfred",
+        "on": "2026-11-10",
+        "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+        "approver": "unverified"
+      }
+    },
+    {
+      "instance": "fhir-harness",
+      "repository": "litlfred/fhir-harness",
+      "sha": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
+      "upstreamRoot": "",
+      "path": "fhir-harness",
+      "via": "fhir-harness",
+      "pinnedBy": "declared",
+      "declaration": {
+        "file": "fhir-harness.json",
+        "sha256": "9b30a89fce267e90694849adff6f06f169c839763fa1fc0d385ad45deebd9b76"
+      },
+      "directories": [
+        {
+          "id": "*",
+          "path": "fhir-harness",
+          "upstreamPath": ".",
+          "treeDigest": "76e3802b11f6fd1cf9ad611982c23cf78fa576d4b3db0c3195389e8b973bde42",
+          "files": 906
+        }
+      ],
+      "trust": {
+        "basis": "consent",
+        "by": "litlfred",
+        "on": "2026-11-10",
+        "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
+        "approver": "unverified"
+      }
+    },
+    {
       "instance": "folio-assistant-core",
       "repository": "litlfred/folio-assistant-core",
       "sha": "52e233c07e181839edfcccd00ec14f7b7a47b479",
@@ -189,21 +276,5 @@
       }
     }
   ],
-  "unmounted": [
-    {
-      "instance": "cat-harness",
-      "state": "missing",
-      "detail": "`cat-harness/` already exists, no lock says this mount put it there, and it is not the pinned bytes (absent: `cat-harness/docs/assets/img/workflows/cache.svg`, `cat-harness/library/corpus/.gitignore`, `cat-harness/library/corpus/README.md`, `cat-harness/library/corpus/conduct/agent-skill-best-practices---gemini-cli/README.md`, `cat-harness/library/corpus/conduct/agent-skill-best-practices---gemini-cli/blocks/prose-page-001.jsonld` and 9667 more) — refused, nothing changed. Move the edits upstream to the fork, or delete or rename the directory, then re-mount"
-    },
-    {
-      "instance": "cat-harness-tools",
-      "state": "missing",
-      "detail": "`cat-harness-tools/` already exists, no lock says this mount put it there, and it is not the pinned bytes (differ: `cat-harness-tools/.github/scripts/layer-pr-checks/run-gates.py`, `cat-harness-tools/schemas/kg/prov-jsonld.ts`, `cat-harness-tools/schemas/kg/remote-mount.ts`, `cat-harness-tools/schemas/library/library-iri.ts`, `cat-harness-tools/schemas/process/role-graph.test.ts` and 50 more; absent: `cat-harness-tools/.github/workflows/verify-signatures.yml`, `cat-harness-tools/scripts/lib/schema-page.ts`, `cat-harness-tools/scripts/sign.bat`, `cat-harness-tools/scripts/sign.sh`, `cat-harness-tools/scripts/tests/kg/schema-page.test.ts` and 1 more) — refused, nothing changed. Move the edits upstream to the fork, or delete or rename the directory, then re-mount"
-    },
-    {
-      "instance": "fhir-harness",
-      "state": "missing",
-      "detail": "`fhir-harness/` already exists, no lock says this mount put it there, and it is not the pinned bytes (differ: `fhir-harness/schemas/ig-releases.ts`, `fhir-harness/scripts/build-ig-indexes.ts`, `fhir-harness/scripts/gen-ig-pages.ts`, `fhir-harness/scripts/ig-artifact-jsonld.ts`, `fhir-harness/scripts/ig-cache.sh` and 11 more; absent: `fhir-harness/scripts/ig-ast-history.feature`, `fhir-harness/scripts/ig-ast-history.test.ts`, `fhir-harness/scripts/ig-ast-history.ts`) — refused, nothing changed. Move the edits upstream to the fork, or delete or rename the directory, then re-mount"
-    }
-  ]
+  "unmounted": []
 }
