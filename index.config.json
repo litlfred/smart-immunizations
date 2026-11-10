@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "edecd37bf85cc9cc15c6d9b73ab1580a1bb148d4",
+          "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -65,8 +65,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "edecd37bf85cc9cc15c6d9b73ab1580a1bb148d4",
-              "evidence": "owner 2026-11-10 17:15Z 'A' (retry and publish smart-immunizations root); fhir-harness#324 records the owner's 2026-11-08 ast-data ruling so the root publish is not refused"
+              "ref": "5bd8b1e238de0179ad94ae5ab8024c2e0a7bac0a",
+              "evidence": "owner 2026-11-10 in thread 'Shrink SMART IG docs publishing': thin pages + raw AST (card A), share Form Builder, 'smart-base etc should not be in smart-immunizations... only cross referenced'; fhir-harness#327/#328/#331/#334 and cat-harness-tools#1759/#1767/#1771 merged"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "21e99640407c925a6e1f68b5a4a908f5130e8b73",
+          "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,9 +182,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-09",
-              "ref": "21e99640407c925a6e1f68b5a4a908f5130e8b73",
-              "evidence": "owner 2026-11-09 13:54Z in thread 'Shrink SMART IG docs publishing': 'get smart-html-jtd work with all the shared content' (tools#1739 + cat-harness#1170 merged; si opts into site.sharedAssets)"
+              "on": "2026-11-10",
+              "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+              "evidence": "owner 2026-11-10 in thread 'Shrink SMART IG docs publishing': thin pages + raw AST (card A), share Form Builder, 'smart-base etc should not be in smart-immunizations... only cross referenced'; fhir-harness#327/#328/#331/#334 and cat-harness-tools#1759/#1767/#1771 merged"
             }
           }
         }

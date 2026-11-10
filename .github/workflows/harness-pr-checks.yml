@@ -47,7 +47,7 @@ concurrency:
 
 jobs:
   checks:
-    uses: litlfred/cat-harness-tools/.github/workflows/layer-pr-checks.yml@21e99640407c925a6e1f68b5a4a908f5130e8b73 # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/layer-pr-checks.yml@a6753f2fda6b5b67e00bec86a7e09506f86af327 # index.lock.json
     with:
       # On a draft PR: prepare and typecheck only; the full tier runs on ready_for_review.
       draft-fast-tier: true
@@ -64,7 +64,7 @@ jobs:
       contents: read
       issues: write
       actions: read
-    uses: litlfred/cat-harness-tools/.github/workflows/layer-main-qa.yml@21e99640407c925a6e1f68b5a4a908f5130e8b73 # index.lock.json
+    uses: litlfred/cat-harness-tools/.github/workflows/layer-main-qa.yml@a6753f2fda6b5b67e00bec86a7e09506f86af327 # index.lock.json
     with:
       verdict: ${{ needs.checks.outputs.main-verdict }}
       failures: ${{ needs.checks.outputs.main-failures }}
