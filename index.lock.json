@@ -29,7 +29,7 @@
     {
       "harness": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327"
+      "ref": "ba1af6f2ca64c48c0393e4f6a99cc44a5b53287f"
     },
     {
       "harness": "bootstrap",
@@ -118,8 +118,13 @@
           "id": "*",
           "path": "cat-harness",
           "upstreamPath": ".",
-          "treeDigest": "9b20bc412452b94951199025f2f4cb34d30ad192ae49ed5ad423804f1e56915e",
-          "files": 12592
+          "treeDigest": "80e9465f2702011452ab2a4a170ab10f639ccd6cf512bcfdc316bcdc33a2840a",
+          "files": 2921,
+          "except": [
+            "library/corpus",
+            "sdlc",
+            "work-plan"
+          ]
         }
       ],
       "trust": {
@@ -133,7 +138,7 @@
     {
       "instance": "cat-harness-tools",
       "repository": "litlfred/cat-harness-tools",
-      "sha": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+      "sha": "ba1af6f2ca64c48c0393e4f6a99cc44a5b53287f",
       "upstreamRoot": "",
       "path": "cat-harness-tools",
       "via": "cat-harness-tools",
@@ -147,15 +152,15 @@
           "id": "*",
           "path": "cat-harness-tools",
           "upstreamPath": ".",
-          "treeDigest": "b5a4a39d8c17561642b337b6e3b163b825310407feb59c29b7cd2ac96fc367fa",
-          "files": 3651
+          "treeDigest": "fa76907760525fc9682d531d9dc5166c09ed6494c1300f19dc34742ff5bc987e",
+          "files": 3652
         }
       ],
       "trust": {
         "basis": "consent",
         "by": "litlfred",
         "on": "2026-11-10",
-        "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+        "ref": "ba1af6f2ca64c48c0393e4f6a99cc44a5b53287f",
         "approver": "unverified"
       }
     },

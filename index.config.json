@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
+          "ref": "ba1af6f2ca64c48c0393e4f6a99cc44a5b53287f",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "a6753f2fda6b5b67e00bec86a7e09506f86af327",
-              "evidence": "owner 2026-11-10 in thread 'Shrink SMART IG docs publishing': thin pages + raw AST (card A), share Form Builder, 'smart-base etc should not be in smart-immunizations... only cross referenced'; fhir-harness#327/#328/#331/#334 and cat-harness-tools#1759/#1767/#1771 merged"
+              "ref": "ba1af6f2ca64c48c0393e4f6a99cc44a5b53287f",
+              "evidence": "litlfred, 2026-11-10 20:06:52Z, thread 'Shrink SMART IG docs publishing': card 'Choose how sandbox re-pins publish the layers cache ref' = 'B. Branch + small mover', then 'Merge cat-harness-tools #1784 now?' = 'A. Merge it now' (re-pin smart-immunizations with the mover)"
             }
           }
         }
