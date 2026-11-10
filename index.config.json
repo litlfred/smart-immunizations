@@ -1,6 +1,6 @@
 {
   "$schema": "folio-index-config/v1",
-  "instances": [
+  "layers": [
     {
       "name": "smart-base",
       "source": {
@@ -244,6 +244,11 @@
           "at": "."
         }
       }
+    }
+  ],
+  "harnesses": [
+    {
+      "name": "smart-base"
     }
   ],
   "site": {
