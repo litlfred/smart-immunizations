@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "3f8099be93c7fe73dad16483fb8e018fd87e52bd",
+          "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -65,8 +65,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "3f8099be93c7fe73dad16483fb8e018fd87e52bd",
-              "evidence": "litlfred, 2026-11-10 20:54-20:57Z, thread 'Shrink SMART IG docs publishing': cards 'Merge the size review and cleanup PRs' = A and 'Merge smart-html-jtd #16, fhir-harness #344 and #346' = A (re-pin si with all of option B)"
+              "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
+              "evidence": "Owner card 21:08Z 11-10: merge fhir-harness#358 and fold it into si#131 (artefact index from AST cache)"
             }
           }
         }
