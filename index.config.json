@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "3b583fd90778073a6bac853345e64867f6acbf88",
+          "ref": "edecd37bf85cc9cc15c6d9b73ab1580a1bb148d4",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-09",
-              "ref": "3b583fd90778073a6bac853345e64867f6acbf88",
-              "evidence": "owner 2026-11-09 13:44Z card Q-SZ-8 A: republish smart-immunizations now with the merged site-size work (cat-harness-tools#1720/#1718, cat-harness#1155/#1156, core#686, fhir-harness#314/#315/#317); standing OK 2026-11-08 06:43Z 'non-content can merge/repin'"
+              "on": "2026-11-10",
+              "ref": "edecd37bf85cc9cc15c6d9b73ab1580a1bb148d4",
+              "evidence": "owner 2026-11-10 17:15Z 'A' (retry and publish smart-immunizations root); fhir-harness#324 records the owner's 2026-11-08 ast-data ruling so the root publish is not refused"
             }
           }
         }
