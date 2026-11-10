@@ -1,0 +1,10 @@
+{
+  "http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1" : null,
+  "http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips" : null,
+  "http://smart.who.int/immunizations/Library/IMMZIndicatorElements" : null,
+  "http://fhir.org/guides/who/core/ValueSet/pregnancystatus-values" : null,
+  "http://ohie.org/CodeSystem/iso-8601-derived-periods" : null,
+  "http://hl7.org/fhir/sid/ciel" : null,
+  "https://mitel.dimi.uniud.it/ichi/#http://id.who.int/ichi" : null,
+  "http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1" : null
+}
