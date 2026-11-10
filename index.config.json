@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "d5e3988b8e9775156a53968451ac17f547c69af7",
+          "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -65,8 +65,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "d5e3988b8e9775156a53968451ac17f547c69af7",
-              "evidence": "litlfred, 2026-11-10 20:22:34Z, thread 'Shrink SMART IG docs publishing': card 'Merge #1791 now and fhir-harness #341 when green?' = 'A. Merge both (on green)' (low-risk trio, card A 20:08Z)"
+              "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
+              "evidence": "Owner card 21:08Z 11-10: merge fhir-harness#358 and fold it into si#131 (artefact index from AST cache)"
             }
           }
         }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
+          "ref": "70804eea46224d22b03e547c018566ef2d485f25",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,9 +157,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-09",
-              "ref": "8d4c141c55199e2f1e502142279e94b3fcb492ad",
-              "evidence": "owner 2026-11-09 13:54Z in thread 'Shrink SMART IG docs publishing': 'get smart-html-jtd work with all the shared content' (tools#1739 + cat-harness#1170 merged; si opts into site.sharedAssets)"
+              "on": "2026-11-10",
+              "ref": "70804eea46224d22b03e547c018566ef2d485f25",
+              "evidence": "litlfred, 2026-11-10 20:54-20:57Z, thread 'Shrink SMART IG docs publishing': cards 'Merge the size review and cleanup PRs' = A and 'Merge smart-html-jtd #16, fhir-harness #344 and #346' = A (re-pin si with all of option B)"
             }
           }
         }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "9f7df9774465d8a4af4d533bd63ebacc8101d045",
+          "ref": "03b032b3f4a66bedb702096b1bd1fadbdf5b53c8",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -183,8 +183,8 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-10",
-              "ref": "9f7df9774465d8a4af4d533bd63ebacc8101d045",
-              "evidence": "litlfred, 2026-11-10 20:22:34Z, thread 'Shrink SMART IG docs publishing': card 'Merge #1791 now and fhir-harness #341 when green?' = 'A. Merge both (on green)' (low-risk trio, card A 20:08Z)"
+              "ref": "03b032b3f4a66bedb702096b1bd1fadbdf5b53c8",
+              "evidence": "litlfred, 2026-11-10 20:54-20:57Z, thread 'Shrink SMART IG docs publishing': cards 'Merge the size review and cleanup PRs' = A and 'Merge smart-html-jtd #16, fhir-harness #344 and #346' = A (re-pin si with all of option B)"
             }
           }
         }
