@@ -135,25 +135,119 @@
     }
   }
 
-  /* The description is the IG's markdown: paragraphs and [text](url) links, nothing else is interpreted. */
+  /* An HTML line break written into a markdown description (`<br>`, `<br/>`,
+     or the malformed `</br>` some IGs carry) starts a new paragraph: the
+     renderer writes text, never HTML, so the tag would otherwise show as text. */
+  function breaks(text) {
+    return String(text || "").replace(/\s*<\/?br\s*\/?>\s*/gi, "\n\n");
+  }
+
+  /* The description is the IG's markdown. A small, safe subset is drawn:
+     paragraphs, `-`/`*`/`+` and `1.` lists, [text](url) links, ![alt](data:image/...)
+     inline pictures, **strong**, *emphasis* and `code`. Everything goes in as text through el(); nothing
+     from the markdown is set as HTML. Anything else stays as written. */
+  var LIST_ITEM = /^\s{0,3}(?:([-*+])|(\d{1,9})[.)])\s+(.*)$/;
+  var INLINE = /!\[([^\]]*)\]\(([^)\s]+)\)|`([^`]+)`|\[([^\]]+)\]\(([^)\s]+)\)|\*\*(?=\S)([\s\S]*?\S)\*\*|\*(?=[^\s*])([^*]*?[^\s*])\*/g;
+  /* An image is drawn only from an inline picture, `data:image/<raster or
+     svg+xml>[;base64],...`, as a blob: URL made from its decoded bytes, so no
+     text from the markdown becomes the <img>'s address. In an <img>, an SVG
+     runs no script. Any other source shows its alt text. */
+  var IMAGE_DATA = /^data:(image\/(?:png|jpeg|gif|webp|svg\+xml))(;base64)?,([\s\S]*)$/i;
+  function imageUrl(src) {
+    var m = IMAGE_DATA.exec(src);
+    if (!m || typeof Blob === "undefined" || typeof URL === "undefined" || !URL.createObjectURL) return null;
+    try {
+      var raw = m[2] ? atob(m[3]) : decodeURIComponent(m[3]);
+      var bytes = new Uint8Array(raw.length);
+      for (var i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i) & 255;
+      return URL.createObjectURL(new Blob([bytes], { type: m[1].toLowerCase() }));
+    } catch (_e) {
+      return null;
+    }
+  }
+
+  function inline(parent, text, root) {
+    var re = new RegExp(INLINE.source, "g");
+    var last = 0;
+    var m;
+    while ((m = re.exec(text))) {
+      parent.append(text.slice(last, m.index));
+      if (m[2] !== undefined) {
+        var url = imageUrl(m[2]);
+        if (url) {
+          var img = el("img", "iga-inline-img");
+          img.alt = m[1];
+          img.src = url;
+          parent.append(img);
+        } else parent.append(m[1]);
+      } else if (m[3] !== undefined) {
+        parent.append(el("code", null, m[3]));
+      } else if (m[4] !== undefined) {
+        // An artefact page's name (`<Type>-<id>.html`, a view's too) is a
+        // neighbour of an artefact page: those live together under artifact/.
+        var href = /^[a-z][a-z0-9+.-]*:/i.test(m[5]) || m[5].charAt(0) === "/" || m[5].charAt(0) === "#" ? m[5] : (!indexView && /^[A-Z][A-Za-z]+-[^/]+\.html(#|$)/.test(m[5]) ? "" : root) + m[5];
+        parent.append(link(href, m[4]));
+      } else {
+        var em = el(m[6] !== undefined ? "strong" : "em");
+        inline(em, m[6] !== undefined ? m[6] : m[7], root);
+        parent.append(em);
+      }
+      last = re.lastIndex;
+    }
+    parent.append(text.slice(last));
+  }
+
   function description(text, root) {
     if (root === undefined) root = "../";
     var frag = document.createDocumentFragment();
-    text.split(/\n\s*\n/).forEach(function (para) {
-      var p = el("p", "iga-desc");
-      var re = /\[([^\]]+)\]\(([^)\s]+)\)/g;
-      var last = 0;
-      var m;
-      while ((m = re.exec(para))) {
-        p.append(para.slice(last, m.index));
-        // An artefact page's name (`<Type>-<id>.html`, a view's too) is a
-        // neighbour of an artefact page: those live together under artifact/.
-        var href = /^[a-z][a-z0-9+.-]*:/i.test(m[2]) || m[2].charAt(0) === "/" || m[2].charAt(0) === "#" ? m[2] : (!indexView && /^[A-Z][A-Za-z]+-[^/]+\.html(#|$)/.test(m[2]) ? "" : root) + m[2];
-        p.append(link(href, m[1]));
-        last = re.lastIndex;
+    breaks(text).split(/\n\s*\n/).forEach(function (block) {
+      var lines = block.split("\n");
+      var para = [];
+      var list = null;
+      var item = null;
+      function flushPara() {
+        if (!para.length) return;
+        var p = el("p", "iga-desc");
+        inline(p, para.join("\n").trim(), root);
+        frag.append(p);
+        para = [];
       }
-      p.append(para.slice(last));
-      frag.append(p);
+      function flushItem() {
+        if (item === null) return;
+        var li = el("li");
+        inline(li, item.join("\n").trim(), root);
+        list.append(li);
+        item = null;
+      }
+      function flushList() {
+        flushItem();
+        if (list) frag.append(list);
+        list = null;
+      }
+      lines.forEach(function (line) {
+        var m = LIST_ITEM.exec(line);
+        // An ordered item other than 1. does not interrupt a paragraph
+        // (CommonMark): "in\n2023. Then" is wrapped text, not a list.
+        if (m && m[2] && m[2] !== "1" && para.length && !list) m = null;
+        if (m) {
+          var tag = m[1] ? "ul" : "ol";
+          if (!list || list.tagName.toLowerCase() !== tag) {
+            flushPara();
+            flushList();
+            list = el(tag, "iga-desc");
+            if (m[2] && m[2] !== "1") list.start = Number(m[2]);
+          }
+          flushItem();
+          item = [m[3]];
+        } else if (item !== null && line.trim()) {
+          item.push(line.trim());
+        } else if (line.trim()) {
+          flushList();
+          para.push(line);
+        }
+      });
+      flushList();
+      flushPara();
     });
     return frag;
   }
@@ -188,9 +282,11 @@
     (node["schema:encoding"] || []).forEach(function (e, i) {
       var url = e["schema:contentUrl"] && e["schema:contentUrl"]["@id"];
       var fmt = String(e["schema:encodingFormat"] || "").replace(/^application\/fhir\+/, "");
-      var local = e["dcterms:source"] === "local";
+      var source = e["dcterms:source"];
+      var local = source === "local";
       if (i) reps.append(" · ");
-      reps.append(link(local ? fetchable(url, node["@id"], nodeUrl) : url, local ? fmt : fmt + " (upstream)", !local));
+      // `local` is the site's reduced root copy, `mirror` the AST cache's full one.
+      reps.append(link(local ? fetchable(url, node["@id"], nodeUrl) : url, local ? fmt : source === "mirror" ? fmt + " (full, AST cache)" : fmt + " (upstream)", !local));
     });
     reps.append(" · ", link(nodeUrl, "JSON-LD"));
     row(t, "Representations", reps);
@@ -909,7 +1005,7 @@
   }
   /* The first paragraph of a description, as a list row shows it. */
   function firstPara(text) {
-    return String(text || "").split(/\n\s*\n/)[0];
+    return breaks(text).split(/\n\s*\n/)[0];
   }
   /* A canonical without its |version. */
   function bare(url) {
@@ -1021,32 +1117,21 @@
     p.append(link(pageOf(guide), guide["dcterms:title"]), " ");
     p.append(el("span", "igi-key", guide["dcterms:identifier"]));
     sec.append(p);
-    if (guide["dcterms:description"]) sec.append(description(firstPara(guide["dcterms:description"]), cfg.root || ""));
+    if (guide["dcterms:description"]) sec.append(description(guide["dcterms:description"], cfg.root || ""));
     return sec;
   }
 
   function drawArtifacts(gs, total, guide, byCanonical) {
     var frag = document.createDocumentFragment();
-    if (guide) frag.append(drawGuide(guide));
+    // The guide and the Contents card side by side at the top, the tables
+    // full width below (owner, 2026-11-10: "more akin to how IGs have TOC on
+    // RHS", a card, not the Publisher's yellow; layout C).
+    var contents = drawContents(gs, guide);
+    var head = el("div", "igi-head");
+    if (guide) head.append(drawGuide(guide));
+    head.append(contents.card);
+    frag.append(head);
     frag.append(el("p", "igi-count", total + " artefact(s) in " + gs.length + " categor" + (gs.length === 1 ? "y" : "ies") + (guide ? ", and the guide itself." : ".")));
-    var jump = el("nav", "igi-jump");
-    jump.setAttribute("aria-label", "Categories");
-    if (guide) jump.append(link("#artifacts-this-guide", "This guide"));
-    gs.forEach(function (g, i) {
-      if (i || guide) jump.append(" · ");
-      jump.append(link("#" + g.anchor, g.name));
-      if (g.types.length < 2) {
-        jump.append(" (" + g.parts.length + ")");
-        return;
-      }
-      jump.append(" (" + g.parts.length + ": ");
-      g.types.forEach(function (t, j) {
-        if (j) jump.append(", ");
-        jump.append(link("#" + t.anchor, t.name), " " + t.parts.length);
-      });
-      jump.append(")");
-    });
-    frag.append(jump);
     var filter = el("input", "igi-filter");
     filter.type = "search";
     filter.placeholder = "Filter artefacts by name, key, profile, code or description";
@@ -1086,8 +1171,42 @@
         });
         sec.hidden = shown === 0;
       });
+      contents.sync();
     });
     return frag;
+  }
+
+  /*
+   * The Contents card: "This guide" and one entry per category with its
+   * count. An entry the filter has emptied is hidden with its category.
+   */
+  function drawContents(gs, guide) {
+    var card = el("nav", "igi-contents");
+    card.setAttribute("aria-label", "Contents");
+    card.append(el("p", "igi-contents-title", "Contents"));
+    var list = el("ul");
+    var entries = [];
+    function entry(anchor, name, count) {
+      var li = el("li");
+      li.append(link("#" + anchor, name));
+      if (count !== undefined) li.append(el("span", "igi-n", String(count)));
+      list.append(li);
+      entries.push({ li: li, anchor: anchor });
+    }
+    if (guide) entry("artifacts-this-guide", "This guide");
+    gs.forEach(function (g) {
+      entry(g.anchor, g.name, g.parts.length);
+    });
+    card.append(list);
+    return {
+      card: card,
+      sync: function () {
+        entries.forEach(function (e) {
+          var target = document.getElementById(e.anchor);
+          e.li.hidden = !!(target && target.hidden);
+        });
+      },
+    };
   }
 
   function drawToc(gs, total, guide) {
@@ -1189,9 +1308,16 @@
       return r.json();
     })
     .then(function (node) {
-      var local = (node["schema:encoding"] || []).filter(function (e) {
-        return e["dcterms:source"] === "local";
-      })[0];
+      // The full copy first (the AST cache's `mirror`): the site's root copy
+      // (`local`) is reduced, without the narrative or the ELM.
+      var encs = node["schema:encoding"] || [];
+      var local =
+        encs.filter(function (e) {
+          return e["dcterms:source"] === "mirror";
+        })[0] ||
+        encs.filter(function (e) {
+          return e["dcterms:source"] === "local";
+        })[0];
       // The resource: the node's local copy, else the copy the page says this
       // site serves (the Publisher's own JSON, carried as data).
       var src = local ? fetchable(local["schema:contentUrl"]["@id"], node["@id"], nodeUrl) : cfg.resource ? new URL(cfg.resource, location.href).href : null;

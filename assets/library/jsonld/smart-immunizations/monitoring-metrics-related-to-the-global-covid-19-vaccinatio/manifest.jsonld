@@ -5,7 +5,7 @@
       "@base": "https://litlfred.github.io/folio/"
     }
   ],
-  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/monitoring-metrics-related-to-the-global-covid-19-vaccinatio/manifest.jsonld",
+  "@id": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/monitoring-metrics-related-to-the-global-covid-19-vaccinatio",
   "@type": [
     "cat-harness:SourceDocument"
   ],
