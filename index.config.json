@@ -249,7 +249,10 @@
   "site": {
     "landing": "smart-base",
     "agentRun": true,
-    "sharedAssets": "https://litlfred.github.io/smart-html-jtd/"
+    "sharedAssets": "https://litlfred.github.io/smart-html-jtd/",
+    "publishAfter": [
+      "ig-ast-refresh.yml"
+    ]
   },
   "contentTypes": {
     "dak": {
