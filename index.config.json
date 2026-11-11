@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
+          "ref": "eecc826f39eb5ae027ed3eadf2d3ec9acb0a5ebb",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,9 +64,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-10",
-              "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20",
-              "evidence": "Owner card 21:08Z 11-10: merge fhir-harness#358 and fold it into si#131 (artefact index from AST cache)"
+              "on": "2026-11-11",
+              "ref": "eecc826f39eb5ae027ed3eadf2d3ec9acb0a5ebb",
+              "evidence": "Owner 21:50Z 11-10 'Ok. Go' (merge fhir-harness#360, re-pin si, republish) and 21:52Z 'Cql link' (fhir-harness#364, merged 11-11 13:04Z)"
             }
           }
         }

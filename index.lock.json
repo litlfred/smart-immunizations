@@ -9,7 +9,7 @@
     {
       "harness": "fhir-harness",
       "repository": "litlfred/fhir-harness",
-      "ref": "eef2e5742641b2f85c47a29e2f5de8fbd1e70b20"
+      "ref": "eecc826f39eb5ae027ed3eadf2d3ec9acb0a5ebb"
     },
     {
       "harness": "who-iris",
