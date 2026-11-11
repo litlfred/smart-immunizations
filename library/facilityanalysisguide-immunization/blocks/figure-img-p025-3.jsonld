@@ -90,6 +90,6 @@
     }
   ],
   "derivedFrom": "library/facilityanalysisguide-immunization/sections/sec-052",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/facilityanalysisguide-immunization",
   "provenance": "ingested"
 }

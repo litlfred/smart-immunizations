@@ -16,7 +16,7 @@
   "pageStart": 1,
   "pageEnd": 2,
   "text": "../sections/sec-000-table-1-summary-of-who-position-papers-recommend.md",
-  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-1/manifest.jsonld",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/immunization-summary-table-1/manifest.jsonld",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/immunization-summary-table-1",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/immunization-summary-table-1",
   "provenance": "ingested"
 }

@@ -16,7 +16,7 @@
   "pageStart": 16,
   "pageEnd": 17,
   "text": "../sections/sec-028-time-series-see-graphs-6-7-8.md",
-  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/facilityanalysisguide-immunization",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/facilityanalysisguide-immunization",
   "provenance": "ingested"
 }

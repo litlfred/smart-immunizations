@@ -16,7 +16,7 @@
   "pageStart": 18,
   "pageEnd": 18,
   "text": "../sections/sec-031-dropouts-children-who-start-but-dont-complete-th.md",
-  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/facilityanalysisguide-immunization",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/facilityanalysisguide-immunization",
   "provenance": "ingested"
 }

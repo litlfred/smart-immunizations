@@ -16,7 +16,7 @@
   "pageStart": 21,
   "pageEnd": 22,
   "text": "../sections/sec-038-monitor-cold-chain-equipment.md",
-  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
-  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/facilityanalysisguide-immunization/manifest.jsonld",
+  "derivedFrom": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/facilityanalysisguide-immunization",
+  "sourceDocument": "https://litlfred.github.io/folio-assistant/assets/library/jsonld/smart-immunizations/source/facilityanalysisguide-immunization",
   "provenance": "ingested"
 }
