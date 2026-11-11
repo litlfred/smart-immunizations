@@ -27,7 +27,7 @@ permissions:
 
 jobs:
   release:
-    uses: litlfred/fhir-harness/.github/workflows/ig-release.yml@eef2e5742641b2f85c47a29e2f5de8fbd1e70b20 # index.lock.json
+    uses: litlfred/fhir-harness/.github/workflows/ig-release.yml@eecc826f39eb5ae027ed3eadf2d3ec9acb0a5ebb # index.lock.json
     with:
       tag: ${{ inputs.tag || github.ref_name }}
       template-repos: who.template.root=WorldHealthOrganization/smart-ig-template
