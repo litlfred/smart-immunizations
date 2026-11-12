@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="/">
 <head><meta name="fa-shared-asset" data-dir="assets/vendor/crepe/" content="https://litlfred.github.io/smart-html-jtd/shared/assets/vendor/crepe/bbe613e43166c241/">
 <script data-folio-saved-scheme>(function(){var d=document.documentElement,s=null,c="dark";try{s=localStorage.getItem("fa-color-scheme")}catch(e){}if(s!=="light"&&s!=="dark"){s="light";try{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)s="dark"}catch(e){}}try{var n=document.getElementById("fa-site-scheme");if(n)c=JSON.parse(n.textContent).scheme==="light"?"light":"dark"}catch(e){}d.setAttribute("data-fa-scheme",s);var j=window.jtd;if(s!==c&&j&&typeof j.setTheme==="function"){try{j.setTheme(s)}catch(e){}}})();</script>
 
 <meta charset="utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>QA Report — WHO Immunization Implementation Guide</title>
 <link rel="canonical" href="./qa.html">
@@ -137,6 +138,65 @@
   </tbody>
 </table>
 
+<h3 id="markdown-rendering">Markdown rendering</h3>
+
+<p>Each markdown field the artefact pages draw (<code class="language-plaintext highlighter-rouge">description</code>, <code class="language-plaintext highlighter-rouge">definition</code>, <code class="language-plaintext highlighter-rouge">comment</code>, <code class="language-plaintext highlighter-rouge">requirements</code>, <code class="language-plaintext highlighter-rouge">valueMarkdown</code>), drawn by the pages’ own renderer, checked for markup left as plain text. 757 resource(s) scanned.</p>
+
+<p><strong>Findings:</strong> 1 field(s) show markup as text.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>resource</th>
+      <th>field</th>
+      <th>left as text</th>
+      <th>starts with</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition/IMMZ.Observation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">snapshot.element[20].comment</code></td>
+      <td>code</td>
+      <td>For Observations that don’t require review and verification, it may be the same</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="page-scan">Page scan</h3>
+
+<p>Every page of this site opened in a headless browser after the build, and its text checked for markup shown as text. <a href="assets/fhir-qa/page-render.json">Results (JSON)</a></p>
+
+<div class="ig-qa-render" data-src="assets/fhir-qa/page-render.json" data-root=""><p>Loading the page scan…</p><noscript><p>The results are drawn in the browser; without JavaScript, read the JSON above.</p></noscript></div>
+<script src="assets/fhir-qa/page-render.js" defer=""></script>
+
+<h3 id="injection-scan">Injection scan</h3>
+
+<p>Every resource narrative, markdown field and IG page this site publishes (5899 text(s)) is checked for injection attempts before publication: a pattern scan, and an agent’s review kept in the IG’s <code class="language-plaintext highlighter-rouge">qa/ig-content-qa.json</code>. The browser checks each narrative again before drawing it. <a href="assets/fhir-qa/ig-content-qa.json">Verdict (JSON)</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>field</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>state</td>
+      <td>reviewed, no pattern hit and no open finding</td>
+    </tr>
+    <tr>
+      <td>content</td>
+      <td><code class="language-plaintext highlighter-rouge">sha256:16354d8b32561362a59805153864e03ff180657d3a6d42c04488f696ee1041d7</code></td>
+    </tr>
+    <tr>
+      <td>reviewed</td>
+      <td><code class="language-plaintext highlighter-rouge">sha256:16354d8b32561362a59805153864e03ff180657d3a6d42c04488f696ee1041d7</code> by agent <code class="language-plaintext highlighter-rouge">Claude</code> at <code class="language-plaintext highlighter-rouge">2026-11-11T13:23:51.280Z</code></td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="knowledge-graph-qa">Knowledge-graph QA</h2>
 
 <p>The harness’s checks over the knowledge graph, as each instance recorded them. <a href="https://litlfred.github.io/folio-assistant/en/cat-harness/qa/">Every instance’s QA</a> is the harness’s own view of the same graph.</p>
@@ -193,6 +253,16 @@
 </table>
 
 
+<script>(function(){
+var f=document.querySelector("#main-content .pt-diagram[data-panel]");
+if(!f||window.__igTaskPanel)return;
+var p=f.getAttribute("data-panel")||"";
+if(!/^[A-Za-z0-9._-][A-Za-z0-9._/-]*[.]tasks[.]json$/.test(p)||p.indexOf("//")>=0)return;
+window.__igTaskPanel=1;
+var dir=p.replace(/[^/]*$/,"");
+var l=document.createElement("link");l.rel="stylesheet";l.href=dir+"task-panel.css";document.head.appendChild(l);
+var s=document.createElement("script");s.src=dir+"task-panel.js";document.body.appendChild(s);
+})();</script>
 <script>(function(){
 var main=document.getElementById("main-content");
 if(!main||main.querySelector(".igi-contents"))return;

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD18SHepatitisB4Doses.jsonld",
+  "@id": "PlanDefinition-IMMZD18SHepatitisB4Doses",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD18SHepatitisB4Doses",
   "schema:name": "IMMZD18SHepatitisB4Doses",

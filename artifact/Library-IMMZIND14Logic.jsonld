@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZIND14Logic.jsonld",
+  "@id": "Library-IMMZIND14Logic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZIND14Logic",
   "schema:name": "IMMZIND14Logic",

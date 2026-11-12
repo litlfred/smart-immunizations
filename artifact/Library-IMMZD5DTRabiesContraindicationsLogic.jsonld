@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD5DTRabiesContraindicationsLogic.jsonld",
+  "@id": "Library-IMMZD5DTRabiesContraindicationsLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD5DTRabiesContraindicationsLogic",
   "schema:name": "IMMZD5DTRabiesContraindicationsLogic",

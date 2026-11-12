@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-QIMMZD20.jsonld",
+  "@id": "Questionnaire-QIMMZD20",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/QIMMZD20",
   "dcterms:title": "IMMZ.D20.Does client require a verifiable digital certificate",

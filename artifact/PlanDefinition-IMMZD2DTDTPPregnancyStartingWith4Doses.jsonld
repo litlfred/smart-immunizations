@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTDTPPregnancyStartingWith4Doses.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTDTPPregnancyStartingWith4Doses",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTDTPPregnancyStartingWith4Doses",
   "schema:name": "IMMZD2DTDTPPregnancyStartingWith4Doses",

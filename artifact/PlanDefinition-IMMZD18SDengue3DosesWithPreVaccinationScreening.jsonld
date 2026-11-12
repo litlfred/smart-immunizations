@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD18SDengue3DosesWithPreVaccinationScreening.jsonld",
+  "@id": "PlanDefinition-IMMZD18SDengue3DosesWithPreVaccinationScreening",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD18SDengue3DosesWithPreVaccinationScreening",
   "schema:name": "IMMZD18SDengue3DosesWithPreVaccinationScreening",

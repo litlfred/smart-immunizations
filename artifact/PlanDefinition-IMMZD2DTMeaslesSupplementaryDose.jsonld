@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTMeaslesSupplementaryDose.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTMeaslesSupplementaryDose",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTMeaslesSupplementaryDose",
   "schema:name": "IMMZD2DTMeaslesSupplementaryDose",

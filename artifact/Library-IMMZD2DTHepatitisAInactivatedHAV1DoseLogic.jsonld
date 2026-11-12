@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTHepatitisAInactivatedHAV1DoseLogic.jsonld",
+  "@id": "Library-IMMZD2DTHepatitisAInactivatedHAV1DoseLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTHepatitisAInactivatedHAV1DoseLogic",
   "schema:name": "IMMZD2DTHepatitisAInactivatedHAV1DoseLogic",

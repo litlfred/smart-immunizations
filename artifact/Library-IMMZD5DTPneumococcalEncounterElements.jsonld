@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD5DTPneumococcalEncounterElements.jsonld",
+  "@id": "Library-IMMZD5DTPneumococcalEncounterElements",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD5DTPneumococcalEncounterElements",
   "schema:name": "IMMZD5DTPneumococcalEncounterElements",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-QIMMZD2.jsonld",
+  "@id": "Questionnaire-QIMMZD2",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/QIMMZD2",
   "dcterms:title": "IMMZ.D2.Determine required vaccination(s)",

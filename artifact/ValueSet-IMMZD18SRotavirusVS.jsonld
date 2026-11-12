@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SRotavirusVS.jsonld",
+  "@id": "ValueSet-IMMZD18SRotavirusVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SRotavirusVS",
   "schema:name": "IMMZD18SRotavirusVS",

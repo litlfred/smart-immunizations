@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD18SMeaslesLowTransmissionLogic.jsonld",
+  "@id": "Library-IMMZD18SMeaslesLowTransmissionLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD18SMeaslesLowTransmissionLogic",
   "schema:name": "IMMZD18SMeaslesLowTransmissionLogic",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZ.D.DE232.jsonld",
+  "@id": "ValueSet-IMMZ.D.DE232",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZ.D.DE232",
   "schema:name": "IMMZ_D_DE232",

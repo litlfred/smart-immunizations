@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-IMMZD2.jsonld",
+  "@id": "StructureDefinition-IMMZD2",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/IMMZD2",
   "schema:name": "IMMZ_D2_Determine_required_vaccination_s_",

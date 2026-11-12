@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SJELiveAttenuatedVaccineVS.jsonld",
+  "@id": "ValueSet-IMMZD18SJELiveAttenuatedVaccineVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SJELiveAttenuatedVaccineVS",
   "schema:name": "IMMZD18SJELiveAttenuatedVaccineVS",

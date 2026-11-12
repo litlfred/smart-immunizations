@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTPolioIPVOnly.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTPolioIPVOnly",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTPolioIPVOnly",
   "schema:name": "IMMZD2DTPolioIPVOnly",

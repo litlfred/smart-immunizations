@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "RelatedPerson-IMMZ.C.Caregiver.1.jsonld",
+  "@id": "RelatedPerson-IMMZ.C.Caregiver.1",
   "@type": "fhir:RelatedPerson",
   "dcterms:identifier": "RelatedPerson/IMMZ.C.Caregiver.1",
   "dcterms:title": "IMMZ.C.Caregiver.1",

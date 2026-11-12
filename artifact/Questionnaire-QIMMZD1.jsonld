@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-QIMMZD1.jsonld",
+  "@id": "Questionnaire-QIMMZD1",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/QIMMZD1",
   "dcterms:title": "IMMZ.D1.Capture or update client history",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTTBEElements.jsonld",
+  "@id": "Library-IMMZD2DTTBEElements",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTTBEElements",
   "schema:name": "IMMZD2DTTBEElements",

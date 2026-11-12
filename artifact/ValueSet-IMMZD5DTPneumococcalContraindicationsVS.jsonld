@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD5DTPneumococcalContraindicationsVS.jsonld",
+  "@id": "ValueSet-IMMZD5DTPneumococcalContraindicationsVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD5DTPneumococcalContraindicationsVS",
   "schema:name": "IMMZD5DTPneumococcalContraindicationsVS",

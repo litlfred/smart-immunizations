@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD2DTPolioBOPVPlusIPVVS.jsonld",
+  "@id": "ValueSet-IMMZD2DTPolioBOPVPlusIPVVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD2DTPolioBOPVPlusIPVVS",
   "schema:name": "IMMZD2DTPolioBOPVPlusIPVVS",

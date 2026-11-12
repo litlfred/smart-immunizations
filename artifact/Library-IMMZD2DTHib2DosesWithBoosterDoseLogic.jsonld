@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTHib2DosesWithBoosterDoseLogic.jsonld",
+  "@id": "Library-IMMZD2DTHib2DosesWithBoosterDoseLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTHib2DosesWithBoosterDoseLogic",
   "schema:name": "IMMZD2DTHib2DosesWithBoosterDoseLogic",

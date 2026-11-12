@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SDTPDelayedOrInterruptedSeriesVS.jsonld",
+  "@id": "ValueSet-IMMZD18SDTPDelayedOrInterruptedSeriesVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SDTPDelayedOrInterruptedSeriesVS",
   "schema:name": "IMMZD18SDTPDelayedOrInterruptedSeriesVS",

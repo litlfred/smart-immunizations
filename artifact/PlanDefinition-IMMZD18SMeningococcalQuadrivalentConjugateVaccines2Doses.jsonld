@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD18SMeningococcalQuadrivalentConjugateVaccines2Doses.jsonld",
+  "@id": "PlanDefinition-IMMZD18SMeningococcalQuadrivalentConjugateVaccines2Doses",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD18SMeningococcalQuadrivalentConjugateVaccines2Doses",
   "schema:name": "IMMZD18SMeningococcalQuadrivalentConjugateVaccines2Doses",

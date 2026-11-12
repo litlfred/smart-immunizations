@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActorDefinition-IMMZ.Persona.Caregiver.jsonld",
+  "@id": "ActorDefinition-IMMZ.Persona.Caregiver",
   "@type": "fhir:ActorDefinition",
   "dcterms:identifier": "ActorDefinition/IMMZ.Persona.Caregiver",
   "schema:name": "Caregiver",

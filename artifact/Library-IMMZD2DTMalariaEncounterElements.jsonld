@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTMalariaEncounterElements.jsonld",
+  "@id": "Library-IMMZD2DTMalariaEncounterElements",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTMalariaEncounterElements",
   "schema:name": "IMMZD2DTMalariaEncounterElements",

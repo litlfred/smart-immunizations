@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD18STyphoidViPSLogic.jsonld",
+  "@id": "Library-IMMZD18STyphoidViPSLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD18STyphoidViPSLogic",
   "schema:name": "IMMZD18STyphoidViPSLogic",

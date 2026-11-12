@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-IMMZ.Patient.jsonld",
+  "@id": "StructureDefinition-IMMZ.Patient",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/IMMZ.Patient",
   "schema:name": "IMMZPatient",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-IMMZC4.jsonld",
+  "@id": "StructureDefinition-IMMZC4",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/IMMZC4",
   "schema:name": "IMMZ_C4_Create_client_record",

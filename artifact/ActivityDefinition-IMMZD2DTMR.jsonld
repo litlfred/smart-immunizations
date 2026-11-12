@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActivityDefinition-IMMZD2DTMR.jsonld",
+  "@id": "ActivityDefinition-IMMZD2DTMR",
   "@type": "fhir:ActivityDefinition",
   "dcterms:identifier": "ActivityDefinition/IMMZD2DTMR",
   "schema:name": "IMMZD2DTMedicationRequest",

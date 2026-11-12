@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTTBEFSMEImmunLogic.jsonld",
+  "@id": "Library-IMMZD2DTTBEFSMEImmunLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTTBEFSMEImmunLogic",
   "schema:name": "IMMZD2DTTBEFSMEImmunLogic",

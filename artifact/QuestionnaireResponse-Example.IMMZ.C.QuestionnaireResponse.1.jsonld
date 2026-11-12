@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "QuestionnaireResponse-Example.IMMZ.C.QuestionnaireResponse.1.jsonld",
+  "@id": "QuestionnaireResponse-Example.IMMZ.C.QuestionnaireResponse.1",
   "@type": "fhir:QuestionnaireResponse",
   "dcterms:identifier": "QuestionnaireResponse/Example.IMMZ.C.QuestionnaireResponse.1",
   "dcterms:title": "Example.IMMZ.C.QuestionnaireResponse.1",

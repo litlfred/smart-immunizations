@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SMeningococcalPolysaccharideVaccinesVS.jsonld",
+  "@id": "ValueSet-IMMZD18SMeningococcalPolysaccharideVaccinesVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SMeningococcalPolysaccharideVaccinesVS",
   "schema:name": "IMMZD18SMeningococcalPolysaccharideVaccinesVS",

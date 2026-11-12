@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD18SDTPOnTimeStart.jsonld",
+  "@id": "PlanDefinition-IMMZD18SDTPOnTimeStart",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD18SDTPOnTimeStart",
   "schema:name": "IMMZD18SDTPOnTimeStart",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureMap-IMMZ.C4.QRToPatient.jsonld",
+  "@id": "StructureMap-IMMZ.C4.QRToPatient",
   "@type": "fhir:StructureMap",
   "dcterms:identifier": "StructureMap/IMMZ.C4.QRToPatient",
   "schema:name": "IMMZ.C4.QRToPatient",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-IMMZD21.jsonld",
+  "@id": "StructureDefinition-IMMZD21",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/IMMZD21",
   "schema:name": "IMMZ_D21_Generate_verifiable_digital_certificate",

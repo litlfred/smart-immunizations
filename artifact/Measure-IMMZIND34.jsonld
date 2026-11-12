@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Measure-IMMZIND34.jsonld",
+  "@id": "Measure-IMMZIND34",
   "@type": "fhir:Measure",
   "dcterms:identifier": "Measure/IMMZIND34",
   "schema:name": "IMMZIND34",

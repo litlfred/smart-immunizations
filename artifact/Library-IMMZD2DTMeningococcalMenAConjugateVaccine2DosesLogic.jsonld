@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTMeningococcalMenAConjugateVaccine2DosesLogic.jsonld",
+  "@id": "Library-IMMZD2DTMeningococcalMenAConjugateVaccine2DosesLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTMeningococcalMenAConjugateVaccine2DosesLogic",
   "schema:name": "IMMZD2DTMeningococcalMenAConjugateVaccine2DosesLogic",

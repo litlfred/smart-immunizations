@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ConceptMap-IMMZ.Z.ConceptMap.jsonld",
+  "@id": "ConceptMap-IMMZ.Z.ConceptMap",
   "@type": "fhir:ConceptMap",
   "dcterms:identifier": "ConceptMap/IMMZ.Z.ConceptMap",
   "schema:name": "IMMZ_Z_ConceptMap",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD5DTMeningococcalContraindicationsLogic.jsonld",
+  "@id": "Library-IMMZD5DTMeningococcalContraindicationsLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD5DTMeningococcalContraindicationsLogic",
   "schema:name": "IMMZD5DTMeningococcalContraindicationsLogic",

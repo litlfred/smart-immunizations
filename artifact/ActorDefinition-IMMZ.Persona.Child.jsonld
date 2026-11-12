@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActorDefinition-IMMZ.Persona.Child.jsonld",
+  "@id": "ActorDefinition-IMMZ.Persona.Child",
   "@type": "fhir:ActorDefinition",
   "dcterms:identifier": "ActorDefinition/IMMZ.Persona.Child",
   "schema:name": "Child",

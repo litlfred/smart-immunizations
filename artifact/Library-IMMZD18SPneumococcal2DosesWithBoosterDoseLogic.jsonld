@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD18SPneumococcal2DosesWithBoosterDoseLogic.jsonld",
+  "@id": "Library-IMMZD18SPneumococcal2DosesWithBoosterDoseLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD18SPneumococcal2DosesWithBoosterDoseLogic",
   "schema:name": "IMMZD18SPneumococcal2DosesWithBoosterDoseLogic",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTHepatitisAElements.jsonld",
+  "@id": "Library-IMMZD2DTHepatitisAElements",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTHepatitisAElements",
   "schema:name": "IMMZD2DTHepatitisAElements",

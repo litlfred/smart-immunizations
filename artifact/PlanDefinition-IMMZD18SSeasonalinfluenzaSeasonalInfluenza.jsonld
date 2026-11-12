@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD18SSeasonalinfluenzaSeasonalInfluenza.jsonld",
+  "@id": "PlanDefinition-IMMZD18SSeasonalinfluenzaSeasonalInfluenza",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD18SSeasonalinfluenzaSeasonalInfluenza",
   "schema:name": "IMMZD18SSeasonalinfluenzaSeasonalInfluenza",

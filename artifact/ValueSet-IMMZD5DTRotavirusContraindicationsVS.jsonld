@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD5DTRotavirusContraindicationsVS.jsonld",
+  "@id": "ValueSet-IMMZD5DTRotavirusContraindicationsVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD5DTRotavirusContraindicationsVS",
   "schema:name": "IMMZD5DTRotavirusContraindicationsVS",

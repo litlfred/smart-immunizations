@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SDengue3DosesWithPreVaccinationScreeningVS.jsonld",
+  "@id": "ValueSet-IMMZD18SDengue3DosesWithPreVaccinationScreeningVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SDengue3DosesWithPreVaccinationScreeningVS",
   "schema:name": "IMMZD18SDengue3DosesWithPreVaccinationScreeningVS",

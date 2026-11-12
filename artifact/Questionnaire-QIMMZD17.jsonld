@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-QIMMZD17.jsonld",
+  "@id": "Questionnaire-QIMMZD17",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/QIMMZD17",
   "dcterms:title": "IMMZ.D17.Report AEFI",

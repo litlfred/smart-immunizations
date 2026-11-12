@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD5DTRotavirusContraindicationsLogic.jsonld",
+  "@id": "Library-IMMZD5DTRotavirusContraindicationsLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD5DTRotavirusContraindicationsLogic",
   "schema:name": "IMMZD5DTRotavirusContraindicationsLogic",

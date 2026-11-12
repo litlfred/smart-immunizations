@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseVS.jsonld",
+  "@id": "ValueSet-IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseVS",
   "schema:name": "IMMZD2DTMeningococcalQuadrivalentConjugateVaccines1DoseVS",

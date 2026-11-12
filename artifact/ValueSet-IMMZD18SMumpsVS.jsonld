@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SMumpsVS.jsonld",
+  "@id": "ValueSet-IMMZD18SMumpsVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SMumpsVS",
   "schema:name": "IMMZD18SMumpsVS",

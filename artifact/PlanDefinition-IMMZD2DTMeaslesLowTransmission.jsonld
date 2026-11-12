@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTMeaslesLowTransmission.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTMeaslesLowTransmission",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTMeaslesLowTransmission",
   "schema:name": "IMMZD2DTMeaslesLowTransmission",

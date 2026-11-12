@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ActorDefinition-IMMZ.Persona.CommunityHealthWorker.jsonld",
+  "@id": "ActorDefinition-IMMZ.Persona.CommunityHealthWorker",
   "@type": "fhir:ActorDefinition",
   "dcterms:identifier": "ActorDefinition/IMMZ.Persona.CommunityHealthWorker",
   "schema:name": "CommunityHealthWorker",

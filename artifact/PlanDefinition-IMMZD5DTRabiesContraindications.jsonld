@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD5DTRabiesContraindications.jsonld",
+  "@id": "PlanDefinition-IMMZD5DTRabiesContraindications",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD5DTRabiesContraindications",
   "schema:name": "IMMZD5DTRabiesContraindications",

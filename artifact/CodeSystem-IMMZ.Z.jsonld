@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "CodeSystem-IMMZ.Z.jsonld",
+  "@id": "CodeSystem-IMMZ.Z",
   "@type": "fhir:CodeSystem",
   "dcterms:identifier": "CodeSystem/IMMZ.Z",
   "schema:name": "IMMZ_Z",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD2DTRotavirusEncounterElements.jsonld",
+  "@id": "Library-IMMZD2DTRotavirusEncounterElements",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD2DTRotavirusEncounterElements",
   "schema:name": "IMMZD2DTRotavirusEncounterElements",

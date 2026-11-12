@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD18STBETBEMoscowLogic.jsonld",
+  "@id": "Library-IMMZD18STBETBEMoscowLogic",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD18STBETBEMoscowLogic",
   "schema:name": "IMMZD18STBETBEMoscowLogic",

@@ -39,16 +39,54 @@
   "use strict";
 
   // Two page families share this renderer and its helpers: an artefact's own
-  // page (`ig-artifact-page`) and the IG's list pages, `artifacts.html` and
-  // `toc.html` (`ig-index-page`), which draw the one index node.
+  // page and the IG's list pages, `artifacts.html` and `toc.html`
+  // (`ig-index-page`), which draw the one index node.
+  //
+  // An artefact's page DECLARES its node (cat-harness-tools#1830): RDFa
+  // `resource`/`typeof fhir:<Type>` on its <main>, the JSON-LD node as the
+  // head's `alternate`, and what else it needs as `data-kg-*` on <main>. The
+  // generic renderer (`kg-render.js`) hands it over for any FHIR class. A page
+  // from before that (`ig-artifact-page`) and the list pages carry a config
+  // block, read as before.
+  var FHIR_NS = "http://hl7.org/fhir/";
   var cfgEl = document.getElementById("ig-artifact-page") || document.getElementById("ig-index-page");
-  var indexView = !!cfgEl && cfgEl.id === "ig-index-page";
-  var cfg;
-  try {
-    cfg = JSON.parse(cfgEl.textContent);
-  } catch (_e) {
+  if (cfgEl) {
+    var parsed;
+    try {
+      parsed = JSON.parse(cfgEl.textContent);
+    } catch (_e) {
+      return;
+    }
+    run(parsed, cfgEl.id === "ig-index-page");
     return;
   }
+  (window.kgRenderers = window.kgRenderers || []).push({
+    match: FHIR_NS,
+    render: function (c) {
+      run(declaredConfig(c), false);
+    },
+  });
+
+  // The config a declaring page carries, in the shape the config block had.
+  function declaredConfig(c) {
+    var a = function (k) {
+      var v = c.element.getAttribute("data-kg-" + k);
+      return v === null ? undefined : v;
+    };
+    var cfg = { node: c.alternates["application/ld+json"] || c.iri + ".jsonld" };
+    var plain = { view: "view", home: "home", toc: "toc", footer: "footer", prev: "prev", next: "next", resource: "resource", pages: "pages", index: "index", definitions: "definitions", published: "published", astLoader: "ast-loader" };
+    for (var k in plain) if (a(plain[k]) !== undefined) cfg[k] = a(plain[k]);
+    if (a("views")) cfg.views = a("views").split(/\s+/);
+    if (a("sidecar-jsonld") || a("sidecar-schema")) {
+      cfg.sidecars = {};
+      if (a("sidecar-jsonld")) cfg.sidecars.jsonld = a("sidecar-jsonld");
+      if (a("sidecar-schema")) cfg.sidecars.schema = a("sidecar-schema");
+    }
+    if (a("history-versions")) cfg.history = { versions: a("history-versions"), repository: a("history-repository"), resourceType: a("history-type"), id: a("history-id") };
+    return cfg;
+  }
+
+  function run(cfg, indexView) {
   var body = document.querySelector(".iga-body");
   var state = body && body.querySelector(".iga-state");
 
@@ -84,12 +122,21 @@
     }
   }
 
+  // The page's shared load counter, the object every loader on it uses
+  // (kg-render.js, ig-footer.js, ...): the last to finish marks the page loaded.
+  function loads() {
+    return (window.__kgLoads = window.__kgLoads || {
+      pending: 0,
+      done: function () {
+        if (--this.pending === 0) document.documentElement.setAttribute("data-kg-loaded", "");
+      },
+    });
+  }
   function begin() {
-    window.__kgLoads = (window.__kgLoads || 0) + 1;
+    loads().pending++;
   }
   function end() {
-    window.__kgLoads -= 1;
-    if (window.__kgLoads <= 0) document.documentElement.setAttribute("data-kg-loaded", "");
+    loads().done();
   }
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -97,13 +144,22 @@
     if (text !== undefined && text !== null) e.textContent = String(text);
     return e;
   }
+  /* A link target as an http(s) URL resolved against the page, or null: a
+     value read from the page (a data-kg-* attribute) never becomes a
+     javascript: or data: link. */
   function safe(href) {
-    return /^(https?:|\.{0,2}\/|[^:]*$)/i.test(href);
+    try {
+      var u = new URL(String(href), document.baseURI);
+      return u.protocol === "http:" || u.protocol === "https:" ? u.href : null;
+    } catch (_e) {
+      return null;
+    }
   }
   function link(href, text, external) {
-    if (!href || !safe(href)) return el("span", null, text);
+    var url = href ? safe(href) : null;
+    if (!url) return el("span", null, text);
     var a = el("a", null, text);
-    a.href = href;
+    a.href = url;
     if (external) a.rel = "external";
     return a;
   }
@@ -323,6 +379,7 @@
     var frag = document.createDocumentFragment();
     var cols;
     var rows = [];
+    var rowIds = [];
     var title;
     if (resource.resourceType === "StructureDefinition") {
       var list = (resource.differential && resource.differential.element) || (resource.snapshot && resource.snapshot.element) || [];
@@ -335,6 +392,9 @@
       var flat = [];
       (function walk(cs, depth) {
         cs.forEach(function (c) {
+          // Each concept's row is anchored as the IG Publisher anchors it, `<CodeSystem id>-<code>`,
+          // so a link to one code (a diagram's, another guide's) lands on its row.
+          rowIds.push(resource.id + "-" + c.code);
           flat.push([new Array(depth + 1).join("· ") + c.code, c.display || "", c.definition || ""]);
           if (c.concept) walk(c.concept, depth + 1);
         });
@@ -377,8 +437,9 @@
     thead.append(tr);
     t.append(thead);
     var tb = el("tbody");
-    rows.forEach(function (r) {
+    rows.forEach(function (r, n) {
       var x = el("tr");
+      if (rowIds[n]) x.id = rowIds[n];
       r.forEach(function (v, i) {
         x.append(el("td", i === 0 ? "iga-code" : null, v));
       });
@@ -388,6 +449,13 @@
     var wrap = el("div", "iga-scroll");
     wrap.append(t);
     frag.append(wrap);
+    // The rows are drawn after the page loaded, so the browser's own jump to `#<id>` found nothing: jump once they are in.
+    if (rowIds.length && location.hash.length > 1) {
+      setTimeout(function () {
+        var to = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (to) to.scrollIntoView();
+      }, 0);
+    }
     return frag;
   }
 
@@ -627,7 +695,7 @@
         hits.forEach(function (p) {
           var tr = el("tr");
           var name = el("td");
-          name.append(link(String(p["@id"]).split("/").pop().replace(/\.jsonld$/, ".html"), p["dcterms:title"]));
+          name.append(link(String(p["@id"]).split("/").pop().replace(/\.jsonld$/, "") + ".html", p["dcterms:title"]));
           name.append(el("div", "igi-key", p["dcterms:identifier"]));
           tr.append(name, el("td", "igi-type", typeOf(p)));
           tb.append(tr);
@@ -1000,7 +1068,7 @@
   }
   /* An entry's page: its node's file name with .html, in the artefact pages' directory. */
   function pageOf(p) {
-    var file = String(p["@id"]).split("/").pop().replace(/\.jsonld$/, ".html");
+    var file = String(p["@id"]).split("/").pop().replace(/\.jsonld$/, "") + ".html";
     return cfg.pages + file;
   }
   /* The first paragraph of a description, as a list row shows it. */
@@ -1365,4 +1433,5 @@
       fail(cfg.node, err);
     })
     .then(end, end);
+  }
 })();

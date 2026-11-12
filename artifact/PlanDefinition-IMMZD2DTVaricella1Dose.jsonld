@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTVaricella1Dose.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTVaricella1Dose",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTVaricella1Dose",
   "schema:name": "IMMZD2DTVaricella1Dose",

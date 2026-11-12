@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTYellowfeverYellowFever.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTYellowfeverYellowFever",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTYellowfeverYellowFever",
   "schema:name": "IMMZD2DTYellowfeverYellowFever",

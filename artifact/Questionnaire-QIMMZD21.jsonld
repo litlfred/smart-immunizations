@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-QIMMZD21.jsonld",
+  "@id": "Questionnaire-QIMMZD21",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/QIMMZD21",
   "dcterms:title": "IMMZ.D21.Generate verifiable digital certificate",

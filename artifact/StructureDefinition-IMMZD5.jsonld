@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-IMMZD5.jsonld",
+  "@id": "StructureDefinition-IMMZD5",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/IMMZD5",
   "schema:name": "IMMZ_D5_Determine_vaccine_s__to_be_administered_based_on_contraindications",

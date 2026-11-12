@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SMeaslesSupplementaryDoseVS.jsonld",
+  "@id": "ValueSet-IMMZD18SMeaslesSupplementaryDoseVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SMeaslesSupplementaryDoseVS",
   "schema:name": "IMMZD18SMeaslesSupplementaryDoseVS",

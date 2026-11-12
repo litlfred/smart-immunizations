@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTHPVSingleDose.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTHPVSingleDose",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTHPVSingleDose",
   "schema:name": "IMMZD2DTHPVSingleDose",

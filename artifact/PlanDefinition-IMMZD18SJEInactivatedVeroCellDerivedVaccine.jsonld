@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD18SJEInactivatedVeroCellDerivedVaccine.jsonld",
+  "@id": "PlanDefinition-IMMZD18SJEInactivatedVeroCellDerivedVaccine",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD18SJEInactivatedVeroCellDerivedVaccine",
   "schema:name": "IMMZD18SJEInactivatedVeroCellDerivedVaccine",

@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "PlanDefinition-IMMZD2DTPneumococcal2DosesWithBoosterDose.jsonld",
+  "@id": "PlanDefinition-IMMZD2DTPneumococcal2DosesWithBoosterDose",
   "@type": "fhir:PlanDefinition",
   "dcterms:identifier": "PlanDefinition/IMMZD2DTPneumococcal2DosesWithBoosterDose",
   "schema:name": "IMMZD2DTPneumococcal2DosesWithBoosterDose",

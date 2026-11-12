@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD5DTHPVContraindicationsVS.jsonld",
+  "@id": "ValueSet-IMMZD5DTHPVContraindicationsVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD5DTHPVContraindicationsVS",
   "schema:name": "IMMZD5DTHPVContraindicationsVS",

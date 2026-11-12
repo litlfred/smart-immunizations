@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureDefinition-IMMZD13.jsonld",
+  "@id": "StructureDefinition-IMMZD13",
   "@type": "fhir:StructureDefinition",
   "dcterms:identifier": "StructureDefinition/IMMZD13",
   "schema:name": "IMMZ_D13_Update_client_record",

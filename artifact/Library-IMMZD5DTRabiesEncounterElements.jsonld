@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Library-IMMZD5DTRabiesEncounterElements.jsonld",
+  "@id": "Library-IMMZD5DTRabiesEncounterElements",
   "@type": "fhir:Library",
   "dcterms:identifier": "Library/IMMZD5DTRabiesEncounterElements",
   "schema:name": "IMMZD5DTRabiesEncounterElements",

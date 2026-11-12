@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "ValueSet-IMMZD18SDTPOnTimeStartVS.jsonld",
+  "@id": "ValueSet-IMMZD18SDTPOnTimeStartVS",
   "@type": "fhir:ValueSet",
   "dcterms:identifier": "ValueSet/IMMZD18SDTPOnTimeStartVS",
   "schema:name": "IMMZD18SDTPOnTimeStartVS",

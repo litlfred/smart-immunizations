@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "StructureMap-IMMZ.D1.QRToBundle.jsonld",
+  "@id": "StructureMap-IMMZ.D1.QRToBundle",
   "@type": "fhir:StructureMap",
   "dcterms:identifier": "StructureMap/IMMZ.D1.QRToBundle",
   "schema:name": "IMMZ.D1.QRToBundle",

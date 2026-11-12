@@ -6,7 +6,7 @@
     "prov": "http://www.w3.org/ns/prov#"
   },
   "$schema": "folio-ig-artifact-jsonld/v1",
-  "@id": "Questionnaire-QIMMZC4.jsonld",
+  "@id": "Questionnaire-QIMMZC4",
   "@type": "fhir:Questionnaire",
   "dcterms:identifier": "Questionnaire/QIMMZC4",
   "dcterms:title": "IMMZ.C4.Create client record",
