@@ -3,7 +3,7 @@
   "id": "https://smart.who.int/immunizations/graph/l1-scenarios/immz-measles-wer9217",
   "type": "Entity",
   "ontologyVersion": "1.0",
-  "generatedAt": "2026-10-14T20:25:16Z",
+  "generatedAt": "2026-11-12T13:02:13Z",
   "wasDerivedFrom": [
     {
       "path": "examples/l1-recommendation-scenarios/measles/measles-position-paper-2017.l1.yaml",
@@ -19,8 +19,8 @@
     },
     {
       "path": "smart-base/scripts/fixtures/l1-recommendation-scenarios/smart-base-generic-personas.json",
-      "sha256": "bb8750b358c807e5c7f40fbe2c7d943520f70acb4e0e0e3ad0f615b35f3df283",
-      "note": "smart-base's generic personas, read at litlfred/smart-base@3d867866d9fcf980a85a5eb7efa9955fc0b83642."
+      "sha256": "fa33902453047ae0f8f913a05bf5e6b3000a5084c553975923003c0f3267c4e5",
+      "note": "smart-base's generic personas, read at litlfred/smart-base@417720453eb28a142a503cc96afb38efc6e42386."
     },
     {
       "path": "examples/l1-recommendation-scenarios/measles/measles-immz-mapping.yaml",
@@ -1396,7 +1396,7 @@
           "3120"
         ],
         "personaType": "person",
-        "source": "litlfred/smart-base@3d86786:input/fsh/actors/DAK.Persona.DataManager.fsh (Instance: DAK.Persona.DataManager)",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.DataManager.fsh (Instance: DAK.Persona.DataManager)",
         "resolutionStatus": "resolved"
       }
     },
@@ -1417,7 +1417,7 @@
           "4311"
         ],
         "personaType": "person",
-        "source": "litlfred/smart-base@3d86786:input/fsh/actors/DAK.Persona.HealthSystemManager.fsh (Instance: DAK.Persona.HealthSystemManager)",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthSystemManager.fsh (Instance: DAK.Persona.HealthSystemManager)",
         "resolutionStatus": "resolved"
       }
     },
@@ -1444,7 +1444,7 @@
           "3255"
         ],
         "personaType": "person",
-        "source": "litlfred/smart-base@3d86786:input/fsh/actors/DAK.Persona.HealthcareProvider.fsh (Instance: DAK.Persona.HealthcareProvider)",
+        "source": "litlfred/smart-base@4177204:input/fsh/actors/DAK.Persona.HealthcareProvider.fsh (Instance: DAK.Persona.HealthcareProvider)",
         "resolutionStatus": "resolved"
       }
     },
