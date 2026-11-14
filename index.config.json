@@ -272,7 +272,10 @@
       "publisher": {
         "name": "WHO",
         "url": "http://who.int"
-      }
+      },
+      "testSpecifications": [
+        "input/testing/"
+      ]
     },
     "ig": {
       "_comment": "What this repository is, per the content types its layers register (bean folio-assistant-cz17). `dak`: smart-base's DAK content type (`smart-base/schemas/dak-content-type.ts`, indexSection `dak`), the declaration that was `dak.json` until 2026-10-30 (owner card 2026-10-30T15:38Z, \"B. Use litlfred workflow now\"; smart-base#156 is the model). `ig`: fhir-harness's `ig` content type; `include` is everything the harness reads in this repository, and nothing else is read (owner, 2026-10-30: \"harness desclares what it it pays attention to in the repo\"). It lists every `input/` entry the build used before the section existed, so nothing is dropped; sushi-config.yaml stays SUSHI's file.",
