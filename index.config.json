@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "bfea0cc9b8ae3156e3a2808c33d5b8928c8c7a08",
+          "ref": "53484378e4fd06a7ae4a720ebbcda9ee99f26417",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -42,8 +42,8 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "bfea0cc9b8ae3156e3a2808c33d5b8928c8c7a08",
+              "on": "2026-11-14",
+              "ref": "53484378e4fd06a7ae4a720ebbcda9ee99f26417",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\" (card \"Re-pin\" option 1); moving who-iris alone fails lock:coherence:check, which requires every layer at its main in the same re-pin"
             }
           }
@@ -55,7 +55,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "9d723f1aa4a0af8fdedd42247805df103f061e99",
+          "ref": "9c04b6fa237c2ab5f6217ffcb42c760f3783b2f3",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -64,8 +64,8 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "9d723f1aa4a0af8fdedd42247805df103f061e99",
+              "on": "2026-11-14",
+              "ref": "9c04b6fa237c2ab5f6217ffcb42c760f3783b2f3",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\" (card \"Re-pin\" option 1); moving who-iris alone fails lock:coherence:check, which requires every layer at its main in the same re-pin"
             }
           }
@@ -77,7 +77,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "6cc38d7a618de57a9a69f6f555c65bd95f089cc5",
+          "ref": "5a6a9c0da27b7619b8720468ecd0e3bb9978224d",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -101,8 +101,8 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "6cc38d7a618de57a9a69f6f555c65bd95f089cc5",
+              "on": "2026-11-14",
+              "ref": "5a6a9c0da27b7619b8720468ecd0e3bb9978224d",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\", card \"Re-pin\" option 1 (smart-immunizations, smart-immunizations-uganda, smart-trust)"
             }
           }
@@ -114,7 +114,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "4f46ca7cd19c51efc3cf1f327e78638fdf720800",
+          "ref": "4e78fc4c51bc448d53f873da3115df5f53b5f526",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -129,8 +129,8 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "4f46ca7cd19c51efc3cf1f327e78638fdf720800",
+              "on": "2026-11-14",
+              "ref": "4e78fc4c51bc448d53f873da3115df5f53b5f526",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\" (card \"Re-pin\" option 1); moving who-iris alone fails lock:coherence:check, which requires every layer at its main in the same re-pin"
             }
           }
@@ -142,7 +142,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "adaa9bd06c07f4a3048a6908336eb8d68289faf6",
+          "ref": "775426b8e6d72a2baf036065564554794df71ee0",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -157,8 +157,8 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "adaa9bd06c07f4a3048a6908336eb8d68289faf6",
+              "on": "2026-11-14",
+              "ref": "775426b8e6d72a2baf036065564554794df71ee0",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\" (card \"Re-pin\" option 1); moving who-iris alone fails lock:coherence:check, which requires every layer at its main in the same re-pin"
             }
           }
@@ -170,7 +170,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "bfefdc4c2d1373819f4162c06df5bba63890abd6",
+          "ref": "47c631d2850b87987af8d072607356318a633b62",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -182,8 +182,8 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "bfefdc4c2d1373819f4162c06df5bba63890abd6",
+              "on": "2026-11-14",
+              "ref": "47c631d2850b87987af8d072607356318a633b62",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\" (card \"Re-pin\" option 1); moving who-iris alone fails lock:coherence:check, which requires every layer at its main in the same re-pin"
             }
           }
@@ -204,7 +204,7 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
+              "on": "2026-11-14",
               "ref": "17204fe9ed49e87b165bf0a8b626b6c69329a2a6",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\" (card \"Re-pin\" option 1); moving who-iris alone fails lock:coherence:check, which requires every layer at its main in the same re-pin"
             }
@@ -217,7 +217,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
+          "ref": "b653e0577a1649969319196ec738353fe2068793",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -229,8 +229,8 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-13",
-              "ref": "0f88368db7560afac6d3e16fd905cbb974350f82",
+              "on": "2026-11-14",
+              "ref": "b653e0577a1649969319196ec738353fe2068793",
               "evidence": "Owner litlfred, first-hand in session_01VQDpPbqnwyoWW5d3Rc1vEk 2026-11-13: \"watch who-iris#262 and repin when merged\" (card \"Re-pin\" option 1); moving who-iris alone fails lock:coherence:check, which requires every layer at its main in the same re-pin"
             }
           }
