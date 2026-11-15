@@ -7,9 +7,9 @@
   "source": {
     "repo": "litlfred/smart-immunizations",
     "ref": "main",
-    "commit": "95e6177b794585771374a68850af86723dec0ec5"
+    "commit": "6d7d44479ab2e26fa696fcb5ef6a8fc1cd1ad312"
   },
-  "builtAt": "2026-11-15T09:14:51.183Z",
+  "builtAt": "2026-11-15T13:17:14.278Z",
   "ast": {
     "commit": "fe6609d14c2dcb7eb72788a4c85cfed2f467cc52",
     "verdict": "valid",
