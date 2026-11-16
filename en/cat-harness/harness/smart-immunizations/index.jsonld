@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@id": "https://litlfred.github.io/smart-immunizations/en/cat-harness/harness/smart-immunizations/",
+  "url": "https://litlfred.github.io/smart-immunizations/en/cat-harness/harness/smart-immunizations/",
+  "@type": "WebPage",
+  "name": "WHO SMART Guidelines — Immunizations on WHO Immunization Implementation Guide",
+  "about": {
+    "@id": "https://litlfred.github.io/smart-immunizations/",
+    "@type": "SoftwareSourceCode",
+    "identifier": "smart-immunizations",
+    "name": "WHO SMART Guidelines — Immunizations",
+    "description": "The WHO SMART Guidelines immunizations implementation guide (FHIR IG source under input/), as a harnessed instance of smart-base.",
+    "version": "0.1.0",
+    "codeRepository": "https://github.com/litlfred/smart-immunizations",
+    "isBasedOn": [
+      {
+        "@id": "https://litlfred.github.io/smart-base/"
+      }
+    ]
+  },
+  "isPartOf": {
+    "@id": "https://litlfred.github.io/smart-immunizations/",
+    "name": "WHO Immunization Implementation Guide"
+  },
+  "significantLink": [
+    "https://github.com/litlfred/smart-immunizations/tree/775237a557602b3504d87f8ccc1c0acdd28c6154",
+    "https://github.com/litlfred/smart-immunizations/blob/775237a557602b3504d87f8ccc1c0acdd28c6154/README.md",
+    "https://github.com/litlfred/smart-immunizations/blob/775237a557602b3504d87f8ccc1c0acdd28c6154/AGENTS.md"
+  ]
+}
