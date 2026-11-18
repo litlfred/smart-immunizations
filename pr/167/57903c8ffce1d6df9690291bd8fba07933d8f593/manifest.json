@@ -1,0 +1,16 @@
+{
+  "$schema": "qa-reports-manifest/v1",
+  "key": "pr/167/57903c8ffce1d6df9690291bd8fba07933d8f593",
+  "source": "57903c8ffce1d6df9690291bd8fba07933d8f593",
+  "pr": 167,
+  "written_at": "2026-11-18T06:21:03.464Z",
+  "producer": {
+    "run": "https://github.com/litlfred/smart-immunizations/actions/runs/44250539361"
+  },
+  "roots": [
+    "smart-immunizations/test/results"
+  ],
+  "payloadTree": "6b6c527959e6adaa655cfdd22a1ffdd268de62fd",
+  "files": 3,
+  "bytes": 32853
+}
