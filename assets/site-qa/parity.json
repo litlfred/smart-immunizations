@@ -4,13 +4,13 @@
  "shortfall": [],
  "droppedByRuling": [],
  "current": {
-  "pages": 3096,
+  "pages": 3106,
   "counts": {
    "siteNav": 0,
-   "search": 1808,
-   "navbarRow": 872,
-   "rail": 1808,
-   "translationMeta": 1808
+   "search": 1818,
+   "navbarRow": 882,
+   "rail": 1818,
+   "translationMeta": 1818
   },
   "dirs": [
    "artifact",
@@ -35,7 +35,7 @@
   }
  },
  "candidate": {
-  "pages": 3106,
+  "pages": 2726,
   "counts": {
    "siteNav": 0,
    "search": 1818,
@@ -67,7 +67,7 @@
  },
  "baseline": {
   "features": {
-   "pages": 3106,
+   "pages": 2726,
    "counts": {
     "siteNav": 0,
     "search": 1818,
@@ -97,6 +97,6 @@
     "present": true
    }
   },
-  "from": "775237a55760"
+  "from": "17076a994287"
  }
 }

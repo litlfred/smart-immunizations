@@ -1,7 +1,7 @@
 {
   "$schema": "ig-content-qa-verdict/v1",
   "items": 5899,
-  "contentDigest": "sha256:16354d8b32561362a59805153864e03ff180657d3a6d42c04488f696ee1041d7",
+  "contentDigest": "sha256:163043967d1a49ed7587c4a7da7c8fc6dfe96951cf64a9ec48b9ce5752943775",
   "patternHits": [],
   "reviewedDigest": "sha256:16354d8b32561362a59805153864e03ff180657d3a6d42c04488f696ee1041d7",
   "reviewer": {
@@ -11,7 +11,7 @@
   },
   "reviewedAt": "2026-11-11T13:23:51.280Z",
   "ok": true,
-  "state": "reviewed",
+  "state": "stale",
   "openFindings": [],
-  "said": "5899 text(s) reviewed by agent Claude at 2026-11-11T13:23:51.280Z; no pattern hit, no open finding"
+  "said": "WARNING: the review in qa/ig-content-qa.json is stale: it read sha256:16354d8b32561362a59805153864e03ff180657d3a6d42c04488f696ee1041d7 (5899 text(s)), the site publishes sha256:163043967d1a49ed7587c4a7da7c8fc6dfe96951cf64a9ec48b9ce5752943775 (5899); published anyway, with no pattern hit; which texts were not reviewed cannot be told: the review records no per-text SHAs (recorded before 2026-11-16); an agent reviews the texts and records the review (skill ig-content-qa: `ig-content-qa.ts scan`, then `record`)"
 }

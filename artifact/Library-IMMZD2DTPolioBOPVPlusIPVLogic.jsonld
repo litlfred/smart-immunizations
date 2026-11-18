@@ -30,7 +30,7 @@
     {
       "@type": "schema:MediaObject",
       "schema:contentUrl": {
-        "@id": "https://raw.githubusercontent.com/litlfred/smart-immunizations/dece82b9e889c7fc27bdea0a218a3634e9520f91/resources/Library/IMMZD2DTPolioBOPVPlusIPVLogic.json"
+        "@id": "https://raw.githubusercontent.com/litlfred/smart-immunizations/cc3ac29582df1fbfb00b3ef50b107e0b314a896d/resources/Library/IMMZD2DTPolioBOPVPlusIPVLogic.json"
       },
       "schema:encodingFormat": "application/fhir+json",
       "dcterms:source": "mirror"
@@ -39,7 +39,7 @@
   "prov:wasGeneratedBy": {
     "@type": "prov:Activity",
     "schema:instrument": "ig-publisher 3.0.0 / core 7.0.1",
-    "prov:used": "fe6609d14c2dcb7eb72788a4c85cfed2f467cc52"
+    "prov:used": "17076a99428728f2ff43c48044f487e175b0cc93"
   },
   "dcterms:isPartOf": {
     "@type": "fhir:ImplementationGuide",
